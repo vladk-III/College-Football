@@ -117,17 +117,57 @@ def append_or_create_csv(df: pd.DataFrame, path: Path, dedup_cols: list[str] | N
     return len(df)
 
 
-def determine_cfb_week(year: int, today: date) -> int | None:
-    """Ask CFBD for the calendar and return the current week number, or None if off-season."""
+def determine_cfb_week(year: int, today: date, mode: str = "pregame") -> int | None:
+    """Ask CFBD for the calendar and return the best week number.
+
+    Instead of only matching when today falls inside a week's game window,
+    this handles the gaps between weeks:
+      • pregame  → return the next upcoming week (or current if mid-week)
+      • postgame → return the most recently completed week
+    Returns None only if we're truly outside the season.
+    """
     cal = cfbd_get("/calendar", {"year": year})
     if not cal:
         return None
+
+    # Parse all weeks into (week_num, start_date, end_date)
+    weeks = []
     for entry in cal:
-        start = datetime.fromisoformat(entry["firstGameStart"].replace("Z", "+00:00")).date()
-        end   = datetime.fromisoformat(entry["lastGameStart"].replace("Z", "+00:00")).date()
-        # Give a 2-day buffer after last game for postgame collection
+        try:
+            start = datetime.fromisoformat(entry["firstGameStart"].replace("Z", "+00:00")).date()
+            end   = datetime.fromisoformat(entry["lastGameStart"].replace("Z", "+00:00")).date()
+            weeks.append((entry["week"], start, end))
+        except (KeyError, ValueError):
+            continue
+    if not weeks:
+        return None
+    weeks.sort(key=lambda w: w[1])
+
+    # Exact match — today is within a week's window (with 2-day postgame buffer)
+    for wk, start, end in weeks:
         if start <= today <= end + timedelta(days=2):
-            return entry["week"]
+            return wk
+
+    # Between weeks — pick based on mode
+    if mode == "postgame":
+        # Find the most recent week whose games have ended
+        for wk, start, end in reversed(weeks):
+            if today > end:
+                return wk
+    else:
+        # Pregame: find the next upcoming week
+        for wk, start, end in weeks:
+            if today < start:
+                return wk
+
+    # Past the last week or before the first — check if we're close enough
+    first_wk, first_start, _ = weeks[0]
+    last_wk, _, last_end = weeks[-1]
+    if today < first_start and (first_start - today).days <= 7:
+        return first_wk      # within a week of season start
+    if today > last_end and (today - last_end).days <= 3:
+        return last_wk       # just after the final game
+
     return None
 
 
@@ -607,20 +647,7 @@ def main():
     # --- Determine season year ---
     year = args.year or (now_et.year if now_et.month >= 6 else now_et.year - 1)
 
-    # --- Determine week ---
-    week = args.week
-    if not week:
-        week = determine_cfb_week(year, today)
-        if week is None:
-            # Try previous week for postgame on Sunday/Monday of off-week
-            week = determine_cfb_week(year, today - timedelta(days=3))
-        if week is None:
-            LOG.info("No active CFB week found — exiting cleanly")
-            sys.exit(0)
-
-    LOG.info(f"Season {year}, Week {week}")
-
-    # --- Determine mode ---
+    # --- Determine mode (needed before week detection, since detection differs by mode) ---
     if args.mode != "auto":
         mode = args.mode
     elif dow in (6, 0):  # Sun=6, Mon=0
@@ -628,6 +655,22 @@ def main():
     else:
         mode = "pregame"
 
+    # --- Determine week ---
+    # NOTE: use "is None" here, not "not week" — week 0 is a valid week number
+    # and `not 0` is True in Python, which previously caused --week 0 to be
+    # silently ignored and fall through to auto-detection.
+    week = args.week
+    if week is None:
+        week = determine_cfb_week(year, today, mode=mode)
+        if week is None:
+            # Try a few days back in case we're in a gap (e.g. postgame Monday
+            # of a bye-heavy week)
+            week = determine_cfb_week(year, today - timedelta(days=3), mode=mode)
+        if week is None:
+            LOG.info("No active CFB week found — exiting cleanly")
+            sys.exit(0)
+
+    LOG.info(f"Season {year}, Week {week}")
     LOG.info(f"Mode: {mode}")
 
     # --- Idempotency ---
