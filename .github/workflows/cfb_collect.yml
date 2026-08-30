@@ -99,8 +99,19 @@ jobs:
           done
 
       # ─── Email notification (skips cleanly if secrets aren't configured) ──
+      - name: Check email configured
+        id: email_check
+        env:
+          EMAIL_TO: ${{ secrets.EMAIL_TO }}
+        run: |
+          if [ -n "$EMAIL_TO" ]; then
+            echo "configured=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "configured=false" >> "$GITHUB_OUTPUT"
+          fi
+
       - name: Send summary email
-        if: steps.collect.outputs.collected == 'true' && secrets.EMAIL_TO != ''
+        if: steps.collect.outputs.collected == 'true' && steps.email_check.outputs.configured == 'true'
         uses: dawidd6/action-send-mail@v3
         with:
           server_address: smtp.gmail.com
