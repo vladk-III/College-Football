@@ -98,9 +98,9 @@ jobs:
             sleep 5
           done
 
-      # ─── Email notification ────────────────────────────────────
+      # ─── Email notification (skips cleanly if secrets aren't configured) ──
       - name: Send summary email
-        if: steps.collect.outputs.collected == 'true'
+        if: steps.collect.outputs.collected == 'true' && secrets.EMAIL_TO != ''
         uses: dawidd6/action-send-mail@v3
         with:
           server_address: smtp.gmail.com
