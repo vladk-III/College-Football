@@ -1,60 +1,60 @@
 game_id,home_team,away_team,home_points,away_points,total_points,margin,provider,closing_spread,ats_result,closing_ou,ou_result,home_ml,ml_result
-401866615,Delaware State,Stony Brook,41,34,75,7,Draft Kings,4.5,home_cover,50.5,over,,home_win
+401907002,Charleston (WV),Grand Valley State,10,38,48,-28,none,,,,,,
 401896383,Morehead State,Ohio Dominican,40,42,82,-2,none,,,,,,
-401906048,Tusculum,Bluefield State,42,7,49,35,none,,,,,,
-401906193,UNC Pembroke,Wingate,21,13,34,8,none,,,,,,
+401867894,Youngstown State,Mercyhurst,43,10,53,33,Draft Kings,-30.5,home_cover,57.5,under,,home_win
 401906139,Virginia State,Barton,44,17,61,27,none,,,,,,
 401866532,Towson,Maine,18,21,39,-3,Draft Kings,-2.5,away_cover,46.5,under,,away_win
-401867894,Youngstown State,Mercyhurst,43,10,53,33,Draft Kings,-30.5,home_cover,57.5,under,,home_win
-401907002,Charleston (WV),Grand Valley State,10,38,48,-28,none,,,,,,
+401906193,UNC Pembroke,Wingate,21,13,34,8,none,,,,,,
 401907643,Slippery Rock,Minnesota Duluth,45,43,88,2,none,,,,,,
-401906902,Saginaw Valley State,McKendree,48,24,72,24,none,,,,,,
-401906943,Minnesota St Moorhead,Northern Michigan,41,19,60,22,none,,,,,,
-401868169,Lindenwood,Charleston Southern,20,17,37,3,Draft Kings,-7.5,away_cover,45.5,under,,home_win
-401868240,West Georgia,Chattanooga,10,24,34,-14,Draft Kings,3.5,away_cover,50.5,under,,away_win
-401868279,St. Thomas (MN),Winona State,15,9,24,6,none,,,,,,
+401866615,Delaware State,Stony Brook,41,34,75,7,Draft Kings,4.5,home_cover,50.5,over,,home_win
+401906048,Tusculum,Bluefield State,42,7,49,35,none,,,,,,
+401868373,Furman,Anderson (SC),20,3,23,17,none,,,,,,
 401868315,SE Louisiana,Houston Christian,28,34,62,-6,Draft Kings,-24.5,away_cover,51.5,over,,away_win
+401868279,St. Thomas (MN),Winona State,15,9,24,6,none,,,,,,
+401868240,West Georgia,Chattanooga,10,24,34,-14,Draft Kings,3.5,away_cover,50.5,under,,away_win
+401868169,Lindenwood,Charleston Southern,20,17,37,3,Draft Kings,-7.5,away_cover,45.5,under,,home_win
+401907239,Southwest Baptist,William Woods,63,6,69,57,none,,,,,,
 401907110,Sioux Falls,Black Hills State,21,24,45,-3,none,,,,,,
 401907120,Northern State,Chadron State,42,17,59,25,none,,,,,,
-401868373,Furman,Anderson (SC),20,3,23,17,none,,,,,,
-401906620,West Liberty,Walsh,27,30,57,-3,none,,,,,,
-401906602,Valdosta State,Emory & Henry,38,10,48,28,none,,,,,,
-401906631,Carson Newman,Tiffin,41,38,79,3,none,,,,,,
-401906993,Bemidji State,Michigan Tech,29,31,60,-2,none,,,,,,
-401907239,Southwest Baptist,William Woods,63,6,69,57,none,,,,,,
-401907346,Texas Wesleyan,Central Oklahoma,7,59,66,-52,none,,,,,,
-401868273,Presbyterian,UVA Wise,47,37,84,10,none,,,,,,
-401867865,Murray State,Eastern Illinois,14,28,42,-14,Draft Kings,-4.5,away_cover,49.5,under,,away_win
-401866614,Elon,Glenville State,42,7,49,35,none,,,,,,
-401907381,Nebraska Kearney,Wayne State (NE),20,21,41,-1,none,,,,,,
 401907356,Minot State,Emporia State,30,36,66,-6,none,,,,,,
-401868962,Nicholls,Mississippi Valley State,44,10,54,34,Draft Kings,-28.5,home_cover,51.5,over,,home_win
-401896384,Davidson,Concord,35,41,76,-6,none,,,,,,
-401868060,Austin Peay,Gardner-Webb,35,17,52,18,Draft Kings,-14.5,home_cover,59.5,under,,home_win
+401907346,Texas Wesleyan,Central Oklahoma,7,59,66,-52,none,,,,,,
+401906602,Valdosta State,Emory & Henry,38,10,48,28,none,,,,,,
+401866614,Elon,Glenville State,42,7,49,35,none,,,,,,
+401867865,Murray State,Eastern Illinois,14,28,42,-14,Draft Kings,-4.5,away_cover,49.5,under,,away_win
 401874035,West Florida,Southern Illinois,34,31,65,3,Draft Kings,19.5,home_cover,55.5,over,,home_win
+401868060,Austin Peay,Gardner-Webb,35,17,52,18,Draft Kings,-14.5,home_cover,59.5,under,,home_win
+401896384,Davidson,Concord,35,41,76,-6,none,,,,,,
+401907381,Nebraska Kearney,Wayne State (NE),20,21,41,-1,none,,,,,,
+401868962,Nicholls,Mississippi Valley State,44,10,54,34,Draft Kings,-28.5,home_cover,51.5,over,,home_win
+401868273,Presbyterian,UVA Wise,47,37,84,10,none,,,,,,
 401868204,Western Illinois,Northwestern (IA),65,14,79,51,none,,,,,,
-401907234,Concordia St. Paul,Quincy,38,21,59,17,none,,,,,,
+401906902,Saginaw Valley State,McKendree,48,24,72,24,none,,,,,,
+401906631,Carson Newman,Tiffin,41,38,79,3,none,,,,,,
+401906620,West Liberty,Walsh,27,30,57,-3,none,,,,,,
+401906943,Minnesota St Moorhead,Northern Michigan,41,19,60,22,none,,,,,,
+401906993,Bemidji State,Michigan Tech,29,31,60,-2,none,,,,,,
 401868070,UT Martin,Central Arkansas,24,36,60,-12,Draft Kings,-3.0,away_cover,50.5,over,,away_win
+401907234,Concordia St. Paul,Quincy,38,21,59,17,none,,,,,,
 401868254,Drake,South Dakota Mines,35,38,73,-3,none,,,,,,
-401907155,New Mexico Highlands,Eastern New Mexico,35,34,69,1,none,,,,,,
-401867874,North Dakota,Long Island University,42,21,63,21,Draft Kings,-27.5,away_cover,44.5,over,,home_win
 401907099,Adams State,Western New Mexico,45,62,107,-17,none,,,,,,
-401907161,West Texas,Western Colorado,21,52,73,-31,none,,,,,,
-401907275,Angelo State,Fort Hays,14,35,49,-21,none,,,,,,
-401869128,Northwestern State,Louisiana Christian,37,42,79,-5,none,,,,,,
-401907376,Missouri Western,Augustana (SD),58,63,121,-5,none,,,,,,
-401907144,CSU Pueblo,Central Missouri,44,25,69,19,none,,,,,,
-401907007,Pittsburg State,Ferris State,14,42,56,-28,none,,,,,,
-401907129,Colorado Mesa,Minnesota State,14,38,52,-24,none,,,,,,
+401867874,North Dakota,Long Island University,42,21,63,21,Draft Kings,-27.5,away_cover,44.5,over,,home_win
 401907724,Southwest Minnesota State,Valley City State,10,7,17,3,none,,,,,,
+401907129,Colorado Mesa,Minnesota State,14,38,52,-24,none,,,,,,
+401907007,Pittsburg State,Ferris State,14,42,56,-28,none,,,,,,
+401907155,New Mexico Highlands,Eastern New Mexico,35,34,69,1,none,,,,,,
+401907144,CSU Pueblo,Central Missouri,44,25,69,19,none,,,,,,
+401907376,Missouri Western,Augustana (SD),58,63,121,-5,none,,,,,,
+401907275,Angelo State,Fort Hays,14,35,49,-21,none,,,,,,
+401907161,West Texas,Western Colorado,21,52,73,-31,none,,,,,,
+401869128,Northwestern State,Louisiana Christian,37,42,79,-5,none,,,,,,
 401907702,University of Mary,Rocky Mountain,10,23,33,-13,none,,,,,,
-401906145,Lenoir Rhyne,Virginia Union,45,3,48,42,none,,,,,,
 401866617,Merrimack,Rhode Island,7,34,41,-27,Draft Kings,21.0,away_cover,47.5,under,,away_win
 401866617,Merrimack,Rhode Island,7,34,41,-27,DraftKings,20.5,away_cover,47.5,under,890.0,away_win
-401868007,Fordham,Colgate,14,24,38,-10,Draft Kings,8.5,away_cover,55.5,under,,away_win
-401868007,Fordham,Colgate,14,24,38,-10,DraftKings,8.5,away_cover,55.5,under,242.0,away_win
 401868261,New Haven,Marist,22,21,43,1,Draft Kings,-2.5,away_cover,46.5,under,,home_win
 401868261,New Haven,Marist,22,21,43,1,DraftKings,-2.5,away_cover,46.5,under,-145.0,home_win
+401906145,Lenoir Rhyne,Virginia Union,45,3,48,42,none,,,,,,
+401868007,Fordham,Colgate,14,24,38,-10,Draft Kings,8.5,away_cover,55.5,under,,away_win
+401868007,Fordham,Colgate,14,24,38,-10,DraftKings,8.5,away_cover,55.5,under,242.0,away_win
 401868040,Villanova,William & Mary,32,35,67,-3,Draft Kings,-12.5,away_cover,47.5,over,,away_win
 401868040,Villanova,William & Mary,32,35,67,-3,DraftKings,-12.5,away_cover,47.5,over,-700.0,away_win
 401866616,UAlbany,New Hampshire,28,14,42,14,Draft Kings,10.0,home_cover,46.5,under,,home_win
@@ -63,60 +63,61 @@ game_id,home_team,away_team,home_points,away_points,total_points,margin,provider
 401868129,Northern Colorado,Weber State,29,30,59,-1,DraftKings,-3.0,away_cover,50.5,over,-161.0,away_win
 401868073,Cal Poly,Idaho,38,34,72,4,Draft Kings,5.5,home_cover,53.5,over,,home_win
 401868073,Cal Poly,Idaho,38,34,72,4,DraftKings,5.5,home_cover,53.5,over,172.0,home_win
-401867916,Wagner,Robert Morris,7,28,35,-21,Draft Kings,-5.5,away_cover,40.5,under,,away_win
-401867916,Wagner,Robert Morris,7,28,35,-21,DraftKings,-5.5,away_cover,40.5,under,-223.0,away_win
-401868792,Dayton,Fairmont State,43,20,63,23,none,,,,,,
-401906641,Wheeling,Thomas More,27,10,37,17,none,,,,,,
 401906177,West Virginia State,Chowan,56,24,80,32,none,,,,,,
-401907012,Davenport,Gannon,32,20,52,12,none,,,,,,
+401906641,Wheeling,Thomas More,27,10,37,17,none,,,,,,
 401856766,TCU,North Carolina,10,15,25,-5,Bovada,-7.5,away_cover,46.0,under,-235.0,away_win
 401856766,TCU,North Carolina,10,15,25,-5,Draft Kings,-7.5,away_cover,46.5,under,,away_win
 401856766,TCU,North Carolina,10,15,25,-5,DraftKings,-7.5,away_cover,46.5,under,-310.0,away_win
+401907012,Davenport,Gannon,32,20,52,12,none,,,,,,
+401867916,Wagner,Robert Morris,7,28,35,-21,Draft Kings,-5.5,away_cover,40.5,under,,away_win
+401867916,Wagner,Robert Morris,7,28,35,-21,DraftKings,-5.5,away_cover,40.5,under,-223.0,away_win
+401868792,Dayton,Fairmont State,43,20,63,23,none,,,,,,
 401868209,Butler,Georgetown College Kentucky,27,23,50,4,none,,,,,,
-401907576,West Virginia Wesleyan,Post,31,13,44,18,none,,,,,,
-401869156,Chicago State,Roosevelt,28,44,72,-16,none,,,,,,
-401907631,Shippensburg,Lock Haven,16,24,40,-8,none,,,,,,
 401907454,American International,Monroe,17,3,20,14,none,,,,,,
 401906205,Shorter,Andrew,65,6,71,59,none,,,,,,
+401907576,West Virginia Wesleyan,Post,31,13,44,18,none,,,,,,
+401907631,Shippensburg,Lock Haven,16,24,40,-8,none,,,,,,
+401869156,Chicago State,Roosevelt,28,44,72,-16,none,,,,,,
+401868288,Valparaiso,Lawrence Tech,59,13,72,46,none,,,,,,
 401907137,Colorado School of Mines,Western Oregon,20,22,42,-2,none,,,,,,
 401867882,South Dakota,Central Connecticut,59,20,79,39,Draft Kings,-20.5,home_cover,49.5,over,,home_win
 401867882,South Dakota,Central Connecticut,59,20,79,39,DraftKings,-21.5,home_cover,49.5,over,-3900.0,home_win
-401868288,Valparaiso,Lawrence Tech,59,13,72,46,none,,,,,,
+401906949,Central State,Kentucky State,14,41,55,-27,none,,,,,,
+401868154,Portland State,UC Davis,24,31,55,-7,DraftKings,25.5,home_cover,60.5,under,1300.0,away_win
+401868324,Alabama State,Southern,30,17,47,13,DraftKings,-19.5,away_cover,56.5,under,-1760.0,home_win
 401864494,USC,San José State,42,26,68,16,Bovada,-37.0,away_cover,60.5,over,-100000.0,home_win
 401864494,USC,San José State,42,26,68,16,DraftKings,-37.5,away_cover,61.5,over,-100000.0,home_win
-401868324,Alabama State,Southern,30,17,47,13,DraftKings,-19.5,away_cover,56.5,under,-1760.0,home_win
-401868154,Portland State,UC Davis,24,31,55,-7,DraftKings,25.5,home_cover,60.5,under,1300.0,away_win
-401906949,Central State,Kentucky State,14,41,55,-27,none,,,,,,
 401907246,Upper Iowa,Jamestown,30,13,43,17,none,,,,,,
+401868022,Holy Cross,Lehigh,10,35,45,-25,DraftKings,14.0,away_cover,47.5,under,509.0,away_win
 401858202,Virginia,NC State,34,8,42,26,Bovada,-4.0,home_cover,50.5,under,-145.0,home_win
 401858202,Virginia,NC State,34,8,42,26,DraftKings,-4.0,home_cover,50.5,under,-185.0,home_win
-401868022,Holy Cross,Lehigh,10,35,45,-25,DraftKings,14.0,away_cover,47.5,under,509.0,away_win
-401868084,Northern Arizona,Eastern Washington,34,27,61,7,DraftKings,-5.5,home_cover,55.5,over,-242.0,home_win
 401906157,Benedict,Johnson C. Smith,32,10,42,22,none,,,,,,
-401866620,East Tennessee State,Campbell,37,49,86,-12,DraftKings,-7.0,away_cover,56.5,over,-267.0,away_win
+401868084,Northern Arizona,Eastern Washington,34,27,61,7,DraftKings,-5.5,home_cover,55.5,over,-242.0,home_win
 401864577,North Dakota State,Jacksonville State,33,7,40,26,Bovada,-7.0,home_cover,46.5,under,-330.0,home_win
 401864577,North Dakota State,Jacksonville State,33,7,40,26,DraftKings,-6.5,home_cover,46.5,under,-265.0,home_win
-401866618,North Carolina A&T,Morgan State,7,17,24,-10,DraftKings,7.0,away_cover,49.5,under,210.0,away_win
-401866613,Hampton,Virginia Lynchburg,45,0,45,45,none,,,,,,
-401867855,Indiana State,Southeast Missouri State,21,23,44,-2,DraftKings,-2.5,away_cover,52.5,under,-143.0,away_win
-401867988,Richmond,Bucknell,35,14,49,21,DraftKings,-12.5,home_cover,48.5,over,-620.0,home_win
+401866620,East Tennessee State,Campbell,37,49,86,-12,DraftKings,-7.0,away_cover,56.5,over,-267.0,away_win
+401907403,Ferrum,Catawba,7,13,20,-6,none,,,,,,
 401868101,Idaho State,VMI,38,10,48,28,DraftKings,-34.5,away_cover,53.5,under,,home_win
+401867988,Richmond,Bucknell,35,14,49,21,DraftKings,-12.5,home_cover,48.5,over,-620.0,home_win
+401867855,Indiana State,Southeast Missouri State,21,23,44,-2,DraftKings,-2.5,away_cover,52.5,under,-143.0,away_win
+401866613,Hampton,Virginia Lynchburg,45,0,45,45,none,,,,,,
+401866618,North Carolina A&T,Morgan State,7,17,24,-10,DraftKings,7.0,away_cover,49.5,under,210.0,away_win
 401867982,South Carolina State,Savannah State,87,0,87,87,none,,,,,,
-401866619,Stonehill,Bryant,6,24,30,-18,DraftKings,4.5,away_cover,45.5,under,153.0,away_win
-401906162,Livingstone,Allen,16,37,53,-21,none,,,,,,
+401906151,Fayetteville State,Shaw,33,20,53,13,none,,,,,,
 401868394,Wofford,The Citadel,42,14,56,28,DraftKings,-7.5,home_cover,45.5,over,-415.0,home_win
 401867972,Norfolk State,Winston-Salem State,56,0,56,56,none,,,,,,
-401906151,Fayetteville State,Shaw,33,20,53,13,none,,,,,,
-401907403,Ferrum,Catawba,7,13,20,-6,none,,,,,,
+401906162,Livingstone,Allen,16,37,53,-21,none,,,,,,
+401866619,Stonehill,Bryant,6,24,30,-18,DraftKings,4.5,away_cover,45.5,under,153.0,away_win
 401866408,Eastern Michigan,Sacramento State,28,17,45,11,Bovada,-9.0,home_cover,53.0,under,-330.0,home_win
 401866408,Eastern Michigan,Sacramento State,28,17,45,11,DraftKings,-8.5,home_cover,52.5,under,-355.0,home_win
-401913104,Incarnate Word,Oklahoma Panhandle,76,14,90,62,none,,,,,,
-401868049,Lamar,Abilene Christian,21,14,35,7,DraftKings,7.5,home_cover,49.5,under,232.0,home_win
-401868149,North Alabama,Samford,22,10,32,12,DraftKings,-7.0,home_cover,55.5,under,-313.0,home_win
-401864570,Florida State,New Mexico State,34,17,51,17,Bovada,-31.0,away_cover,53.5,under,-100000.0,home_win
-401864570,Florida State,New Mexico State,34,17,51,17,DraftKings,-30.5,away_cover,53.5,under,-6500.0,home_win
 401872615,South Dakota State,Stetson,70,7,77,63,DraftKings,-50.5,home_cover,58.5,over,,home_win
 401891332,Illinois State,St. Francis (IL),76,0,76,76,none,,,,,,
-401868934,Arkansas-Pine Bluff,Morehouse,35,15,50,20,none,,,,,,
-401868139,Western Carolina,Eastern Kentucky,45,21,66,24,DraftKings,-3.0,home_cover,54.5,over,-152.0,home_win
+401864570,Florida State,New Mexico State,34,17,51,17,Bovada,-31.0,away_cover,53.5,under,-100000.0,home_win
+401864570,Florida State,New Mexico State,34,17,51,17,DraftKings,-30.5,away_cover,53.5,under,-6500.0,home_win
+401868149,North Alabama,Samford,22,10,32,12,DraftKings,-7.0,home_cover,55.5,under,-313.0,home_win
+401868049,Lamar,Abilene Christian,21,14,35,7,DraftKings,7.5,home_cover,49.5,under,232.0,home_win
+401913104,Incarnate Word,Oklahoma Panhandle,76,14,90,62,none,,,,,,
 401907297,Midwestern State,Missouri Southern State,30,23,53,7,none,,,,,,
+401868305,McNeese,Stephen F. Austin,27,38,65,-11,DraftKings,12.5,home_cover,49.5,over,328.0,away_win
+401868139,Western Carolina,Eastern Kentucky,45,21,66,24,DraftKings,-3.0,home_cover,54.5,over,-152.0,home_win
+401868934,Arkansas-Pine Bluff,Morehouse,35,15,50,20,none,,,,,,
