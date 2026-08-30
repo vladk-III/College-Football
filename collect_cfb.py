@@ -117,6 +117,22 @@ def append_or_create_csv(df: pd.DataFrame, path: Path, dedup_cols: list[str] | N
     return len(df)
 
 
+_FBS_TEAMS_CACHE: dict[int, set] = {}
+
+
+def get_fbs_teams(year: int) -> set:
+    """Return the set of FBS team names for a given year (cached per run)."""
+    if year in _FBS_TEAMS_CACHE:
+        return _FBS_TEAMS_CACHE[year]
+    LOG.info(f"Fetching FBS team list: year={year}")
+    data = cfbd_get("/teams/fbs", {"year": year})
+    teams = {t.get("school", "") for t in data} if data else set()
+    if not teams:
+        LOG.warning("Could not fetch FBS team list — division filtering will be skipped")
+    _FBS_TEAMS_CACHE[year] = teams
+    return teams
+
+
 def determine_cfb_week(year: int, today: date, mode: str = "pregame") -> int | None:
     """Ask CFBD for the calendar and return the best week number.
 
@@ -330,26 +346,18 @@ def collect_odds_api() -> pd.DataFrame:
 
 
 def collect_team_stats(year: int) -> pd.DataFrame:
-    """Fetch season-level team stats from CFBD."""
+    """Fetch season-level advanced team stats from CFBD, FBS teams only."""
     LOG.info(f"Fetching team season stats: year={year}")
-    data = cfbd_get("/stats/season", {"year": year})
-    if not data:
-        return pd.DataFrame()
+    fbs_teams = get_fbs_teams(year)
 
     rows = []
     ts = datetime.now(EASTERN).strftime("%Y-%m-%d")
-    for entry in data:
-        team = entry.get("team", "")
-        conf = entry.get("conference", "")
-        for stat in entry.get("stats", entry.get("statName", [])) if isinstance(entry.get("stats", []), list) else []:
-            # CFBD v1 returns flat list; v2 may differ — handle both
-            pass
-
-    # Simpler approach: use /stats/season/advanced for richer data
     adv = cfbd_get("/stats/season/advanced", {"year": year})
     if adv:
         for entry in adv:
             team = entry.get("team", "")
+            if fbs_teams and team not in fbs_teams:
+                continue    # skip FCS opponents that show up in the raw response
             conf = entry.get("conference", "")
             off  = entry.get("offense", {})
             defe = entry.get("defense", {})
@@ -383,17 +391,21 @@ def collect_team_stats(year: int) -> pd.DataFrame:
 
 
 def collect_sp_ratings(year: int) -> pd.DataFrame:
-    """Fetch SP+ ratings from CFBD."""
+    """Fetch SP+ ratings from CFBD, FBS teams only."""
     LOG.info(f"Fetching SP+ ratings: year={year}")
+    fbs_teams = get_fbs_teams(year)
     data = cfbd_get("/ratings/sp", {"year": year})
     if not data:
         return pd.DataFrame()
     rows = []
     ts = datetime.now(EASTERN).strftime("%Y-%m-%d")
     for entry in data:
+        team = entry.get("team")
+        if fbs_teams and team not in fbs_teams:
+            continue    # SP+ occasionally includes top FCS teams — exclude them
         rows.append({
             "snapshot_date": ts,
-            "team":          entry.get("team"),
+            "team":          team,
             "conference":    entry.get("conference"),
             "sp_overall":    entry.get("rating"),
             "sp_offense":    entry.get("offense", {}).get("rating") if isinstance(entry.get("offense"), dict) else entry.get("offense"),
@@ -411,8 +423,12 @@ def collect_weather(year: int, week: int) -> pd.DataFrame:
     data = cfbd_get("/games/weather", {"year": year, "week": week})
     if not data:
         return pd.DataFrame()
+    fbs_teams = get_fbs_teams(year)
     rows = []
     for g in data:
+        home = g.get("homeTeam")
+        if fbs_teams and home not in fbs_teams:
+            continue    # skip games where the home team isn't FBS
         rows.append({
             "game_id":       g.get("id"),
             "season":        g.get("season"),
