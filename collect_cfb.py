@@ -252,8 +252,37 @@ def collect_games(year: int, week: int) -> pd.DataFrame:
     return pd.DataFrame(rows)
 
 
-def collect_cfbd_lines(year: int, week: int) -> pd.DataFrame:
-    """Fetch betting lines from CFBD (consensus / historical)."""
+def get_games_within_hours(games_df: pd.DataFrame, hours: int = 24) -> tuple[set, dict]:
+    """Return (eligible_game_ids, game_id -> start_datetime) for games whose
+    kickoff is between now and `hours` hours from now (i.e. close enough to
+    pull odds for, but not yet kicked off)."""
+    if games_df.empty:
+        return set(), {}
+    now = datetime.now(pytz.UTC)
+    cutoff = now + timedelta(hours=hours)
+    eligible = set()
+    starts = {}
+    for _, g in games_df.iterrows():
+        raw = g.get("start_date", "")
+        if not raw:
+            continue
+        try:
+            start_dt = datetime.fromisoformat(str(raw).replace("Z", "+00:00"))
+        except ValueError:
+            continue
+        starts[g["game_id"]] = start_dt
+        if now <= start_dt <= cutoff:
+            eligible.add(g["game_id"])
+    return eligible, starts
+
+
+def collect_cfbd_lines(year: int, week: int, eligible_game_ids: set | None = None) -> pd.DataFrame:
+    """Fetch betting lines from CFBD (consensus / historical).
+
+    If eligible_game_ids is provided, only games in that set are kept — used
+    to enforce the 24-hours-before-kickoff window (CFBD's /lines endpoint
+    doesn't support per-game time filtering, so we filter after fetching).
+    """
     LOG.info(f"Fetching CFBD lines: year={year} week={week}")
     data = cfbd_get("/lines", {"year": year, "week": week})
     if not data:
@@ -280,21 +309,36 @@ def collect_cfbd_lines(year: int, week: int) -> pd.DataFrame:
                 "home_ml":        line.get("homeMoneyline"),
                 "away_ml":        line.get("awayMoneyline"),
             })
-    return pd.DataFrame(rows)
+    df = pd.DataFrame(rows)
+    if eligible_game_ids is not None and not df.empty:
+        before = len(df)
+        df = df[df["game_id"].isin(eligible_game_ids)]
+        LOG.info(f"  CFBD lines: kept {len(df)}/{before} rows within 24h-of-kickoff window")
+    return df
 
 
-def collect_odds_api() -> pd.DataFrame:
-    """Fetch live odds from The Odds API (multi-sportsbook)."""
+def collect_odds_api(hours: int = 24) -> pd.DataFrame:
+    """Fetch live odds from The Odds API (multi-sportsbook).
+
+    Restricted to games kicking off within `hours` hours from now, via the
+    API's native commenceTimeFrom/commenceTimeTo params — this both enforces
+    the 24-hours-before-kickoff rule and shrinks the response.
+    """
     if not ODDS_API_KEY:
         LOG.info("No ODDS_API_KEY set, skipping The Odds API")
         return pd.DataFrame()
 
-    LOG.info("Fetching odds from The Odds API")
+    now    = datetime.now(pytz.UTC)
+    cutoff = now + timedelta(hours=hours)
+
+    LOG.info(f"Fetching odds from The Odds API (kickoff window: next {hours}h)")
     data = odds_get(f"/sports/{ODDS_SPORT}/odds", {
-        "regions":    "us",
-        "markets":    "h2h,spreads,totals",
-        "oddsFormat": "american",
-        "dateFormat": "iso",
+        "regions":          "us",
+        "markets":          "h2h,spreads,totals",
+        "oddsFormat":       "american",
+        "dateFormat":       "iso",
+        "commenceTimeFrom": now.strftime("%Y-%m-%dT%H:%M:%SZ"),
+        "commenceTimeTo":   cutoff.strftime("%Y-%m-%dT%H:%M:%SZ"),
     })
     if not data:
         return pd.DataFrame()
@@ -460,10 +504,18 @@ def run_pregame(year: int, week: int) -> dict:
         n = append_or_create_csv(games_df, DATA_DIR / "games.csv", ["game_id"])
         stats["games"] = n
 
-    # 2. CFBD betting lines
-    cfbd_lines = collect_cfbd_lines(year, week)
-    odds_api   = collect_odds_api()
-    all_odds   = pd.concat([cfbd_lines, odds_api], ignore_index=True)
+    # 2. Betting lines — only for games kicking off within the next 24 hours
+    ODDS_WINDOW_HOURS = 24
+    eligible_ids, _starts = get_games_within_hours(games_df, hours=ODDS_WINDOW_HOURS)
+    stats["games_in_odds_window"] = len(eligible_ids)
+    if not eligible_ids:
+        LOG.info(f"No games kick off within {ODDS_WINDOW_HOURS}h — skipping odds collection this run")
+        cfbd_lines = pd.DataFrame()
+        odds_api   = pd.DataFrame()
+    else:
+        cfbd_lines = collect_cfbd_lines(year, week, eligible_game_ids=eligible_ids)
+        odds_api   = collect_odds_api(hours=ODDS_WINDOW_HOURS)
+    all_odds = pd.concat([cfbd_lines, odds_api], ignore_index=True)
     if not all_odds.empty:
         n = append_or_create_csv(all_odds, DATA_DIR / "odds_snapshots.csv")
         stats["odds_rows"] = n
