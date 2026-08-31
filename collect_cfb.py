@@ -461,34 +461,133 @@ def collect_sp_ratings(year: int) -> pd.DataFrame:
     return pd.DataFrame(rows)
 
 
-def collect_weather(year: int, week: int) -> pd.DataFrame:
-    """Fetch game weather from CFBD."""
-    LOG.info(f"Fetching weather: year={year} week={week}")
-    data = cfbd_get("/games/weather", {"year": year, "week": week})
-    if not data:
+_VENUES_CACHE: dict | None = None
+
+
+def get_venues() -> dict:
+    """Fetch the venue list once per run and cache it: venue name -> {lat, lon, is_dome}.
+    /venues is on CFBD's free tier (unlike /games/weather, which is Patreon-only)."""
+    global _VENUES_CACHE
+    if _VENUES_CACHE is not None:
+        return _VENUES_CACHE
+
+    LOG.info("Fetching venue list (for weather lookups)")
+    data = cfbd_get("/venues")
+    venues = {}
+    if data:
+        for v in data:
+            name = v.get("name")
+            if not name:
+                continue
+            # CFBD has used a couple of different shapes for coordinates
+            # across API versions — handle both defensively.
+            loc = v.get("location") if isinstance(v.get("location"), dict) else {}
+            lat = v.get("latitude", loc.get("y"))
+            lon = v.get("longitude", loc.get("x"))
+            if lat is None or lon is None:
+                continue
+            venues[name] = {
+                "lat": float(lat),
+                "lon": float(lon),
+                "is_dome": bool(v.get("dome", False)),
+            }
+    if not venues:
+        LOG.warning("Could not fetch venue coordinates — weather collection will be skipped")
+    _VENUES_CACHE = venues
+    return venues
+
+
+def fetch_open_meteo_weather(lat: float, lon: float, game_dt_utc: datetime) -> dict | None:
+    """Free, no-key weather lookup for a specific lat/lon and UTC datetime.
+    Open-Meteo's forecast endpoint covers both future dates (up to 16 days
+    ahead — plenty for our 24h-before-kickoff pregame window) and recent
+    past dates (up to 92 days back — plenty for postgame re-fetches)."""
+    date_str = game_dt_utc.strftime("%Y-%m-%d")
+    try:
+        r = requests.get("https://api.open-meteo.com/v1/forecast", params={
+            "latitude": lat, "longitude": lon,
+            "start_date": date_str, "end_date": date_str,
+            "hourly": "temperature_2m,precipitation,windspeed_10m,relative_humidity_2m",
+            "temperature_unit": "fahrenheit", "windspeed_unit": "mph",
+            "precipitation_unit": "inch", "timezone": "UTC",
+        }, timeout=15)
+        r.raise_for_status()
+        data = r.json()
+    except requests.RequestException as e:
+        LOG.warning(f"Open-Meteo fetch failed for ({lat},{lon}) on {date_str}: {e}")
+        return None
+
+    hourly = data.get("hourly", {})
+    times = hourly.get("time", [])
+    if not times:
+        return None
+
+    target = game_dt_utc.replace(minute=0, second=0, microsecond=0)
+    target_str = target.strftime("%Y-%m-%dT%H:00")
+    if target_str in times:
+        idx = times.index(target_str)
+    else:
+        # Fall back to the closest available hour that day
+        parsed = [datetime.fromisoformat(t) for t in times]
+        idx = min(range(len(parsed)), key=lambda i: abs(parsed[i] - target.replace(tzinfo=None)))
+
+    def _at(key):
+        vals = hourly.get(key, [])
+        return vals[idx] if idx < len(vals) else None
+
+    return {
+        "temperature": _at("temperature_2m"),
+        "precipitation": _at("precipitation"),
+        "wind_speed": _at("windspeed_10m"),
+        "humidity": _at("relative_humidity_2m"),
+    }
+
+
+def collect_weather(games_df: pd.DataFrame) -> pd.DataFrame:
+    """Fetch game weather via venue coordinates (CFBD, free) + Open-Meteo
+    (free, no key). CFBD's own /games/weather endpoint is Patreon-only, so
+    this rebuilds the same data ourselves from a free venue list + a free
+    weather API, keyed on venue name and kickoff time."""
+    if games_df.empty:
         return pd.DataFrame()
-    fbs_teams = get_fbs_teams(year)
+
+    venues = get_venues()
     rows = []
-    for g in data:
-        home = g.get("homeTeam")
-        if fbs_teams and home not in fbs_teams:
-            continue    # skip games where the home team isn't FBS
+    for _, g in games_df.iterrows():
+        venue_name = g.get("venue")
+        start_raw = g.get("start_date")
+        try:
+            game_dt = datetime.fromisoformat(str(start_raw).replace("Z", "+00:00"))
+        except (ValueError, TypeError):
+            continue
+
+        venue_info = venues.get(venue_name)
+
+        if venue_info and venue_info.get("is_dome"):
+            rows.append({
+                "game_id": g.get("game_id"), "season": g.get("season"), "week": g.get("week"),
+                "home_team": g.get("home_team"), "away_team": g.get("away_team"), "venue": venue_name,
+                "temperature": 72.0, "dewpoint": None, "humidity": None,
+                "precipitation": 0.0, "snowfall": 0.0, "wind_direction": None, "wind_speed": 0.0,
+                "weather_cond": "Dome", "is_indoor": True,
+            })
+            continue
+
+        if not venue_info:
+            LOG.warning(f"No coordinates for venue '{venue_name}' — skipping weather for this game")
+            continue
+
+        wx = fetch_open_meteo_weather(venue_info["lat"], venue_info["lon"], game_dt)
+        if wx is None:
+            continue
+
         rows.append({
-            "game_id":       g.get("id"),
-            "season":        g.get("season"),
-            "week":          g.get("week"),
-            "home_team":     g.get("homeTeam"),
-            "away_team":     g.get("awayTeam"),
-            "venue":         g.get("venue"),
-            "temperature":   g.get("temperature"),
-            "dewpoint":      g.get("dewPoint"),
-            "humidity":      g.get("humidity"),
-            "precipitation": g.get("precipitation"),
-            "snowfall":      g.get("snowfall"),
-            "wind_direction":g.get("windDirection"),
-            "wind_speed":    g.get("windSpeed"),
-            "weather_cond":  g.get("weatherCondition"),
-            "is_indoor":     g.get("venue", {}).get("dome", False) if isinstance(g.get("venue"), dict) else None,
+            "game_id": g.get("game_id"), "season": g.get("season"), "week": g.get("week"),
+            "home_team": g.get("home_team"), "away_team": g.get("away_team"), "venue": venue_name,
+            "temperature": wx["temperature"], "dewpoint": None, "humidity": wx["humidity"],
+            "precipitation": wx["precipitation"], "snowfall": None,
+            "wind_direction": None, "wind_speed": wx["wind_speed"],
+            "weather_cond": None, "is_indoor": False,
         })
     return pd.DataFrame(rows)
 
@@ -534,7 +633,7 @@ def run_pregame(year: int, week: int) -> dict:
         stats["sp_ratings"] = n
 
     # 4. Weather
-    weather = collect_weather(year, week)
+    weather = collect_weather(games_df)
     if not weather.empty:
         n = append_or_create_csv(weather, DATA_DIR / "weather.csv", ["game_id"])
         stats["weather"] = n
@@ -653,8 +752,9 @@ def run_postgame(year: int, week: int) -> dict:
         completed_count = games_df["completed"].sum() if "completed" in games_df.columns else 0
         stats["completed"] = int(completed_count)
 
-    # Also re-fetch weather (now actual, not forecast)
-    weather = collect_weather(year, week)
+    # Also re-fetch weather (Open-Meteo's archive now has the actual day,
+    # not just a forecast)
+    weather = collect_weather(games_df)
     if not weather.empty:
         append_or_create_csv(weather, DATA_DIR / "weather.csv", ["game_id"])
 
