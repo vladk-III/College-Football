@@ -14,6 +14,7 @@ Architecture mirrors the options-data collector:
 Data sources:
   1. CollegeFootballData.com API  — games, team stats, SP+ ratings, betting lines, weather
   2. The Odds API                 — live multi-sportsbook odds (spreads, totals, moneylines)
+  3. Open-Meteo API               — parallelized venue weather forecasting 
 
 Outputs (all in data/):
   games.csv           — one row per game per season: schedule + final scores
@@ -29,6 +30,7 @@ import json
 import time
 import logging
 import argparse
+import concurrent.futures
 from datetime import datetime, timedelta, date
 from pathlib import Path
 
@@ -134,19 +136,11 @@ def get_fbs_teams(year: int) -> set:
 
 
 def determine_cfb_week(year: int, today: date, mode: str = "pregame") -> int | None:
-    """Ask CFBD for the calendar and return the best week number.
-
-    Instead of only matching when today falls inside a week's game window,
-    this handles the gaps between weeks:
-      • pregame  → return the next upcoming week (or current if mid-week)
-      • postgame → return the most recently completed week
-    Returns None only if we're truly outside the season.
-    """
+    """Ask CFBD for the calendar and return the best week number."""
     cal = cfbd_get("/calendar", {"year": year})
     if not cal:
         return None
 
-    # Parse all weeks into (week_num, start_date, end_date)
     weeks = []
     for entry in cal:
         try:
@@ -159,30 +153,25 @@ def determine_cfb_week(year: int, today: date, mode: str = "pregame") -> int | N
         return None
     weeks.sort(key=lambda w: w[1])
 
-    # Exact match — today is within a week's window (with 2-day postgame buffer)
     for wk, start, end in weeks:
         if start <= today <= end + timedelta(days=2):
             return wk
 
-    # Between weeks — pick based on mode
     if mode == "postgame":
-        # Find the most recent week whose games have ended
         for wk, start, end in reversed(weeks):
             if today > end:
                 return wk
     else:
-        # Pregame: find the next upcoming week
         for wk, start, end in weeks:
             if today < start:
                 return wk
 
-    # Past the last week or before the first — check if we're close enough
     first_wk, first_start, _ = weeks[0]
     last_wk, _, last_end = weeks[-1]
     if today < first_start and (first_start - today).days <= 7:
-        return first_wk      # within a week of season start
+        return first_wk      
     if today > last_end and (today - last_end).days <= 3:
-        return last_wk       # just after the final game
+        return last_wk       
 
     return None
 
@@ -216,7 +205,6 @@ def collect_games(year: int, week: int) -> pd.DataFrame:
         "seasonType": "regular",
         "division": "fbs",
     })
-    # Also grab postseason if week > 13 or it's bowl season
     post = cfbd_get("/games", {
         "year": year,
         "week": week,
@@ -253,9 +241,7 @@ def collect_games(year: int, week: int) -> pd.DataFrame:
 
 
 def get_games_within_hours(games_df: pd.DataFrame, hours: int = 24) -> tuple[set, dict]:
-    """Return (eligible_game_ids, game_id -> start_datetime) for games whose
-    kickoff is between now and `hours` hours from now (i.e. close enough to
-    pull odds for, but not yet kicked off)."""
+    """Return (eligible_game_ids, game_id -> start_datetime)"""
     if games_df.empty:
         return set(), {}
     now = datetime.now(pytz.UTC)
@@ -277,12 +263,7 @@ def get_games_within_hours(games_df: pd.DataFrame, hours: int = 24) -> tuple[set
 
 
 def collect_cfbd_lines(year: int, week: int, eligible_game_ids: set | None = None) -> pd.DataFrame:
-    """Fetch betting lines from CFBD (consensus / historical).
-
-    If eligible_game_ids is provided, only games in that set are kept — used
-    to enforce the 24-hours-before-kickoff window (CFBD's /lines endpoint
-    doesn't support per-game time filtering, so we filter after fetching).
-    """
+    """Fetch betting lines from CFBD (consensus / historical)."""
     LOG.info(f"Fetching CFBD lines: year={year} week={week}")
     data = cfbd_get("/lines", {"year": year, "week": week})
     if not data:
@@ -318,12 +299,7 @@ def collect_cfbd_lines(year: int, week: int, eligible_game_ids: set | None = Non
 
 
 def collect_odds_api(hours: int = 24) -> pd.DataFrame:
-    """Fetch live odds from The Odds API (multi-sportsbook).
-
-    Restricted to games kicking off within `hours` hours from now, via the
-    API's native commenceTimeFrom/commenceTimeTo params — this both enforces
-    the 24-hours-before-kickoff rule and shrinks the response.
-    """
+    """Fetch live odds from The Odds API (multi-sportsbook)."""
     if not ODDS_API_KEY:
         LOG.info("No ODDS_API_KEY set, skipping The Odds API")
         return pd.DataFrame()
@@ -401,7 +377,7 @@ def collect_team_stats(year: int) -> pd.DataFrame:
         for entry in adv:
             team = entry.get("team", "")
             if fbs_teams and team not in fbs_teams:
-                continue    # skip FCS opponents that show up in the raw response
+                continue    
             conf = entry.get("conference", "")
             off  = entry.get("offense", {})
             defe = entry.get("defense", {})
@@ -410,17 +386,15 @@ def collect_team_stats(year: int) -> pd.DataFrame:
                 "team":                team,
                 "conference":          conf,
                 "games":               entry.get("games", entry.get("season")),
-                # Offense
                 "off_plays":           off.get("plays"),
                 "off_drives":          off.get("drives"),
-                "off_ppa":             off.get("ppa"),                # predicted points added per play
+                "off_ppa":             off.get("ppa"),                
                 "off_success_rate":    off.get("successRate"),
                 "off_explosiveness":   off.get("explosiveness"),
                 "off_power_success":   off.get("powerSuccess"),
                 "off_stuff_rate":      off.get("stuffRate"),
                 "off_line_yards":      off.get("lineYards"),
                 "off_pace":            off.get("pace"),
-                # Defense
                 "def_plays":           defe.get("plays"),
                 "def_drives":          defe.get("drives"),
                 "def_ppa":             defe.get("ppa"),
@@ -446,7 +420,7 @@ def collect_sp_ratings(year: int) -> pd.DataFrame:
     for entry in data:
         team = entry.get("team")
         if fbs_teams and team not in fbs_teams:
-            continue    # SP+ occasionally includes top FCS teams — exclude them
+            continue    
         rows.append({
             "snapshot_date": ts,
             "team":          team,
@@ -463,10 +437,8 @@ def collect_sp_ratings(year: int) -> pd.DataFrame:
 
 _VENUES_CACHE: dict | None = None
 
-
 def get_venues() -> dict:
-    """Fetch the venue list once per run and cache it: venue name -> {lat, lon, is_dome}.
-    /venues is on CFBD's free tier (unlike /games/weather, which is Patreon-only)."""
+    """Fetch the venue list once per run and cache it: venue name -> {lat, lon, is_dome}."""
     global _VENUES_CACHE
     if _VENUES_CACHE is not None:
         return _VENUES_CACHE
@@ -479,8 +451,6 @@ def get_venues() -> dict:
             name = v.get("name")
             if not name:
                 continue
-            # CFBD has used a couple of different shapes for coordinates
-            # across API versions — handle both defensively.
             loc = v.get("location") if isinstance(v.get("location"), dict) else {}
             lat = v.get("latitude", loc.get("y"))
             lon = v.get("longitude", loc.get("x"))
@@ -497,14 +467,11 @@ def get_venues() -> dict:
     return venues
 
 
-def fetch_open_meteo_weather(lat: float, lon: float, game_dt_utc: datetime) -> dict | None:
-    """Free, no-key weather lookup for a specific lat/lon and UTC datetime.
-    Open-Meteo's forecast endpoint covers both future dates (up to 16 days
-    ahead — plenty for our 24h-before-kickoff pregame window) and recent
-    past dates (up to 92 days back — plenty for postgame re-fetches)."""
+def fetch_open_meteo_weather(session: requests.Session, lat: float, lon: float, game_dt_utc: datetime) -> dict | None:
+    """Free, no-key weather lookup using a passed Session object for connection pooling."""
     date_str = game_dt_utc.strftime("%Y-%m-%d")
     try:
-        r = requests.get("https://api.open-meteo.com/v1/forecast", params={
+        r = session.get("https://api.open-meteo.com/v1/forecast", params={
             "latitude": lat, "longitude": lon,
             "start_date": date_str, "end_date": date_str,
             "hourly": "temperature_2m,precipitation,windspeed_10m,relative_humidity_2m",
@@ -524,10 +491,10 @@ def fetch_open_meteo_weather(lat: float, lon: float, game_dt_utc: datetime) -> d
 
     target = game_dt_utc.replace(minute=0, second=0, microsecond=0)
     target_str = target.strftime("%Y-%m-%dT%H:00")
+    
     if target_str in times:
         idx = times.index(target_str)
     else:
-        # Fall back to the closest available hour that day
         parsed = [datetime.fromisoformat(t) for t in times]
         idx = min(range(len(parsed)), key=lambda i: abs(parsed[i] - target.replace(tzinfo=None)))
 
@@ -544,15 +511,16 @@ def fetch_open_meteo_weather(lat: float, lon: float, game_dt_utc: datetime) -> d
 
 
 def collect_weather(games_df: pd.DataFrame) -> pd.DataFrame:
-    """Fetch game weather via venue coordinates (CFBD, free) + Open-Meteo
-    (free, no key). CFBD's own /games/weather endpoint is Patreon-only, so
-    this rebuilds the same data ourselves from a free venue list + a free
-    weather API, keyed on venue name and kickoff time."""
+    """Fetch game weather in parallel using ThreadPoolExecutor to prevent GitHub timeout."""
     if games_df.empty:
         return pd.DataFrame()
 
     venues = get_venues()
     rows = []
+    
+    # Store games that require an API call to process them concurrently
+    api_tasks = []
+
     for _, g in games_df.iterrows():
         venue_name = g.get("venue")
         start_raw = g.get("start_date")
@@ -577,18 +545,38 @@ def collect_weather(games_df: pd.DataFrame) -> pd.DataFrame:
             LOG.warning(f"No coordinates for venue '{venue_name}' — skipping weather for this game")
             continue
 
-        wx = fetch_open_meteo_weather(venue_info["lat"], venue_info["lon"], game_dt)
-        if wx is None:
-            continue
+        api_tasks.append((g, game_dt, venue_info))
 
-        rows.append({
+    if not api_tasks:
+        return pd.DataFrame(rows)
+
+    LOG.info(f"Fetching weather for {len(api_tasks)} outdoor games in parallel...")
+
+    def process_weather_task(session, task):
+        g, game_dt, venue_info = task
+        wx = fetch_open_meteo_weather(session, venue_info["lat"], venue_info["lon"], game_dt)
+        if not wx:
+            return None
+            
+        return {
             "game_id": g.get("game_id"), "season": g.get("season"), "week": g.get("week"),
             "home_team": g.get("home_team"), "away_team": g.get("away_team"), "venue": venue_name,
             "temperature": wx["temperature"], "dewpoint": None, "humidity": wx["humidity"],
             "precipitation": wx["precipitation"], "snowfall": None,
             "wind_direction": None, "wind_speed": wx["wind_speed"],
             "weather_cond": None, "is_indoor": False,
-        })
+        }
+
+    # Parallelize the weather calls (limits simultaneous requests to 8 to avoid rate-banning)
+    with requests.Session() as session:
+        with concurrent.futures.ThreadPoolExecutor(max_workers=8) as executor:
+            futures = [executor.submit(process_weather_task, session, task) for task in api_tasks]
+            
+            for future in concurrent.futures.as_completed(futures):
+                result = future.result()
+                if result:
+                    rows.append(result)
+
     return pd.DataFrame(rows)
 
 
@@ -752,8 +740,7 @@ def run_postgame(year: int, week: int) -> dict:
         completed_count = games_df["completed"].sum() if "completed" in games_df.columns else 0
         stats["completed"] = int(completed_count)
 
-    # Also re-fetch weather (Open-Meteo's archive now has the actual day,
-    # not just a forecast)
+    # Also re-fetch weather
     weather = collect_weather(games_df)
     if not weather.empty:
         append_or_create_csv(weather, DATA_DIR / "weather.csv", ["game_id"])
@@ -815,7 +802,7 @@ def main():
     # --- Determine season year ---
     year = args.year or (now_et.year if now_et.month >= 6 else now_et.year - 1)
 
-    # --- Determine mode (needed before week detection, since detection differs by mode) ---
+    # --- Determine mode ---
     if args.mode != "auto":
         mode = args.mode
     elif dow in (6, 0):  # Sun=6, Mon=0
@@ -824,15 +811,10 @@ def main():
         mode = "pregame"
 
     # --- Determine week ---
-    # NOTE: use "is None" here, not "not week" — week 0 is a valid week number
-    # and `not 0` is True in Python, which previously caused --week 0 to be
-    # silently ignored and fall through to auto-detection.
     week = args.week
     if week is None:
         week = determine_cfb_week(year, today, mode=mode)
         if week is None:
-            # Try a few days back in case we're in a gap (e.g. postgame Monday
-            # of a bye-heavy week)
             week = determine_cfb_week(year, today - timedelta(days=3), mode=mode)
         if week is None:
             LOG.info("No active CFB week found — exiting cleanly")
