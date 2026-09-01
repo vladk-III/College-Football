@@ -14,13 +14,13 @@ Architecture mirrors the options-data collector:
 Data sources:
   1. CollegeFootballData.com API  — games, team stats, SP+ ratings, betting lines, weather
   2. The Odds API                 — live multi-sportsbook odds (spreads, totals, moneylines)
-  3. Open-Meteo API               — batched venue weather forecasting 
+  3. Open-Meteo API               — batched venue weather forecasting (Forecasts ONLY to prevent data leakage)
 
 Outputs (all in data/):
   games.csv           — one row per game per season: schedule + final scores
   odds_snapshots.csv  — timestamped odds snapshots (tracks line movement)
   team_season_stats.csv — per-team season stats (offense/defense)
-  weather.csv         — game-day weather conditions
+  weather.csv         — game-day weather conditions (Locks at final pre-game forecast)
   outcomes.csv        — final ATS / O/U / moneyline results per game
 """
 
@@ -780,10 +780,8 @@ def run_postgame(year: int, week: int) -> dict:
         completed_count = games_df["completed"].sum() if "completed" in games_df.columns else 0
         stats["completed"] = int(completed_count)
 
-    # Also re-fetch weather
-    weather = collect_weather(games_df)
-    if not weather.empty:
-        append_or_create_csv(weather, DATA_DIR / "weather.csv", ["game_id"])
+    # REMOVED: Post-game actual weather collection to prevent lookahead bias.
+    # The last forecast pulled during the pre-game runs will now stay permanently.
 
     # Compute outcomes
     outcomes_df = compute_outcomes(games_df, DATA_DIR / "odds_snapshots.csv")
