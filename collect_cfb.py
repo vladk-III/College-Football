@@ -30,6 +30,7 @@ import json
 import time
 import logging
 import argparse
+from collections import defaultdict
 from datetime import datetime, timedelta, date
 from pathlib import Path
 
@@ -474,17 +475,34 @@ def collect_weather(games_df: pd.DataFrame) -> pd.DataFrame:
     venues = get_venues()
     rows = []
     outdoor_games = []
+    
+    now_utc = datetime.now(pytz.UTC)
 
     # 1. Filter and group indoor vs outdoor games
     for _, g in games_df.iterrows():
         venue_name = g.get("venue")
         start_raw = g.get("start_date")
+        
         try:
             game_dt = datetime.fromisoformat(str(start_raw).replace("Z", "+00:00"))
         except (ValueError, TypeError):
             continue
 
-        venue_info = venues.get(venue_name)
+        # OPEN-METEO LIMITATION: Forecast endpoint only supports up to 14 days in future
+        # and ~90 days in the past. If CFBD dumps the entire season, we MUST skip 
+        # games outside this window to avoid throwing a 400 Bad Request.
+        days_diff = (game_dt - now_utc).days
+        if days_diff > 14 or days_diff < -80:
+            rows.append({
+                "game_id": g.get("game_id"), "season": g.get("season"), "week": g.get("week"),
+                "home_team": g.get("home_team"), "away_team": g.get("away_team"), "venue": venue_name,
+                "temperature": None, "dewpoint": None, "humidity": None,
+                "precipitation": None, "snowfall": None, "wind_direction": None, "wind_speed": None,
+                "weather_cond": None, "is_indoor": False,
+            })
+            continue
+
+        venue_info = venues.get(venue_name) if pd.notna(venue_name) else None
 
         if venue_info and venue_info.get("is_dome"):
             rows.append({
@@ -497,7 +515,14 @@ def collect_weather(games_df: pd.DataFrame) -> pd.DataFrame:
             continue
 
         if not venue_info:
-            LOG.warning(f"No coordinates for venue '{venue_name}' — skipping weather for this game")
+            # We silently append empty weather for unknown/NAIA venues to avoid spamming the Actions log
+            rows.append({
+                "game_id": g.get("game_id"), "season": g.get("season"), "week": g.get("week"),
+                "home_team": g.get("home_team"), "away_team": g.get("away_team"), "venue": venue_name,
+                "temperature": None, "dewpoint": None, "humidity": None,
+                "precipitation": None, "snowfall": None, "wind_direction": None, "wind_speed": None,
+                "weather_cond": None, "is_indoor": False,
+            })
             continue
 
         outdoor_games.append((g, game_dt, venue_info))
@@ -507,89 +532,90 @@ def collect_weather(games_df: pd.DataFrame) -> pd.DataFrame:
 
     LOG.info(f"Batch-fetching weather for {len(outdoor_games)} outdoor games...")
 
-    # 2. Batch outdoor games into chunks of 40 (Open-Meteo allows up to 100)
+    # 2. Group games strictly by their Date string. 
+    # This completely prevents "Date Range Too Large" 400 Bad Requests.
+    games_by_date = defaultdict(list)
+    for g, game_dt, venue_info in outdoor_games:
+        date_str = game_dt.strftime("%Y-%m-%d")
+        games_by_date[date_str].append((g, game_dt, venue_info))
+
+    # 3. Batch fetch in chunks of 40 per date
     CHUNK_SIZE = 40
-    
     with requests.Session() as session:
-        for i in range(0, len(outdoor_games), CHUNK_SIZE):
-            chunk = outdoor_games[i:i+CHUNK_SIZE]
-            
-            # Format lats and lons into comma-separated strings (rounded to save URL length)
-            lats = ",".join(str(round(v["lat"], 4)) for _, _, v in chunk)
-            lons = ",".join(str(round(v["lon"], 4)) for _, _, v in chunk)
-            
-            # Request enough days to cover all games in this specific chunk
-            min_dt = min(dt for _, dt, _ in chunk)
-            max_dt = max(dt for _, dt, _ in chunk)
-            
-            params = {
-                "latitude": lats,
-                "longitude": lons,
-                "start_date": min_dt.strftime("%Y-%m-%d"),
-                "end_date": max_dt.strftime("%Y-%m-%d"),
-                "hourly": "temperature_2m,precipitation,windspeed_10m,relative_humidity_2m",
-                "temperature_unit": "fahrenheit",
-                "windspeed_unit": "mph",
-                "precipitation_unit": "inch",
-                "timezone": "UTC",
-            }
+        for date_str, daily_games in games_by_date.items():
+            for i in range(0, len(daily_games), CHUNK_SIZE):
+                chunk = daily_games[i:i+CHUNK_SIZE]
+                
+                # Format lats and lons into comma-separated strings
+                lats = ",".join(str(round(v["lat"], 4)) for _, _, v in chunk)
+                lons = ",".join(str(round(v["lon"], 4)) for _, _, v in chunk)
+                
+                params = {
+                    "latitude": lats,
+                    "longitude": lons,
+                    "start_date": date_str,
+                    "end_date": date_str,
+                    "hourly": "temperature_2m,precipitation,windspeed_10m,relative_humidity_2m",
+                    "temperature_unit": "fahrenheit",
+                    "windspeed_unit": "mph",
+                    "precipitation_unit": "inch",
+                    "timezone": "UTC",
+                }
 
-            # Fetch the batch with backoff for general safety
-            data = None
-            for attempt in range(4):
-                try:
-                    r = session.get("https://api.open-meteo.com/v1/forecast", params=params, timeout=20)
-                    if r.status_code == 429:
-                        wait = 2 ** (attempt + 2)
-                        LOG.warning(f"Open-Meteo batched rate limit hit. Waiting {wait}s...")
-                        time.sleep(wait)
-                        continue
-                    r.raise_for_status()
-                    data = r.json()
-                    break
-                except requests.RequestException as e:
-                    if attempt == 3:
-                        LOG.error(f"Open-Meteo batched request failed: {e}")
-                    time.sleep(2 ** attempt)
-            
-            if not data:
-                continue
-            
-            # Open-Meteo returns a dict if 1 location requested, or a list of dicts if >1
-            results = data if isinstance(data, list) else [data]
-            
-            # 3. Match the batched results back to the games in the chunk
-            for (g, game_dt, _), loc_data in zip(chunk, results):
-                hourly = loc_data.get("hourly", {})
-                times = hourly.get("time", [])
-                if not times:
+                # Fetch the batch with backoff
+                data = None
+                for attempt in range(4):
+                    try:
+                        r = session.get("https://api.open-meteo.com/v1/forecast", params=params, timeout=20)
+                        if r.status_code == 429:
+                            wait = 2 ** (attempt + 2)
+                            time.sleep(wait)
+                            continue
+                        r.raise_for_status()
+                        data = r.json()
+                        break
+                    except requests.RequestException as e:
+                        if attempt == 3:
+                            LOG.error(f"Open-Meteo batched request failed for {date_str}: {e}")
+                        time.sleep(2 ** attempt)
+                
+                if not data:
                     continue
+                
+                # Open-Meteo returns a dict if 1 location requested, or a list of dicts if >1
+                results = data if isinstance(data, list) else [data]
+                
+                # 4. Match the batched results back to the games in the chunk
+                for (g, game_dt, _), loc_data in zip(chunk, results):
+                    hourly = loc_data.get("hourly", {})
+                    times = hourly.get("time", [])
+                    if not times:
+                        continue
+                        
+                    target = game_dt.replace(minute=0, second=0, microsecond=0)
+                    target_str = target.strftime("%Y-%m-%dT%H:00")
                     
-                # Find the exact hour for kickoff
-                target = game_dt.replace(minute=0, second=0, microsecond=0)
-                target_str = target.strftime("%Y-%m-%dT%H:00")
-                
-                if target_str in times:
-                    idx = times.index(target_str)
-                else:
-                    parsed = [datetime.fromisoformat(t) for t in times]
-                    idx = min(range(len(parsed)), key=lambda j: abs(parsed[j] - target.replace(tzinfo=None)))
+                    if target_str in times:
+                        idx = times.index(target_str)
+                    else:
+                        parsed = [datetime.fromisoformat(t) for t in times]
+                        idx = min(range(len(parsed)), key=lambda j: abs(parsed[j] - target.replace(tzinfo=None)))
 
-                def _at(key):
-                    vals = hourly.get(key, [])
-                    return vals[idx] if idx < len(vals) else None
+                    def _at(key):
+                        vals = hourly.get(key, [])
+                        return vals[idx] if idx < len(vals) else None
 
-                rows.append({
-                    "game_id": g.get("game_id"), "season": g.get("season"), "week": g.get("week"),
-                    "home_team": g.get("home_team"), "away_team": g.get("away_team"), "venue": g.get("venue"),
-                    "temperature": _at("temperature_2m"), "dewpoint": None, "humidity": _at("relative_humidity_2m"),
-                    "precipitation": _at("precipitation"), "snowfall": None,
-                    "wind_direction": None, "wind_speed": _at("windspeed_10m"),
-                    "weather_cond": None, "is_indoor": False,
-                })
-                
-            # Small 1-second delay between batch chunks
-            time.sleep(1)
+                    rows.append({
+                        "game_id": g.get("game_id"), "season": g.get("season"), "week": g.get("week"),
+                        "home_team": g.get("home_team"), "away_team": g.get("away_team"), "venue": g.get("venue"),
+                        "temperature": _at("temperature_2m"), "dewpoint": None, "humidity": _at("relative_humidity_2m"),
+                        "precipitation": _at("precipitation"), "snowfall": None,
+                        "wind_direction": None, "wind_speed": _at("windspeed_10m"),
+                        "weather_cond": None, "is_indoor": False,
+                    })
+                    
+                # Brief safety delay between batches
+                time.sleep(0.5)
             
     return pd.DataFrame(rows)
 
