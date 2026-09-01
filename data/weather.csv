@@ -1,0 +1,665 @@
+game_id,season,week,home_team,away_team,venue,temperature,dewpoint,humidity,precipitation,snowfall,wind_direction,wind_speed,weather_cond,is_indoor
+401867874,2026,1,North Dakota,Long Island University,Alerus Center,72.0,,,0.0,0.0,,0.0,Dome,True
+401867882,2026,1,South Dakota,Central Connecticut,DakotaDome,72.0,,,0.0,0.0,,0.0,Dome,True
+401868084,2026,1,Northern Arizona,Eastern Washington,Walkup Skydome,72.0,,,0.0,0.0,,0.0,Dome,True
+401864577,2026,1,North Dakota State,Jacksonville State,Fargodome,72.0,,,0.0,0.0,,0.0,Dome,True
+401868101,2026,1,Idaho State,VMI,Holt Arena,72.0,,,0.0,0.0,,0.0,Dome,True
+401862693,2026,1,UNLV,Memphis,Allegiant Stadium,72.0,,,0.0,0.0,,0.0,Dome,True
+401858208,2026,1,Syracuse,New Hampshire,JMA Wireless Dome,72.0,,,0.0,0.0,,0.0,Dome,True
+401864499,2026,1,North Dakota State,Fordham,Fargodome,72.0,,,0.0,0.0,,0.0,Dome,True
+401856636,2026,1,Auburn,Baylor,Mercedes-Benz Stadium,72.0,,,0.0,0.0,,0.0,Dome,True
+401862700,2026,1,UTSA,UT Rio Grande Valley,Alamodome,72.0,,,0.0,0.0,,0.0,Dome,True
+401867875,2026,1,North Dakota,St. Thomas (MN),Alerus Center,72.0,,,0.0,0.0,,0.0,Dome,True
+401868255,2026,2,Northern Iowa,Drake,UNI-Dome,72.0,,,0.0,0.0,,0.0,Dome,True
+401867884,2026,2,South Dakota,Eastern Washington,DakotaDome,72.0,,,0.0,0.0,,0.0,Dome,True
+401858216,2026,2,Syracuse,California,JMA Wireless Dome,72.0,,,0.0,0.0,,0.0,Dome,True
+401868093,2026,2,Idaho,Lamar,Kibbie Dome,72.0,,,0.0,0.0,,0.0,Dome,True
+401868123,2026,2,Northern Arizona,Incarnate Word,Walkup Skydome,72.0,,,0.0,0.0,,0.0,Dome,True
+401868102,2026,2,Idaho State,San Diego,Holt Arena,72.0,,,0.0,0.0,,0.0,Dome,True
+401868051,2026,3,Idaho,Abilene Christian,Kibbie Dome,72.0,,,0.0,0.0,,0.0,Dome,True
+401860896,2026,4,UTSA,Colorado State,Alamodome,72.0,,,0.0,0.0,,0.0,Dome,True
+401867847,2026,4,Northern Iowa,Illinois State,UNI-Dome,72.0,,,0.0,0.0,,0.0,Dome,True
+401868094,2026,5,Idaho,Montana State,Kibbie Dome,72.0,,,0.0,0.0,,0.0,Dome,True
+401867869,2026,5,North Dakota,Murray State,Alerus Center,72.0,,,0.0,0.0,,0.0,Dome,True
+401867859,2026,5,South Dakota,Indiana State,DakotaDome,72.0,,,0.0,0.0,,0.0,Dome,True
+401864515,2026,5,North Dakota State,Wyoming,Fargodome,72.0,,,0.0,0.0,,0.0,Dome,True
+401858247,2026,5,UNLV,California,Allegiant Stadium,72.0,,,0.0,0.0,,0.0,Dome,True
+401868104,2026,5,Idaho State,Northern Arizona,Holt Arena,72.0,,,0.0,0.0,,0.0,Dome,True
+401862794,2026,6,UTSA,South Florida,Alamodome,72.0,,,0.0,0.0,,0.0,Dome,True
+401867886,2026,6,South Dakota,Southern Illinois,DakotaDome,72.0,,,0.0,0.0,,0.0,Dome,True
+401868115,2026,6,Northern Arizona,Montana,Walkup Skydome,72.0,,,0.0,0.0,,0.0,Dome,True
+401867877,2026,6,Northern Iowa,North Dakota,UNI-Dome,72.0,,,0.0,0.0,,0.0,Dome,True
+401868078,2026,6,Idaho State,Cal Poly,Holt Arena,72.0,,,0.0,0.0,,0.0,Dome,True
+401864518,2026,6,UNLV,North Dakota State,Allegiant Stadium,72.0,,,0.0,0.0,,0.0,Dome,True
+401858265,2026,7,Syracuse,Louisville,JMA Wireless Dome,72.0,,,0.0,0.0,,0.0,Dome,True
+401862804,2026,7,UTSA,Navy,Alamodome,72.0,,,0.0,0.0,,0.0,Dome,True
+401867878,2026,7,North Dakota,South Dakota State,Alerus Center,72.0,,,0.0,0.0,,0.0,Dome,True
+401864520,2026,7,North Dakota State,Nevada,Fargodome,72.0,,,0.0,0.0,,0.0,Dome,True
+401868125,2026,7,Northern Arizona,Portland State,Walkup Skydome,72.0,,,0.0,0.0,,0.0,Dome,True
+401867879,2026,8,South Dakota,North Dakota,DakotaDome,72.0,,,0.0,0.0,,0.0,Dome,True
+401868097,2026,8,Idaho,Southern Utah,Kibbie Dome,72.0,,,0.0,0.0,,0.0,Dome,True
+401868106,2026,8,Idaho State,Portland State,Holt Arena,72.0,,,0.0,0.0,,0.0,Dome,True
+401858278,2026,9,Syracuse,SMU,JMA Wireless Dome,72.0,,,0.0,0.0,,0.0,Dome,True
+401867861,2026,9,Northern Iowa,Indiana State,UNI-Dome,72.0,,,0.0,0.0,,0.0,Dome,True
+401856734,2026,9,Georgia,Florida,Mercedes-Benz Stadium,72.0,,,0.0,0.0,,0.0,Dome,True
+401864531,2026,9,North Dakota State,UTEP,Fargodome,72.0,,,0.0,0.0,,0.0,Dome,True
+401864530,2026,9,UNLV,Northern Illinois,Allegiant Stadium,72.0,,,0.0,0.0,,0.0,Dome,True
+401866456,2026,10,Eastern Michigan,Central Michigan,Ford Field,72.0,,,0.0,0.0,,0.0,Dome,True
+401858285,2026,10,Syracuse,Clemson,JMA Wireless Dome,72.0,,,0.0,0.0,,0.0,Dome,True
+401872617,2026,10,Northern Iowa,South Dakota State,UNI-Dome,72.0,,,0.0,0.0,,0.0,Dome,True
+401867852,2026,10,North Dakota,Illinois State,Alerus Center,72.0,,,0.0,0.0,,0.0,Dome,True
+401868090,2026,10,Idaho,Eastern Washington,Kibbie Dome,72.0,,,0.0,0.0,,0.0,Dome,True
+401868108,2026,10,Idaho State,Montana State,Holt Arena,72.0,,,0.0,0.0,,0.0,Dome,True
+401864535,2026,10,UNLV,Wyoming,Allegiant Stadium,72.0,,,0.0,0.0,,0.0,Dome,True
+401862827,2026,11,UTSA,North Texas,Alamodome,72.0,,,0.0,0.0,,0.0,Dome,True
+401867888,2026,11,South Dakota,Northern Iowa,DakotaDome,72.0,,,0.0,0.0,,0.0,Dome,True
+401868099,2026,11,Idaho,UC Davis,Kibbie Dome,72.0,,,0.0,0.0,,0.0,Dome,True
+401868127,2026,11,Northern Arizona,Weber State,Walkup Skydome,72.0,,,0.0,0.0,,0.0,Dome,True
+401867881,2026,12,North Dakota,Southern Illinois,Alerus Center,72.0,,,0.0,0.0,,0.0,Dome,True
+401864543,2026,12,North Dakota State,Northern Illinois,Fargodome,72.0,,,0.0,0.0,,0.0,Dome,True
+401868128,2026,12,Northern Arizona,Northern Colorado,Walkup Skydome,72.0,,,0.0,0.0,,0.0,Dome,True
+401868100,2026,12,Idaho State,Idaho,Holt Arena,72.0,,,0.0,0.0,,0.0,Dome,True
+401858314,2026,13,Syracuse,Notre Dame,JMA Wireless Dome,72.0,,,0.0,0.0,,0.0,Dome,True
+401862840,2026,13,UTSA,Tulsa,Alamodome,72.0,,,0.0,0.0,,0.0,Dome,True
+401868957,2026,13,Southern,Grambling,Caesars Superdome,72.0,,,0.0,0.0,,0.0,Dome,True
+401864548,2026,13,UNLV,Nevada,Allegiant Stadium,72.0,,,0.0,0.0,,0.0,Dome,True
+401907643,2026,1,Slippery Rock,Minnesota Duluth,MetLife Stadium,79.2,,59.0,0.0,,,4.7,,False
+401867894,2026,1,Youngstown State,Mercyhurst,MetLife Stadium,77.5,,68.0,0.0,,,8.6,,False
+401907195,2026,1,Indianapolis,Marian (IN),MetLife Stadium,80.4,,62.0,0.0,,,7.2,,False
+401896383,2026,1,Morehead State,Ohio Dominican,MetLife Stadium,82.1,,61.0,0.0,,,6.0,,False
+401906139,2026,1,Virginia State,Barton,MetLife Stadium,83.8,,59.0,0.0,,,3.3,,False
+401907002,2026,1,Charleston (WV),Grand Valley State,MetLife Stadium,82.7,,67.0,0.0,,,6.9,,False
+401866615,2026,1,Delaware State,Stony Brook,MetLife Stadium,80.4,,73.0,0.0,,,7.9,,False
+401906048,2026,1,Tusculum,Bluefield State,MetLife Stadium,86.6,,43.0,0.0,,,2.5,,False
+401866532,2026,1,Towson,Maine,MetLife Stadium,82.0,,67.0,0.0,,,9.2,,False
+401906193,2026,1,UNC Pembroke,Wingate,MetLife Stadium,79.4,,90.0,0.0,,,10.1,,False
+401907381,2026,1,Nebraska Kearney,Wayne State (NE),MetLife Stadium,83.4,,59.0,0.0,,,7.7,,False
+401868315,2026,1,SE Louisiana,Houston Christian,MetLife Stadium,83.1,,79.0,0.0,,,8.4,,False
+401907536,2026,1,Seton Hill,East Stroudsburg,MetLife Stadium,75.0,,84.0,0.0,,,4.4,,False
+401907239,2026,1,Southwest Baptist,William Woods,MetLife Stadium,86.3,,40.0,0.0,,,7.2,,False
+401907356,2026,1,Minot State,Emporia State,MetLife Stadium,81.4,,42.0,0.0,,,9.4,,False
+401906943,2026,1,Minnesota St Moorhead,Northern Michigan,MetLife Stadium,79.6,,36.0,0.0,,,6.7,,False
+401868060,2026,1,Austin Peay,Gardner-Webb,MetLife Stadium,86.5,,58.0,0.0,,,0.7,,False
+401868169,2026,1,Lindenwood,Charleston Southern,MetLife Stadium,79.9,,54.0,0.0,,,8.1,,False
+401868204,2026,1,Western Illinois,Northwestern (IA),MetLife Stadium,80.4,,52.0,0.0,,,5.4,,False
+401868240,2026,1,West Georgia,Chattanooga,MetLife Stadium,82.5,,65.0,0.0,,,1.3,,False
+401868273,2026,1,Presbyterian,UVA Wise,MetLife Stadium,74.9,,91.0,0.0,,,11.0,,False
+401868373,2026,1,Furman,Anderson (SC),MetLife Stadium,80.3,,72.0,0.0,,,2.8,,False
+401868279,2026,1,St. Thomas (MN),Winona State,MetLife Stadium,80.5,,40.0,0.0,,,6.5,,False
+401906993,2026,1,Bemidji State,Michigan Tech,MetLife Stadium,71.9,,50.0,0.0,,,7.7,,False
+401906620,2026,1,West Liberty,Walsh,MetLife Stadium,80.8,,63.0,0.0,,,6.9,,False
+401907110,2026,1,Sioux Falls,Black Hills State,MetLife Stadium,82.9,,40.0,0.0,,,3.7,,False
+401907120,2026,1,Northern State,Chadron State,MetLife Stadium,79.1,,45.0,0.0,,,5.7,,False
+401906631,2026,1,Carson Newman,Tiffin,MetLife Stadium,80.5,,80.0,0.0,,,4.0,,False
+401906602,2026,1,Valdosta State,Emory & Henry,MetLife Stadium,77.2,,98.0,0.028,,,5.1,,False
+401867865,2026,1,Murray State,Eastern Illinois,MetLife Stadium,83.2,,54.0,0.0,,,7.9,,False
+401866614,2026,1,Elon,Glenville State,MetLife Stadium,76.7,,87.0,0.0,,,6.2,,False
+401906902,2026,1,Saginaw Valley State,McKendree,MetLife Stadium,85.5,,75.0,0.0,,,1.8,,False
+401868962,2026,1,Nicholls,Mississippi Valley State,MetLife Stadium,84.1,,83.0,0.0,,,0.5,,False
+401874035,2026,1,West Florida,Southern Illinois,MetLife Stadium,82.3,,77.0,0.0,,,3.5,,False
+401896384,2026,1,Davidson,Concord,MetLife Stadium,82.1,,70.0,0.0,,,0.7,,False
+401868070,2026,1,UT Martin,Central Arkansas,MetLife Stadium,84.5,,47.0,0.0,,,6.4,,False
+401868254,2026,1,Drake,South Dakota Mines,MetLife Stadium,78.7,,61.0,0.0,,,4.1,,False
+401907234,2026,1,Concordia St. Paul,Quincy,MetLife Stadium,80.5,,40.0,0.0,,,6.5,,False
+401907144,2026,1,CSU Pueblo,Central Missouri,MetLife Stadium,86.6,,27.0,0.0,,,9.0,,False
+401907275,2026,1,Angelo State,Fort Hays,MetLife Stadium,77.6,,84.0,0.0,,,6.4,,False
+401907161,2026,1,West Texas,Western Colorado,MetLife Stadium,88.1,,34.0,0.0,,,14.4,,False
+401907724,2026,1,Southwest Minnesota State,Valley City State,MetLife Stadium,73.8,,41.0,0.0,,,5.6,,False
+401907129,2026,1,Colorado Mesa,Minnesota State,MetLife Stadium,98.3,,11.0,0.0,,,13.6,,False
+401907099,2026,1,Adams State,Western New Mexico,MetLife Stadium,74.7,,38.0,0.0,,,21.3,,False
+401907376,2026,1,Missouri Western,Augustana (SD),MetLife Stadium,81.0,,52.0,0.0,,,2.7,,False
+401869128,2026,1,Northwestern State,Louisiana Christian,MetLife Stadium,91.1,,48.0,0.0,,,2.7,,False
+401907007,2026,1,Pittsburg State,Ferris State,MetLife Stadium,86.7,,36.0,0.0,,,8.8,,False
+401907155,2026,1,New Mexico Highlands,Eastern New Mexico,MetLife Stadium,76.7,,37.0,0.0,,,4.0,,False
+401906145,2026,1,Lenoir Rhyne,Virginia Union,MetLife Stadium,74.8,,77.0,0.0,,,3.1,,False
+401868261,2026,1,New Haven,Marist,MetLife Stadium,82.6,,57.0,0.0,,,6.3,,False
+401868007,2026,1,Fordham,Colgate,MetLife Stadium,84.0,,57.0,0.0,,,7.2,,False
+401868040,2026,1,Villanova,William & Mary,MetLife Stadium,80.2,,63.0,0.0,,,4.8,,False
+401866616,2026,1,UAlbany,New Hampshire,MetLife Stadium,70.8,,63.0,0.0,,,6.7,,False
+401866617,2026,1,Merrimack,Rhode Island,MetLife Stadium,81.0,,59.0,0.0,,,7.2,,False
+401868129,2026,1,Northern Colorado,Weber State,MetLife Stadium,90.0,,19.0,0.0,,,8.2,,False
+401868073,2026,1,Cal Poly,Idaho,MetLife Stadium,65.8,,79.0,0.0,,,7.3,,False
+401867916,2026,1,Wagner,Robert Morris,MetLife Stadium,73.8,,49.0,0.0,,,5.9,,False
+401868792,2026,1,Dayton,Fairmont State,MetLife Stadium,78.2,,70.0,0.0,,,2.3,,False
+401856766,2026,1,TCU,North Carolina,MetLife Stadium,63.8,,84.0,0.0,,,2.5,,False
+401906641,2026,1,Wheeling,Thomas More,MetLife Stadium,77.5,,53.0,0.0,,,6.1,,False
+401906177,2026,1,West Virginia State,Chowan,MetLife Stadium,83.8,,64.0,0.0,,,1.3,,False
+401907012,2026,1,Davenport,Gannon,MetLife Stadium,80.7,,61.0,0.0,,,6.2,,False
+401906588,2026,1,Northeastern State,Delta State,MetLife Stadium,93.1,,38.0,0.0,,,8.1,,False
+401907576,2026,1,West Virginia Wesleyan,Post,MetLife Stadium,80.4,,61.0,0.0,,,2.7,,False
+401906205,2026,1,Shorter,Andrew,MetLife Stadium,82.0,,75.0,0.283,,,5.8,,False
+401907454,2026,1,American International,Monroe,MetLife Stadium,74.6,,40.0,0.0,,,6.3,,False
+401907631,2026,1,Shippensburg,Lock Haven,MetLife Stadium,74.6,,47.0,0.0,,,3.0,,False
+401906126,2026,1,Elizabeth City State,Fort Valley State,MetLife Stadium,79.8,,84.0,0.0,,,5.5,,False
+401868209,2026,1,Butler,Georgetown College Kentucky,MetLife Stadium,82.9,,44.0,0.0,,,0.2,,False
+401869156,2026,1,Chicago State,Roosevelt,MetLife Stadium,78.9,,64.0,0.0,,,8.8,,False
+401906185,2026,1,BLUEFIELD,Erskine,MetLife Stadium,77.2,,69.0,0.0,,,5.8,,False
+401907137,2026,1,Colorado School of Mines,Western Oregon,MetLife Stadium,88.4,,21.0,0.0,,,3.5,,False
+401868288,2026,1,Valparaiso,Lawrence Tech,MetLife Stadium,79.1,,61.0,0.0,,,8.1,,False
+401864494,2026,1,USC,San José State,MetLife Stadium,93.6,,41.0,0.0,,,2.9,,False
+401868154,2026,1,Portland State,UC Davis,MetLife Stadium,66.3,,63.0,0.0,,,7.0,,False
+401868324,2026,1,Alabama State,Southern,MetLife Stadium,90.0,,57.0,0.0,,,7.4,,False
+401907246,2026,1,Upper Iowa,Jamestown,MetLife Stadium,71.5,,84.0,0.0,,,17.1,,False
+401906949,2026,1,Central State,Kentucky State,MetLife Stadium,82.4,,48.0,0.0,,,4.2,,False
+401868022,2026,1,Holy Cross,Lehigh,MetLife Stadium,76.1,,40.0,0.0,,,5.4,,False
+401858202,2026,1,Virginia,NC State,MetLife Stadium,79.5,,65.0,0.0,,,2.1,,False
+401906157,2026,1,Benedict,Johnson C. Smith,MetLife Stadium,83.6,,76.0,0.0,,,2.6,,False
+401866620,2026,1,East Tennessee State,Campbell,MetLife Stadium,85.8,,53.0,0.0,,,2.6,,False
+401867972,2026,1,Norfolk State,Winston-Salem State,MetLife Stadium,78.9,,81.0,0.0,,,7.8,,False
+401866619,2026,1,Stonehill,Bryant,MetLife Stadium,75.7,,37.0,0.0,,,3.4,,False
+401866613,2026,1,Hampton,Virginia Lynchburg,MetLife Stadium,79.1,,80.0,0.0,,,8.0,,False
+401906162,2026,1,Livingstone,Allen,MetLife Stadium,81.6,,72.0,0.0,,,7.5,,False
+401866618,2026,1,North Carolina A&T,Morgan State,MetLife Stadium,88.3,,27.0,0.0,,,6.9,,False
+401867855,2026,1,Indiana State,Southeast Missouri State,MetLife Stadium,84.2,,64.0,0.0,,,8.1,,False
+401867988,2026,1,Richmond,Bucknell,MetLife Stadium,81.8,,64.0,0.0,,,6.1,,False
+401868394,2026,1,Wofford,The Citadel,MetLife Stadium,85.1,,60.0,0.0,,,3.3,,False
+401907403,2026,1,Ferrum,Catawba,MetLife Stadium,83.5,,55.0,0.0,,,6.5,,False
+401906151,2026,1,Fayetteville State,Shaw,MetLife Stadium,75.9,,96.0,0.0,,,5.5,,False
+401867982,2026,1,South Carolina State,Savannah State,MetLife Stadium,83.0,,76.0,0.0,,,2.2,,False
+401906956,2026,1,Edward Waters,Florida Memorial University,MetLife Stadium,85.5,,76.0,0.0,,,10.1,,False
+401866408,2026,1,Eastern Michigan,Sacramento State,MetLife Stadium,77.4,,50.0,0.0,,,7.5,,False
+401868305,2026,1,McNeese,Stephen F. Austin,MetLife Stadium,85.9,,72.0,0.0,,,8.6,,False
+401868139,2026,1,Western Carolina,Eastern Kentucky,MetLife Stadium,79.4,,63.0,0.0,,,3.1,,False
+401867977,2026,1,Texas Southern,North Carolina Central,MetLife Stadium,92.7,,56.0,0.0,,,6.2,,False
+401872615,2026,1,South Dakota State,Stetson,MetLife Stadium,83.1,,65.0,0.0,,,7.8,,False
+401864570,2026,1,Florida State,New Mexico State,MetLife Stadium,85.3,,60.0,0.0,,,1.0,,False
+401868049,2026,1,Lamar,Abilene Christian,MetLife Stadium,91.1,,57.0,0.0,,,5.2,,False
+401858201,2026,1,Stanford,Hawai'i,MetLife Stadium,78.7,,42.0,0.0,,,14.5,,False
+401866621,2026,1,Tennessee Tech,Monmouth,MetLife Stadium,84.9,,57.0,0.0,,,1.1,,False
+401891332,2026,1,Illinois State,St. Francis (IL),MetLife Stadium,76.5,,66.0,0.0,,,6.9,,False
+401913104,2026,1,Incarnate Word,Oklahoma Panhandle,MetLife Stadium,92.6,,44.0,0.0,,,4.7,,False
+401907297,2026,1,Midwestern State,Missouri Southern State,MetLife Stadium,103.0,,19.0,0.0,,,10.1,,False
+401896385,2026,1,Alcorn State,Miles,MetLife Stadium,88.5,,49.0,0.0,,,4.2,,False
+401907219,2026,1,Missouri S&T,Westgate Christian University,MetLife Stadium,89.0,,41.0,0.0,,,10.0,,False
+401907204,2026,1,Lincoln (MO),Central Methodist,MetLife Stadium,82.2,,61.0,0.0,,,7.8,,False
+401868934,2026,1,Arkansas-Pine Bluff,Morehouse,MetLife Stadium,90.9,,37.0,0.0,,,6.7,,False
+401868952,2026,1,Grambling,Clark Atlanta,MetLife Stadium,92.9,,41.0,0.0,,,3.7,,False
+401874042,2026,1,Mercer,East Texas A&M,MetLife Stadium,80.4,,80.0,0.0,,,4.0,,False
+401868948,2026,1,Florida A&M,Albany State,MetLife Stadium,85.1,,60.0,0.0,,,1.3,,False
+401868149,2026,1,North Alabama,Samford,MetLife Stadium,87.7,,54.0,0.0,,,3.6,,False
+401907243,2026,1,Truman State,Washburn,MetLife Stadium,84.6,,55.0,0.0,,,14.1,,False
+401867935,2026,1,Howard,Alabama A&M,MetLife Stadium,83.8,,64.0,0.0,,,6.4,,False
+401907308,2026,1,Texas A&M-Kingsville,Northwest Missouri State,MetLife Stadium,89.7,,54.0,0.0,,,12.5,,False
+401868245,2026,1,UT Rio Grande Valley,UT Permian Basin,MetLife Stadium,91.8,,54.0,0.0,,,14.5,,False
+401907334,2026,1,Sul Ross State,Wayland Baptist,MetLife Stadium,89.1,,27.0,0.0,,,9.3,,False
+401868194,2026,1,Tennessee State,Jackson State,MetLife Stadium,87.5,,49.0,0.0,,,5.3,,False
+401868110,2026,1,Montana,Southern Utah,MetLife Stadium,73.3,,28.0,0.0,,,12.8,,False
+401868235,2026,1,Tarleton State,Prairie View A&M,MetLife Stadium,94.6,,26.0,0.0,,,9.0,,False
+401868118,2026,1,Utah Tech,Montana State,MetLife Stadium,99.2,,12.0,0.0,,,17.1,,False
+401906596,2026,1,Tuskegee,West Alabama,MetLife Stadium,86.1,,66.0,0.0,,,6.9,,False
+401908891,2026,1,Montclair State,Merchant Marine,MetLife Stadium,85.7,,57.0,0.0,,,10.5,,False
+401907610,2026,1,Glenville State,Millersville,MetLife Stadium,94.1,,45.0,0.0,,,4.2,,False
+401907838,2026,1,Olivet,Millikin,MetLife Stadium,90.4,,42.0,0.0,,,13.9,,False
+401906880,2026,1,Wayne State (MI),Northwood,MetLife Stadium,90.3,,47.0,0.008,,,6.3,,False
+401907412,2026,1,Carson Newman,Thomas,MetLife Stadium,79.5,,74.0,0.004,,,19.2,,False
+401907493,2026,1,Fairmont State,Bloomsburg,MetLife Stadium,90.5,,53.0,0.0,,,5.8,,False
+401907484,2026,1,Assumption,Kutztown,MetLife Stadium,74.5,,93.0,0.016,,,4.2,,False
+401907516,2026,1,California (PA),Charleston (WV),MetLife Stadium,92.2,,51.0,0.0,,,7.7,,False
+401907526,2026,1,Clarion,West Virginia Wesleyan,MetLife Stadium,85.9,,59.0,0.0,,,9.3,,False
+401858423,2026,1,Rutgers,Massachusetts,MetLife Stadium,85.3,,65.0,0.0,,,8.8,,False
+401868269,2026,1,Morehead State,Kentucky Christian,MetLife Stadium,98.0,,34.0,0.0,,,7.9,,False
+401866622,2026,1,Stony Brook,Lindenwood,MetLife Stadium,81.4,,67.0,0.004,,,11.0,,False
+401866409,2026,1,Buffalo,UAlbany,MetLife Stadium,76.8,,87.0,0.008,,,1.7,,False
+401867889,2026,1,Samford,Southern Illinois,MetLife Stadium,91.5,,45.0,0.0,,,5.9,,False
+401858204,2026,1,Wake Forest,Akron,MetLife Stadium,95.0,,36.0,0.0,,,7.1,,False
+401864424,2026,1,Delaware,Merrimack,MetLife Stadium,85.6,,69.0,0.0,,,5.0,,False
+401864425,2026,1,Kennesaw State,West Georgia,MetLife Stadium,93.9,,33.0,0.0,,,8.4,,False
+401856767,2026,1,UCF,Bethune-Cookman,MetLife Stadium,78.5,,84.0,0.0,,,6.2,,False
+401907666,2026,1,Trine,Chicago,MetLife Stadium,84.6,,69.0,0.0,,,8.1,,False
+401906526,2026,1,Arkansas Monticello,Southeastern Oklahoma State,MetLife Stadium,88.4,,55.0,0.0,,,2.2,,False
+401906545,2026,1,Harding,Northwestern (OK),MetLife Stadium,93.4,,38.0,0.0,,,11.6,,False
+401906553,2026,1,Southern Nazarene,Henderson State,MetLife Stadium,102.5,,22.0,0.0,,,8.4,,False
+401906603,2026,1,Valdosta State,Warner,MetLife Stadium,82.8,,70.0,0.008,,,12.5,,False
+401906649,2026,1,Edinboro,Ohio Dominican,MetLife Stadium,78.0,,82.0,0.0,,,3.4,,False
+401906877,2026,1,Ashland,IU Pennsylvania,MetLife Stadium,83.2,,78.0,0.0,,,9.1,,False
+401907644,2026,1,Minnesota Duluth,Augustana (SD),MetLife Stadium,70.9,,54.0,0.0,,,11.5,,False
+401907003,2026,1,Grand Valley State,West Texas,MetLife Stadium,77.9,,70.0,0.0,,,4.0,,False
+401908854,2026,1,Wooster,Wilmington (OH),MetLife Stadium,84.0,,78.0,0.0,,,8.4,,False
+401908789,2026,1,Marietta,Westminster (PA),MetLife Stadium,88.0,,63.0,0.0,,,4.0,,False
+401908346,2026,1,Juniata,Gettysburg,MetLife Stadium,85.3,,64.0,0.0,,,6.0,,False
+401908216,2026,1,Ohio Wesleyan,Bluffton,MetLife Stadium,85.5,,76.0,0.0,,,6.8,,False
+401908201,2026,1,King's,Wilkes,MetLife Stadium,75.3,,92.0,0.063,,,3.5,,False
+401907995,2026,1,Wisconsin River Falls,Southern Virginia,MetLife Stadium,94.9,,35.0,0.0,,,7.5,,False
+401907871,2026,1,Brockport,Buffalo State,MetLife Stadium,74.1,,85.0,0.0,,,2.1,,False
+401907727,2026,1,Minot State,Wayne State (NE),MetLife Stadium,86.9,,16.0,0.0,,,11.0,,False
+401907697,2026,1,Northern State,Winona State,MetLife Stadium,95.6,,30.0,0.0,,,10.2,,False
+401907677,2026,1,Minnesota St Moorhead,Concordia St. Paul,MetLife Stadium,93.4,,34.0,0.0,,,13.1,,False
+401906515,2026,1,Arkansas Tech,Southwestern Oklahoma State,MetLife Stadium,90.6,,45.0,0.0,,,5.2,,False
+401906536,2026,1,Ouachita Baptist,East Central,MetLife Stadium,87.7,,55.0,0.0,,,4.0,,False
+401906566,2026,1,Oklahoma Baptist,Southern Arkansas,MetLife Stadium,91.4,,44.0,0.0,,,19.6,,False
+401907121,2026,1,Chadron State,Nebraska Kearney,MetLife Stadium,93.9,,11.0,0.0,,,3.4,,False
+401907145,2026,1,Fort Hays,CSU Pueblo,MetLife Stadium,103.1,,17.0,0.0,,,14.1,,False
+401907156,2026,1,Western New Mexico,New Mexico Highlands,MetLife Stadium,75.8,,43.0,0.0,,,10.9,,False
+401907162,2026,1,Western Colorado,Angelo State,MetLife Stadium,65.6,,26.0,0.0,,,13.9,,False
+401907337,2026,1,Central Missouri,Missouri Western,MetLife Stadium,99.4,,24.0,0.0,,,9.0,,False
+401908386,2026,1,Millsaps,Belhaven,MetLife Stadium,77.0,,79.0,0.004,,,9.8,,False
+401856663,2026,1,Missouri,Arkansas-Pine Bluff,MetLife Stadium,93.3,,34.0,0.0,,,4.9,,False
+401858422,2026,1,Minnesota,Eastern Illinois,MetLife Stadium,88.0,,48.0,0.0,,,5.2,,False
+401856776,2026,1,Georgia Tech,Colorado,MetLife Stadium,91.5,,37.0,0.0,,,6.5,,False
+401873393,2026,1,Beloit,Rockford,MetLife Stadium,81.8,,72.0,0.0,,,4.7,,False
+401858424,2026,1,Illinois,UAB,MetLife Stadium,82.9,,56.0,0.0,,,6.4,,False
+401856768,2026,1,Utah,Idaho,MetLife Stadium,82.5,,11.0,0.0,,,12.5,,False
+401908331,2026,1,Dickinson,Randolph Macon,MetLife Stadium,90.2,,51.0,0.0,,,11.0,,False
+401908537,2026,1,Nichols,MIT,MetLife Stadium,78.3,,50.0,0.0,,,9.1,,False
+401908318,2026,1,Rowan,Mary Hardin Baylor,MetLife Stadium,86.9,,59.0,0.0,,,7.3,,False
+401908094,2026,1,Methodist,Shenandoah,MetLife Stadium,98.6,,34.0,0.0,,,10.9,,False
+401907008,2026,1,Ferris State,Bentley,MetLife Stadium,76.5,,72.0,0.0,,,4.2,,False
+401908162,2026,1,Albright,Gallaudet,MetLife Stadium,85.4,,63.0,0.0,,,5.4,,False
+401906610,2026,1,Keystone,Alvernia,MetLife Stadium,78.0,,59.0,0.0,,,7.3,,False
+401864495,2026,1,Eastern Michigan,San José State,MetLife Stadium,78.8,,71.0,0.0,,,6.4,,False
+401866623,2026,1,Georgia State,North Carolina A&T,MetLife Stadium,87.6,,51.0,0.0,,,5.0,,False
+401908181,2026,1,Ursinus,Delaware Valley,MetLife Stadium,80.8,,73.0,0.0,,,5.1,,False
+401908263,2026,1,Franklin & Marshall,Lebanon Valley,MetLife Stadium,80.6,,76.0,0.0,,,4.0,,False
+401908309,2026,1,Stevenson,Bridgewater,MetLife Stadium,89.5,,50.0,0.0,,,5.9,,False
+401908517,2026,1,Springfield,Western New England,MetLife Stadium,73.3,,65.0,0.0,,,6.1,,False
+401868262,2026,1,Marist,Franklin Pierce,MetLife Stadium,73.0,,69.0,0.0,,,4.3,,False
+401907736,2026,1,Rochester (NY),Case Western Reserve,MetLife Stadium,72.8,,63.0,0.0,,,8.8,,False
+401908606,2026,1,UMass Dartmouth,Salve Regina,MetLife Stadium,70.1,,89.0,0.0,,,6.9,,False
+401907537,2026,1,Pace,East Stroudsburg,MetLife Stadium,74.9,,61.0,0.0,,,7.6,,False
+401907966,2026,1,Misericordia,Hartwick,MetLife Stadium,85.3,,62.0,0.004,,,2.2,,False
+401908690,2026,1,Norwich,St. Lawrence,MetLife Stadium,66.4,,72.0,0.0,,,8.2,,False
+401858435,2026,1,Purdue,Indiana State,MetLife Stadium,89.9,,68.0,0.0,,,1.4,,False
+401907862,2026,1,Hobart,Alfred,MetLife Stadium,69.6,,79.0,0.0,,,7.8,,False
+401908359,2026,1,McDaniel,Catholic,MetLife Stadium,87.7,,52.0,0.0,,,8.3,,False
+401856664,2026,1,Oklahoma,UTEP,MetLife Stadium,84.4,,55.0,0.035,,,12.2,,False
+401856769,2026,1,Kansas,Long Island University,MetLife Stadium,94.0,,35.0,0.0,,,2.6,,False
+401858429,2026,1,Michigan State,Toledo,MetLife Stadium,72.3,,92.0,0.0,,,8.1,,False
+401907818,2026,1,Carthage,Lakeland,MetLife Stadium,72.8,,90.0,0.0,,,8.7,,False
+401858436,2026,1,USC,Fresno State,MetLife Stadium,78.3,,53.0,0.0,,,9.6,,False
+401858206,2026,1,Stanford,Miami,MetLife Stadium,69.9,,43.0,0.0,,,9.9,,False
+401908292,2026,1,Pacific (OR),Howard Payne,MetLife Stadium,58.7,,86.0,0.012,,,1.3,,False
+401868284,2026,1,Stetson,Webber International,MetLife Stadium,88.6,,56.0,0.0,,,4.0,,False
+401908101,2026,1,Heidelberg,Maryville (TN),MetLife Stadium,74.4,,74.0,0.0,,,9.7,,False
+401856780,2026,1,West Virginia,Coastal Carolina,MetLife Stadium,73.6,,86.0,0.004,,,4.4,,False
+401858425,2026,1,Indiana,North Texas,MetLife Stadium,89.0,,52.0,0.0,,,4.0,,False
+401856778,2026,1,Houston,Oregon State,MetLife Stadium,91.2,,51.0,0.0,,,4.5,,False
+401856634,2026,1,Alabama,East Carolina,MetLife Stadium,89.0,,59.0,0.016,,,3.2,,False
+401866410,2026,1,Bowling Green,Tarleton State,MetLife Stadium,74.0,,62.0,0.0,,,10.7,,False
+401867924,2026,1,New Haven,Stonehill,MetLife Stadium,75.9,,47.0,0.0,,,9.1,,False
+401867928,2026,1,Wagner,Southern Connecticut State,MetLife Stadium,78.5,,37.0,0.0,,,9.8,,False
+401858430,2026,1,Nebraska,Ohio,MetLife Stadium,97.8,,31.0,0.0,,,10.2,,False
+401861962,2026,1,UConn,Lafayette,MetLife Stadium,76.6,,44.0,0.0,,,7.6,,False
+401862701,2026,1,Army,Bryant,MetLife Stadium,74.5,,48.0,0.0,,,8.7,,False
+401906844,2026,1,Hillsdale,McKendree,MetLife Stadium,76.0,,53.0,0.0,,,9.4,,False
+401907013,2026,1,Davenport,Truman State,MetLife Stadium,93.5,,39.0,0.0,,,3.9,,False
+401907832,2026,1,Albion,Illinois Wesleyan,MetLife Stadium,77.6,,47.0,0.0,,,7.9,,False
+401907879,2026,1,Grove City,SUNY Cortland,MetLife Stadium,75.0,,50.0,0.0,,,7.9,,False
+401908091,2026,1,Utica,Washington & Jefferson,MetLife Stadium,69.6,,63.0,0.0,,,10.1,,False
+401908189,2026,1,Endicott,Eastern,MetLife Stadium,76.5,,44.0,0.0,,,5.6,,False
+401908353,2026,1,Johns Hopkins,Ithaca,MetLife Stadium,83.0,,50.0,0.0,,,8.1,,False
+401908364,2026,1,Moravian,Muhlenberg,MetLife Stadium,76.1,,47.0,0.0,,,10.1,,False
+401908475,2026,1,Bridgewater State,Curry,MetLife Stadium,76.4,,43.0,0.0,,,6.5,,False
+401908530,2026,1,Coast Guard,New England,MetLife Stadium,76.8,,43.0,0.0,,,9.8,,False
+401908557,2026,1,Plymouth State,New England College,MetLife Stadium,69.4,,55.0,0.0,,,9.4,,False
+401908563,2026,1,Mass Maritime,Maine Maritime,MetLife Stadium,73.5,,51.0,0.0,,,11.9,,False
+401908568,2026,1,Dean,Fitchburg State,MetLife Stadium,81.6,,77.0,0.083,,,1.8,,False
+401908624,2026,1,Rensselaer,WPI,MetLife Stadium,72.2,,56.0,0.0,,,7.2,,False
+401908738,2026,1,Otterbein,Calvin,MetLife Stadium,75.4,,83.0,0.0,,,3.4,,False
+401909005,2026,1,Wabash,Hampden Sydney,MetLife Stadium,83.3,,70.0,0.0,,,4.4,,False
+401869960,2026,1,James Madison,Liberty,MetLife Stadium,87.3,,47.0,0.0,,,6.0,,False
+401868017,2026,1,Georgetown,Lehigh,MetLife Stadium,83.0,,56.0,0.0,,,5.8,,False
+401858207,2026,1,Pittsburgh,Miami (OH),MetLife Stadium,75.2,,71.0,0.0,,,5.1,,False
+401858432,2026,1,Ohio State,Ball State,MetLife Stadium,77.2,,80.0,0.0,,,2.2,,False
+401856665,2026,1,South Carolina,Kent State,MetLife Stadium,97.4,,37.0,0.0,,,5.7,,False
+401908744,2026,1,Denison,Hope,MetLife Stadium,76.5,,79.0,0.0,,,6.2,,False
+401873228,2026,1,Puget Sound,Lewis & Clark,MetLife Stadium,62.6,,62.0,0.0,,,5.0,,False
+401868000,2026,1,Colgate,Holy Cross,MetLife Stadium,68.0,,66.0,0.0,,,12.1,,False
+401908684,2026,1,Union,Susquehanna,MetLife Stadium,74.4,,48.0,0.0,,,6.4,,False
+401908662,2026,1,Waynesburg,Capital,MetLife Stadium,78.7,,69.0,0.008,,,5.7,,False
+401908650,2026,1,Adrian,Ohio Northern,MetLife Stadium,79.6,,43.0,0.0,,,10.0,,False
+401908644,2026,1,The College of New Jersey,Lycoming,MetLife Stadium,79.4,,39.0,0.0,,,10.0,,False
+401908623,2026,1,SUNY Maritime,Worcester State,MetLife Stadium,81.2,,34.0,0.0,,,11.1,,False
+401908617,2026,1,Vermont State Castleton,Westfield State,MetLife Stadium,63.6,,75.0,0.0,,,11.7,,False
+401908609,2026,1,William Paterson,Western Connecticut State,MetLife Stadium,79.6,,35.0,0.0,,,10.6,,False
+401908576,2026,1,Husson,Framingham State,MetLife Stadium,60.2,,95.0,0.024,,,13.8,,False
+401908965,2026,1,Washington and Lee,Wittenberg,MetLife Stadium,91.0,,43.0,0.0,,,8.7,,False
+401907826,2026,1,Elmhurst,Illinois College,MetLife Stadium,83.0,,57.0,0.0,,,8.6,,False
+401907843,2026,1,North Central College,Bethel (MN),MetLife Stadium,84.0,,60.0,0.0,,,8.8,,False
+401908049,2026,1,Wisconsin Eau Claire,Alma,MetLife Stadium,78.5,,66.0,0.0,,,11.5,,False
+401908069,2026,1,Saint Vincent,Hilbert,MetLife Stadium,76.2,,71.0,0.008,,,6.0,,False
+401908285,2026,1,Hardin Simmons,Chapman,MetLife Stadium,93.9,,38.0,0.0,,,10.3,,False
+401906118,2026,1,Virginia State,Bowie State,MetLife Stadium,89.9,,48.0,0.0,,,6.1,,False
+401906133,2026,1,Lincoln (PA),West Chester,MetLife Stadium,76.9,,55.0,0.0,,,10.3,,False
+401906994,2026,1,Michigan Tech,Midwestern State,MetLife Stadium,75.3,,44.0,0.0,,,7.9,,False
+401907138,2026,1,Washburn,Colorado School of Mines,MetLife Stadium,102.8,,27.0,0.0,,,13.3,,False
+401907250,2026,1,Morehouse,Clark Atlanta,MetLife Stadium,87.2,,50.0,0.0,,,6.1,,False
+401907604,2026,1,Shepherd,Frostburg State,MetLife Stadium,81.9,,57.0,0.004,,,11.7,,False
+401856779,2026,1,Iowa State,Southeast Missouri State,MetLife Stadium,95.3,,36.0,0.0,,,8.1,,False
+401856659,2026,1,Kentucky,Youngstown State,MetLife Stadium,88.4,,55.0,0.0,,,6.9,,False
+401873403,2026,1,Kean,SUNY Morrisville,MetLife Stadium,80.8,,35.0,0.0,,,10.6,,False
+401864496,2026,1,Air Force,Duquesne,MetLife Stadium,79.7,,27.0,0.0,,,7.0,,False
+401908805,2026,1,Kalamazoo,Kenyon,MetLife Stadium,79.6,,50.0,0.0,,,9.8,,False
+401908206,2026,1,Anderson (IN),Allegheny,MetLife Stadium,82.3,,76.0,0.0,,,6.7,,False
+401868186,2026,1,Wofford,Gardner-Webb,MetLife Stadium,99.6,,31.0,0.0,,,3.6,,False
+401862698,2026,1,Temple,Rhode Island,MetLife Stadium,82.4,,37.0,0.0,,,10.1,,False
+401907886,2026,1,Wisconsin Whitewater,Carleton,MetLife Stadium,79.7,,69.0,0.0,,,11.7,,False
+401908141,2026,1,Gustavus Adolphus,Central College,MetLife Stadium,92.4,,48.0,0.0,,,14.9,,False
+401908008,2026,1,Wisconsin Platteville,Aurora,MetLife Stadium,82.7,,69.0,0.0,,,12.5,,False
+401906049,2026,1,Concord,Bluefield State,MetLife Stadium,78.0,,74.0,0.031,,,7.5,,False
+401866624,2026,1,Monmouth,Sacred Heart,MetLife Stadium,82.4,,33.0,0.0,,,9.6,,False
+401907850,2026,1,Wheaton (IL),Mount Union,MetLife Stadium,83.9,,58.0,0.0,,,9.9,,False
+401906860,2026,1,Indianapolis,Findlay,MetLife Stadium,92.2,,49.0,0.0,,,3.5,,False
+401908150,2026,1,Coe,Cornell (IA),MetLife Stadium,89.0,,58.0,0.0,,,11.0,,False
+401907789,2026,1,St. Norbert,Carroll (WI),MetLife Stadium,79.0,,53.0,0.0,,,10.2,,False
+401907758,2026,1,Buena Vista,Benedictine (IL),MetLife Stadium,101.4,,27.0,0.0,,,9.0,,False
+401907655,2026,1,Carnegie Mellon,John Carroll,MetLife Stadium,80.1,,46.0,0.0,,,7.5,,False
+401907420,2026,1,Ferrum,Emory & Henry,MetLife Stadium,89.3,,43.0,0.0,,,8.0,,False
+401906929,2026,1,Quincy,Roosevelt,MetLife Stadium,86.7,,53.0,0.012,,,10.9,,False
+401908088,2026,1,St. John Fisher,FDU Florham,MetLife Stadium,70.1,,59.0,0.0,,,8.0,,False
+401908039,2026,1,Saint John's (MN),Wisconsin La Crosse,MetLife Stadium,87.0,,52.0,0.0,,,16.2,,False
+401908018,2026,1,Wisconsin Oshkosh,Linfield,MetLife Stadium,75.6,,70.0,0.0,,,10.0,,False
+401909047,2026,1,Oberlin,Hiram,MetLife Stadium,75.6,,56.0,0.0,,,14.2,,False
+401908921,2026,1,St. Scholastica,Wisconsin Lutheran,MetLife Stadium,71.5,,69.0,0.0,,,11.2,,False
+401908231,2026,1,Hanover,Centre,MetLife Stadium,94.8,,41.0,0.0,,,7.0,,False
+401908499,2026,1,Lake Forest,Greenville,MetLife Stadium,78.5,,67.0,0.0,,,9.6,,False
+401908257,2026,1,Manchester,Westminster (MO),MetLife Stadium,77.8,,79.0,0.0,,,8.9,,False
+401908412,2026,1,Sewanee,Bethany (WV),MetLife Stadium,87.2,,51.0,0.0,,,4.5,,False
+401908508,2026,1,Martin Luther,Macalester,MetLife Stadium,95.0,,42.0,0.0,,,15.3,,False
+401908514,2026,1,Minnesota Morris,Concordia Chicago,MetLife Stadium,88.8,,49.0,0.0,,,19.4,,False
+401908759,2026,1,Luther,Lawrence,MetLife Stadium,90.1,,50.0,0.0,,,13.7,,False
+401908247,2026,1,Nebraska Wesleyan,Concordia (MN),MetLife Stadium,105.3,,23.0,0.0,,,11.6,,False
+401908765,2026,1,Ripon,Concordia (WI),MetLife Stadium,76.6,,68.0,0.0,,,12.2,,False
+401908771,2026,1,Grinnell,Mount Mercy,MetLife Stadium,94.3,,39.0,0.0,,,9.4,,False
+401908722,2026,1,Geneva,Widener,MetLife Stadium,80.2,,44.0,0.0,,,9.5,,False
+401906206,2026,1,Shorter,Benedict,MetLife Stadium,92.7,,44.0,0.0,,,4.2,,False
+401906597,2026,1,Lenoir Rhyne,West Alabama,MetLife Stadium,90.6,,49.0,0.106,,,2.0,,False
+401906682,2026,1,Lake Erie,Saint Anselm,MetLife Stadium,71.2,,62.0,0.0,,,11.3,,False
+401907111,2026,1,Black Hills State,Dakota State University,MetLife Stadium,93.2,,16.0,0.0,,,8.1,,False
+401907159,2026,1,South Dakota Mines,Southwest Baptist,MetLife Stadium,97.7,,14.0,0.0,,,6.5,,False
+401907475,2026,1,American International,Lock Haven,MetLife Stadium,76.7,,45.0,0.0,,,9.8,,False
+401908460,2026,1,Pomona Pitzer,Willamette,MetLife Stadium,80.5,,38.0,0.0,,,6.5,,False
+401856658,2026,1,Georgia,Tennessee State,MetLife Stadium,95.5,,38.0,0.0,,,11.6,,False
+401908448,2026,1,Claremont Mudd Scripps,Northwestern (MN),MetLife Stadium,80.5,,38.0,0.0,,,6.5,,False
+401868111,2026,1,Montana,Drake,MetLife Stadium,62.8,,46.0,0.0,,,1.9,,False
+401856666,2026,1,Tennessee,Furman,MetLife Stadium,90.4,,48.0,0.0,,,2.7,,False
+401856667,2026,1,Texas,Texas State,MetLife Stadium,97.6,,34.0,0.0,,,4.7,,False
+401858434,2026,1,Penn State,Marshall,MetLife Stadium,77.8,,48.0,0.0,,,8.8,,False
+401856777,2026,1,Cincinnati,Boston College,MetLife Stadium,90.6,,49.0,0.0,,,6.8,,False
+401858433,2026,1,Oregon,Boise State,MetLife Stadium,65.4,,58.0,0.0,,,4.0,,False
+401858209,2026,1,Duke,Tulane,MetLife Stadium,98.1,,33.0,0.0,,,2.8,,False
+401862694,2026,1,Charlotte,The Citadel,MetLife Stadium,103.5,,24.0,0.0,,,4.8,,False
+401862696,2026,1,Navy,Towson,MetLife Stadium,80.3,,61.0,0.0,,,6.5,,False
+401866627,2026,1,App State,Maine,MetLife Stadium,78.6,,64.0,0.0,,,8.5,,False
+401866625,2026,1,Campbell,Western Carolina,MetLife Stadium,100.4,,33.0,0.0,,,3.8,,False
+401856772,2026,1,Tulsa,Oklahoma State,MetLife Stadium,102.8,,24.0,0.0,,,6.0,,False
+401906921,2026,1,Allen,Florida Memorial University,MetLife Stadium,101.5,,28.0,0.0,,,1.6,,False
+401908429,2026,1,Pacific Lutheran,Cal Lutheran,MetLife Stadium,72.3,,41.0,0.0,,,5.2,,False
+401907130,2026,1,Eastern New Mexico,Colorado Mesa,MetLife Stadium,92.0,,28.0,0.004,,,10.5,,False
+401907852,2026,1,Alfred State,Thiel,MetLife Stadium,67.1,,59.0,0.0,,,11.2,,False
+401907634,2026,1,Bemidji State,Southwest Minnesota State,MetLife Stadium,76.6,,72.0,0.0,,,16.3,,False
+401907615,2026,1,Seton Hill,West Liberty,MetLife Stadium,80.0,,53.0,0.0,,,7.9,,False
+401858426,2026,1,Iowa,Northern Illinois,MetLife Stadium,92.6,,49.0,0.0,,,11.6,,False
+401856635,2026,1,Arkansas,North Alabama,MetLife Stadium,88.6,,51.0,0.008,,,0.9,,False
+401868356,2026,1,Southern Miss,Alcorn State,MetLife Stadium,89.4,,58.0,0.035,,,5.7,,False
+401906973,2026,1,Fort Valley State,Tuskegee,MetLife Stadium,90.0,,56.0,0.008,,,7.7,,False
+401908275,2026,1,Lyon,East Texas Baptist,MetLife Stadium,66.4,,61.0,0.0,,,11.3,,False
+401868345,2026,1,East Tennessee State,Tusculum,MetLife Stadium,83.1,,63.0,0.043,,,4.2,,False
+401867978,2026,1,North Carolina Central,Elizabeth City State,MetLife Stadium,89.6,,51.0,0.016,,,6.1,,False
+401867917,2026,1,Robert Morris,West Virginia State,MetLife Stadium,75.3,,52.0,0.0,,,9.9,,False
+401867692,2026,1,William & Mary,Delaware State,MetLife Stadium,72.1,,94.0,0.035,,,6.7,,False
+401866626,2026,1,Davidson,Elon,MetLife Stadium,78.6,,73.0,0.031,,,13.3,,False
+401868325,2026,1,Alabama State,Lane College,MetLife Stadium,92.7,,42.0,0.0,,,1.4,,False
+401869127,2026,1,Howard,Richmond,MetLife Stadium,80.7,,58.0,0.004,,,3.2,,False
+401868336,2026,1,Chattanooga,Tennessee Tech,MetLife Stadium,87.2,,57.0,0.0,,,6.3,,False
+401867973,2026,1,Old Dominion,Norfolk State,MetLife Stadium,78.4,,74.0,0.134,,,10.1,,False
+401860878,2026,1,Colorado State,Wyoming,MetLife Stadium,90.1,,18.0,0.0,,,13.2,,False
+401868274,2026,1,Mercer,Presbyterian,MetLife Stadium,85.0,,59.0,0.031,,,2.3,,False
+401867989,2026,1,Bucknell,Villanova,MetLife Stadium,71.2,,61.0,0.0,,,13.1,,False
+401906146,2026,1,Virginia Union,Livingstone,MetLife Stadium,67.7,,98.0,0.012,,,5.1,,False
+401907847,2026,1,Franklin,North Park,MetLife Stadium,81.3,,39.0,0.0,,,9.3,,False
+401908076,2026,1,Averett,North Carolina Wesleyan,MetLife Stadium,74.6,,89.0,0.0,,,5.3,,False
+401908241,2026,1,Loras,St. Olaf,MetLife Stadium,85.0,,69.0,0.0,,,13.0,,False
+401908304,2026,1,Greensboro,Guilford,MetLife Stadium,89.1,,49.0,0.063,,,6.0,,False
+401906621,2026,1,Walsh,Wheeling,MetLife Stadium,75.2,,48.0,0.0,,,11.7,,False
+401906903,2026,1,Saginaw Valley State,Texas A&M-Kingsville,MetLife Stadium,86.5,,64.0,0.008,,,9.4,,False
+401906632,2026,1,Northern Michigan,Tiffin,MetLife Stadium,63.0,,78.0,0.0,,,5.2,,False
+401906199,2026,1,Catawba,North Greenville,MetLife Stadium,71.3,,95.0,0.071,,,18.6,,False
+401906178,2026,1,UVA Wise,Chowan,MetLife Stadium,80.5,,63.0,0.051,,,7.5,,False
+401906152,2026,1,Fayetteville State,UNC Pembroke,MetLife Stadium,94.2,,43.0,0.031,,,6.3,,False
+401907703,2026,1,University of Mary,Minnesota State,MetLife Stadium,101.0,,23.0,0.0,,,6.9,,False
+401908781,2026,1,Eureka,Knox,MetLife Stadium,86.3,,65.0,0.0,,,11.8,,False
+401907247,2026,1,Missouri Southern State,Upper Iowa,MetLife Stadium,98.4,,28.0,0.0,,,12.5,,False
+401907956,2026,1,Dubuque,Wisconsin Stout,MetLife Stadium,82.1,,75.0,0.0,,,13.3,,False
+401906605,2026,1,Delta State,Wingate,MetLife Stadium,87.7,,58.0,0.0,,,3.8,,False
+401906589,2026,1,Missouri S&T,Northeastern State,MetLife Stadium,94.6,,33.0,0.0,,,8.8,,False
+401907456,2026,1,Newberry,Reinhardt,MetLife Stadium,92.7,,38.0,0.0,,,8.6,,False
+401906166,2026,1,Barton,Shaw,MetLife Stadium,82.1,,70.0,0.028,,,10.7,,False
+401908933,2026,1,Christopher Newport,Apprentice School,MetLife Stadium,75.7,,80.0,0.169,,,11.0,,False
+401908426,2026,1,Southwestern U,McMurry,MetLife Stadium,98.0,,29.0,0.0,,,6.9,,False
+401908298,2026,1,Huntingdon,Berry,MetLife Stadium,89.0,,51.0,0.0,,,3.9,,False
+401908272,2026,1,Rose Hulman,DePauw,MetLife Stadium,86.9,,67.0,0.0,,,7.0,,False
+401908267,2026,1,Mount St Joseph,Muskingum,MetLife Stadium,82.9,,70.0,0.008,,,9.9,,False
+401907977,2026,1,Wisconsin Stevens Point,Augsburg,MetLife Stadium,74.2,,62.0,0.0,,,11.3,,False
+401867684,2026,1,UT Martin,Chicago State,MetLife Stadium,91.5,,45.0,0.0,,,4.8,,False
+401856771,2026,1,Kansas State,Nicholls,MetLife Stadium,98.2,,29.0,0.0,,,9.3,,False
+401870763,2026,1,Troy,Sam Houston,MetLife Stadium,86.1,,58.0,0.0,,,8.3,,False
+401868085,2026,1,Eastern Washington,Northern Iowa,MetLife Stadium,67.7,,30.0,0.0,,,2.4,,False
+401868071,2026,1,Central Arkansas,West Florida,MetLife Stadium,90.9,,51.0,0.0,,,2.7,,False
+401867845,2026,1,Western Illinois,Illinois State,MetLife Stadium,91.7,,53.0,0.0,,,15.6,,False
+401856770,2026,1,Texas Tech,Abilene Christian,MetLife Stadium,97.6,,21.0,0.0,,,16.8,,False
+401869136,2026,1,McNeese,Texas Wesleyan,MetLife Stadium,88.1,,59.0,0.0,,,9.0,,False
+401862699,2026,1,South Florida,Florida International,MetLife Stadium,79.8,,75.0,0.0,,,2.5,,False
+401868958,2026,1,Jackson State,Edward Waters,MetLife Stadium,88.1,,58.0,0.0,,,2.8,,False
+401862697,2026,1,Rice,Houston Christian,MetLife Stadium,92.6,,47.0,0.0,,,12.7,,False
+401868953,2026,1,Grambling,Central State,MetLife Stadium,84.4,,66.0,0.016,,,2.0,,False
+401862695,2026,1,Memphis,Arkansas State,MetLife Stadium,91.4,,48.0,0.0,,,3.5,,False
+401860880,2026,1,Utah State,Idaho State,MetLife Stadium,81.2,,15.0,0.0,,,9.1,,False
+401868297,2026,1,Alabama A&M,Miles,MetLife Stadium,84.5,,61.0,0.0,,,2.6,,False
+401867866,2026,1,Middle Tennessee,Murray State,MetLife Stadium,84.0,,67.0,0.0,,,4.3,,False
+401868140,2026,1,Jacksonville State,Eastern Kentucky,MetLife Stadium,84.4,,62.0,0.0,,,4.7,,False
+401868170,2026,1,Georgia Southern,Charleston Southern,MetLife Stadium,89.1,,52.0,0.0,,,9.8,,False
+401868316,2026,1,South Alabama,SE Louisiana,MetLife Stadium,83.9,,71.0,0.008,,,6.2,,False
+401856668,2026,1,Texas A&M,Missouri State,MetLife Stadium,95.3,,35.0,0.0,,,9.1,,False
+401868970,2026,1,Southern,Kentucky State,MetLife Stadium,89.0,,55.0,0.0,,,2.0,,False
+401856669,2026,1,Vanderbilt,Austin Peay,MetLife Stadium,85.5,,57.0,0.0,,,1.4,,False
+401856662,2026,1,Mississippi State,UL Monroe,MetLife Stadium,87.0,,58.0,0.004,,,5.1,,False
+401869129,2026,1,Louisiana Tech,Northwestern State,MetLife Stadium,84.5,,66.0,0.016,,,2.0,,False
+401858211,2026,1,Virginia Tech,VMI,MetLife Stadium,76.1,,73.0,0.016,,,5.9,,False
+401856660,2026,1,LSU,Clemson,MetLife Stadium,90.6,,51.0,0.0,,,1.0,,False
+401858428,2026,1,Michigan,Western Michigan,MetLife Stadium,75.1,,49.0,0.0,,,12.1,,False
+401908111,2026,1,LaGrange,Point University,MetLife Stadium,83.4,,63.0,0.0,,,4.0,,False
+401856637,2026,1,Florida,Florida Atlantic,MetLife Stadium,85.5,,61.0,0.0,,,5.9,,False
+401868158,2026,1,Southern Utah,Weber State,MetLife Stadium,72.7,,37.0,0.0,,,15.6,,False
+401869142,2026,1,Louisiana,Lamar,MetLife Stadium,83.9,,68.0,0.0,,,8.1,,False
+401868074,2026,1,Cal Poly,Central Washington,MetLife Stadium,73.0,,41.0,0.0,,,5.9,,False
+401858427,2026,1,Maryland,Hampton,MetLife Stadium,76.1,,68.0,0.004,,,3.9,,False
+401867883,2026,1,Northern Colorado,South Dakota,MetLife Stadium,89.7,,22.0,0.0,,,5.0,,False
+401858431,2026,1,Northwestern,South Dakota State,MetLife Stadium,73.7,,71.0,0.0,,,10.3,,False
+401856775,2026,1,BYU,Utah Tech,MetLife Stadium,83.1,,14.0,0.0,,,11.5,,False
+401868306,2026,1,Stephen F. Austin,East Texas A&M,MetLife Stadium,89.4,,47.0,0.0,,,4.0,,False
+401907779,2026,1,Augustana (IL),Simpson (IA),MetLife Stadium,82.2,,77.0,0.0,,,14.4,,False
+401908433,2026,1,Trinity (TX),Texas Lutheran,MetLife Stadium,87.8,,53.0,0.004,,,15.3,,False
+401908454,2026,1,La Verne,Azusa Pacific,MetLife Stadium,81.9,,31.0,0.0,,,11.2,,False
+401908467,2026,1,Whittier,Simpson (CA),MetLife Stadium,81.0,,35.0,0.0,,,11.8,,False
+401906168,2026,1,Winston-Salem State,Mars Hill,MetLife Stadium,72.0,,90.0,0.043,,,5.0,,False
+401907100,2026,1,Sul Ross State,Adams State,MetLife Stadium,85.1,,40.0,0.0,,,17.0,,False
+401907151,2026,1,Fort Lewis,Phoenix,MetLife Stadium,75.8,,32.0,0.0,,,9.1,,False
+401907357,2026,1,Pittsburg State,Emporia State,MetLife Stadium,98.6,,27.0,0.0,,,11.9,,False
+401907465,2026,1,Rhodes,Washington St. Louis,MetLife Stadium,88.9,,53.0,0.0,,,6.1,,False
+401908254,2026,1,Monmouth (IL),Wartburg,MetLife Stadium,83.3,,75.0,0.0,,,14.6,,False
+401868119,2026,1,Montana State,Butler,MetLife Stadium,72.7,,23.0,0.0,,,8.1,,False
+401870790,2026,1,New Mexico State,Mercyhurst,MetLife Stadium,89.9,,31.0,0.0,,,6.2,,False
+401856773,2026,1,Arizona,Northern Arizona,MetLife Stadium,83.3,,56.0,0.055,,,8.0,,False
+401860879,2026,1,San Diego State,Portland State,MetLife Stadium,76.6,,51.0,0.0,,,6.1,,False
+401856774,2026,1,Arizona State,Morgan State,MetLife Stadium,84.8,,49.0,0.004,,,21.7,,False
+401864497,2026,1,Hawai'i,UNLV,MetLife Stadium,83.5,,64.0,0.004,,,12.9,,False
+401864498,2026,1,New Mexico,Central Michigan,MetLife Stadium,84.0,,32.0,0.0,,,4.4,,False
+401866411,2026,1,Sacramento State,Mississippi Valley State,MetLife Stadium,84.7,,59.0,0.0,,,3.0,,False
+401868163,2026,1,San Diego,UC Davis,MetLife Stadium,73.1,,60.0,0.0,,,4.1,,False
+401908393,2026,1,George Fox,Redlands,MetLife Stadium,66.8,,49.0,0.0,,,3.6,,False
+401864432,2026,1,Nevada,Western Kentucky,MetLife Stadium,70.5,,20.0,0.0,,,7.6,,False
+401858210,2026,1,California,UCLA,MetLife Stadium,63.8,,63.0,0.0,,,6.7,,False
+401868967,2026,1,Prairie View A&M,Texas Southern,MetLife Stadium,88.5,,60.0,0.0,,,3.9,,False
+401867939,2026,1,Florida A&M,South Carolina State,MetLife Stadium,93.1,,46.0,0.012,,,7.9,,False
+401858437,2026,1,Washington,Washington State,MetLife Stadium,75.0,,36.0,0.0,,,5.1,,False
+401856661,2026,1,Ole Miss,Louisville,MetLife Stadium,85.6,,46.0,0.0,,,11.1,,False
+401906158,2026,1,Johnson C. Smith,Albany State,MetLife Stadium,76.7,,35.0,0.0,,,9.8,,False
+401858438,2026,1,Notre Dame,Wisconsin,MetLife Stadium,68.5,,67.0,0.0,,,8.9,,False
+401858212,2026,1,Florida State,SMU,MetLife Stadium,81.2,,47.0,0.0,,,6.5,,False
+401906516,2026,2,Northwestern (OK),Arkansas Tech,MetLife Stadium,108.9,,14.0,0.0,,,6.7,,False
+401907622,2026,2,West Virginia Wesleyan,Shippensburg,MetLife Stadium,77.1,,67.0,0.0,,,10.1,,False
+401909126,2026,2,Denison,Oberlin,MetLife Stadium,70.8,,77.0,0.0,,,7.0,,False
+401906527,2026,2,East Central,Arkansas Monticello,MetLife Stadium,102.4,,23.0,0.0,,,19.0,,False
+401906546,2026,2,Southwestern Oklahoma State,Harding,MetLife Stadium,103.2,,17.0,0.0,,,16.3,,False
+401858213,2026,2,Miami,Florida A&M,MetLife Stadium,86.5,,59.0,0.0,,,9.2,,False
+401858220,2026,2,Virginia,Norfolk State,MetLife Stadium,72.4,,88.0,0.024,,,4.5,,False
+401858222,2026,2,NC State,Richmond,MetLife Stadium,86.2,,47.0,0.0,,,4.8,,False
+401858215,2026,2,Louisville,Villanova,MetLife Stadium,70.7,,97.0,0.004,,,4.2,,False
+401906200,2026,2,North Greenville,Charleston (WV),MetLife Stadium,84.7,,43.0,0.0,,,3.0,,False
+401908202,2026,2,King's,Stevenson,MetLife Stadium,66.5,,56.0,0.0,,,2.7,,False
+401908691,2026,2,St. Lawrence,St. John Fisher,MetLife Stadium,61.7,,66.0,0.0,,,6.4,,False
+401858214,2026,2,Boston College,Rutgers,MetLife Stadium,71.4,,34.0,0.0,,,7.8,,False
+401856678,2026,2,Kansas,Missouri,MetLife Stadium,77.8,,79.0,0.004,,,13.9,,False
+401864504,2026,2,San José State,Cal Poly,MetLife Stadium,73.2,,52.0,0.0,,,2.0,,False
+401866632,2026,2,Long Island University,UAlbany,MetLife Stadium,70.9,,46.0,0.0,,,8.2,,False
+401867685,2026,2,Chicago State,Kentucky Christian,MetLife Stadium,65.6,,97.0,0.0,,,5.4,,False
+401865252,2026,2,New Mexico,Mercyhurst,MetLife Stadium,82.4,,36.0,0.0,,,13.2,,False
+401864571,2026,2,East Carolina,App State,MetLife Stadium,88.4,,50.0,0.0,,,10.0,,False
+401856679,2026,2,Michigan,Oklahoma,MetLife Stadium,68.8,,84.0,0.0,,,5.5,,False
+401856683,2026,2,Texas A&M,Arizona State,MetLife Stadium,92.6,,48.0,0.0,,,16.1,,False
+401858224,2026,2,Purdue,Wake Forest,MetLife Stadium,74.5,,83.0,0.0,,,6.6,,False
+401858218,2026,2,North Carolina,East Tennessee State,MetLife Stadium,90.0,,42.0,0.0,,,9.0,,False
+401858439,2026,2,Indiana,Howard,MetLife Stadium,75.1,,88.0,0.008,,,7.3,,False
+401862702,2026,2,Army,South Florida,MetLife Stadium,58.2,,98.0,0.075,,,2.9,,False
+401870822,2026,2,Davidson,Dickinson,MetLife Stadium,88.4,,41.0,0.0,,,8.5,,False
+401868227,2026,2,Dayton,Thomas More,MetLife Stadium,76.1,,82.0,0.004,,,6.7,,False
+401866628,2026,2,Rhode Island,Elon,MetLife Stadium,64.8,,71.0,0.02,,,2.5,,False
+401856782,2026,2,Oklahoma State,Oregon,MetLife Stadium,85.2,,58.0,0.004,,,15.7,,False
+401858442,2026,2,Temple,Penn State,MetLife Stadium,64.2,,92.0,0.028,,,7.3,,False
+401866416,2026,2,Kent State,Wofford,MetLife Stadium,68.2,,94.0,0.0,,,2.7,,False
+401908476,2026,2,Curry,Coast Guard,MetLife Stadium,64.6,,62.0,0.02,,,2.9,,False
+401908531,2026,2,WPI,New England,MetLife Stadium,61.9,,80.0,0.031,,,5.8,,False
+401908538,2026,2,Merchant Marine,Nichols,MetLife Stadium,62.3,,87.0,0.051,,,8.5,,False
+401908558,2026,2,MIT,New England College,MetLife Stadium,65.4,,59.0,0.02,,,3.9,,False
+401908569,2026,2,Fitchburg State,UMass Dartmouth,MetLife Stadium,62.6,,71.0,0.012,,,6.4,,False
+401908577,2026,2,Husson,Springfield,MetLife Stadium,72.8,,39.0,0.0,,,11.6,,False
+401908579,2026,2,Westfield State,Bridgewater State,MetLife Stadium,59.0,,82.0,0.043,,,3.8,,False
+401908586,2026,2,Mass Maritime,Dean,MetLife Stadium,69.3,,58.0,0.02,,,5.7,,False
+401908676,2026,2,Ohio Wesleyan,John Carroll,MetLife Stadium,70.0,,96.0,0.0,,,4.7,,False
+401908699,2026,2,Moravian,Rowan,MetLife Stadium,59.8,,99.0,0.051,,,6.9,,False
+401908925,2026,2,Norwich,Vermont State Castleton,MetLife Stadium,72.0,,40.0,0.0,,,7.7,,False
+401908368,2026,2,Waynesburg,Ursinus,MetLife Stadium,69.3,,97.0,0.012,,,6.9,,False
+401856781,2026,2,Kansas State,Washington State,MetLife Stadium,92.4,,35.0,0.0,,,10.4,,False
+401858221,2026,2,Virginia Tech,Old Dominion,MetLife Stadium,79.7,,64.0,0.0,,,5.8,,False
+401906676,2026,2,Northwood,Saginaw Valley State,MetLife Stadium,68.8,,69.0,0.0,,,5.6,,False
+401906845,2026,2,Hillsdale,Wayne State (MI),MetLife Stadium,67.9,,94.0,0.0,,,3.2,,False
+401906861,2026,2,Findlay,Fairmont State,MetLife Stadium,69.9,,97.0,0.004,,,5.3,,False
+401907014,2026,2,Davenport,Indianapolis,MetLife Stadium,78.6,,79.0,0.0,,,7.9,,False
+401907485,2026,2,Frostburg State,Assumption,MetLife Stadium,65.5,,97.0,0.008,,,3.9,,False
+401907517,2026,2,Millersville,California (PA),MetLife Stadium,62.9,,97.0,0.067,,,5.0,,False
+401907527,2026,2,Kutztown,Clarion,MetLife Stadium,59.2,,98.0,0.067,,,7.9,,False
+401907553,2026,2,Shepherd,Gannon,MetLife Stadium,66.0,,94.0,0.012,,,3.3,,False
+401907559,2026,2,Pace,Monroe,MetLife Stadium,58.8,,98.0,0.13,,,4.5,,False
+401907746,2026,2,Rochester (NY),SUNY Morrisville,MetLife Stadium,69.4,,66.0,0.0,,,10.3,,False
+401907656,2026,2,Catholic,Carnegie Mellon,MetLife Stadium,72.0,,95.0,0.004,,,0.8,,False
+401907851,2026,2,Albion,Wheaton (IL),MetLife Stadium,69.7,,86.0,0.0,,,5.4,,False
+401907880,2026,2,Union,SUNY Cortland,MetLife Stadium,57.5,,91.0,0.0,,,4.6,,False
+401907967,2026,2,Hartwick,Buffalo State,MetLife Stadium,55.8,,94.0,0.016,,,3.8,,False
+401908019,2026,2,Alma,Wisconsin Oshkosh,MetLife Stadium,67.5,,73.0,0.0,,,6.7,,False
+401908092,2026,2,Rensselaer,Utica,MetLife Stadium,60.3,,74.0,0.0,,,9.2,,False
+401908163,2026,2,FDU Florham,Albright,MetLife Stadium,60.4,,96.0,0.047,,,7.0,,False
+401908207,2026,2,Anderson (IN),Gallaudet,MetLife Stadium,75.3,,83.0,0.0,,,8.2,,False
+401908365,2026,2,Muhlenberg,Endicott,MetLife Stadium,59.6,,99.0,0.059,,,6.7,,False
+401868028,2026,2,Lafayette,Marist,MetLife Stadium,59.6,,98.0,0.047,,,7.9,,False
+401856673,2026,2,Georgia,Western Kentucky,MetLife Stadium,91.0,,41.0,0.0,,,3.9,,False
+401866417,2026,2,Miami (OH),Holy Cross,MetLife Stadium,77.0,,83.0,0.008,,,9.3,,False
+401866415,2026,2,Central Michigan,Colgate,MetLife Stadium,72.0,,57.0,0.0,,,7.4,,False
+401873404,2026,2,Kean,SUNY Maritime,MetLife Stadium,61.5,,94.0,0.043,,,7.8,,False
+401856791,2026,2,West Virginia,UT Martin,MetLife Stadium,71.2,,95.0,0.012,,,5.7,,False
+401907872,2026,2,Hobart,Brockport,MetLife Stadium,61.7,,90.0,0.0,,,11.4,,False
+401907978,2026,2,Hope,Wisconsin Stevens Point,MetLife Stadium,67.7,,89.0,0.0,,,8.5,,False
+401908102,2026,2,Maryville (TN),Hanover,MetLife Stadium,93.2,,38.0,0.0,,,12.2,,False
+401908172,2026,2,Widener,Alvernia,MetLife Stadium,64.2,,95.0,0.039,,,7.2,,False
+401908182,2026,2,Lebanon Valley,Delaware Valley,MetLife Stadium,60.6,,98.0,0.102,,,8.9,,False
+401908273,2026,2,Kalamazoo,Rose Hulman,MetLife Stadium,77.0,,68.0,0.004,,,5.7,,False
+401908258,2026,2,Hiram,Manchester,MetLife Stadium,67.3,,95.0,0.0,,,2.3,,False
+401908339,2026,2,Westminster (PA),Franklin & Marshall,MetLife Stadium,66.2,,99.0,0.004,,,2.1,,False
+401908354,2026,2,Randolph Macon,Johns Hopkins,MetLife Stadium,82.5,,66.0,0.0,,,6.9,,False
+401908360,2026,2,Salisbury,McDaniel,MetLife Stadium,82.9,,68.0,0.02,,,10.0,,False
+401908377,2026,2,Brevard,Sewanee,MetLife Stadium,85.9,,42.0,0.0,,,7.9,,False
+401908610,2026,2,Western Connecticut State,Christopher Newport,MetLife Stadium,58.0,,99.0,0.11,,,3.2,,False
+401908518,2026,2,Western New England,Salve Regina,MetLife Stadium,57.6,,94.0,0.043,,,3.8,,False
+401908638,2026,2,Allegheny,Juniata,MetLife Stadium,66.3,,98.0,0.0,,,2.7,,False
+401908645,2026,2,Lycoming,Montclair State,MetLife Stadium,58.8,,99.0,0.071,,,6.2,,False
+401908651,2026,2,Thiel,Adrian,MetLife Stadium,86.2,,63.0,0.028,,,6.1,,False
+401908712,2026,2,Wilkes,The College of New Jersey,MetLife Stadium,89.0,,46.0,0.0,,,6.4,,False
+401908787,2026,2,Hampden Sydney,Monmouth (IL),MetLife Stadium,86.0,,56.0,0.0,,,7.3,,False
+401909137,2026,2,Kenyon,Wooster,MetLife Stadium,69.3,,97.0,0.0,,,5.3,,False
+401908966,2026,2,Wabash,Wittenberg,MetLife Stadium,75.3,,85.0,0.0,,,9.2,,False
+401907413,2026,2,Carson Newman,Wingate,MetLife Stadium,89.4,,45.0,0.0,,,13.3,,False
+401907404,2026,2,Mars Hill,Catawba,MetLife Stadium,82.4,,57.0,0.0,,,4.5,,False
+401906950,2026,2,Morehouse,Central State,MetLife Stadium,91.7,,38.0,0.0,,,6.1,,False
+401906611,2026,2,Washington & Jefferson,Keystone,MetLife Stadium,93.8,,45.0,0.0,,,2.3,,False
+401906598,2026,2,West Alabama,Pittsburg State,MetLife Stadium,89.2,,58.0,0.043,,,5.1,,False
+401906590,2026,2,Truman State,Northeastern State,MetLife Stadium,79.8,,72.0,0.0,,,1.2,,False
+401906194,2026,2,Shorter,UNC Pembroke,MetLife Stadium,91.3,,44.0,0.0,,,6.3,,False
+401907421,2026,2,Emory & Henry,Tusculum,MetLife Stadium,88.1,,49.0,0.0,,,3.1,,False
+401906147,2026,2,Chowan,Virginia Union,MetLife Stadium,92.8,,42.0,0.0,,,12.4,,False
+401873229,2026,2,Puget Sound,Lewis-Clark Valley College,MetLife Stadium,59.8,,54.0,0.0,,,8.7,,False
+401907578,2026,2,Post,West Liberty,MetLife Stadium,88.2,,50.0,0.0,,,7.8,,False
+401907704,2026,2,Concordia St. Paul,University of Mary,MetLife Stadium,75.1,,40.0,0.0,,,10.1,,False
+401907759,2026,2,Lawrence,Buena Vista,MetLife Stadium,73.1,,54.0,0.0,,,10.1,,False
+401907848,2026,2,Olivet,North Park,MetLife Stadium,72.8,,74.0,0.0,,,6.3,,False
+401908492,2026,2,Baldwin Wallace,Bethany (WV),MetLife Stadium,72.5,,86.0,0.0,,,0.5,,False
+401908836,2026,2,Mount Union,Grove City,MetLife Stadium,71.7,,88.0,0.0,,,4.3,,False
+401908663,2026,2,Capital,Wilmington (OH),MetLife Stadium,71.1,,94.0,0.0,,,5.0,,False
+401867990,2026,2,VMI,Bucknell,MetLife Stadium,83.5,,60.0,0.0,,,6.1,,False
+401907996,2026,2,Coe,Wisconsin River Falls,MetLife Stadium,73.7,,88.0,0.0,,,9.2,,False
+401908009,2026,2,Wisconsin Platteville,Dubuque,MetLife Stadium,66.5,,96.0,0.0,,,10.5,,False
+401908040,2026,2,Wisconsin La Crosse,Hardin Simmons,MetLife Stadium,78.3,,56.0,0.0,,,12.5,,False
+401908268,2026,2,Aurora,Mount St Joseph,MetLife Stadium,70.4,,97.0,0.016,,,4.5,,False
+401908299,2026,2,Hendrix,Huntingdon,MetLife Stadium,99.7,,31.0,0.0,,,9.7,,False
+401908401,2026,2,Austin,Rhodes,MetLife Stadium,91.2,,28.0,0.0,,,5.4,,False
+401908500,2026,2,Greenville,Lakeland,MetLife Stadium,80.1,,79.0,0.0,,,13.6,,False
+401908703,2026,2,Bridgewater,Susquehanna,MetLife Stadium,86.6,,50.0,0.0,,,10.1,,False
+401908724,2026,2,Cornell (IA),Beloit,MetLife Stadium,72.1,,91.0,0.0,,,8.6,,False
+401908772,2026,2,Concordia Chicago,Grinnell,MetLife Stadium,70.9,,95.0,0.004,,,2.4,,False
+401908782,2026,2,Knox,Lake Forest,MetLife Stadium,75.8,,83.0,0.0,,,7.9,,False
+401908790,2026,2,Marietta,Ohio Northern,MetLife Stadium,71.4,,96.0,0.024,,,8.0,,False
+401868280,2026,2,St. Thomas (MN),Northern Michigan,MetLife Stadium,77.9,,37.0,0.0,,,10.3,,False
+401868033,2026,2,Lehigh,William & Mary,MetLife Stadium,60.9,,98.0,0.051,,,8.6,,False
+401867895,2026,2,Youngstown State,Duquesne,MetLife Stadium,68.4,,98.0,0.004,,,2.1,,False
+401873394,2026,2,Rockford,Elmhurst,MetLife Stadium,68.8,,98.0,0.0,,,7.3,,False
+401866413,2026,2,Ball State,Stony Brook,MetLife Stadium,78.1,,77.0,0.004,,,9.1,,False
+401907833,2026,2,Illinois Wesleyan,Trine,MetLife Stadium,80.6,,71.0,0.0,,,11.1,,False
+401907790,2026,2,Carroll (WI),Wisconsin Eau Claire,MetLife Stadium,65.8,,91.0,0.004,,,9.5,,False
+401907780,2026,2,Wisconsin Stout,Augustana (IL),MetLife Stadium,80.2,,32.0,0.0,,,12.9,,False
+401907728,2026,2,Wayne State (NE),Minnesota Duluth,MetLife Stadium,86.4,,47.0,0.0,,,13.9,,False
+401907692,2026,2,Winona State,Jamestown,MetLife Stadium,75.9,,53.0,0.0,,,11.4,,False
+401907685,2026,2,Augustana (SD),Minot State,MetLife Stadium,82.2,,54.0,0.0,,,14.8,,False
+401907494,2026,2,Bloomsburg,Edinboro,MetLife Stadium,59.4,,97.0,0.028,,,6.2,,False
+401907678,2026,2,Sioux Falls,Minnesota St Moorhead,MetLife Stadium,82.2,,54.0,0.0,,,14.8,,False
+401907466,2026,2,Washington St. Louis,DePauw,MetLife Stadium,84.3,,64.0,0.0,,,7.2,,False
+401907887,2026,2,Wisconsin Whitewater,Saint Xavier,MetLife Stadium,65.6,,97.0,0.004,,,9.4,,False
+401906930,2026,2,Southwest Baptist,Roosevelt,MetLife Stadium,82.9,,57.0,0.0,,,8.0,,False
+401906167,2026,2,Shaw,Ferrum,MetLife Stadium,94.4,,35.0,0.0,,,11.1,,False
+401906169,2026,2,Barton,BLUEFIELD,MetLife Stadium,94.4,,37.0,0.0,,,10.9,,False
+401907844,2026,2,Wartburg,North Central College,MetLife Stadium,70.9,,87.0,0.0,,,10.1,,False
+401907274,2026,2,UVA Wise,Anderson (SC),MetLife Stadium,83.8,,50.0,0.0,,,11.2,,False
+401906995,2026,2,Emporia State,Michigan Tech,MetLife Stadium,88.5,,43.0,0.0,,,15.1,,False
+401908603,2026,2,Worcester State,Plymouth State,MetLife Stadium,58.4,,98.0,0.031,,,4.0,,False
+401907839,2026,2,Millikin,Luther,MetLife Stadium,84.2,,66.0,0.0,,,11.5,,False
+401907385,2026,2,Northwest Missouri State,Washburn,MetLife Stadium,87.2,,51.0,0.0,,,7.7,,False
+401908319,2026,2,Pacific Lutheran,Mary Hardin Baylor,MetLife Stadium,64.6,,41.0,0.0,,,12.8,,False
+401908509,2026,2,Concordia (WI),Martin Luther,MetLife Stadium,66.9,,82.0,0.0,,,7.9,,False
+401867953,2026,2,Delaware State,Bowie State,MetLife Stadium,72.5,,88.0,0.016,,,5.0,,False
+401906957,2026,2,Miles,Edward Waters,MetLife Stadium,91.0,,46.0,0.004,,,4.3,,False
+401907101,2026,2,Black Hills State,Adams State,MetLife Stadium,85.0,,15.0,0.0,,,11.2,,False
+401868112,2026,2,Montana,Utah Tech,MetLife Stadium,73.3,,15.0,0.0,,,5.8,,False
+401907131,2026,2,South Dakota Mines,Colorado Mesa,MetLife Stadium,89.7,,12.0,0.0,,,16.0,,False
+401856785,2026,2,Colorado,Weber State,MetLife Stadium,83.3,,28.0,0.0,,,3.0,,False
+401856677,2026,2,Minnesota,Mississippi State,MetLife Stadium,80.5,,37.0,0.0,,,10.2,,False
+401856674,2026,2,Kentucky,Alabama,MetLife Stadium,73.9,,89.0,0.008,,,8.3,,False
+401858217,2026,2,Illinois,Duke,MetLife Stadium,79.5,,79.0,0.004,,,11.7,,False
+401866420,2026,2,Massachusetts,Sacred Heart,MetLife Stadium,57.0,,99.0,0.008,,,2.3,,False
+401867929,2026,2,James Madison,Wagner,MetLife Stadium,83.5,,61.0,0.031,,,6.5,,False
+401866419,2026,2,Toledo,Central Connecticut,MetLife Stadium,73.4,,87.0,0.0,,,2.2,,False
+401858444,2026,2,UConn,Maryland,MetLife Stadium,59.1,,97.0,0.028,,,5.3,,False
+401859184,2026,2,Notre Dame,Rice,MetLife Stadium,73.1,,90.0,0.008,,,3.4,,False
+401858440,2026,2,Michigan State,Eastern Michigan,MetLife Stadium,74.1,,71.0,0.0,,,5.1,,False
+401862708,2026,2,UAB,UL Monroe,MetLife Stadium,91.6,,45.0,0.004,,,5.3,,False
+401858446,2026,2,Washington,Utah State,MetLife Stadium,56.0,,65.0,0.0,,,3.2,,False
+401866412,2026,2,Akron,Robert Morris,MetLife Stadium,76.6,,78.0,0.039,,,3.8,,False
+401856810,2026,2,BYU,Arizona,MetLife Stadium,80.1,,39.0,0.0,,,5.1,,False
+401856790,2026,2,Pittsburgh,UCF,MetLife Stadium,72.1,,94.0,0.02,,,5.7,,False
+401860884,2026,2,Texas State,UTSA,MetLife Stadium,102.0,,26.0,0.0,,,18.7,,False
