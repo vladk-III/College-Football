@@ -408,3 +408,13 @@ snapshot_ts,source,game_id,home_team,away_team,provider,spread,spread_open,over_
 2026-08-29T18:08:10.789659-04:00,cfbd,401856664,Oklahoma,UTEP,DraftKings,-41.5,-40.5,50.5,,,
 2026-09-02T18:20:05.228788-04:00,cfbd,401858423,Rutgers,Massachusetts,Bovada,-29.0,-30.5,52.5,54.5,,
 2026-09-02T18:20:05.228788-04:00,cfbd,401858423,Rutgers,Massachusetts,DraftKings,-29.5,-30.5,51.5,,-6500.0,2000.0
+2026-09-02T19:22:37.961988-04:00,cfbd,401856767,UCF,Bethune-Cookman,DraftKings,-42.5,-41.5,58.5,,,
+2026-09-02T19:22:37.961988-04:00,cfbd,401864425,Kennesaw State,West Georgia,DraftKings,-22.5,-22.5,51.5,51.5,-4000.0,1600.0
+2026-09-02T19:22:37.961988-04:00,cfbd,401866409,Buffalo,UAlbany,DraftKings,-18.5,-24.5,48.5,48.5,-1200.0,750.0
+2026-09-02T19:22:37.961988-04:00,cfbd,401864424,Delaware,Merrimack,DraftKings,-28.5,-28.5,55.5,55.5,-20000.0,3500.0
+2026-09-02T19:22:37.961988-04:00,cfbd,401858423,Rutgers,Massachusetts,Bovada,-29.0,-30.5,52.0,54.5,,
+2026-09-02T19:22:37.961988-04:00,cfbd,401858423,Rutgers,Massachusetts,DraftKings,-29.5,-30.5,51.5,,-6500.0,2000.0
+2026-09-02T19:22:37.961988-04:00,cfbd,401866622,Stony Brook,Lindenwood,DraftKings,-4.0,-4.0,50.5,50.5,-180.0,144.0
+2026-09-02T19:22:37.961988-04:00,cfbd,401867889,Samford,Southern Illinois,DraftKings,24.5,24.5,49.5,49.5,1200.0,-4000.0
+2026-09-02T19:22:37.961988-04:00,cfbd,401858204,Wake Forest,Akron,DraftKings,-24.5,-22.5,48.5,,-3200.0,1400.0
+2026-09-02T19:22:37.961988-04:00,cfbd,401858204,Wake Forest,Akron,Bovada,-25.0,-22.5,48.5,49.5,-3500.0,1100.0
