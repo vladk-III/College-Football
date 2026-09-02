@@ -406,3 +406,5 @@ snapshot_ts,source,game_id,home_team,away_team,provider,spread,spread_open,over_
 2026-08-29T18:08:10.789659-04:00,cfbd,401856668,Texas A&M,Missouri State,DraftKings,-41.5,-38.5,52.5,,,
 2026-08-29T18:08:10.789659-04:00,cfbd,401856664,Oklahoma,UTEP,Bovada,-40.5,-40.5,50.5,50.5,,
 2026-08-29T18:08:10.789659-04:00,cfbd,401856664,Oklahoma,UTEP,DraftKings,-41.5,-40.5,50.5,,,
+2026-09-02T18:20:05.228788-04:00,cfbd,401858423,Rutgers,Massachusetts,Bovada,-29.0,-30.5,52.5,54.5,,
+2026-09-02T18:20:05.228788-04:00,cfbd,401858423,Rutgers,Massachusetts,DraftKings,-29.5,-30.5,51.5,,-6500.0,2000.0
