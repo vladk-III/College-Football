@@ -488,9 +488,21 @@ def collect_weather(games_df: pd.DataFrame) -> pd.DataFrame:
         except (ValueError, TypeError):
             continue
 
+        venue_info = venues.get(venue_name) if pd.notna(venue_name) else None
+
+        # FIX 2: Check for dome BEFORE filtering by the 14-day API window 
+        # so domes > 14 days out properly get populated rather than orphaned as nulls
+        if venue_info and venue_info.get("is_dome"):
+            rows.append({
+                "game_id": g.get("game_id"), "season": g.get("season"), "week": g.get("week"),
+                "home_team": g.get("home_team"), "away_team": g.get("away_team"), "venue": venue_name,
+                "temperature": 72.0, "dewpoint": None, "humidity": None,
+                "precipitation": 0.0, "snowfall": 0.0, "wind_direction": None, "wind_speed": 0.0,
+                "weather_cond": "Dome", "is_indoor": True,
+            })
+            continue
+
         # OPEN-METEO LIMITATION: Forecast endpoint only supports up to 14 days in future
-        # and ~90 days in the past. If CFBD dumps the entire season, we MUST skip 
-        # games outside this window to avoid throwing a 400 Bad Request.
         days_diff = (game_dt - now_utc).days
         if days_diff > 14 or days_diff < -80:
             rows.append({
@@ -499,18 +511,6 @@ def collect_weather(games_df: pd.DataFrame) -> pd.DataFrame:
                 "temperature": None, "dewpoint": None, "humidity": None,
                 "precipitation": None, "snowfall": None, "wind_direction": None, "wind_speed": None,
                 "weather_cond": None, "is_indoor": False,
-            })
-            continue
-
-        venue_info = venues.get(venue_name) if pd.notna(venue_name) else None
-
-        if venue_info and venue_info.get("is_dome"):
-            rows.append({
-                "game_id": g.get("game_id"), "season": g.get("season"), "week": g.get("week"),
-                "home_team": g.get("home_team"), "away_team": g.get("away_team"), "venue": venue_name,
-                "temperature": 72.0, "dewpoint": None, "humidity": None,
-                "precipitation": 0.0, "snowfall": 0.0, "wind_direction": None, "wind_speed": 0.0,
-                "weather_cond": "Dome", "is_indoor": True,
             })
             continue
 
@@ -584,6 +584,11 @@ def collect_weather(games_df: pd.DataFrame) -> pd.DataFrame:
                 
                 # Open-Meteo returns a dict if 1 location requested, or a list of dicts if >1
                 results = data if isinstance(data, list) else [data]
+                
+                # FIX 3: Length check before zipping to prevent silent misassignment
+                if len(results) != len(chunk):
+                    LOG.error(f"Open-Meteo returned {len(results)} results for {len(chunk)} locations on {date_str}. Skipping chunk.")
+                    continue
                 
                 # 4. Match the batched results back to the games in the chunk
                 for (g, game_dt, _), loc_data in zip(chunk, results):
@@ -660,11 +665,35 @@ def run_pregame(year: int, week: int) -> dict:
                                   ["snapshot_date", "team"])
         stats["sp_ratings"] = n
 
-    # 4. Weather
-    weather = collect_weather(games_df)
-    if not weather.empty:
-        n = append_or_create_csv(weather, DATA_DIR / "weather.csv", ["game_id"])
-        stats["weather"] = n
+    # 4. Weather (FIX 1: Cross-Week Backfill)
+    # Load all known games to find any upcoming games missing/updating weather, 
+    # rather than just strictly running weather for the current CFB week.
+    all_games_file = DATA_DIR / "games.csv"
+    if all_games_file.exists():
+        known_games = pd.read_csv(all_games_file)
+        combined_games = pd.concat([known_games, games_df]).drop_duplicates(subset=["game_id"], keep="last")
+    else:
+        combined_games = games_df.copy()
+
+    now_utc = datetime.now(pytz.UTC)
+    upcoming_games_list = []
+    
+    # Filter only to games that are upcoming (or started very recently).
+    # This prevents the pregame collector from overwriting past, locked-in pregame forecasts with actuals.
+    for _, g in combined_games.iterrows():
+        try:
+            dt = datetime.fromisoformat(str(g["start_date"]).replace("Z", "+00:00"))
+            if dt > now_utc - timedelta(hours=6):
+                upcoming_games_list.append(g)
+        except (ValueError, TypeError):
+            continue
+            
+    if upcoming_games_list:
+        weather_target_df = pd.DataFrame(upcoming_games_list)
+        weather = collect_weather(weather_target_df)
+        if not weather.empty:
+            n = append_or_create_csv(weather, DATA_DIR / "weather.csv", ["game_id"])
+            stats["weather"] = n
 
     return stats
 
