@@ -3371,7 +3371,7 @@ game_id,season,week,home_team,away_team,venue,temperature,dewpoint,humidity,prec
 401860883,2026,2,Fresno State,Sacramento State,Valley Children's Stadium,90.2,,13.0,0.0,,,13.0,,False
 401864500,2026,2,Nevada,Montana State,Mackay Stadium,67.6,,29.0,0.0,,,10.1,,False
 401858445,2026,2,USC,Louisiana,Los Angeles Memorial Coliseum,76.9,,65.0,0.0,,,7.9,,False
-401864578,2026,2,Hawai'i,New Mexico State,Clarence T.C. Ching Athletics Complex,81.0,,66.0,0.0,,,7.9,,False
+401864578,2026,2,Hawai'i,New Mexico State,Clarence T.C. Ching Athletics Complex,80.5,,70.0,0.008,,,7.9,,False
 401907580,2026,3,Concord,Charleston (WV),Callaghan Stadium,77.5,,68.0,0.0,,,2.4,,False
 401858225,2026,3,Pittsburgh,Syracuse,Acrisure Stadium,80.7,,55.0,0.0,,,1.8,,False
 401908593,2026,3,UMass Dartmouth,Framingham State,Cressy Field,72.6,,85.0,0.0,,,10.4,,False
@@ -3390,7 +3390,7 @@ game_id,season,week,home_team,away_team,venue,temperature,dewpoint,humidity,prec
 401908243,2026,3,Northwestern (MN),Loras,Reynolds Field,56.4,,43.0,0.0,,,5.1,,False
 401908196,2026,3,FDU Florham,Widener,Robert T. Shields Field,87.7,,51.0,0.0,,,9.6,,False
 401908143,2026,3,Belhaven,Central College,Belhaven Bowl Stadium,91.0,,46.0,0.0,,,2.5,,False
-401856812,2026,3,Kansas,Arizona State,Wembley Stadium,65.8,,60.0,0.0,,,0.8,,False
+401856812,2026,3,Kansas,Arizona State,Wembley Stadium,67.2,,69.0,0.0,,,2.9,,False
 401867805,2026,3,New Haven,Brown,Ralph F. DellaCamera Stadium,79.6,,73.0,0.004,,,7.5,,False
 401867817,2026,3,Columbia,Lafayette,Lawrence A. Wien Stadium,86.1,,55.0,0.004,,,11.8,,False
 401867834,2026,3,Lehigh,Dartmouth,Goodman Stadium,85.2,,60.0,0.0,,,10.6,,False
