@@ -196,18 +196,18 @@ def mark_done(snapshot_type: str, today_str: str):
 # Pregame collection
 # ---------------------------------------------------------------------------
 
-def collect_games(year: int, week: int) -> pd.DataFrame:
-    """Fetch FBS games for the given week."""
-    LOG.info(f"Fetching games: year={year} week={week}")
+def collect_games(year: int) -> pd.DataFrame:
+    """Fetch FULL season FBS games. Fixes the disappearing past weeks bug."""
+    LOG.info(f"Fetching full season schedule: year={year}")
+    
+    # Notice we omitted "week" here to pull the whole season
     data = cfbd_get("/games", {
         "year": year,
-        "week": week,
         "seasonType": "regular",
         "division": "fbs",
     })
     post = cfbd_get("/games", {
         "year": year,
-        "week": week,
         "seasonType": "postseason",
         "division": "fbs",
     })
@@ -217,9 +217,18 @@ def collect_games(year: int, week: int) -> pd.DataFrame:
     if not data:
         LOG.warning("No games found")
         return pd.DataFrame()
+        
+    fbs_teams = get_fbs_teams(year)
 
     rows = []
     for g in data:
+        home = g.get("home_team", g.get("homeTeam", ""))
+        away = g.get("away_team", g.get("awayTeam", ""))
+        
+        # Strict FBS division filter
+        if fbs_teams and (home not in fbs_teams and away not in fbs_teams):
+            continue
+            
         rows.append({
             "game_id":        g.get("id"),
             "season":         g.get("season"),
@@ -228,10 +237,10 @@ def collect_games(year: int, week: int) -> pd.DataFrame:
             "start_date":     g.get("start_date", g.get("startDate", "")),
             "neutral_site":   g.get("neutral_site", g.get("neutralSite", False)),
             "conference_game": g.get("conference_game", g.get("conferenceGame", False)),
-            "home_team":      g.get("home_team", g.get("homeTeam", "")),
+            "home_team":      home,
             "home_conference": g.get("home_conference", g.get("homeConference", "")),
             "home_points":    g.get("home_points", g.get("homePoints")),
-            "away_team":      g.get("away_team", g.get("awayTeam", "")),
+            "away_team":      away,
             "away_conference": g.get("away_conference", g.get("awayConference", "")),
             "away_points":    g.get("away_points", g.get("awayPoints")),
             "venue":          g.get("venue"),
@@ -478,7 +487,6 @@ def collect_weather(games_df: pd.DataFrame) -> pd.DataFrame:
     
     now_utc = datetime.now(pytz.UTC)
 
-    # 1. Filter and group indoor vs outdoor games
     for _, g in games_df.iterrows():
         venue_name = g.get("venue")
         start_raw = g.get("start_date")
@@ -490,8 +498,6 @@ def collect_weather(games_df: pd.DataFrame) -> pd.DataFrame:
 
         venue_info = venues.get(venue_name) if pd.notna(venue_name) else None
 
-        # FIX 2: Check for dome BEFORE filtering by the 14-day API window 
-        # so domes > 14 days out properly get populated rather than orphaned as nulls
         if venue_info and venue_info.get("is_dome"):
             rows.append({
                 "game_id": g.get("game_id"), "season": g.get("season"), "week": g.get("week"),
@@ -502,7 +508,6 @@ def collect_weather(games_df: pd.DataFrame) -> pd.DataFrame:
             })
             continue
 
-        # OPEN-METEO LIMITATION: Forecast endpoint only supports up to 14 days in future
         days_diff = (game_dt - now_utc).days
         if days_diff > 14 or days_diff < -80:
             rows.append({
@@ -515,7 +520,6 @@ def collect_weather(games_df: pd.DataFrame) -> pd.DataFrame:
             continue
 
         if not venue_info:
-            # We silently append empty weather for unknown/NAIA venues to avoid spamming the Actions log
             rows.append({
                 "game_id": g.get("game_id"), "season": g.get("season"), "week": g.get("week"),
                 "home_team": g.get("home_team"), "away_team": g.get("away_team"), "venue": venue_name,
@@ -532,21 +536,17 @@ def collect_weather(games_df: pd.DataFrame) -> pd.DataFrame:
 
     LOG.info(f"Batch-fetching weather for {len(outdoor_games)} outdoor games...")
 
-    # 2. Group games strictly by their Date string. 
-    # This completely prevents "Date Range Too Large" 400 Bad Requests.
     games_by_date = defaultdict(list)
     for g, game_dt, venue_info in outdoor_games:
         date_str = game_dt.strftime("%Y-%m-%d")
         games_by_date[date_str].append((g, game_dt, venue_info))
 
-    # 3. Batch fetch in chunks of 40 per date
     CHUNK_SIZE = 40
     with requests.Session() as session:
         for date_str, daily_games in games_by_date.items():
             for i in range(0, len(daily_games), CHUNK_SIZE):
                 chunk = daily_games[i:i+CHUNK_SIZE]
                 
-                # Format lats and lons into comma-separated strings
                 lats = ",".join(str(round(v["lat"], 4)) for _, _, v in chunk)
                 lons = ",".join(str(round(v["lon"], 4)) for _, _, v in chunk)
                 
@@ -562,7 +562,6 @@ def collect_weather(games_df: pd.DataFrame) -> pd.DataFrame:
                     "timezone": "UTC",
                 }
 
-                # Fetch the batch with backoff
                 data = None
                 for attempt in range(4):
                     try:
@@ -582,15 +581,12 @@ def collect_weather(games_df: pd.DataFrame) -> pd.DataFrame:
                 if not data:
                     continue
                 
-                # Open-Meteo returns a dict if 1 location requested, or a list of dicts if >1
                 results = data if isinstance(data, list) else [data]
                 
-                # FIX 3: Length check before zipping to prevent silent misassignment
                 if len(results) != len(chunk):
                     LOG.error(f"Open-Meteo returned {len(results)} results for {len(chunk)} locations on {date_str}. Skipping chunk.")
                     continue
                 
-                # 4. Match the batched results back to the games in the chunk
                 for (g, game_dt, _), loc_data in zip(chunk, results):
                     hourly = loc_data.get("hourly", {})
                     times = hourly.get("time", [])
@@ -619,7 +615,6 @@ def collect_weather(games_df: pd.DataFrame) -> pd.DataFrame:
                         "weather_cond": None, "is_indoor": False,
                     })
                     
-                # Brief safety delay between batches
                 time.sleep(0.5)
             
     return pd.DataFrame(rows)
@@ -630,8 +625,8 @@ def run_pregame(year: int, week: int) -> dict:
     DATA_DIR.mkdir(exist_ok=True)
     stats = {"type": "pregame", "year": year, "week": week}
 
-    # 1. Games schedule
-    games_df = collect_games(year, week)
+    # 1. Games schedule (Now using the whole-season pull)
+    games_df = collect_games(year)
     if not games_df.empty:
         n = append_or_create_csv(games_df, DATA_DIR / "games.csv", ["game_id"])
         stats["games"] = n
@@ -665,9 +660,7 @@ def run_pregame(year: int, week: int) -> dict:
                                   ["snapshot_date", "team"])
         stats["sp_ratings"] = n
 
-    # 4. Weather (FIX 1: Cross-Week Backfill)
-    # Load all known games to find any upcoming games missing/updating weather, 
-    # rather than just strictly running weather for the current CFB week.
+    # 4. Weather (Cross-Week Backfill)
     all_games_file = DATA_DIR / "games.csv"
     if all_games_file.exists():
         known_games = pd.read_csv(all_games_file)
@@ -678,8 +671,6 @@ def run_pregame(year: int, week: int) -> dict:
     now_utc = datetime.now(pytz.UTC)
     upcoming_games_list = []
     
-    # Filter only to games that are upcoming (or started very recently).
-    # This prevents the pregame collector from overwriting past, locked-in pregame forecasts with actuals.
     for _, g in combined_games.iterrows():
         try:
             dt = datetime.fromisoformat(str(g["start_date"]).replace("Z", "+00:00"))
@@ -728,7 +719,6 @@ def compute_outcomes(games_df: pd.DataFrame, odds_path: Path) -> pd.DataFrame:
         # Get the LAST snapshot for this game from each provider
         game_odds = odds_df[odds_df["game_id"].astype(str) == str(gid)]
         if game_odds.empty:
-            # Still record the score even without odds
             rows.append({
                 "game_id": gid, "home_team": g["home_team"], "away_team": g["away_team"],
                 "home_points": home_pts, "away_points": away_pts,
@@ -801,16 +791,13 @@ def run_postgame(year: int, week: int) -> dict:
     DATA_DIR.mkdir(exist_ok=True)
     stats = {"type": "postgame", "year": year, "week": week}
 
-    # Re-pull games — now completed with scores
-    games_df = collect_games(year, week)
+    # Re-pull games — now using the whole-season pull
+    games_df = collect_games(year)
     if not games_df.empty:
         n = append_or_create_csv(games_df, DATA_DIR / "games.csv", ["game_id"])
         stats["games_updated"] = n
         completed_count = games_df["completed"].sum() if "completed" in games_df.columns else 0
         stats["completed"] = int(completed_count)
-
-    # REMOVED: Post-game actual weather collection to prevent lookahead bias.
-    # The last forecast pulled during the pre-game runs will now stay permanently.
 
     # Compute outcomes
     outcomes_df = compute_outcomes(games_df, DATA_DIR / "odds_snapshots.csv")
