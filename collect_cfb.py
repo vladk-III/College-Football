@@ -30,6 +30,7 @@ import json
 import time
 import logging
 import argparse
+import difflib
 from collections import defaultdict
 from datetime import datetime, timedelta, date
 from pathlib import Path
@@ -107,7 +108,7 @@ def odds_get(endpoint: str, params: dict | None = None) -> list | dict | None:
 
 
 def append_or_create_csv(df: pd.DataFrame, path: Path, dedup_cols: list[str] | None = None):
-    """Append rows to a CSV, creating it if needed.  Optionally dedup on key columns."""
+    """Append rows to a CSV, creating it if needed. Optionally dedup on key columns."""
     if path.exists():
         existing = pd.read_csv(path)
         combined = pd.concat([existing, df], ignore_index=True)
@@ -134,6 +135,14 @@ def get_fbs_teams(year: int) -> set:
         LOG.warning("Could not fetch FBS team list — division filtering will be skipped")
     _FBS_TEAMS_CACHE[year] = teams
     return teams
+
+
+def fuzzy_match_team(target: str, known_teams: set, cutoff=0.7) -> str | None:
+    """Fuzzy match Odds API team names to CFBD team names."""
+    if target in known_teams:
+        return target
+    matches = difflib.get_close_matches(target, known_teams, n=1, cutoff=cutoff)
+    return matches[0] if matches else None
 
 
 def determine_cfb_week(year: int, today: date, mode: str = "pregame") -> int | None:
@@ -198,7 +207,7 @@ def mark_done(snapshot_type: str, today_str: str):
 # ---------------------------------------------------------------------------
 
 def collect_games(year: int) -> pd.DataFrame:
-    """Fetch FULL season FBS games. Fixes the disappearing past weeks bug."""
+    """Fetch FULL season FBS games. Filters out FCS matchups where BOTH teams aren't FBS."""
     LOG.info(f"Fetching full season schedule: year={year}")
     
     data = cfbd_get("/games", {
@@ -225,8 +234,8 @@ def collect_games(year: int) -> pd.DataFrame:
         home = g.get("home_team", g.get("homeTeam", ""))
         away = g.get("away_team", g.get("awayTeam", ""))
         
-        # Strict FBS division filter
-        if fbs_teams and (home not in fbs_teams and away not in fbs_teams):
+        # Strict FBS division filter: BOTH teams must be FBS
+        if fbs_teams and (home not in fbs_teams or away not in fbs_teams):
             continue
             
         rows.append({
@@ -307,8 +316,8 @@ def collect_cfbd_lines(year: int, week: int, eligible_game_ids: set | None = Non
     return df
 
 
-def collect_odds_api(hours: int = 24) -> pd.DataFrame:
-    """Fetch live odds from The Odds API (multi-sportsbook)."""
+def collect_odds_api(games_df: pd.DataFrame, hours: int = 24) -> pd.DataFrame:
+    """Fetch live odds from The Odds API and map team names to CFBD game_ids."""
     if not ODDS_API_KEY:
         LOG.info("No ODDS_API_KEY set, skipping The Odds API")
         return pd.DataFrame()
@@ -328,20 +337,40 @@ def collect_odds_api(hours: int = 24) -> pd.DataFrame:
     if not data:
         return pd.DataFrame()
 
+    # Build lookup dictionary mapping (home_team, away_team) to CFBD game_id
+    game_lookup = {}
+    known_teams = set()
+    if not games_df.empty:
+        known_teams = set(games_df["home_team"]).union(set(games_df["away_team"]))
+        for _, g in games_df.iterrows():
+            game_lookup[(g["home_team"], g["away_team"])] = g["game_id"]
+
     rows = []
     ts = datetime.now(EASTERN).isoformat()
     for event in data:
-        home = event.get("home_team", "")
-        away = event.get("away_team", "")
+        raw_home = event.get("home_team", "")
+        raw_away = event.get("away_team", "")
         commence = event.get("commence_time", "")
+
+        # Fuzzy match Odds API names to CFBD schedule team names
+        home_matched = fuzzy_match_team(raw_home, known_teams) if known_teams else raw_home
+        away_matched = fuzzy_match_team(raw_away, known_teams) if known_teams else raw_away
+
+        # Assign CFBD game_id; fall back to event ID if lookup misses
+        cfbd_gid = (
+            game_lookup.get((home_matched, away_matched))
+            or game_lookup.get((raw_home, raw_away))
+            or event.get("id", "")
+        )
+
         for book in event.get("bookmakers", []):
             book_key = book.get("key", "")
             row = {
                 "snapshot_ts":    ts,
                 "source":         "odds_api",
-                "game_id":        event.get("id", ""),
-                "home_team":      home,
-                "away_team":      away,
+                "game_id":        cfbd_gid,
+                "home_team":      home_matched or raw_home,
+                "away_team":      away_matched or raw_away,
                 "commence_time":  commence,
                 "provider":       book_key,
                 "spread":         None,
@@ -356,13 +385,13 @@ def collect_odds_api(hours: int = 24) -> pd.DataFrame:
                 outcomes = market.get("outcomes", [])
                 if mkey == "h2h":
                     for o in outcomes:
-                        if o.get("name") == home:
+                        if o.get("name") == raw_home:
                             row["home_ml"] = o.get("price")
-                        elif o.get("name") == away:
+                        elif o.get("name") == raw_away:
                             row["away_ml"] = o.get("price")
                 elif mkey == "spreads":
                     for o in outcomes:
-                        if o.get("name") == home:
+                        if o.get("name") == raw_home:
                             row["spread"] = o.get("point")
                             row["spread_price"] = o.get("price")
                 elif mkey == "totals":
@@ -641,7 +670,7 @@ def run_pregame(year: int, week: int) -> dict:
         odds_api   = pd.DataFrame()
     else:
         cfbd_lines = collect_cfbd_lines(year, week, eligible_game_ids=eligible_ids)
-        odds_api   = collect_odds_api(hours=ODDS_WINDOW_HOURS)
+        odds_api   = collect_odds_api(games_df, hours=ODDS_WINDOW_HOURS)
     all_odds = pd.concat([cfbd_lines, odds_api], ignore_index=True)
     if not all_odds.empty:
         n = append_or_create_csv(all_odds, DATA_DIR / "odds_snapshots.csv")
@@ -828,10 +857,10 @@ def main():
     parser.add_argument("--year", type=int, help="Override season year")
     args = parser.parse_args()
 
-    # API keys from environment
-    cfbd_key = os.environ.get("CFBD_API_KEY", "")
+    # API keys from environment — stripped defensively to clean whitespace
+    cfbd_key = os.environ.get("CFBD_API_KEY", "").strip()
     CFBD_API_KEY = cfbd_key
-    ODDS_API_KEY = os.environ.get("ODDS_API_KEY", "")
+    ODDS_API_KEY = os.environ.get("ODDS_API_KEY", "").strip()
 
     if not cfbd_key:
         LOG.error("CFBD_API_KEY not set — cannot proceed")
