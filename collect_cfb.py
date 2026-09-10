@@ -56,6 +56,7 @@ SEASON_END_MONTH   = 1    # January (CFP title game)
 
 CFBD_HEADERS = {}         # set in main()
 CFBD_API_KEY = ""         # set in main()
+ODDS_API_KEY = ""         # set in main()
 
 LOG = logging.getLogger("cfb_collector")
 
@@ -200,7 +201,6 @@ def collect_games(year: int) -> pd.DataFrame:
     """Fetch FULL season FBS games. Fixes the disappearing past weeks bug."""
     LOG.info(f"Fetching full season schedule: year={year}")
     
-    # Notice we omitted "week" here to pull the whole season
     data = cfbd_get("/games", {
         "year": year,
         "seasonType": "regular",
@@ -309,7 +309,7 @@ def collect_cfbd_lines(year: int, week: int, eligible_game_ids: set | None = Non
 
 def collect_odds_api(hours: int = 24) -> pd.DataFrame:
     """Fetch live odds from The Odds API (multi-sportsbook)."""
-    if not CFBD_API_KEY:
+    if not ODDS_API_KEY:
         LOG.info("No ODDS_API_KEY set, skipping The Odds API")
         return pd.DataFrame()
 
@@ -625,7 +625,7 @@ def run_pregame(year: int, week: int) -> dict:
     DATA_DIR.mkdir(exist_ok=True)
     stats = {"type": "pregame", "year": year, "week": week}
 
-    # 1. Games schedule (Now using the whole-season pull)
+    # 1. Games schedule
     games_df = collect_games(year)
     if not games_df.empty:
         n = append_or_create_csv(games_df, DATA_DIR / "games.csv", ["game_id"])
@@ -647,7 +647,7 @@ def run_pregame(year: int, week: int) -> dict:
         n = append_or_create_csv(all_odds, DATA_DIR / "odds_snapshots.csv")
         stats["odds_rows"] = n
 
-    # 3. Team stats + SP+ (once per week is enough)
+    # 3. Team stats + SP+
     team_stats = collect_team_stats(year)
     if not team_stats.empty:
         n = append_or_create_csv(team_stats, DATA_DIR / "team_season_stats.csv",
@@ -660,7 +660,7 @@ def run_pregame(year: int, week: int) -> dict:
                                   ["snapshot_date", "team"])
         stats["sp_ratings"] = n
 
-    # 4. Weather (Cross-Week Backfill)
+    # 4. Weather
     all_games_file = DATA_DIR / "games.csv"
     if all_games_file.exists():
         known_games = pd.read_csv(all_games_file)
@@ -791,7 +791,6 @@ def run_postgame(year: int, week: int) -> dict:
     DATA_DIR.mkdir(exist_ok=True)
     stats = {"type": "postgame", "year": year, "week": week}
 
-    # Re-pull games — now using the whole-season pull
     games_df = collect_games(year)
     if not games_df.empty:
         n = append_or_create_csv(games_df, DATA_DIR / "games.csv", ["game_id"])
@@ -799,7 +798,6 @@ def run_postgame(year: int, week: int) -> dict:
         completed_count = games_df["completed"].sum() if "completed" in games_df.columns else 0
         stats["completed"] = int(completed_count)
 
-    # Compute outcomes
     outcomes_df = compute_outcomes(games_df, DATA_DIR / "odds_snapshots.csv")
     if not outcomes_df.empty:
         n = append_or_create_csv(outcomes_df, DATA_DIR / "outcomes.csv",
@@ -814,7 +812,7 @@ def run_postgame(year: int, week: int) -> dict:
 # ---------------------------------------------------------------------------
 
 def main():
-    global CFBD_HEADERS, CFBD_API_KEY
+    global CFBD_HEADERS, CFBD_API_KEY, ODDS_API_KEY
 
     logging.basicConfig(
         level=logging.INFO,
@@ -832,10 +830,13 @@ def main():
 
     # API keys from environment
     cfbd_key = os.environ.get("CFBD_API_KEY", "")
-    CFBD_API_KEY = os.environ.get("CFBD_API_KEY", "")
+    CFBD_API_KEY = cfbd_key
+    ODDS_API_KEY = os.environ.get("ODDS_API_KEY", "")
+
     if not cfbd_key:
         LOG.error("CFBD_API_KEY not set — cannot proceed")
         sys.exit(1)
+
     CFBD_HEADERS = {
         "Authorization": f"Bearer {cfbd_key}",
         "Accept": "application/json",
@@ -848,15 +849,12 @@ def main():
 
     LOG.info(f"Run at {now_et.strftime('%Y-%m-%d %H:%M ET')}, dow={dow}")
 
-    # --- Season check ---
     if not is_in_season(now_et):
         LOG.info("Off-season — exiting cleanly")
         sys.exit(0)
 
-    # --- Determine season year ---
     year = args.year or (now_et.year if now_et.month >= 6 else now_et.year - 1)
 
-    # --- Determine mode ---
     if args.mode != "auto":
         mode = args.mode
     elif dow in (6, 0):  # Sun=6, Mon=0
@@ -864,7 +862,6 @@ def main():
     else:
         mode = "pregame"
 
-    # --- Determine week ---
     week = args.week
     if week is None:
         week = determine_cfb_week(year, today, mode=mode)
@@ -877,12 +874,10 @@ def main():
     LOG.info(f"Season {year}, Week {week}")
     LOG.info(f"Mode: {mode}")
 
-    # --- Idempotency ---
     if not args.force and already_ran_today(mode, today_str):
         LOG.info(f"Already ran {mode} today — exiting cleanly")
         sys.exit(0)
 
-    # --- Run ---
     if mode == "pregame":
         stats = run_pregame(year, week)
     else:
@@ -890,7 +885,6 @@ def main():
 
     mark_done(mode, today_str)
 
-    # --- Emit stats for GitHub Actions ---
     github_output = os.environ.get("GITHUB_OUTPUT")
     if github_output:
         with open(github_output, "a") as f:
