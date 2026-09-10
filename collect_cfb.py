@@ -55,7 +55,7 @@ SEASON_START_MONTH = 8    # August (Week 0 can be late Aug)
 SEASON_END_MONTH   = 1    # January (CFP title game)
 
 CFBD_HEADERS = {}         # set in main()
-ODDS_API_KEY = ""         # set in main()
+CFBD_API_KEY = ""         # set in main()
 
 LOG = logging.getLogger("cfb_collector")
 
@@ -309,7 +309,7 @@ def collect_cfbd_lines(year: int, week: int, eligible_game_ids: set | None = Non
 
 def collect_odds_api(hours: int = 24) -> pd.DataFrame:
     """Fetch live odds from The Odds API (multi-sportsbook)."""
-    if not ODDS_API_KEY:
+    if not CFBD_API_KEY:
         LOG.info("No ODDS_API_KEY set, skipping The Odds API")
         return pd.DataFrame()
 
@@ -814,7 +814,7 @@ def run_postgame(year: int, week: int) -> dict:
 # ---------------------------------------------------------------------------
 
 def main():
-    global CFBD_HEADERS, ODDS_API_KEY
+    global CFBD_HEADERS, CFBD_API_KEY
 
     logging.basicConfig(
         level=logging.INFO,
@@ -832,7 +832,7 @@ def main():
 
     # API keys from environment
     cfbd_key = os.environ.get("CFBD_API_KEY", "")
-    ODDS_API_KEY = os.environ.get("ODDS_API_KEY", "")
+    CFBD_API_KEY = os.environ.get("CFBD_API_KEY", "")
     if not cfbd_key:
         LOG.error("CFBD_API_KEY not set — cannot proceed")
         sys.exit(1)
