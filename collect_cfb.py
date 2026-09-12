@@ -22,15 +22,52 @@ Outputs (all in data/):
   team_season_stats.csv — per-team season stats (offense/defense)
   weather.csv         — game-day weather conditions (Locks at final pre-game forecast)
   outcomes.csv        — final ATS / O/U / moneyline results per game
+
+Changelog (this revision):
+  - HARDENED append_or_create_csv() against silent data loss. A prior
+    incident lost games.csv rows for weeks 0-1 with no error/warning
+    anywhere -- the function had no invariant preventing it from writing a
+    SMALLER combined file than what was already on disk. It now:
+      1. Refuses to write if any previously-seen key (per dedup_cols)
+         would disappear from the new combined output -- raises instead
+         of silently overwriting. This is the main protection against
+         a stale/partial local checkout (e.g. a concurrent workflow run,
+         a shallow git fetch, or a corrupted local file) clobbering a
+         fuller remote file.
+      2. Refuses to write if a non-deduped file's row count would ever
+         shrink (pure-append files like odds_snapshots.csv should only
+         ever grow).
+      3. Writes a timestamped backup of the existing file before any
+         write, under data/.backups/.
+      4. Writes atomically (temp file + os.replace), so a crash or
+         workflow timeout mid-write can never leave a truncated file for
+         the next run to read as "existing" data.
+      5. Normalizes dedup key columns to string before comparing, closing
+         the same int-vs-str dtype-drift class of bug that was separately
+         found and fixed in the downstream dashboard's history/outcomes
+         merge.
+    NOTE: this script only writes local files. Whatever CI step commits
+    and pushes data/*.csv to GitHub is outside this file. If runs of this
+    script can overlap (e.g. two triggers close together, or a manual
+    re-run while a scheduled run is still in flight), a git-level race is
+    a very plausible way for a "later" push to overwrite an "earlier" push's
+    new rows even with these guards in place, since two processes racing
+    would each read a valid existing file and both pass these checks
+    individually, but the second `git push` still wins and discards the
+    first's commit unless the workflow does a pull/rebase (or, more
+    robustly, uses a `concurrency:` group in the GitHub Actions workflow
+    to serialize runs entirely). That is worth checking/fixing at the
+    workflow level in addition to these in-script guards.
 """
 
 import os
 import sys
 import json
 import time
+import shutil
+import difflib
 import logging
 import argparse
-import difflib
 from collections import defaultdict
 from datetime import datetime, timedelta, date
 from pathlib import Path
@@ -50,13 +87,13 @@ ODDS_SPORT = "americanfootball_ncaaf"
 
 DATA_DIR = Path("data")
 MARKER_DIR = Path("data/.markers")       # idempotency markers (gitignored)
+BACKUP_DIR = Path("data/.backups")       # pre-write snapshots, kept locally
 
 # Season boundaries (approximate — the script also checks the CFBD calendar)
 SEASON_START_MONTH = 8    # August (Week 0 can be late Aug)
 SEASON_END_MONTH   = 1    # January (CFP title game)
 
 CFBD_HEADERS = {}         # set in main()
-CFBD_API_KEY = ""         # set in main()
 ODDS_API_KEY = ""         # set in main()
 
 LOG = logging.getLogger("cfb_collector")
@@ -108,15 +145,96 @@ def odds_get(endpoint: str, params: dict | None = None) -> list | dict | None:
 
 
 def append_or_create_csv(df: pd.DataFrame, path: Path, dedup_cols: list[str] | None = None):
-    """Append rows to a CSV, creating it if needed. Optionally dedup on key columns."""
+    """Append rows to a CSV, creating it if needed. Optionally dedup on key
+    columns.
+
+    SAFETY GUARANTEES (see module changelog for the incident that prompted
+    these):
+      1. If `dedup_cols` is given, every unique key present in the existing
+         file MUST still be present in the newly-combined file. If any key
+         has disappeared -- which should be structurally impossible under
+         pure append + dedup-by-key -- the write is REFUSED and a
+         RuntimeError is raised instead of silently committing a smaller
+         file. This is intentionally loud: it should fail the calling
+         workflow rather than let data loss get pushed to GitHub quietly.
+      2. Without `dedup_cols` (pure timestamped-snapshot appends, e.g.
+         odds_snapshots.csv), the combined row count must never be smaller
+         than the existing row count.
+      3. A timestamped backup of the existing file is written to
+         data/.backups/ before any write is attempted.
+      4. The write itself is atomic: data is written to a temp file in the
+         same directory and then moved into place with os.replace, so a
+         crash or timeout mid-write can never leave a truncated/corrupted
+         CSV for the next run to read as "existing" data.
+    """
+    existing = None
     if path.exists():
-        existing = pd.read_csv(path)
+        try:
+            existing = pd.read_csv(path)
+        except Exception as e:
+            # Refuse to proceed on an unreadable existing file rather than
+            # silently treating it as "no existing data" -- that would
+            # overwrite it with just this run's (much smaller) rows.
+            raise RuntimeError(
+                f"Existing file {path} could not be read ({e}). Refusing to "
+                f"proceed: treating an unreadable file as empty would risk "
+                f"overwriting it with only this run's new rows."
+            )
+
+    if existing is not None and not existing.empty:
         combined = pd.concat([existing, df], ignore_index=True)
     else:
         combined = df
+
     if dedup_cols:
+        # Normalize dedup key dtype to string before comparing/deduping.
+        # Two separately-run collection passes can otherwise infer
+        # different dtypes for the same key column (e.g. int64 vs object
+        # due to a stray blank/whitespace value in one run), which can
+        # cause "duplicate" keys to fail to match each other.
+        for col in dedup_cols:
+            if col in combined.columns:
+                combined[col] = combined[col].astype(str).str.strip()
         combined = combined.drop_duplicates(subset=dedup_cols, keep="last")
-    combined.to_csv(path, index=False)
+
+        if existing is not None and not existing.empty:
+            existing_keyed = existing.copy()
+            for col in dedup_cols:
+                if col in existing_keyed.columns:
+                    existing_keyed[col] = existing_keyed[col].astype(str).str.strip()
+            existing_keys = set(map(tuple, existing_keyed[dedup_cols].to_numpy()))
+            new_keys = set(map(tuple, combined[dedup_cols].to_numpy()))
+            missing_keys = existing_keys - new_keys
+            if missing_keys:
+                raise RuntimeError(
+                    f"REFUSING TO WRITE {path}: {len(missing_keys)} previously-collected "
+                    f"row(s) (key columns {dedup_cols}) would be missing from the new "
+                    f"combined data. This should never happen under normal append+dedup "
+                    f"operation and usually means the 'existing' file we just read was "
+                    f"stale or incomplete -- e.g. a concurrent workflow run, a shallow/"
+                    f"stale git checkout, or a corrupted local copy. Example missing "
+                    f"key(s): {list(missing_keys)[:5]}"
+                )
+    else:
+        if existing is not None and len(combined) < len(existing):
+            raise RuntimeError(
+                f"REFUSING TO WRITE {path}: combined row count ({len(combined)}) is "
+                f"smaller than the existing file's row count ({len(existing)}). "
+                f"Refusing to overwrite with fewer rows than are already committed."
+            )
+
+    # Timestamped backup of the existing file before we touch it.
+    if path.exists():
+        BACKUP_DIR.mkdir(parents=True, exist_ok=True)
+        backup_path = BACKUP_DIR / f"{path.stem}_{datetime.now(EASTERN).strftime('%Y%m%dT%H%M%S')}{path.suffix}"
+        shutil.copy2(path, backup_path)
+
+    # Atomic write: temp file in the same directory, then os.replace so
+    # there's never a window where `path` is partially written.
+    tmp_path = path.with_suffix(path.suffix + ".tmp")
+    combined.to_csv(tmp_path, index=False)
+    os.replace(tmp_path, path)
+
     LOG.info(f"  → {path.name}: {len(combined)} total rows ({len(df)} new)")
     return len(df)
 
@@ -135,14 +253,6 @@ def get_fbs_teams(year: int) -> set:
         LOG.warning("Could not fetch FBS team list — division filtering will be skipped")
     _FBS_TEAMS_CACHE[year] = teams
     return teams
-
-
-def fuzzy_match_team(target: str, known_teams: set, cutoff=0.7) -> str | None:
-    """Fuzzy match Odds API team names to CFBD team names."""
-    if target in known_teams:
-        return target
-    matches = difflib.get_close_matches(target, known_teams, n=1, cutoff=cutoff)
-    return matches[0] if matches else None
 
 
 def determine_cfb_week(year: int, today: date, mode: str = "pregame") -> int | None:
@@ -206,17 +316,18 @@ def mark_done(snapshot_type: str, today_str: str):
 # Pregame collection
 # ---------------------------------------------------------------------------
 
-def collect_games(year: int) -> pd.DataFrame:
-    """Fetch FULL season FBS games. Filters out FCS matchups where BOTH teams aren't FBS."""
-    LOG.info(f"Fetching full season schedule: year={year}")
-    
+def collect_games(year: int, week: int) -> pd.DataFrame:
+    """Fetch FBS games for the given week."""
+    LOG.info(f"Fetching games: year={year} week={week}")
     data = cfbd_get("/games", {
         "year": year,
+        "week": week,
         "seasonType": "regular",
         "division": "fbs",
     })
     post = cfbd_get("/games", {
         "year": year,
+        "week": week,
         "seasonType": "postseason",
         "division": "fbs",
     })
@@ -226,18 +337,9 @@ def collect_games(year: int) -> pd.DataFrame:
     if not data:
         LOG.warning("No games found")
         return pd.DataFrame()
-        
-    fbs_teams = get_fbs_teams(year)
 
     rows = []
     for g in data:
-        home = g.get("home_team", g.get("homeTeam", ""))
-        away = g.get("away_team", g.get("awayTeam", ""))
-        
-        # Strict FBS division filter: BOTH teams must be FBS
-        if fbs_teams and (home not in fbs_teams or away not in fbs_teams):
-            continue
-            
         rows.append({
             "game_id":        g.get("id"),
             "season":         g.get("season"),
@@ -246,10 +348,10 @@ def collect_games(year: int) -> pd.DataFrame:
             "start_date":     g.get("start_date", g.get("startDate", "")),
             "neutral_site":   g.get("neutral_site", g.get("neutralSite", False)),
             "conference_game": g.get("conference_game", g.get("conferenceGame", False)),
-            "home_team":      home,
+            "home_team":      g.get("home_team", g.get("homeTeam", "")),
             "home_conference": g.get("home_conference", g.get("homeConference", "")),
             "home_points":    g.get("home_points", g.get("homePoints")),
-            "away_team":      away,
+            "away_team":      g.get("away_team", g.get("awayTeam", "")),
             "away_conference": g.get("away_conference", g.get("awayConference", "")),
             "away_points":    g.get("away_points", g.get("awayPoints")),
             "venue":          g.get("venue"),
@@ -316,8 +418,76 @@ def collect_cfbd_lines(year: int, week: int, eligible_game_ids: set | None = Non
     return df
 
 
+def _build_game_candidates(games_df: pd.DataFrame) -> list[dict]:
+    """Build a lookup list of {game_id, home_team, away_team, start_dt}
+    from a CFBD games frame, for matching The Odds API events against."""
+    candidates = []
+    if games_df is None or games_df.empty:
+        return candidates
+    for _, g in games_df.iterrows():
+        raw = g.get("start_date")
+        if raw is None or (isinstance(raw, float) and pd.isna(raw)) or raw == "":
+            continue
+        try:
+            start_dt = datetime.fromisoformat(str(raw).replace("Z", "+00:00"))
+        except ValueError:
+            continue
+        candidates.append({
+            "game_id": g.get("game_id"),
+            "home_team": str(g.get("home_team", "")),
+            "away_team": str(g.get("away_team", "")),
+            "start_dt": start_dt,
+        })
+    return candidates
+
+
+def _team_names_match(cfbd_name: str, odds_name: str, cutoff: float = 0.6) -> bool:
+    """CFBD team names omit mascots ('Louisville') while The Odds API
+    includes them ('Louisville Cardinals'), so exact equality never works.
+    Checks substring containment first (cheaply and reliably handles the
+    common mascot-suffix case), then falls back to a fuzzy ratio for
+    spelling/naming variants that aren't simple substrings."""
+    a, b = cfbd_name.strip().lower(), odds_name.strip().lower()
+    if not a or not b:
+        return False
+    if a in b or b in a:
+        return True
+    return difflib.SequenceMatcher(None, a, b).ratio() >= cutoff
+
+
+def _match_event_to_cfbd_game(event_home: str, event_away: str, commence_time: datetime,
+                               candidates: list[dict], max_hours_diff: float = 6.0):
+    """Resolve a The Odds API event to the CFBD game_id it corresponds to,
+    by matching team names (fuzzy -- naming conventions differ between the
+    two sources) AND kickoff time (to disambiguate and reject false-
+    positive name matches). Returns None if no confident match is found;
+    callers should drop the row rather than write an id that can never
+    join to games.csv / outcomes.csv downstream."""
+    best_id, best_diff = None, None
+    for c in candidates:
+        if _team_names_match(c["home_team"], event_home) and _team_names_match(c["away_team"], event_away):
+            diff_hours = abs((c["start_dt"] - commence_time).total_seconds()) / 3600.0
+            if diff_hours <= max_hours_diff and (best_diff is None or diff_hours < best_diff):
+                best_id, best_diff = c["game_id"], diff_hours
+    return best_id
+
+
 def collect_odds_api(games_df: pd.DataFrame, hours: int = 24) -> pd.DataFrame:
-    """Fetch live odds from The Odds API and map team names to CFBD game_ids."""
+    """Fetch live odds from The Odds API (multi-sportsbook).
+
+    IMPORTANT: The Odds API's `event["id"]` is an opaque hash in its own ID
+    space (e.g. '340ecb016288a69dfc2227500f14bc46') with NO relationship to
+    CFBD's numeric game_id used everywhere else in this pipeline
+    (games.csv, CFBD's own /lines endpoint, outcomes.csv). Writing that raw
+    id into the `game_id` column silently breaks every downstream join
+    against this data -- both the dashboard's get_consensus_market_lines()
+    and this script's own compute_outcomes() key on game_id, and will just
+    report "no market"/"no odds" for every Odds-API-sourced row, with no
+    error anywhere to flag it. Each event is therefore resolved to its
+    matching CFBD game_id (via fuzzy team-name + kickoff-time matching)
+    before being written; events that can't be confidently matched are
+    dropped (and logged) rather than written with a useless id.
+    """
     if not ODDS_API_KEY:
         LOG.info("No ODDS_API_KEY set, skipping The Odds API")
         return pd.DataFrame()
@@ -337,40 +507,41 @@ def collect_odds_api(games_df: pd.DataFrame, hours: int = 24) -> pd.DataFrame:
     if not data:
         return pd.DataFrame()
 
-    # Build lookup dictionary mapping (home_team, away_team) to CFBD game_id
-    game_lookup = {}
-    known_teams = set()
-    if not games_df.empty:
-        known_teams = set(games_df["home_team"]).union(set(games_df["away_team"]))
-        for _, g in games_df.iterrows():
-            game_lookup[(g["home_team"], g["away_team"])] = g["game_id"]
+    candidates = _build_game_candidates(games_df)
+    if not candidates:
+        LOG.warning("collect_odds_api: no CFBD game candidates available to match against -- all Odds API rows will be dropped")
 
     rows = []
     ts = datetime.now(EASTERN).isoformat()
+    n_matched, n_unmatched = 0, 0
     for event in data:
-        raw_home = event.get("home_team", "")
-        raw_away = event.get("away_team", "")
+        home = event.get("home_team", "")
+        away = event.get("away_team", "")
         commence = event.get("commence_time", "")
 
-        # Fuzzy match Odds API names to CFBD schedule team names
-        home_matched = fuzzy_match_team(raw_home, known_teams) if known_teams else raw_home
-        away_matched = fuzzy_match_team(raw_away, known_teams) if known_teams else raw_away
+        try:
+            commence_dt = datetime.fromisoformat(str(commence).replace("Z", "+00:00"))
+        except (ValueError, TypeError):
+            commence_dt = None
 
-        # Assign CFBD game_id; fall back to event ID if lookup misses
-        cfbd_gid = (
-            game_lookup.get((home_matched, away_matched))
-            or game_lookup.get((raw_home, raw_away))
-            or event.get("id", "")
-        )
+        matched_game_id = None
+        if commence_dt is not None:
+            matched_game_id = _match_event_to_cfbd_game(home, away, commence_dt, candidates)
+
+        if matched_game_id is None:
+            n_unmatched += 1
+            LOG.warning(f"Odds API event could not be matched to a CFBD game_id, dropping: {away} @ {home} ({commence})")
+            continue
+        n_matched += 1
 
         for book in event.get("bookmakers", []):
             book_key = book.get("key", "")
             row = {
                 "snapshot_ts":    ts,
                 "source":         "odds_api",
-                "game_id":        cfbd_gid,
-                "home_team":      home_matched or raw_home,
-                "away_team":      away_matched or raw_away,
+                "game_id":        matched_game_id,
+                "home_team":      home,
+                "away_team":      away,
                 "commence_time":  commence,
                 "provider":       book_key,
                 "spread":         None,
@@ -385,13 +556,13 @@ def collect_odds_api(games_df: pd.DataFrame, hours: int = 24) -> pd.DataFrame:
                 outcomes = market.get("outcomes", [])
                 if mkey == "h2h":
                     for o in outcomes:
-                        if o.get("name") == raw_home:
+                        if o.get("name") == home:
                             row["home_ml"] = o.get("price")
-                        elif o.get("name") == raw_away:
+                        elif o.get("name") == away:
                             row["away_ml"] = o.get("price")
                 elif mkey == "spreads":
                     for o in outcomes:
-                        if o.get("name") == raw_home:
+                        if o.get("name") == home:
                             row["spread"] = o.get("point")
                             row["spread_price"] = o.get("price")
                 elif mkey == "totals":
@@ -400,6 +571,8 @@ def collect_odds_api(games_df: pd.DataFrame, hours: int = 24) -> pd.DataFrame:
                             row["over_under"] = o.get("point")
                             row["ou_price"]   = o.get("price")
             rows.append(row)
+
+    LOG.info(f"Odds API: matched {n_matched}/{n_matched + n_unmatched} events to CFBD game_ids")
     return pd.DataFrame(rows)
 
 
@@ -516,6 +689,7 @@ def collect_weather(games_df: pd.DataFrame) -> pd.DataFrame:
     
     now_utc = datetime.now(pytz.UTC)
 
+    # 1. Filter and group indoor vs outdoor games
     for _, g in games_df.iterrows():
         venue_name = g.get("venue")
         start_raw = g.get("start_date")
@@ -527,6 +701,8 @@ def collect_weather(games_df: pd.DataFrame) -> pd.DataFrame:
 
         venue_info = venues.get(venue_name) if pd.notna(venue_name) else None
 
+        # FIX 2: Check for dome BEFORE filtering by the 14-day API window 
+        # so domes > 14 days out properly get populated rather than orphaned as nulls
         if venue_info and venue_info.get("is_dome"):
             rows.append({
                 "game_id": g.get("game_id"), "season": g.get("season"), "week": g.get("week"),
@@ -537,6 +713,7 @@ def collect_weather(games_df: pd.DataFrame) -> pd.DataFrame:
             })
             continue
 
+        # OPEN-METEO LIMITATION: Forecast endpoint only supports up to 14 days in future
         days_diff = (game_dt - now_utc).days
         if days_diff > 14 or days_diff < -80:
             rows.append({
@@ -549,6 +726,7 @@ def collect_weather(games_df: pd.DataFrame) -> pd.DataFrame:
             continue
 
         if not venue_info:
+            # We silently append empty weather for unknown/NAIA venues to avoid spamming the Actions log
             rows.append({
                 "game_id": g.get("game_id"), "season": g.get("season"), "week": g.get("week"),
                 "home_team": g.get("home_team"), "away_team": g.get("away_team"), "venue": venue_name,
@@ -565,17 +743,21 @@ def collect_weather(games_df: pd.DataFrame) -> pd.DataFrame:
 
     LOG.info(f"Batch-fetching weather for {len(outdoor_games)} outdoor games...")
 
+    # 2. Group games strictly by their Date string. 
+    # This completely prevents "Date Range Too Large" 400 Bad Requests.
     games_by_date = defaultdict(list)
     for g, game_dt, venue_info in outdoor_games:
         date_str = game_dt.strftime("%Y-%m-%d")
         games_by_date[date_str].append((g, game_dt, venue_info))
 
+    # 3. Batch fetch in chunks of 40 per date
     CHUNK_SIZE = 40
     with requests.Session() as session:
         for date_str, daily_games in games_by_date.items():
             for i in range(0, len(daily_games), CHUNK_SIZE):
                 chunk = daily_games[i:i+CHUNK_SIZE]
                 
+                # Format lats and lons into comma-separated strings
                 lats = ",".join(str(round(v["lat"], 4)) for _, _, v in chunk)
                 lons = ",".join(str(round(v["lon"], 4)) for _, _, v in chunk)
                 
@@ -591,6 +773,7 @@ def collect_weather(games_df: pd.DataFrame) -> pd.DataFrame:
                     "timezone": "UTC",
                 }
 
+                # Fetch the batch with backoff
                 data = None
                 for attempt in range(4):
                     try:
@@ -610,12 +793,15 @@ def collect_weather(games_df: pd.DataFrame) -> pd.DataFrame:
                 if not data:
                     continue
                 
+                # Open-Meteo returns a dict if 1 location requested, or a list of dicts if >1
                 results = data if isinstance(data, list) else [data]
                 
+                # FIX 3: Length check before zipping to prevent silent misassignment
                 if len(results) != len(chunk):
                     LOG.error(f"Open-Meteo returned {len(results)} results for {len(chunk)} locations on {date_str}. Skipping chunk.")
                     continue
                 
+                # 4. Match the batched results back to the games in the chunk
                 for (g, game_dt, _), loc_data in zip(chunk, results):
                     hourly = loc_data.get("hourly", {})
                     times = hourly.get("time", [])
@@ -644,6 +830,7 @@ def collect_weather(games_df: pd.DataFrame) -> pd.DataFrame:
                         "weather_cond": None, "is_indoor": False,
                     })
                     
+                # Brief safety delay between batches
                 time.sleep(0.5)
             
     return pd.DataFrame(rows)
@@ -655,10 +842,23 @@ def run_pregame(year: int, week: int) -> dict:
     stats = {"type": "pregame", "year": year, "week": week}
 
     # 1. Games schedule
-    games_df = collect_games(year)
+    games_df = collect_games(year, week)
     if not games_df.empty:
         n = append_or_create_csv(games_df, DATA_DIR / "games.csv", ["game_id"])
         stats["games"] = n
+
+    # Build the combined (all previously known + freshly fetched) games
+    # view once, up front, so both odds matching (below) and weather
+    # backfill (later in this function) can use the same broader
+    # candidate set rather than being limited to just this week's batch --
+    # useful for games near a CFBD week boundary that might not appear in
+    # the "current week" fetch above but are already on disk.
+    all_games_file = DATA_DIR / "games.csv"
+    if all_games_file.exists():
+        known_games = pd.read_csv(all_games_file)
+        combined_games = pd.concat([known_games, games_df]).drop_duplicates(subset=["game_id"], keep="last")
+    else:
+        combined_games = games_df.copy()
 
     # 2. Betting lines — only for games kicking off within the next 24 hours
     ODDS_WINDOW_HOURS = 24
@@ -670,13 +870,14 @@ def run_pregame(year: int, week: int) -> dict:
         odds_api   = pd.DataFrame()
     else:
         cfbd_lines = collect_cfbd_lines(year, week, eligible_game_ids=eligible_ids)
-        odds_api   = collect_odds_api(games_df, hours=ODDS_WINDOW_HOURS)
+        odds_api   = collect_odds_api(combined_games, hours=ODDS_WINDOW_HOURS)
     all_odds = pd.concat([cfbd_lines, odds_api], ignore_index=True)
     if not all_odds.empty:
         n = append_or_create_csv(all_odds, DATA_DIR / "odds_snapshots.csv")
         stats["odds_rows"] = n
+    stats["odds_api_games_matched"] = int(odds_api["game_id"].nunique()) if not odds_api.empty else 0
 
-    # 3. Team stats + SP+
+    # 3. Team stats + SP+ (once per week is enough)
     team_stats = collect_team_stats(year)
     if not team_stats.empty:
         n = append_or_create_csv(team_stats, DATA_DIR / "team_season_stats.csv",
@@ -689,17 +890,15 @@ def run_pregame(year: int, week: int) -> dict:
                                   ["snapshot_date", "team"])
         stats["sp_ratings"] = n
 
-    # 4. Weather
-    all_games_file = DATA_DIR / "games.csv"
-    if all_games_file.exists():
-        known_games = pd.read_csv(all_games_file)
-        combined_games = pd.concat([known_games, games_df]).drop_duplicates(subset=["game_id"], keep="last")
-    else:
-        combined_games = games_df.copy()
-
+    # 4. Weather (FIX 1: Cross-Week Backfill)
+    # Reuses combined_games (built above) to find any upcoming games
+    # missing/updating weather, rather than just strictly running weather
+    # for the current CFB week.
     now_utc = datetime.now(pytz.UTC)
     upcoming_games_list = []
     
+    # Filter only to games that are upcoming (or started very recently).
+    # This prevents the pregame collector from overwriting past, locked-in pregame forecasts with actuals.
     for _, g in combined_games.iterrows():
         try:
             dt = datetime.fromisoformat(str(g["start_date"]).replace("Z", "+00:00"))
@@ -748,6 +947,7 @@ def compute_outcomes(games_df: pd.DataFrame, odds_path: Path) -> pd.DataFrame:
         # Get the LAST snapshot for this game from each provider
         game_odds = odds_df[odds_df["game_id"].astype(str) == str(gid)]
         if game_odds.empty:
+            # Still record the score even without odds
             rows.append({
                 "game_id": gid, "home_team": g["home_team"], "away_team": g["away_team"],
                 "home_points": home_pts, "away_points": away_pts,
@@ -820,13 +1020,18 @@ def run_postgame(year: int, week: int) -> dict:
     DATA_DIR.mkdir(exist_ok=True)
     stats = {"type": "postgame", "year": year, "week": week}
 
-    games_df = collect_games(year)
+    # Re-pull games — now completed with scores
+    games_df = collect_games(year, week)
     if not games_df.empty:
         n = append_or_create_csv(games_df, DATA_DIR / "games.csv", ["game_id"])
         stats["games_updated"] = n
         completed_count = games_df["completed"].sum() if "completed" in games_df.columns else 0
         stats["completed"] = int(completed_count)
 
+    # REMOVED: Post-game actual weather collection to prevent lookahead bias.
+    # The last forecast pulled during the pre-game runs will now stay permanently.
+
+    # Compute outcomes
     outcomes_df = compute_outcomes(games_df, DATA_DIR / "odds_snapshots.csv")
     if not outcomes_df.empty:
         n = append_or_create_csv(outcomes_df, DATA_DIR / "outcomes.csv",
@@ -841,7 +1046,7 @@ def run_postgame(year: int, week: int) -> dict:
 # ---------------------------------------------------------------------------
 
 def main():
-    global CFBD_HEADERS, CFBD_API_KEY, ODDS_API_KEY
+    global CFBD_HEADERS, ODDS_API_KEY
 
     logging.basicConfig(
         level=logging.INFO,
@@ -857,15 +1062,12 @@ def main():
     parser.add_argument("--year", type=int, help="Override season year")
     args = parser.parse_args()
 
-    # API keys from environment — stripped defensively to clean whitespace
-    cfbd_key = os.environ.get("CFBD_API_KEY", "").strip()
-    CFBD_API_KEY = cfbd_key
-    ODDS_API_KEY = os.environ.get("ODDS_API_KEY", "").strip()
-
+    # API keys from environment
+    cfbd_key = os.environ.get("CFBD_API_KEY", "")
+    ODDS_API_KEY = os.environ.get("ODDS_API_KEY", "")
     if not cfbd_key:
         LOG.error("CFBD_API_KEY not set — cannot proceed")
         sys.exit(1)
-
     CFBD_HEADERS = {
         "Authorization": f"Bearer {cfbd_key}",
         "Accept": "application/json",
@@ -878,12 +1080,15 @@ def main():
 
     LOG.info(f"Run at {now_et.strftime('%Y-%m-%d %H:%M ET')}, dow={dow}")
 
+    # --- Season check ---
     if not is_in_season(now_et):
         LOG.info("Off-season — exiting cleanly")
         sys.exit(0)
 
+    # --- Determine season year ---
     year = args.year or (now_et.year if now_et.month >= 6 else now_et.year - 1)
 
+    # --- Determine mode ---
     if args.mode != "auto":
         mode = args.mode
     elif dow in (6, 0):  # Sun=6, Mon=0
@@ -891,6 +1096,7 @@ def main():
     else:
         mode = "pregame"
 
+    # --- Determine week ---
     week = args.week
     if week is None:
         week = determine_cfb_week(year, today, mode=mode)
@@ -903,10 +1109,12 @@ def main():
     LOG.info(f"Season {year}, Week {week}")
     LOG.info(f"Mode: {mode}")
 
+    # --- Idempotency ---
     if not args.force and already_ran_today(mode, today_str):
         LOG.info(f"Already ran {mode} today — exiting cleanly")
         sys.exit(0)
 
+    # --- Run ---
     if mode == "pregame":
         stats = run_pregame(year, week)
     else:
@@ -914,6 +1122,7 @@ def main():
 
     mark_done(mode, today_str)
 
+    # --- Emit stats for GitHub Actions ---
     github_output = os.environ.get("GITHUB_OUTPUT")
     if github_output:
         with open(github_output, "a") as f:
