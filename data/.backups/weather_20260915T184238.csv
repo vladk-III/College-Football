@@ -3323,7 +3323,7 @@ game_id,season,week,home_team,away_team,venue,temperature,dewpoint,humidity,prec
 401858452,2026,3,Nebraska,North Dakota,"Memorial Stadium (Lincoln, NE)",73.5,,87.0,0.028,,,12.8,,False
 401856811,2026,3,Texas Tech,Houston,Jones AT&T Stadium,91.3,,28.0,0.0,,,12.9,,False
 401869940,2026,3,Delaware,Coastal Carolina,Delaware Stadium,71.6,,52.0,0.0,,,7.6,,False
-401856812,2026,3,Kansas,Arizona State,Wembley Stadium,70.3,,65.0,0.008,,,13.9,,False
+401856812,2026,3,Kansas,Arizona State,Wembley Stadium,68.3,,80.0,0.016,,,11.9,,False
 401856686,2026,3,Arkansas,Georgia,Razorback Stadium,89.8,,35.0,0.0,,,13.7,,False
 401858229,2026,3,Clemson,North Carolina,"Memorial Stadium (Clemson, SC)",82.1,,69.0,0.004,,,4.1,,False
 401858454,2026,3,Ohio State,Kent State,Ohio Stadium,77.5,,63.0,0.004,,,1.7,,False
