@@ -3607,7 +3607,7 @@ game_id,season,week,season_type,start_date,neutral_site,conference_game,home_tea
 401908142,2026,2,regular,2026-09-12T23:00:00.000Z,False,False,Northwestern (MN),Upper Midwest,27.0,Central College,American Rivers,51.0,Reynolds Field,True
 401908248,2026,2,regular,2026-09-12T23:00:00.000Z,False,False,Dakota State University,,52.0,Nebraska Wesleyan,American Rivers,0.0,Trojan Stadium,False
 401906878,2026,2,regular,2026-09-12T23:00:00.000Z,False,False,Ashland,Great Midwest Athletic,10.0,Grand Valley State,GLIAC,20.0,Jack Miller Stadium,True
-401908326,2026,2,regular,2026-09-12T23:00:00.000Z,False,False,Oklahoma Panhandle,,47.0,Schreiner,,29.0,,True
+401908326,2026,2,regular,2026-09-12T23:00:00.000Z,False,False,Oklahoma Panhandle,Independent DII,47.0,Schreiner,,29.0,,True
 401906554,2026,2,regular,2026-09-12T23:00:00.000Z,False,True,Henderson State,Great American,66.0,Oklahoma Baptist,Great American,9.0,Ruggles Field at Carpenter-Haygood Stadium,True
 401906571,2026,2,regular,2026-09-12T23:00:00.000Z,False,True,Southeastern Oklahoma State,Great American,17.0,Ouachita Baptist,Great American,23.0,Paul Laird Field,True
 401906579,2026,2,regular,2026-09-12T23:00:00.000Z,False,True,Southern Arkansas,Great American,27.0,Southern Nazarene,Great American,21.0,Wilkins Stadium,True
