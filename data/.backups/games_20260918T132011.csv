@@ -3365,8 +3365,8 @@ game_id,season,week,season_type,start_date,neutral_site,conference_game,home_tea
 401864500,2026,2,regular,2026-09-13T02:30:00.000Z,False,False,Nevada,Mountain West,7.0,Montana State,Big Sky,20.0,Mackay Stadium,True
 401858445,2026,2,regular,2026-09-13T03:00:00.000Z,False,False,USC,Big Ten,49.0,Louisiana,Sun Belt,30.0,Los Angeles Memorial Coliseum,True
 401864578,2026,2,regular,2026-09-13T03:59:00.000Z,False,False,Hawai'i,Mountain West,29.0,New Mexico State,Conference USA,19.0,Clarence T.C. Ching Athletics Complex,True
-401907580,2026,3,regular,2026-09-17T23:00:00.000Z,False,True,Concord,Mountain East,38.0,Charleston (WV),Mountain East,41.0,Callaghan Stadium,True
-401858225,2026,3,regular,2026-09-17T23:30:00.000Z,False,True,Pittsburgh,ACC,27.0,Syracuse,ACC,13.0,Acrisure Stadium,True
+401907580,2026,3,regular,2026-09-17T23:00:00.000Z,False,True,Concord,Mountain East,,Charleston (WV),Mountain East,,Callaghan Stadium,False
+401858225,2026,3,regular,2026-09-17T23:30:00.000Z,False,True,Pittsburgh,ACC,,Syracuse,ACC,,Acrisure Stadium,False
 401908593,2026,3,regular,2026-09-18T23:00:00.000Z,False,True,UMass Dartmouth,MSCAC,,Framingham State,MSCAC,,Cressy Field,False
 401858226,2026,3,regular,2026-09-18T23:30:00.000Z,False,True,Wake Forest,ACC,,Miami,ACC,,Allegacy Federal Credit Union Stadium,False
 401856811,2026,3,regular,2026-09-19T00:00:00.000Z,False,True,Texas Tech,Big 12,,Houston,Big 12,,Jones AT&T Stadium,False
