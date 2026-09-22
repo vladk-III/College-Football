@@ -3488,7 +3488,7 @@ game_id,season,week,season_type,start_date,neutral_site,conference_game,home_tea
 401907667,2026,3,regular,2026-09-19T18:00:00.000Z,False,False,Chicago,Midwest,49.0,Nebraska Wesleyan,American Rivers,41.0,Amos Alonzo Stagg Field,True
 401909122,2026,3,regular,2026-09-19T18:00:00.000Z,False,True,Wisconsin Lutheran,NACC,31.0,Lakeland,NACC,32.0,Warrior Field at Raabe Stadium,True
 401907819,2026,3,regular,2026-09-19T18:00:00.000Z,False,False,Wisconsin Eau Claire,Wisconsin,40.0,Carthage,CCIW,0.0,Carson Park,True
-401907781,2026,3,regular,2026-09-19T18:00:00.000Z,False,True,Augustana (IL),CCIW,10.0,Illinois Wesleyan,CCIW,17.0,Charles D. Lindberg Stadium,True
+401907781,2026,3,regular,2026-09-19T18:00:00.000Z,False,True,Augustana (IL),CCIW,13.0,Illinois Wesleyan,CCIW,17.0,Charles D. Lindberg Stadium,True
 401907845,2026,3,regular,2026-09-19T18:00:00.000Z,False,True,North Park,CCIW,10.0,North Central College,CCIW,45.0,Holmgren Athletic Complex,True
 401858448,2026,3,regular,2026-09-19T18:00:00.000Z,False,False,Illinois,Big Ten,48.0,Southern Illinois,MVFC,10.0,"Memorial Stadium (Champaign, IL)",True
 401908748,2026,3,regular,2026-09-19T18:00:00.000Z,False,True,Augsburg,Minnesota,30.0,St. Scholastica,Minnesota,0.0,Edor Nelson Field,True
@@ -3547,7 +3547,7 @@ game_id,season,week,season_type,start_date,neutral_site,conference_game,home_tea
 401873230,2026,3,regular,2026-09-19T20:00:00.000Z,False,False,Cal Lutheran,So. Cal.,41.0,Puget Sound,Northwest,7.0,William Rolland Stadium,True
 401858471,2026,3,regular,2026-09-19T20:00:00.000Z,False,False,Iowa,Big Ten,55.0,Northern Iowa,MVFC,0.0,Kinnick Stadium,True
 401866422,2026,3,regular,2026-09-19T20:00:00.000Z,False,False,Liberty,Conference USA,51.0,Ball State,Mid-American,15.0,Williams Stadium (VA),True
-401906912,2026,3,regular,2026-09-19T20:00:00.000Z,False,True,Allen,SIAC,28.0,Albany State,SIAC,32.0,W.C. Hawkins Stadium,True
+401906912,2026,3,regular,2026-09-19T20:00:00.000Z,False,True,Allen,SIAC,32.0,Albany State,SIAC,28.0,W.C. Hawkins Stadium,True
 401868942,2026,3,regular,2026-09-19T20:00:00.000Z,False,False,Bethune-Cookman,SWAC,62.0,Virginia Lynchburg,,3.0,Municipal Stadium,True
 401908406,2026,3,regular,2026-09-19T20:00:00.000Z,False,False,Lewis & Clark,Northwest,49.0,Pomona Pitzer,So. Cal.,28.0,Griswold Stadium,True
 401858231,2026,3,regular,2026-09-19T20:00:00.000Z,False,True,Duke,ACC,35.0,Stanford,ACC,7.0,Wallace Wade Stadium,True
