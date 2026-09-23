@@ -3103,8 +3103,8 @@ game_id,season,week,home_team,away_team,venue,temperature,dewpoint,humidity,prec
 401864548,2026,13,UNLV,Nevada,Allegiant Stadium,72.0,,,0.0,0.0,,0.0,Dome,True
 401864547,2026,13,Hawai'i,Sacramento State,Clarence T.C. Ching Athletics Complex,,,,,,,,,False
 401862844,2026,15,Army,Navy,MetLife Stadium,,,,,,,,,False
-401906938,2026,4,Tuskegee,Benedict,Abbott Memorial Alumni Stadium,75.1,,58.0,0.0,,,8.9,,False
-401869941,2026,4,Coastal Carolina,Liberty,Brooks Stadium (SC),69.2,,64.0,0.0,,,13.4,,False
+401906938,2026,4,Tuskegee,Benedict,Abbott Memorial Alumni Stadium,78.4,,51.0,0.0,,,8.0,,False
+401869941,2026,4,Coastal Carolina,Liberty,Brooks Stadium (SC),68.2,,70.0,0.0,,,12.5,,False
 401867806,2026,4,Brown,Harvard,Brown Stadium,57.6,,67.0,0.0,,,14.1,,False
 401858468,2026,4,Rutgers,Howard,SHI Stadium,67.7,,44.0,0.0,,,10.8,,False
 401862779,2026,4,Temple,Army,Lincoln Financial Field,73.9,,27.0,0.0,,,11.8,,False
@@ -3671,7 +3671,7 @@ game_id,season,week,home_team,away_team,venue,temperature,dewpoint,humidity,prec
 401858477,2026,5,Rutgers,Indiana,SHI Stadium,63.0,,93.0,0.008,,,3.2,,False
 401860921,2026,5,Washington State,Fresno State,Gesa Field,63.5,,26.0,0.0,,,2.5,,False
 401860900,2026,5,San Diego State,Texas State,Snapdragon Stadium,81.2,,40.0,0.0,,,5.4,,False
-401864513,2026,5,Hawai'i,San José State,Clarence T.C. Ching Athletics Complex,78.6,,69.0,0.004,,,10.6,,False
+401864513,2026,5,Hawai'i,San José State,Clarence T.C. Ching Athletics Complex,79.8,,73.0,0.0,,,6.9,,False
 401871090,2026,6,Troy,Southern Miss,Veterans Memorial Stadium (AL),67.9,,44.0,0.0,,,3.0,,False
 401871051,2026,6,Kennesaw State,Jacksonville State,Fifth Third Stadium,75.9,,57.0,0.0,,,0.9,,False
 401871066,2026,6,Florida International,New Mexico State,Pitbull Stadium,85.8,,62.0,0.0,,,12.3,,False
