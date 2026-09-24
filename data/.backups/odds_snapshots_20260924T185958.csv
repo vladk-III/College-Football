@@ -4866,25 +4866,3 @@ snapshot_ts,source,game_id,home_team,away_team,provider,spread,spread_open,over_
 2026-09-24T14:01:25.197563-04:00,odds_api,401869941,Coastal Carolina Chanticleers,Liberty Flames,betmgm,2.5,,49.5,,105.0,-130.0,2026-09-24T23:30:00Z,-110.0,-110.0
 2026-09-24T14:01:25.197563-04:00,odds_api,401869941,Coastal Carolina Chanticleers,Liberty Flames,betus,2.5,,50.5,,110.0,-130.0,2026-09-24T23:30:00Z,-110.0,-110.0
 2026-09-24T14:01:25.197563-04:00,odds_api,401869941,Coastal Carolina Chanticleers,Liberty Flames,bovada,2.5,,50.0,,105.0,-125.0,2026-09-24T23:30:00Z,-110.0,-110.0
-2026-09-24T18:59:57.657834-04:00,cfbd,401869941,Coastal Carolina,Liberty,Bovada,2.5,2.5,50.0,52.0,120.0,-140.0,,,
-2026-09-24T18:59:57.657834-04:00,cfbd,401869941,Coastal Carolina,Liberty,DraftKings,2.5,-1.5,49.5,54.5,110.0,-130.0,,,
-2026-09-24T18:59:57.657834-04:00,cfbd,401862779,Temple,Army,Bovada,3.0,3.0,48.0,49.0,130.0,-150.0,,,
-2026-09-24T18:59:57.657834-04:00,cfbd,401862779,Temple,Army,DraftKings,3.0,3.0,48.5,49.5,130.0,-155.0,,,
-2026-09-24T18:59:57.920107-04:00,odds_api,401869941,Coastal Carolina Chanticleers,Liberty Flames,fanduel,2.5,,49.5,,112.0,-134.0,2026-09-24T23:30:00Z,-110.0,-114.0
-2026-09-24T18:59:57.920107-04:00,odds_api,401869941,Coastal Carolina Chanticleers,Liberty Flames,mybookieag,2.0,,50.0,,106.0,-129.0,2026-09-24T23:30:00Z,-110.0,-110.0
-2026-09-24T18:59:57.920107-04:00,odds_api,401869941,Coastal Carolina Chanticleers,Liberty Flames,betrivers,2.5,,49.5,,108.0,-134.0,2026-09-24T23:30:00Z,-113.0,-114.0
-2026-09-24T18:59:57.920107-04:00,odds_api,401869941,Coastal Carolina Chanticleers,Liberty Flames,draftkings,2.5,,50.5,,120.0,-142.0,2026-09-24T23:30:00Z,-110.0,-108.0
-2026-09-24T18:59:57.920107-04:00,odds_api,401869941,Coastal Carolina Chanticleers,Liberty Flames,lowvig,2.5,,49.5,,120.0,-140.0,2026-09-24T23:30:00Z,-106.0,-114.0
-2026-09-24T18:59:57.920107-04:00,odds_api,401869941,Coastal Carolina Chanticleers,Liberty Flames,betonlineag,2.5,,49.5,,120.0,-140.0,2026-09-24T23:30:00Z,-110.0,-115.0
-2026-09-24T18:59:57.920107-04:00,odds_api,401869941,Coastal Carolina Chanticleers,Liberty Flames,betmgm,2.5,,49.5,,115.0,-140.0,2026-09-24T23:30:00Z,-108.0,-118.0
-2026-09-24T18:59:57.920107-04:00,odds_api,401869941,Coastal Carolina Chanticleers,Liberty Flames,betus,2.5,,50.0,,120.0,-140.0,2026-09-24T23:30:00Z,-110.0,-115.0
-2026-09-24T18:59:57.920107-04:00,odds_api,401869941,Coastal Carolina Chanticleers,Liberty Flames,bovada,2.5,,50.0,,120.0,-140.0,2026-09-24T23:30:00Z,-105.0,-110.0
-2026-09-24T18:59:57.920107-04:00,odds_api,401862779,Temple Owls,Army Black Knights,fanduel,3.5,,48.5,,130.0,-156.0,2026-09-25T20:00:00Z,-120.0,-105.0
-2026-09-24T18:59:57.920107-04:00,odds_api,401862779,Temple Owls,Army Black Knights,mybookieag,3.0,,48.0,,128.0,-158.0,2026-09-25T20:00:00Z,-110.0,-110.0
-2026-09-24T18:59:57.920107-04:00,odds_api,401862779,Temple Owls,Army Black Knights,betrivers,3.0,,48.5,,120.0,-155.0,2026-09-25T20:00:00Z,-109.0,-113.0
-2026-09-24T18:59:57.920107-04:00,odds_api,401862779,Temple Owls,Army Black Knights,draftkings,3.0,,48.5,,130.0,-155.0,2026-09-25T20:00:00Z,-108.0,-105.0
-2026-09-24T18:59:57.920107-04:00,odds_api,401862779,Temple Owls,Army Black Knights,lowvig,3.0,,48.5,,135.0,-155.0,2026-09-25T20:00:00Z,-101.0,-103.0
-2026-09-24T18:59:57.920107-04:00,odds_api,401862779,Temple Owls,Army Black Knights,betonlineag,3.0,,48.5,,135.0,-155.0,2026-09-25T20:00:00Z,-105.0,-105.0
-2026-09-24T18:59:57.920107-04:00,odds_api,401862779,Temple Owls,Army Black Knights,betmgm,3.0,,48.5,,130.0,-160.0,2026-09-25T20:00:00Z,-105.0,-105.0
-2026-09-24T18:59:57.920107-04:00,odds_api,401862779,Temple Owls,Army Black Knights,betus,3.0,,48.5,,134.0,-155.0,2026-09-25T20:00:00Z,-110.0,-105.0
-2026-09-24T18:59:57.920107-04:00,odds_api,401862779,Temple Owls,Army Black Knights,bovada,3.0,,48.0,,130.0,-150.0,2026-09-25T20:00:00Z,-110.0,-115.0
