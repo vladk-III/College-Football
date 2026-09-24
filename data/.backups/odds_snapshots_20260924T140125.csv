@@ -4855,14 +4855,3 @@ snapshot_ts,source,game_id,home_team,away_team,provider,spread,spread_open,over_
 2026-09-19T18:05:55.831405-04:00,odds_api,401858458,UCLA Bruins,Purdue Boilermakers,mybookieag,-14.0,,52.5,,-625.0,440.0,2026-09-20T03:00:00Z,-110.0,-110.0
 2026-09-19T18:05:55.831405-04:00,odds_api,401858458,UCLA Bruins,Purdue Boilermakers,betus,-13.5,,53.0,,-625.0,465.0,2026-09-20T03:00:00Z,-110.0,-110.0
 2026-09-19T18:05:55.831405-04:00,odds_api,401858458,UCLA Bruins,Purdue Boilermakers,bovada,-13.5,,52.5,,-675.0,460.0,2026-09-20T03:00:00Z,-115.0,-115.0
-2026-09-24T14:01:24.861580-04:00,cfbd,401869941,Coastal Carolina,Liberty,DraftKings,2.5,-1.5,49.5,54.5,110.0,-130.0,,,
-2026-09-24T14:01:24.861580-04:00,cfbd,401869941,Coastal Carolina,Liberty,Bovada,2.5,2.5,50.0,52.0,120.0,-140.0,,,
-2026-09-24T14:01:25.197563-04:00,odds_api,401869941,Coastal Carolina Chanticleers,Liberty Flames,fanduel,2.5,,49.5,,105.0,-126.0,2026-09-24T23:30:00Z,-114.0,-110.0
-2026-09-24T14:01:25.197563-04:00,odds_api,401869941,Coastal Carolina Chanticleers,Liberty Flames,mybookieag,2.5,,50.0,,110.0,-135.0,2026-09-24T23:30:00Z,-110.0,-110.0
-2026-09-24T14:01:25.197563-04:00,odds_api,401869941,Coastal Carolina Chanticleers,Liberty Flames,betrivers,2.5,,50.5,,108.0,-134.0,2026-09-24T23:30:00Z,-113.0,-109.0
-2026-09-24T14:01:25.197563-04:00,odds_api,401869941,Coastal Carolina Chanticleers,Liberty Flames,draftkings,2.5,,49.5,,110.0,-130.0,2026-09-24T23:30:00Z,-110.0,-112.0
-2026-09-24T14:01:25.197563-04:00,odds_api,401869941,Coastal Carolina Chanticleers,Liberty Flames,lowvig,2.0,,50.5,,108.0,-128.0,2026-09-24T23:30:00Z,-106.0,-103.0
-2026-09-24T14:01:25.197563-04:00,odds_api,401869941,Coastal Carolina Chanticleers,Liberty Flames,betonlineag,2.0,,50.5,,108.0,-128.0,2026-09-24T23:30:00Z,-110.0,-105.0
-2026-09-24T14:01:25.197563-04:00,odds_api,401869941,Coastal Carolina Chanticleers,Liberty Flames,betmgm,2.5,,49.5,,105.0,-130.0,2026-09-24T23:30:00Z,-110.0,-110.0
-2026-09-24T14:01:25.197563-04:00,odds_api,401869941,Coastal Carolina Chanticleers,Liberty Flames,betus,2.5,,50.5,,110.0,-130.0,2026-09-24T23:30:00Z,-110.0,-110.0
-2026-09-24T14:01:25.197563-04:00,odds_api,401869941,Coastal Carolina Chanticleers,Liberty Flames,bovada,2.5,,50.0,,105.0,-125.0,2026-09-24T23:30:00Z,-110.0,-110.0
