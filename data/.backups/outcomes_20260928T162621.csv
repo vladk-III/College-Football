@@ -2529,7 +2529,6 @@ game_id,home_team,away_team,home_points,away_points,total_points,margin,provider
 401860888,San José State,Fresno State,10,26,36,-16,fanduel,4.5,away_cover,48.5,under,176.0,away_win
 401860888,San José State,Fresno State,10,26,36,-16,lowvig,4.5,away_cover,48.0,under,171.0,away_win
 401860888,San José State,Fresno State,10,26,36,-16,mybookieag,5.5,away_cover,48.5,under,182.0,away_win
-401906938,Tuskegee,Benedict,20,17,37,3,none,,,,,,
 401869941,Coastal Carolina,Liberty,17,34,51,-17,Bovada,2.5,away_cover,50.0,over,120.0,away_win
 401869941,Coastal Carolina,Liberty,17,34,51,-17,DraftKings,2.5,away_cover,49.5,over,110.0,away_win
 401869941,Coastal Carolina,Liberty,17,34,51,-17,betmgm,2.5,away_cover,49.5,over,115.0,away_win
@@ -2603,7 +2602,6 @@ game_id,home_team,away_team,home_points,away_points,total_points,margin,provider
 401908704,Susquehanna,Christopher Newport,0,21,21,-21,none,,,,,,
 401868263,Marist,Presbyterian,42,7,49,35,DraftKings,-8.5,home_cover,45.5,over,-262.0,home_win
 401866642,Sacred Heart,New Hampshire,20,13,33,7,DraftKings,-4.0,home_cover,44.5,under,-163.0,home_win
-401907865,Alfred,St. John Fisher,15,33,48,-18,none,,,,,,
 401860896,UTSA,Colorado State,59,45,104,14,Bovada,-14.0,push,56.5,over,-525.0,home_win
 401860896,UTSA,Colorado State,59,45,104,14,DraftKings,-14.0,push,56.5,over,-600.0,home_win
 401860896,UTSA,Colorado State,59,45,104,14,betmgm,-14.0,push,56.5,over,-600.0,home_win
@@ -2627,14 +2625,12 @@ game_id,home_team,away_team,home_points,away_points,total_points,margin,provider
 401860893,Toledo,San Diego State,41,16,57,25,fanduel,-2.5,home_cover,51.5,over,-146.0,home_win
 401860893,Toledo,San Diego State,41,16,57,25,lowvig,-3.0,home_cover,51.5,over,-150.0,home_win
 401860893,Toledo,San Diego State,41,16,57,25,mybookieag,-3.0,home_cover,51.5,over,-147.0,home_win
-401873405,Western Connecticut State,Kean,0,0,0,0,none,,,,,,
 401907874,Hartwick,Brockport,11,37,48,-26,none,,,,,,
 401908485,Endicott,Husson,35,6,41,29,none,,,,,,
 401906623,Walsh,Ashland,17,10,27,7,none,,,,,,
 401907468,Oberlin,Washington St. Louis,0,79,79,-79,none,,,,,,
 401906642,Hillsdale,Thomas More,38,7,45,31,none,,,,,,
 401907529,Clarion,Edinboro,30,19,49,11,none,,,,,,
-401907519,California (PA),Slippery Rock,26,41,67,-15,none,,,,,,
 401864512,Akron,UNLV,10,38,48,-28,Bovada,13.5,away_cover,53.0,under,400.0,away_win
 401864512,Akron,UNLV,10,38,48,-28,DraftKings,13.5,away_cover,52.5,under,410.0,away_win
 401864512,Akron,UNLV,10,38,48,-28,betmgm,13.0,away_cover,52.5,under,400.0,away_win
@@ -2764,7 +2760,6 @@ game_id,home_team,away_team,home_points,away_points,total_points,margin,provider
 401866427,Eastern Michigan,Lindenwood,29,3,32,26,lowvig,-25.5,home_cover,50.5,under,,home_win
 401868219,Davidson,Drake,32,51,83,-19,DraftKings,12.5,away_cover,53.5,over,355.0,away_win
 401908632,Salisbury,Catholic,47,10,57,37,none,,,,,,
-401909021,Saint Vincent,Allegheny,23,27,50,-4,none,,,,,,
 401872618,Merrimack,New Haven,17,10,27,7,DraftKings,-9.5,away_cover,46.5,under,-356.0,home_win
 401868034,Pennsylvania,Lehigh,7,20,27,-13,DraftKings,13.5,home_cover,46.5,under,380.0,away_win
 401906119,Elizabeth City State,Bowie State,23,34,57,-11,none,,,,,,
@@ -2773,25 +2768,19 @@ game_id,home_team,away_team,home_points,away_points,total_points,margin,provider
 401906164,Shaw,Livingstone,28,27,55,1,none,,,,,,
 401907554,Gannon,Lock Haven,14,24,38,-10,none,,,,,,
 401907579,Post,Southern Connecticut State,7,50,57,-43,none,,,,,,
-401909015,Gallaudet,Roanoke College,0,52,52,-52,none,,,,,,
 401908520,Western New England,New England,28,21,49,7,none,,,,,,
 401907646,Minnesota St Moorhead,Minnesota Duluth,23,20,43,3,none,,,,,,
-401908892,Merchant Marine,Norwich,44,9,53,35,none,,,,,,
 401908700,William Paterson,Moravian,16,19,35,-3,none,,,,,,
 401908685,Union,Buffalo State,63,14,77,49,none,,,,,,
-401906634,Kentucky Wesleyan,Tiffin,13,48,61,-35,none,,,,,,
 401907882,SUNY Cortland,SUNY Morrisville,62,6,68,56,none,,,,,,
 401907477,American International,Assumption,14,37,51,-23,none,,,,,,
 401906196,UNC Pembroke,Monroe,24,6,30,18,none,,,,,,
 401908678,John Carroll,Wittenberg,49,3,52,46,none,,,,,,
 401909133,Kenyon,DePauw,3,31,34,-28,none,,,,,,
-401908639,Juniata,The College of New Jersey,7,35,42,-28,none,,,,,,
 401908898,Colby,Williams,7,19,26,-12,none,,,,,,
 401908833,Bates,Trinity (CT),0,43,43,-43,none,,,,,,
-401908867,Bowdoin,Middlebury,0,16,16,-16,none,,,,,,
 401867858,Indiana State,North Dakota,35,42,77,-7,DraftKings,17.5,home_cover,58.5,over,710.0,away_win
 401907606,Frostburg State,West Virginia Wesleyan,45,7,52,38,none,,,,,,
-401908618,Worcester State,Westfield State,21,24,45,-3,none,,,,,,
 401908706,Hope,Albion,63,0,63,63,none,,,,,,
 401907597,Fairmont State,West Virginia State,41,18,59,23,none,,,,,,
 401907581,Charleston (WV),Glenville State,27,7,34,20,none,,,,,,
@@ -2800,8 +2789,6 @@ game_id,home_team,away_team,home_points,away_points,total_points,margin,provider
 401908203,King's,Widener,18,13,31,5,none,,,,,,
 401908174,Alvernia,Lebanon Valley,13,10,23,3,none,,,,,,
 401907415,Carson Newman,Mars Hill,6,10,16,-4,none,,,,,,
-401907422,Emory & Henry,Newberry,14,28,42,-14,none,,,,,,
-401908096,Apprentice School,Methodist,22,27,49,-5,none,,,,,,
 401909028,Bethany (WV),Geneva,14,42,56,-28,none,,,,,,
 401909041,Saint Francis,Grove City,6,36,42,-30,none,,,,,,
 401908692,Ithaca,St. Lawrence,66,0,66,66,none,,,,,,
@@ -2873,7 +2860,6 @@ game_id,home_team,away_team,home_points,away_points,total_points,margin,provider
 401867885,Youngstown State,South Dakota,47,28,75,19,DraftKings,-1.5,home_cover,65.5,over,101.0,home_win
 401908236,Dubuque,McMurry,35,28,63,7,none,,,,,,
 401868037,Richmond,Furman,13,9,22,4,DraftKings,-3.5,home_cover,43.5,under,-135.0,home_win
-401908548,Austin,Hendrix,6,44,50,-38,none,,,,,,
 401908652,Alma,Adrian,27,24,51,3,none,,,,,,
 401906882,Quincy,Wayne State (MI),56,35,91,21,none,,,,,,
 401907382,Nebraska Kearney,Washburn,7,42,49,-35,none,,,,,,
@@ -3034,7 +3020,6 @@ game_id,home_team,away_team,home_points,away_points,total_points,margin,provider
 401868358,Alcorn State,Texas Southern,43,40,83,3,DraftKings,-3.5,away_cover,55.5,over,-172.0,home_win
 401866644,North Carolina A&T,Rhode Island,22,18,40,4,DraftKings,24.5,home_cover,52.5,under,1200.0,home_win
 401908740,Calvin,Olivet,66,20,86,46,none,,,,,,
-401906171,Barton,West Alabama,7,17,24,-10,none,,,,,,
 401907133,CSU Pueblo,Colorado Mesa,35,23,58,12,none,,,,,,
 401862781,East Carolina,North Carolina Central,42,9,51,33,Bovada,-37.5,away_cover,58.5,under,,home_win
 401862781,East Carolina,North Carolina Central,42,9,51,33,DraftKings,-37.5,away_cover,57.5,under,-4500.0,home_win
