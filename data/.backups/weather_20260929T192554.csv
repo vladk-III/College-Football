@@ -3324,7 +3324,7 @@ game_id,season,week,home_team,away_team,venue,temperature,dewpoint,humidity,prec
 401868391,2026,5,Western Carolina,Tennessee Tech,E. J. Whitmire Stadium,66.5,,99.0,0.193,,,2.1,,False
 401867840,2026,5,Harvard,Colgate,Harvard Stadium,58.1,,56.0,0.0,,,4.8,,False
 401869151,2026,5,Houston Christian,Nicholls,Husky Stadium,66.0,,53.0,0.0,,,9.0,,False
-401867688,2026,5,Tarleton State,Chicago State,"Memorial Stadium (Stephenville, TX)",73.7,,83.0,0.031,,,7.3,,False
+401867688,2026,5,Tarleton State,Chicago State,"Memorial Stadium (Stephenville, TX)",73.7,,83.0,0.028,,,7.3,,False
 401908834,2026,5,Bates,Tufts,Garcelon Field,51.8,,59.0,0.0,,,3.3,,False
 401867848,2026,5,Illinois State,South Dakota State,Hancock Stadium,64.0,,55.0,0.0,,,6.7,,False
 401868248,2026,5,East Texas A&M,UT Rio Grande Valley,Memorial Stadium (Commerce TX),77.4,,74.0,0.0,,,6.3,,False
@@ -3332,21 +3332,21 @@ game_id,season,week,home_team,away_team,venue,temperature,dewpoint,humidity,prec
 401906207,2026,5,Delta State,Shorter,Parker Field at McCool Stadium,76.5,,73.0,0.0,,,14.8,,False
 401906614,2026,5,Mary Hardin Baylor,Keystone,Crusader Stadium,73.7,,89.0,0.0,,,9.6,,False
 401907278,2026,5,Angelo State,Central Washington,LeGrand Stadium at 1st Community Credit Union Field,72.4,,75.0,0.0,,,11.5,,False
-401907294,2026,5,Morehouse,Tuskegee,Cramton Bowl,71.9,,98.0,0.0,,,3.5,,False
-401907458,2026,5,Newberry,UVA Wise,Setzler Field,69.1,,95.0,0.004,,,5.9,,False
+401907294,2026,5,Morehouse,Tuskegee,Cramton Bowl,71.9,,98.0,0.079,,,3.5,,False
+401907458,2026,5,Newberry,UVA Wise,Setzler Field,69.1,,95.0,0.035,,,5.9,,False
 401907638,2026,5,Northern State,Bemidji State,Swisher Field,63.6,,49.0,0.0,,,9.7,,False
 401908105,2026,5,Centre,Maryville (TN),Farris Stadium,60.4,,73.0,0.0,,,9.8,,False
 401908431,2026,5,Willamette,Pacific Lutheran,McCulloch Stadium,81.0,,36.0,0.0,,,8.5,,False
 401908472,2026,5,Minnesota Morris,Crown,Big Cat Stadium,57.7,,65.0,0.0,,,11.8,,False
 401908655,2026,5,Heidelberg,Baldwin Wallace,Hoernemann Stadium,56.1,,72.0,0.0,,,8.4,,False
 401909022,2026,5,Thiel,Allegheny,Alumni Stadium (PA),55.3,,59.0,0.0,,,5.2,,False
-401869131,2026,5,Lamar,Northwestern State,Provost Umphrey Stadium,83.3,,66.0,0.063,,,10.6,,False
-401862793,2026,5,UAB,Samford,Protective Stadium,71.8,,96.0,0.0,,,2.8,,False
+401869131,2026,5,Lamar,Northwestern State,Provost Umphrey Stadium,83.3,,66.0,0.0,,,10.6,,False
+401862793,2026,5,UAB,Samford,Protective Stadium,71.8,,96.0,0.098,,,2.8,,False
 401862790,2026,5,Florida Atlantic,Texas Southern,FAU Stadium,87.4,,59.0,0.0,,,12.0,,False
-401856706,2026,5,LSU,McNeese,Tiger Stadium (LA),82.0,,75.0,0.0,,,4.4,,False
+401856706,2026,5,LSU,McNeese,Tiger Stadium (LA),82.0,,75.0,0.016,,,4.4,,False
 401858476,2026,5,Northwestern,Penn State,Ryan Field,58.7,,59.0,0.0,,,11.3,,False
 401858475,2026,5,Nebraska,Maryland,"Memorial Stadium (Lincoln, NE)",52.1,,77.0,0.0,,,7.1,,False
-401858246,2026,5,SMU,Boston College,Gerald J. Ford Stadium,75.0,,86.0,0.004,,,6.8,,False
+401858246,2026,5,SMU,Boston College,Gerald J. Ford Stadium,75.0,,86.0,0.091,,,6.8,,False
 401869932,2026,5,Louisiana,Arkansas State,Cajun Field,73.3,,96.0,0.0,,,7.4,,False
 401869842,2026,5,Louisiana Tech,Army,Joe Aillet Stadium,71.9,,93.0,0.0,,,3.6,,False
 401856708,2026,5,Missouri,Florida,Memorial Stadium,56.8,,57.0,0.0,,,10.6,,False
@@ -3354,37 +3354,37 @@ game_id,season,week,home_team,away_team,venue,temperature,dewpoint,humidity,prec
 401856711,2026,5,Texas A&M,Arkansas,Kyle Field,76.5,,76.0,0.0,,,5.8,,False
 401856807,2026,5,Kansas,Middle Tennessee,Memorial Stadium,56.8,,57.0,0.0,,,10.6,,False
 401856817,2026,5,Arizona State,Baylor,Mountain America Stadium,93.0,,22.0,0.0,,,6.4,,False
-401856818,2026,5,TCU,BYU,Amon G. Carter Stadium,73.4,,90.0,0.0,,,7.8,,False
-401856819,2026,5,Houston,UCF,TDECU Stadium,79.5,,79.0,0.0,,,4.8,,False
+401856818,2026,5,TCU,BYU,Amon G. Carter Stadium,73.4,,90.0,0.043,,,7.8,,False
+401856819,2026,5,Houston,UCF,TDECU Stadium,79.5,,79.0,0.004,,,4.8,,False
 401856820,2026,5,Arizona,Cincinnati,Arizona Stadium,83.8,,29.0,0.0,,,13.6,,False
 401856821,2026,5,Colorado,Texas Tech,Folsom Field,62.0,,30.0,0.0,,,9.5,,False
 401856822,2026,5,Iowa State,West Virginia,Jack Trice Stadium,50.7,,74.0,0.0,,,6.5,,False
-401858249,2026,5,Clemson,Miami,"Memorial Stadium (Clemson, SC)",71.1,,90.0,0.0,,,2.9,,False
+401858249,2026,5,Clemson,Miami,"Memorial Stadium (Clemson, SC)",71.1,,90.0,0.012,,,2.9,,False
 401858250,2026,5,North Carolina,Notre Dame,Kenan Stadium,75.8,,63.0,0.0,,,3.9,,False
 401858472,2026,5,Illinois,Purdue,"Memorial Stadium (Champaign, IL)",52.1,,82.0,0.0,,,9.4,,False
 401858473,2026,5,Iowa,Ohio State,Kinnick Stadium,50.3,,76.0,0.0,,,6.2,,False
 401858474,2026,5,Minnesota,Michigan,Huntington Bank Stadium,59.4,,38.0,0.0,,,1.8,,False
 401858479,2026,5,Wisconsin,Michigan State,Camp Randall Stadium,47.1,,68.0,0.0,,,3.5,,False
-401862792,2026,5,South Florida,Temple,Raymond James Stadium,78.9,,83.0,0.0,,,7.4,,False
+401862792,2026,5,South Florida,Temple,Raymond James Stadium,78.9,,83.0,0.079,,,7.4,,False
 401866431,2026,5,Ball State,Toledo,Scheumann Stadium,50.2,,88.0,0.0,,,6.3,,False
 401866433,2026,5,Massachusetts,Eastern Michigan,Warren McGuirk Alumni Stadium,62.4,,88.0,0.0,,,4.8,,False
 401866434,2026,5,Kent State,Ohio,Dix Stadium,47.6,,91.0,0.0,,,6.8,,False
-401869956,2026,5,Georgia State,Old Dominion,Center Parc Stadium,73.0,,91.0,0.0,,,5.7,,False
+401869956,2026,5,Georgia State,Old Dominion,Center Parc Stadium,73.0,,91.0,0.02,,,5.7,,False
 401866432,2026,5,Buffalo,Western Michigan,UB Stadium,51.0,,66.0,0.0,,,5.2,,False
 401864514,2026,5,New Mexico,UTEP,University Stadium (NM),68.7,,43.0,0.0,,,7.4,,False
-401862788,2026,5,Rice,UTSA,Rice Stadium,79.5,,79.0,0.0,,,4.8,,False
-401858253,2026,5,Florida State,Virginia,Doak Campbell Stadium,72.4,,98.0,0.0,,,4.8,,False
+401862788,2026,5,Rice,UTSA,Rice Stadium,79.5,,79.0,0.004,,,4.8,,False
+401858253,2026,5,Florida State,Virginia,Doak Campbell Stadium,72.4,,98.0,0.035,,,4.8,,False
 401858251,2026,5,Wake Forest,Stanford,Allegacy Federal Credit Union Stadium,75.2,,59.0,0.0,,,0.8,,False
 401862787,2026,5,Charlotte,Memphis,Jerry Richardson Stadium,78.9,,58.0,0.0,,,3.6,,False
-401871089,2026,5,South Alabama,UL Monroe,Hancock Whitney Stadium,73.5,,97.0,0.0,,,7.4,,False
+401871089,2026,5,South Alabama,UL Monroe,Hancock Whitney Stadium,73.5,,97.0,0.012,,,7.4,,False
 401858248,2026,5,NC State,Louisville,Carter-Finley Stadium,76.5,,62.0,0.0,,,5.7,,False
 401869942,2026,5,Coastal Carolina,Georgia Southern,Brooks Stadium (SC),76.9,,79.0,0.0,,,4.5,,False
-401856710,2026,5,Tennessee,Auburn,Neyland Stadium,68.3,,93.0,0.024,,,1.4,,False
+401856710,2026,5,Tennessee,Auburn,Neyland Stadium,68.3,,93.0,0.0,,,1.4,,False
 401866477,2026,5,Miami (OH),Bowling Green,Yager Stadium,53.2,,83.0,0.0,,,6.8,,False
 401858478,2026,5,USC,Washington,Los Angeles Memorial Coliseum,84.8,,32.0,0.0,,,3.4,,False
 401866430,2026,5,Central Michigan,Akron,Kelly/Shorts Stadium,46.6,,70.0,0.0,,,6.9,,False
 401856705,2026,5,Georgia,Vanderbilt,Sanford Stadium,76.0,,66.0,0.0,,,1.6,,False
-401856707,2026,5,Mississippi State,Alabama,Davis Wade Stadium,71.4,,96.0,0.0,,,4.0,,False
+401856707,2026,5,Mississippi State,Alabama,Davis Wade Stadium,71.4,,96.0,0.004,,,4.0,,False
 401869962,2026,5,James Madison,Marshall,Bridgeforth Stadium,68.4,,83.0,0.0,,,4.4,,False
 401862791,2026,5,Air Force,Navy,Falcon Stadium,71.0,,27.0,0.0,,,2.7,,False
 401858252,2026,5,UConn,Syracuse,Pratt & Whitney Stadium,65.6,,34.0,0.0,,,9.0,,False
@@ -3392,7 +3392,7 @@ game_id,season,week,home_team,away_team,venue,temperature,dewpoint,humidity,prec
 401860898,2026,5,Boise State,Utah State,Albertsons Stadium,84.4,,16.0,0.0,,,3.6,,False
 401868160,2026,5,Utah Tech,Southern Utah,Greater Zion Stadium,92.8,,14.0,0.0,,,2.2,,False
 401868077,2026,5,Cal Poly,Weber State,Alex G. Spanos Stadium,84.9,,24.0,0.0,,,4.3,,False
-401868053,2026,5,Abilene Christian,West Florida,Wildcat Stadium (TX),69.5,,85.0,0.004,,,5.9,,False
+401868053,2026,5,Abilene Christian,West Florida,Wildcat Stadium (TX),69.5,,85.0,0.0,,,5.9,,False
 401907310,2026,5,Texas A&M-Kingsville,West Texas,Javelina Stadium,80.7,,75.0,0.0,,,12.7,,False
 401907339,2026,5,Central Missouri,Central Oklahoma,Audrey J. Walton Stadium at Vernon Kennedy Field,64.3,,51.0,0.0,,,7.3,,False
 401907366,2026,5,Fort Hays,Missouri Southern State,Lewis Field Stadium,69.8,,62.0,0.0,,,6.8,,False
@@ -3407,11 +3407,11 @@ game_id,season,week,home_team,away_team,venue,temperature,dewpoint,humidity,prec
 401858477,2026,5,Rutgers,Indiana,SHI Stadium,64.1,,47.0,0.0,,,3.4,,False
 401860921,2026,5,Washington State,Fresno State,Gesa Field,69.7,,35.0,0.0,,,0.7,,False
 401860900,2026,5,San Diego State,Texas State,Snapdragon Stadium,93.4,,22.0,0.0,,,4.3,,False
-401864513,2026,5,Hawai'i,San José State,Clarence T.C. Ching Athletics Complex,78.7,,75.0,0.012,,,11.1,,False
+401864513,2026,5,Hawai'i,San José State,Clarence T.C. Ching Athletics Complex,79.6,,74.0,0.0,,,9.6,,False
 401868265,2026,6,Marist,Columbia,Leonidoff Field,53.8,,65.0,0.0,,,11.2,,False
 401858254,2026,6,Louisville,Florida State,L&N Federal Credit Union Stadium,66.0,,34.0,0.0,,,7.9,,False
-401867930,2026,6,Wagner,Princeton,Wagner College Stadium,52.1,,83.0,0.0,,,11.0,,False
-401867907,2026,6,Central Connecticut,American International,Arute Field,51.1,,95.0,0.0,,,8.4,,False
+401867930,2026,6,Wagner,Princeton,Wagner College Stadium,52.1,,83.0,0.012,,,11.0,,False
+401867907,2026,6,Central Connecticut,American International,Arute Field,51.1,,95.0,0.004,,,8.4,,False
 401867836,2026,6,Yale,Dartmouth,Yale Bowl,59.7,,48.0,0.0,,,9.0,,False
 401866660,2026,6,Sacred Heart,Stonehill,Campus Field,57.0,,52.0,0.0,,,9.3,,False
 401906862,2026,6,Findlay,Ashland,Donnell Stadium,58.2,,38.0,0.0,,,9.1,,False
@@ -3451,7 +3451,7 @@ game_id,season,week,home_team,away_team,venue,temperature,dewpoint,humidity,prec
 401906884,2026,6,Wayne State (MI),Roosevelt,Tom Adams Field,61.7,,26.0,0.0,,,10.4,,False
 401906906,2026,6,Ferris State,Saginaw Valley State,Top Taggart Field,61.2,,49.0,0.0,,,20.5,,False
 401906953,2026,6,Central State,Tuskegee,McPherson Memorial Stadium,60.4,,37.0,0.0,,,5.6,,False
-401906974,2026,6,Fort Valley State,Clark Atlanta,Wildcat Stadium (GA),69.8,,60.0,0.079,,,12.4,,False
+401906974,2026,6,Fort Valley State,Clark Atlanta,Wildcat Stadium (GA),69.8,,60.0,0.0,,,12.4,,False
 401907398,2026,6,Carson Newman,Anderson (SC),Burke-Tarr Stadium,64.7,,40.0,0.0,,,7.8,,False
 401907423,2026,6,Emory & Henry,Mars Hill,Fred Selfe Stadium at Nicewonder Field,68.3,,29.0,0.0,,,1.7,,False
 401907521,2026,6,California (PA),Edinboro,Adamson Stadium,60.6,,37.0,0.0,,,2.2,,False
@@ -3504,7 +3504,7 @@ game_id,season,week,home_team,away_team,venue,temperature,dewpoint,humidity,prec
 401868256,2026,6,Valparaiso,Drake,Brown Field,65.7,,38.0,0.0,,,17.2,,False
 401906625,2026,6,Hillsdale,Walsh,"Frank ""Muddy"" Waters Stadium",63.1,,32.0,0.0,,,15.6,,False
 401907566,2026,6,IU Pennsylvania,Lock Haven,George P. Miller Stadium,57.8,,34.0,0.0,,,4.3,,False
-401908301,2026,6,Huntingdon,Greensboro,Charles Lee Field at Samford Stadium,77.5,,48.0,0.012,,,9.8,,False
+401908301,2026,6,Huntingdon,Greensboro,Charles Lee Field at Samford Stadium,77.5,,48.0,0.0,,,9.8,,False
 401908312,2026,6,Rhodes,Berry,Crain Field,77.8,,18.0,0.0,,,6.8,,False
 401908315,2026,6,Mary Hardin Baylor,Howard Payne,Crusader Stadium,74.1,,37.0,0.0,,,10.5,,False
 401908381,2026,6,Millsaps,Centre,Harper Davis Field,81.1,,38.0,0.0,,,8.1,,False
@@ -3525,7 +3525,7 @@ game_id,season,week,home_team,away_team,venue,temperature,dewpoint,humidity,prec
 401909030,2026,6,Washington & Jefferson,Bethany (WV),Cameron Stadium,61.1,,36.0,0.0,,,2.7,,False
 401909123,2026,6,St. Norbert,Lakeland,Donald J. Schneider Stadium,67.0,,46.0,0.0,,,22.6,,False
 401907670,2026,6,Chicago,Cornell (IA),Amos Alonzo Stagg Field,66.3,,34.0,0.0,,,16.8,,False
-401906914,2026,6,Albany State,Lane College,Albany State University Coliseum,64.2,,84.0,0.134,,,10.6,,False
+401906914,2026,6,Albany State,Lane College,Albany State University Coliseum,64.2,,84.0,0.02,,,10.6,,False
 401868282,2026,6,St. Thomas (MN),Stetson,O'Shaughnessy Stadium,71.8,,34.0,0.0,,,12.9,,False
 401868347,2026,6,The Citadel,East Tennessee State,Johnson Hagood Stadium,68.1,,58.0,0.0,,,12.7,,False
 401907305,2026,6,Kentucky State,Miles,Alumni Stadium (KY),70.7,,22.0,0.0,,,2.9,,False
@@ -3566,8 +3566,8 @@ game_id,season,week,home_team,away_team,venue,temperature,dewpoint,humidity,prec
 401908244,2026,6,Loras,Simpson (IA),Rock Bowl,68.2,,59.0,0.0,,,17.6,,False
 401908280,2026,6,East Texas Baptist,Schreiner,Ornelas Stadium,85.0,,20.0,0.0,,,8.1,,False
 401868966,2026,6,Texas Southern,Mississippi Valley State,BBVA Compass Stadium,83.8,,35.0,0.0,,,11.1,,False
-401868382,2026,6,Mercer,Western Carolina,Five Star Stadium at the Moye Complex,72.8,,55.0,0.004,,,8.1,,False
-401868360,2026,6,Alcorn State,Arkansas Baptist,Jack Spinks Stadium,85.1,,33.0,0.028,,,10.0,,False
+401868382,2026,6,Mercer,Western Carolina,Five Star Stadium at the Moye Complex,72.8,,55.0,0.0,,,8.1,,False
+401868360,2026,6,Alcorn State,Arkansas Baptist,Jack Spinks Stadium,85.1,,33.0,0.0,,,10.0,,False
 401868376,2026,6,Tennessee Tech,Furman,Tucker Stadium,74.3,,22.0,0.0,,,4.5,,False
 401868198,2026,6,Tennessee State,UT Martin,Nissan Stadium,78.1,,15.0,0.0,,,3.8,,False
 401868180,2026,6,Gardner-Webb,Eastern Illinois,Ernest W. Spangler Stadium,69.4,,35.0,0.0,,,3.8,,False
@@ -3585,12 +3585,12 @@ game_id,season,week,home_team,away_team,venue,temperature,dewpoint,humidity,prec
 401908450,2026,6,La Verne,Claremont Mudd Scripps,Ortmayer Stadium,97.7,,12.0,0.0,,,15.6,,False
 401908461,2026,6,Whittier,Pomona Pitzer,"Memorial Stadium (Whittier, CA)",100.7,,11.0,0.0,,,9.1,,False
 401869144,2026,6,Lamar,Incarnate Word,Provost Umphrey Stadium,84.1,,37.0,0.0,,,12.6,,False
-401868329,2026,6,Alabama State,Florida A&M,Hornet Stadium,78.8,,46.0,0.012,,,9.0,,False
+401868329,2026,6,Alabama State,Florida A&M,Hornet Stadium,78.8,,46.0,0.0,,,9.0,,False
 401866659,2026,6,Towson,Stony Brook,Johnny Unitas Stadium,61.1,,33.0,0.0,,,5.5,,False
 401868156,2026,6,Portland State,Utah Tech,Hillsboro Stadium,82.5,,27.0,0.0,,,1.0,,False
 401907311,2026,6,Western Oregon,Texas A&M-Kingsville,McArthur Field,84.8,,26.0,0.0,,,5.5,,False
 401908973,2026,6,Montclair State,William Paterson,Sprague Field,63.6,,31.0,0.0,,,7.9,,False
-401874036,2026,6,West Florida,Northeastern State,Pen-Air Field,69.6,,65.0,0.362,,,13.7,,False
+401874036,2026,6,West Florida,Northeastern State,Pen-Air Field,69.6,,65.0,0.0,,,13.7,,False
 401906520,2026,6,Arkansas Tech,East Central,Thone Stadium at Buerkle Field,83.3,,20.0,0.0,,,1.1,,False
 401868955,2026,6,Grambling,Jackson State,Eddie Robinson Stadium,84.4,,22.0,0.0,,,8.2,,False
 401868221,2026,6,Presbyterian,Davidson,Bailey Memorial Stadium,71.0,,39.0,0.0,,,3.4,,False
@@ -3617,7 +3617,7 @@ game_id,season,week,home_team,away_team,venue,temperature,dewpoint,humidity,prec
 401856826,2026,6,BYU,Iowa State,LaVell Edwards Stadium,73.4,,19.0,0.0,,,1.4,,False
 401856715,2026,6,Kentucky,LSU,Kroger Field,47.4,,71.0,0.0,,,9.4,,False
 401856713,2026,6,Arkansas,Tennessee,Razorback Stadium,55.9,,46.0,0.0,,,4.7,,False
-401856714,2026,6,Florida,South Carolina,Ben Hill Griffin Stadium,67.2,,97.0,0.0,,,7.1,,False
+401856714,2026,6,Florida,South Carolina,Ben Hill Griffin Stadium,67.2,,97.0,0.106,,,7.1,,False
 401856718,2026,6,Vanderbilt,Ole Miss,FirstBank Stadium,64.6,,33.0,0.0,,,9.7,,False
 401856808,2026,6,Arizona State,Hawai'i,Mountain America Stadium,87.4,,21.0,0.0,,,17.0,,False
 401856823,2026,6,West Virginia,Arizona,Milan Puskar Stadium,40.4,,93.0,0.0,,,2.5,,False
@@ -3667,8 +3667,8 @@ game_id,season,week,home_team,away_team,venue,temperature,dewpoint,humidity,prec
 401908437,2026,6,Cal Lutheran,Azusa Pacific,William Rolland Stadium,94.0,,15.0,0.0,,,8.6,,False
 401908444,2026,6,Redlands,Chapman,Ted Runner Stadium,84.8,,20.0,0.0,,,9.7,,False
 401860901,2026,6,Fresno State,Boise State,Valley Children's Stadium,96.2,,12.0,0.0,,,4.7,,False
-401871090,2026,6,Troy,Southern Miss,Veterans Memorial Stadium (AL),57.6,,96.0,0.0,,,13.8,,False
-401871051,2026,6,Kennesaw State,Jacksonville State,Fifth Third Stadium,52.4,,89.0,0.0,,,11.9,,False
+401871090,2026,6,Troy,Southern Miss,Veterans Memorial Stadium (AL),57.6,,96.0,0.035,,,13.8,,False
+401871051,2026,6,Kennesaw State,Jacksonville State,Fifth Third Stadium,52.4,,89.0,0.031,,,11.9,,False
 401871066,2026,6,Florida International,New Mexico State,Pitbull Stadium,85.5,,63.0,0.0,,,10.4,,False
 401870766,2026,6,Liberty,Sam Houston,Williams Stadium (VA),62.7,,57.0,0.0,,,1.6,,False
 401871052,2026,6,Western Kentucky,Missouri State,Houchens Industries-L.T. Smith Stadium,76.6,,40.0,0.0,,,8.8,,False
