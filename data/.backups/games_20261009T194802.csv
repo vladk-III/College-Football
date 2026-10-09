@@ -3406,9 +3406,9 @@ game_id,season,week,season_type,start_date,neutral_site,conference_game,home_tea
 401870766,2026,6,regular,2026-10-08T23:00:00.000Z,False,True,Liberty,Conference USA,35.0,Sam Houston,Conference USA,3.0,Williams Stadium (VA),True
 401862794,2026,6,regular,2026-10-08T23:30:00.000Z,False,True,UTSA,American Athletic,31.0,South Florida,American Athletic,24.0,Alamodome,True
 401869933,2026,6,regular,2026-10-08T23:30:00.000Z,False,True,Arkansas State,Sun Belt,49.0,South Alabama,Sun Belt,56.0,Centennial Bank Stadium,True
-401868329,2026,6,regular,2026-10-09T16:00:00.000Z,False,True,Alabama State,SWAC,27.0,Florida A&M,SWAC,28.0,Hornet Stadium,True
-401906208,2026,6,regular,2026-10-09T19:30:00.000Z,False,True,Shorter,Carolinas,10.0,Ferrum,Carolinas,17.0,Barron Stadium,True
-401908098,2026,6,regular,2026-10-09T20:00:00.000Z,False,True,LaGrange,USA South,35.0,Methodist,USA South,0.0,Callaway Stadium,True
+401868329,2026,6,regular,2026-10-09T16:00:00.000Z,False,True,Alabama State,SWAC,,Florida A&M,SWAC,,Hornet Stadium,False
+401906208,2026,6,regular,2026-10-09T19:30:00.000Z,False,True,Shorter,Carolinas,,Ferrum,Carolinas,,Barron Stadium,False
+401908098,2026,6,regular,2026-10-09T20:00:00.000Z,False,True,LaGrange,USA South,,Methodist,USA South,,Callaway Stadium,False
 401908581,2026,6,regular,2026-10-09T22:00:00.000Z,False,True,Bridgewater State,MSCAC,,Framingham State,MSCAC,,Edward C. Swenson Athletic Complex,False
 401908381,2026,6,regular,2026-10-09T22:30:00.000Z,False,True,Millsaps,Southern Athletic,,Centre,Southern Athletic,,Harper Davis Field,False
 401908080,2026,6,regular,2026-10-09T23:00:00.000Z,False,True,Belhaven,USA South,,North Carolina Wesleyan,USA South,,Belhaven Bowl Stadium,False
