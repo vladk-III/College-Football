@@ -9289,3 +9289,36 @@ snapshot_ts,source,game_id,home_team,away_team,provider,spread,spread_open,over_
 2026-10-15T13:55:26.830998-04:00,odds_api,401860923,Texas State Bobcats,Colorado State Rams,betmgm,-14.5,,70.5,,-625.0,475.0,2026-10-16T00:00:00Z,-110.0,-110.0
 2026-10-15T13:55:26.830998-04:00,odds_api,401860923,Texas State Bobcats,Colorado State Rams,betus,-14.5,,71.0,,-650.0,475.0,2026-10-16T00:00:00Z,-110.0,-110.0
 2026-10-15T13:55:26.830998-04:00,odds_api,401860923,Texas State Bobcats,Colorado State Rams,bovada,-15.0,,70.5,,-675.0,460.0,2026-10-16T00:00:00Z,-110.0,-110.0
+2026-10-15T18:52:49.329425-04:00,cfbd,401862800,UAB,East Carolina,DraftKings,4.5,6.5,49.5,53.5,164.0,-198.0,,,
+2026-10-15T18:52:49.329425-04:00,cfbd,401862800,UAB,East Carolina,Bovada,5.0,4.5,49.5,49.0,165.0,-195.0,,,
+2026-10-15T18:52:49.329425-04:00,cfbd,401869950,Old Dominion,Georgia Southern,DraftKings,3.0,2.5,44.5,49.5,130.0,-155.0,,,
+2026-10-15T18:52:49.329425-04:00,cfbd,401869950,Old Dominion,Georgia Southern,Bovada,3.0,3.5,45.0,47.0,150.0,-175.0,,,
+2026-10-15T18:52:49.329425-04:00,cfbd,401860923,Texas State,Colorado State,DraftKings,-14.5,-12.5,69.5,67.5,-650.0,470.0,,,
+2026-10-15T18:52:49.329425-04:00,cfbd,401860923,Texas State,Colorado State,Bovada,-14.5,-13.0,70.0,67.5,-525.0,375.0,,,
+2026-10-15T18:52:49.677309-04:00,odds_api,401862800,UAB Blazers,East Carolina Pirates,fanduel,5.5,,48.5,,172.0,-210.0,2026-10-15T23:30:00Z,-110.0,-115.0
+2026-10-15T18:52:49.677309-04:00,odds_api,401862800,UAB Blazers,East Carolina Pirates,draftkings,4.5,,48.5,,164.0,-198.0,2026-10-15T23:30:00Z,-108.0,-115.0
+2026-10-15T18:52:49.677309-04:00,odds_api,401862800,UAB Blazers,East Carolina Pirates,betonlineag,4.5,,49.0,,165.0,-190.0,2026-10-15T23:30:00Z,-105.0,-110.0
+2026-10-15T18:52:49.677309-04:00,odds_api,401862800,UAB Blazers,East Carolina Pirates,lowvig,4.5,,49.0,,165.0,-190.0,2026-10-15T23:30:00Z,101.0,-108.0
+2026-10-15T18:52:49.677309-04:00,odds_api,401862800,UAB Blazers,East Carolina Pirates,betmgm,5.0,,48.5,,165.0,-210.0,2026-10-15T23:30:00Z,-108.0,-112.0
+2026-10-15T18:52:49.677309-04:00,odds_api,401862800,UAB Blazers,East Carolina Pirates,betrivers,4.0,,48.5,,175.0,-225.0,2026-10-15T23:30:00Z,-109.0,-112.0
+2026-10-15T18:52:49.677309-04:00,odds_api,401862800,UAB Blazers,East Carolina Pirates,mybookieag,4.5,,49.0,,161.0,-199.0,2026-10-15T23:30:00Z,-110.0,-110.0
+2026-10-15T18:52:49.677309-04:00,odds_api,401862800,UAB Blazers,East Carolina Pirates,betus,4.5,,49.0,,170.0,-200.0,2026-10-15T23:30:00Z,-105.0,-110.0
+2026-10-15T18:52:49.677309-04:00,odds_api,401862800,UAB Blazers,East Carolina Pirates,bovada,5.0,,49.5,,170.0,-200.0,2026-10-15T23:30:00Z,-110.0,-105.0
+2026-10-15T18:52:49.677309-04:00,odds_api,401869950,Old Dominion Monarchs,Georgia Southern Eagles,fanduel,3.5,,44.5,,134.0,-162.0,2026-10-15T23:30:00Z,-120.0,-110.0
+2026-10-15T18:52:49.677309-04:00,odds_api,401869950,Old Dominion Monarchs,Georgia Southern Eagles,betrivers,3.5,,44.5,,143.0,-180.0,2026-10-15T23:30:00Z,-120.0,-114.0
+2026-10-15T18:52:49.677309-04:00,odds_api,401869950,Old Dominion Monarchs,Georgia Southern Eagles,betonlineag,3.0,,45.0,,135.0,-155.0,2026-10-15T23:30:00Z,-108.0,-105.0
+2026-10-15T18:52:49.677309-04:00,odds_api,401869950,Old Dominion Monarchs,Georgia Southern Eagles,lowvig,3.0,,45.0,,135.0,-155.0,2026-10-15T23:30:00Z,-104.0,-103.0
+2026-10-15T18:52:49.677309-04:00,odds_api,401869950,Old Dominion Monarchs,Georgia Southern Eagles,draftkings,3.0,,44.5,,130.0,-155.0,2026-10-15T23:30:00Z,-108.0,-115.0
+2026-10-15T18:52:49.677309-04:00,odds_api,401869950,Old Dominion Monarchs,Georgia Southern Eagles,betmgm,3.0,,44.5,,130.0,-160.0,2026-10-15T23:30:00Z,-108.0,-115.0
+2026-10-15T18:52:49.677309-04:00,odds_api,401869950,Old Dominion Monarchs,Georgia Southern Eagles,mybookieag,3.0,,45.0,,124.0,-152.0,2026-10-15T23:30:00Z,-110.0,-110.0
+2026-10-15T18:52:49.677309-04:00,odds_api,401869950,Old Dominion Monarchs,Georgia Southern Eagles,betus,3.0,,45.0,,134.0,-155.0,2026-10-15T23:30:00Z,-110.0,-105.0
+2026-10-15T18:52:49.677309-04:00,odds_api,401869950,Old Dominion Monarchs,Georgia Southern Eagles,bovada,3.0,,45.0,,130.0,-150.0,2026-10-15T23:30:00Z,-110.0,-115.0
+2026-10-15T18:52:49.677309-04:00,odds_api,401860923,Texas State Bobcats,Colorado State Rams,fanduel,-14.5,,69.5,,-630.0,450.0,2026-10-16T00:00:00Z,-105.0,-115.0
+2026-10-15T18:52:49.677309-04:00,odds_api,401860923,Texas State Bobcats,Colorado State Rams,mybookieag,-14.5,,70.0,,-676.0,450.0,2026-10-16T00:00:00Z,-110.0,-110.0
+2026-10-15T18:52:49.677309-04:00,odds_api,401860923,Texas State Bobcats,Colorado State Rams,draftkings,-14.5,,69.5,,-650.0,470.0,2026-10-16T00:00:00Z,-108.0,-112.0
+2026-10-15T18:52:49.677309-04:00,odds_api,401860923,Texas State Bobcats,Colorado State Rams,betrivers,-14.0,,69.5,,-1000.0,600.0,2026-10-16T00:00:00Z,-113.0,-113.0
+2026-10-15T18:52:49.677309-04:00,odds_api,401860923,Texas State Bobcats,Colorado State Rams,betonlineag,-14.0,,69.5,,-650.0,476.0,2026-10-16T00:00:00Z,-116.0,-115.0
+2026-10-15T18:52:49.677309-04:00,odds_api,401860923,Texas State Bobcats,Colorado State Rams,lowvig,-14.5,,69.5,,-650.0,476.0,2026-10-16T00:00:00Z,-101.0,-114.0
+2026-10-15T18:52:49.677309-04:00,odds_api,401860923,Texas State Bobcats,Colorado State Rams,betmgm,-14.5,,69.5,,-625.0,450.0,2026-10-16T00:00:00Z,-110.0,-110.0
+2026-10-15T18:52:49.677309-04:00,odds_api,401860923,Texas State Bobcats,Colorado State Rams,betus,-14.5,,69.5,,-650.0,475.0,2026-10-16T00:00:00Z,-110.0,-110.0
+2026-10-15T18:52:49.677309-04:00,odds_api,401860923,Texas State Bobcats,Colorado State Rams,bovada,-14.5,,70.0,,-675.0,460.0,2026-10-16T00:00:00Z,-110.0,-105.0
