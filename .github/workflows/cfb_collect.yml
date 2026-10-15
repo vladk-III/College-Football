@@ -44,6 +44,10 @@ jobs:
   collect:
     runs-on: ubuntu-latest
     timeout-minutes: 15
+    # Job outputs must be declared here for the watchdog to read them via needs.collect.outputs.
+    outputs:
+      collected: ${{ steps.collect.outputs.collected }}
+      skipped: ${{ steps.collect.outputs.skipped }}
 
     steps:
       # ─── Checkout ───────────────────────────────────────────────
@@ -145,6 +149,11 @@ jobs:
       - name: Check collection happened
         run: |
           COLLECTED="${{ needs.collect.outputs.collected }}"
+          SKIPPED="${{ needs.collect.outputs.skipped }}"
+          if [ -n "$SKIPPED" ]; then
+            echo "Collector skipped on purpose: $SKIPPED"
+            exit 0
+          fi
           if [ "$COLLECTED" != "true" ]; then
             echo "::error::No data collected today — check API keys and season calendar"
             exit 1

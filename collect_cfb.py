@@ -1045,6 +1045,15 @@ def run_postgame(year: int, week: int) -> dict:
 # Main entry point
 # ---------------------------------------------------------------------------
 
+def emit_outputs(**values) -> None:
+    """Write key=value lines to $GITHUB_OUTPUT when running under GitHub Actions."""
+    github_output = os.environ.get("GITHUB_OUTPUT")
+    if github_output:
+        with open(github_output, "a") as f:
+            for key, value in values.items():
+                f.write(f"{key}={value}\n")
+
+
 def main():
     global CFBD_HEADERS, ODDS_API_KEY
 
@@ -1083,6 +1092,7 @@ def main():
     # --- Season check ---
     if not is_in_season(now_et):
         LOG.info("Off-season — exiting cleanly")
+        emit_outputs(skipped="off-season")
         sys.exit(0)
 
     # --- Determine season year ---
@@ -1104,6 +1114,7 @@ def main():
             week = determine_cfb_week(year, today - timedelta(days=3), mode=mode)
         if week is None:
             LOG.info("No active CFB week found — exiting cleanly")
+            emit_outputs(skipped="no-active-week")
             sys.exit(0)
 
     LOG.info(f"Season {year}, Week {week}")
@@ -1112,6 +1123,7 @@ def main():
     # --- Idempotency ---
     if not args.force and already_ran_today(mode, today_str):
         LOG.info(f"Already ran {mode} today — exiting cleanly")
+        emit_outputs(skipped="already-ran-today")
         sys.exit(0)
 
     # --- Run ---
@@ -1123,14 +1135,7 @@ def main():
     mark_done(mode, today_str)
 
     # --- Emit stats for GitHub Actions ---
-    github_output = os.environ.get("GITHUB_OUTPUT")
-    if github_output:
-        with open(github_output, "a") as f:
-            f.write(f"mode={mode}\n")
-            f.write(f"year={year}\n")
-            f.write(f"week={week}\n")
-            f.write(f"stats={json.dumps(stats)}\n")
-            f.write("collected=true\n")
+    emit_outputs(mode=mode, year=year, week=week, stats=json.dumps(stats), collected="true")
 
     LOG.info(f"Done! Stats: {json.dumps(stats, indent=2)}")
 
