@@ -1934,18 +1934,8 @@ game_id,season,week,home_team,away_team,venue,temperature,dewpoint,humidity,prec
 401860901,2026,6,Fresno State,Boise State,Valley Children's Stadium,78.1,,27.0,0.0,,,2.6,,False
 401871067,2026,7,Middle Tennessee,Delaware,"Johnny ""Red"" Floyd Stadium",86.0,,39.0,0.0,,,6.5,,False
 401871053,2026,7,Jacksonville State,Florida International,AmFirst Stadium,79.2,,29.0,0.0,,,3.5,,False
-401908741,2026,7,Calvin,Kalamazoo,Grand Rapids Christian High School,,,,,,,,,False
-401906644,2026,7,Thomas More,Ashland,BB&T Field at Griffin Plaza,,,,,,,,,False
-401908081,2026,7,North Carolina Wesleyan,Huntingdon,Stallings Field,,,,,,,,,False
-401908560,2026,7,New England College,Husson,,,,,,,,,,False
-401908193,2026,7,Eastern,Widener,O'Hara Field,,,,,,,,,False
-401867878,2026,7,North Dakota,South Dakota State,Alerus Center,72.0,,,0.0,0.0,,0.0,Dome,True
-401908321,2026,7,Texas Wesleyan,Mary Hardin Baylor,,,,,,,,,,False
-401906933,2026,7,Roosevelt,Davenport,Morris Field,,,,,,,,,False
-401907399,2026,7,Anderson (SC),Catawba,Spero Financial Field,,,,,,,,,False
-401908316,2026,7,Schreiner,Howard Payne,Antler Stadium,,,,,,,,,False
-401868125,2026,7,Northern Arizona,Portland State,Walkup Skydome,72.0,,,0.0,0.0,,0.0,Dome,True
-401908551,2026,7,Centenary (LA),Austin,Mayo Field,,,,,,,,,False
+401871068,2026,7,Sam Houston,Western Kentucky,Elliott T. Bowers Stadium,85.1,,48.0,0.0,,,9.4,,False
+401871054,2026,7,Missouri State,Kennesaw State,Plaster Sports Complex,71.0,,94.0,0.0,,,3.2,,False
 401908709,2026,8,Calvin,Albion,Grand Rapids Christian High School,,,,,,,,,False
 401907627,2026,8,Lackawanna,Shippensburg,PENFED Field at Scranton Memorial Stadium,,,,,,,,,False
 401867879,2026,8,South Dakota,North Dakota,DakotaDome,72.0,,,0.0,0.0,,0.0,Dome,True
@@ -1954,8 +1944,6 @@ game_id,season,week,home_team,away_team,venue,temperature,dewpoint,humidity,prec
 401868097,2026,8,Idaho,Southern Utah,Kibbie Dome,72.0,,,0.0,0.0,,0.0,Dome,True
 401868106,2026,8,Idaho State,Portland State,Holt Arena,72.0,,,0.0,0.0,,0.0,Dome,True
 401908082,2026,8,North Carolina Wesleyan,Methodist,Stallings Field,,,,,,,,,False
-401867969,2026,9,Morgan State,South Carolina State,Hughes Stadium,,,,,,,,,False
-401906977,2026,9,Miles,Fort Valley State,Albert J. H. Sloan - Alumni Stadium,,,,,,,,,False
 401906138,2026,9,Lincoln (PA),Virginia Union,Lincoln University Stadium,,,,,,,,,False
 401867838,2026,9,Dartmouth,Harvard,Memorial Field,,,,,,,,,False
 401908398,2026,9,George Fox,Willamette,Stoffer Family Stadium,,,,,,,,,False
@@ -2778,11 +2766,6 @@ game_id,season,week,home_team,away_team,venue,temperature,dewpoint,humidity,prec
 401856750,2026,12,Mississippi State,Tennessee Tech,Davis Wade Stadium,,,,,,,,,False
 401856746,2026,12,Alabama,Chattanooga,Bryant-Denny Stadium,,,,,,,,,False
 401856747,2026,12,Auburn,Samford,Jordan-Hare Stadium,,,,,,,,,False
-401858265,2026,7,Syracuse,Louisville,JMA Wireless Dome,72.0,,,0.0,0.0,,0.0,Dome,True
-401862804,2026,7,UTSA,Navy,Alamodome,72.0,,,0.0,0.0,,0.0,Dome,True
-401864520,2026,7,North Dakota State,Nevada,Fargodome,72.0,,,0.0,0.0,,0.0,Dome,True
-401869963,2026,9,James Madison,Troy,Bridgeforth Stadium,,,,,,,,,False
-401862812,2026,9,North Texas,Florida Atlantic,DATCU Stadium,,,,,,,,,False
 401862813,2026,9,Charlotte,Tulane,Jerry Richardson Stadium,,,,,,,,,False
 401856844,2026,9,UCF,Baylor,FBC Mortgage Stadium,,,,,,,,,False
 401866451,2026,9,Sacramento State,Kent State,Hornet Stadium,,,,,,,,,False
@@ -3094,584 +3077,602 @@ game_id,season,week,home_team,away_team,venue,temperature,dewpoint,humidity,prec
 401864548,2026,13,UNLV,Nevada,Allegiant Stadium,72.0,,,0.0,0.0,,0.0,Dome,True
 401864547,2026,13,Hawai'i,Sacramento State,Clarence T.C. Ching Athletics Complex,,,,,,,,,False
 401862844,2026,15,Army,Navy,MetLife Stadium,,,,,,,,,False
-401908708,2026,7,Trine,Albion,Fred Zollner Athletic Stadium,56.6,,87.0,0.0,,,9.1,,False
-401871068,2026,7,Sam Houston,Western Kentucky,Elliott T. Bowers Stadium,85.1,,48.0,0.0,,,9.4,,False
-401869950,2026,7,Old Dominion,Georgia Southern,S.B. Ballard Stadium,66.2,,83.0,0.0,,,8.5,,False
-401862800,2026,7,UAB,East Carolina,Protective Stadium,81.6,,37.0,0.0,,,3.8,,False
-401906581,2026,7,Southwestern Oklahoma State,Southern Nazarene,Milam Stadium,56.6,,84.0,0.0,,,18.7,,False
-401906540,2026,7,Oklahoma Baptist,East Central,Crain Family Stadium,60.9,,90.0,0.055,,,20.9,,False
-401867821,2026,7,Pennsylvania,Columbia,Franklin Field,73.1,,76.0,0.016,,,10.5,,False
-401860923,2026,7,Texas State,Colorado State,Bobcat Stadium (TX),78.9,,62.0,0.0,,,5.0,,False
-401862801,2026,7,Tulane,Memphis,Yulman Stadium,87.7,,35.0,0.0,,,3.6,,False
-401867912,2026,7,Wagner,Long Island University,Wagner College Stadium,64.3,,90.0,0.091,,,13.0,,False
-401867901,2026,7,Mercyhurst,Central Connecticut,Saxon Stadium,47.2,,78.0,0.008,,,19.1,,False
-401906531,2026,7,Ouachita Baptist,Arkansas Monticello,Cliff Harris Stadium,54.9,,48.0,0.0,,,9.3,,False
-401867849,2026,7,Southern Illinois,Illinois State,Saluki Stadium,49.5,,67.0,0.0,,,13.5,,False
-401909016,2026,7,Shenandoah,Roanoke College,Shentel Stadium,51.4,,42.0,0.0,,,16.4,,False
-401908935,2026,7,Montclair State,Christopher Newport,Sprague Field,50.2,,37.0,0.0,,,17.7,,False
-401908928,2026,7,Vermont State Castleton,Salisbury,Dave Wolk Stadium,39.4,,54.0,0.0,,,14.5,,False
-401908894,2026,7,Merchant Marine,Salve Regina,Brooks Stadium (NY),53.2,,36.0,0.0,,,14.5,,False
-401908882,2026,7,MIT,Coast Guard,Henry G. Steinbrenner '27 Stadium,49.3,,48.0,0.0,,,13.7,,False
-401867920,2026,7,Robert Morris,New Haven,Joe Walton Stadium,46.9,,46.0,0.0,,,10.6,,False
-401867807,2026,7,Princeton,Brown,Princeton University Stadium,50.6,,46.0,0.0,,,20.0,,False
-401866669,2026,7,Yale,Rhode Island,Yale Bowl,51.3,,46.0,0.0,,,17.1,,False
-401908526,2026,7,Westminster (MO),Northwestern (MN),Blue Jay Stadium,54.2,,54.0,0.0,,,2.0,,False
-401906626,2026,7,Walsh,Tiffin,Tom Benson Hall of Fame Stadium,49.0,,39.0,0.0,,,11.0,,False
-401906653,2026,7,Ohio Dominican,Kentucky Wesleyan,Panther Stadium (OH),51.8,,42.0,0.0,,,8.8,,False
-401906947,2026,7,Michigan Tech,Northern Michigan,Sherman Field,45.8,,45.0,0.0,,,13.7,,False
-401907499,2026,7,Shepherd,Bloomsburg,Ram Stadium (WV),52.0,,41.0,0.0,,,20.1,,False
-401907512,2026,7,Franklin Pierce,Post,Sodexo Field,42.9,,49.0,0.0,,,15.1,,False
-401907522,2026,7,Clarion,California (PA),"Memorial Stadium (Clarion, PA)",44.0,,44.0,0.0,,,11.0,,False
-401907556,2026,7,Gannon,Seton Hill,McConnell Family Stadium,44.3,,52.0,0.0,,,13.8,,False
-401907620,2026,7,Wheeling,West Virginia State,Bishop Schmitt Field,49.9,,45.0,0.0,,,10.5,,False
-401907857,2026,7,Alfred State,Brockport,Pioneer Stadium,36.9,,53.0,0.0,,,13.8,,False
-401907867,2026,7,Alfred,SUNY Cortland,Merrill Field at Yunevich Stadium,36.9,,53.0,0.0,,,13.8,,False
-401908167,2026,7,Albright,Alvernia,Gene L. Shirk Stadium,50.4,,44.0,0.0,,,16.4,,False
-401908313,2026,7,Berry,Southwestern U,Valhalla Stadium,59.5,,49.0,0.0,,,13.5,,False
-401908480,2026,7,Nichols,Curry,Vendetti Field,46.2,,49.0,0.0,,,15.4,,False
-401908533,2026,7,New England,Maine Maritime,Blue Storm Stadium,49.3,,42.0,0.0,,,14.0,,False
-401908572,2026,7,Fitchburg State,Mass Maritime,Elliot Field Athletic Complex,45.4,,50.0,0.0,,,13.8,,False
-401908583,2026,7,Dean,Bridgewater State,Dale Lippert Field,47.3,,61.0,0.0,,,14.0,,False
-401908627,2026,7,Springfield,WPI,Stagg Field,48.6,,49.0,0.0,,,15.0,,False
-401908701,2026,7,Susquehanna,Moravian,Amos Alonzo Stagg Field (PA),48.3,,44.0,0.0,,,17.0,,False
-401908845,2026,7,Ohio Northern,Otterbein,Dial-Roberson Stadium,52.6,,49.0,0.0,,,9.5,,False
-401866668,2026,7,North Carolina A&T,Chicago State,Aggie Stadium,65.7,,28.0,0.0,,,6.5,,False
-401866663,2026,7,Sacred Heart,Hampton,Campus Field,49.9,,45.0,0.0,,,16.5,,False
-401908295,2026,7,Rose Hulman,Heidelberg,Cook Stadium,55.3,,28.0,0.0,,,9.4,,False
-401873408,2026,7,Rowan,Kean,Richard Wackar Stadium,52.5,,43.0,0.0,,,18.0,,False
-401868257,2026,7,Drake,Marist,Drake Stadium,51.6,,48.0,0.0,,,11.3,,False
-401868222,2026,7,Davidson,Morehead State,Richardson Stadium,62.3,,36.0,0.0,,,15.3,,False
-401868213,2026,7,Butler,Dayton,Butler Bowl,52.2,,29.0,0.0,,,6.5,,False
-401867841,2026,7,Harvard,Holy Cross,Harvard Stadium,50.2,,43.0,0.0,,,15.0,,False
-401867837,2026,7,Dartmouth,Merrimack,Memorial Field,41.0,,52.0,0.0,,,15.9,,False
-401909130,2026,7,DePauw,Denison,Blackstock Stadium,52.3,,31.0,0.0,,,9.2,,False
-401909054,2026,7,Saint Francis,Saint Vincent,DeGol Field,44.1,,46.0,0.0,,,14.2,,False
-401909043,2026,7,Grove City,Hiram,Robert E. Thorn Field,47.1,,38.0,0.0,,,11.8,,False
-401909023,2026,7,Allegheny,Washington & Jefferson,Frank B. Fuhrer Field,46.1,,40.0,0.0,,,11.2,,False
-401909001,2026,7,Hampden Sydney,Guilford,Lewis C. Everett Stadium,57.9,,36.0,0.0,,,14.6,,False
-401908983,2026,7,William Paterson,The College of New Jersey,Wightman Stadium,50.4,,35.0,0.0,,,18.1,,False
-401908968,2026,7,Ohio Wesleyan,Wittenberg,Selby Stadium,51.7,,45.0,0.0,,,10.1,,False
-401908869,2026,7,Bowdoin,Hamilton,Whittier Field,48.7,,45.0,0.0,,,18.0,,False
-401908856,2026,7,Wesleyan (CT),Bates,Corwin Stadium,51.1,,43.0,0.0,,,15.7,,False
-401908828,2026,7,Colby,Amherst,Seaverns Field At Harold Alfond Stadium,45.6,,44.0,0.0,,,15.0,,False
-401908752,2026,7,Augsburg,Macalester,Edor Nelson Field,52.4,,36.0,0.0,,,13.8,,False
-401908714,2026,7,Alma,Olivet,Bahlke Field,48.8,,39.0,0.0,,,8.2,,False
-401908679,2026,7,John Carroll,Wabash,Don Shula Stadium at Wasmer Field,48.6,,45.0,0.0,,,10.1,,False
-401908642,2026,7,Lycoming,Juniata,David Person Field,47.0,,38.0,0.0,,,13.5,,False
-401908612,2026,7,Catholic,Western Connecticut State,Cardinal Stadium (DC),55.4,,35.0,0.0,,,14.7,,False
-401908487,2026,7,Western New England,Endicott,Golden Bear Stadium,49.5,,43.0,0.0,,,15.0,,False
-401908474,2026,7,Greenville,Crown,Francis Field (IL),55.8,,50.0,0.0,,,5.4,,False
-401908382,2026,7,Centre,Rhodes,Farris Stadium,54.8,,44.0,0.0,,,11.8,,False
-401908370,2026,7,McMurry,Westgate Christian University,Wilford Moore Stadium,54.5,,44.0,0.0,,,9.5,,False
-401908356,2026,7,Ursinus,Johns Hopkins,Patterson Field,51.1,,43.0,0.0,,,18.6,,False
-401908335,2026,7,Franklin & Marshall,Dickinson,Shadek Stadium,49.7,,45.0,0.0,,,19.7,,False
-401908307,2026,7,Greensboro,Belhaven,Jamieson Stadium,61.3,,35.0,0.0,,,14.0,,False
-401908204,2026,7,King's,Lebanon Valley,McCarthy Stadium (Wilkes Barre),45.9,,42.0,0.0,,,16.3,,False
-401908198,2026,7,Misericordia,FDU Florham,Mangelsdorf Field,44.4,,40.0,0.0,,,15.0,,False
-401908185,2026,7,Stevenson,Delaware Valley,Mustang Stadium,52.6,,39.0,0.0,,,15.9,,False
-401908053,2026,7,Methodist,Southern Virginia,Monarch Stadium,65.8,,38.0,0.0,,,17.5,,False
-401907660,2026,7,Gettysburg,Carnegie Mellon,Shirk Field at Musselman Stadium,51.0,,41.0,0.0,,,17.6,,False
-401907617,2026,7,West Liberty,West Virginia Wesleyan,West Family Stadium,51.3,,41.0,0.0,,,9.9,,False
-401907583,2026,7,Frostburg State,Charleston (WV),Bobcat Stadium (MD),45.5,,48.0,0.0,,,16.1,,False
-401907548,2026,7,Lock Haven,Edinboro,Hubert Jack Stadium,47.6,,36.0,0.0,,,12.3,,False
-401907541,2026,7,Shippensburg,East Stroudsburg,Seth Grove Stadium,50.5,,43.0,0.0,,,16.7,,False
-401907488,2026,7,Southern Connecticut State,Assumption,Jess Dow Field,52.0,,42.0,0.0,,,18.6,,False
-401907479,2026,7,Pace,American International,Pace Stadium,49.5,,42.0,0.0,,,14.9,,False
-401907470,2026,7,Kenyon,Washington St. Louis,McBride Field,51.4,,44.0,0.0,,,9.0,,False
-401907433,2026,7,Mars Hill,Newberry,Meares Stadium,51.6,,56.0,0.0,,,7.6,,False
-401907417,2026,7,Carson Newman,Emory & Henry,Burke-Tarr Stadium,58.4,,44.0,0.0,,,11.5,,False
-401907306,2026,7,Kentucky State,Lane College,Alumni Stadium (KY),56.9,,37.0,0.0,,,9.7,,False
-401907200,2026,7,Lincoln (MO),Indianapolis,Dwight T. Reed Stadium,57.6,,49.0,0.0,,,2.8,,False
-401906925,2026,7,Clark Atlanta,Allen,CAU Panther Stadium,65.4,,28.0,0.0,,,7.2,,False
-401869132,2026,7,Northwestern State,McNeese,Harry Turpin Stadium,63.1,,35.0,0.0,,,13.0,,False
-401906122,2026,7,Bowie State,Virginia Union,Bulldogs Stadium,54.6,,40.0,0.0,,,16.4,,False
-401866664,2026,7,Maine,Bryant,Alfond Stadium,45.7,,50.0,0.0,,,14.3,,False
-401866665,2026,7,New Hampshire,Monmouth,Wildcat Stadium,48.8,,39.0,0.0,,,15.2,,False
-401867925,2026,7,Stonehill,Duquesne,W.B. Mason Stadium,49.8,,50.0,0.0,,,14.3,,False
-401868002,2026,7,Colgate,Georgetown,Andy Kerr Stadium,39.0,,46.0,0.0,,,17.1,,False
-401906846,2026,7,Hillsdale,Findlay,"Frank ""Muddy"" Waters Stadium",48.7,,32.0,0.0,,,2.7,,False
-401906142,2026,7,Shaw,Virginia State,George Williams Athletic Complex,62.9,,30.0,0.0,,,15.7,,False
-401906607,2026,7,Ferrum,Delta State,W.B. Adams Stadium,55.8,,40.0,0.0,,,14.1,,False
-401906592,2026,7,Northeastern State,William Jewell,Gable Field at Doc Wadley Stadium,56.0,,53.0,0.0,,,5.9,,False
-401906181,2026,7,Chowan,Erskine,Garrison Stadium,60.6,,39.0,0.0,,,19.7,,False
-401906054,2026,7,Winston-Salem State,Bluefield State,Bowman Gray Stadium,61.9,,32.0,0.0,,,14.7,,False
-401868398,2026,7,Wofford,VMI,Gibbs Stadium,64.2,,34.0,0.0,,,12.9,,False
-401908228,2026,7,Manchester,Franklin,Carl W. Burt Memorial Stadium,48.4,,40.0,0.0,,,5.0,,False
-401906130,2026,7,Fayetteville State,Elizabeth City State,"Luther ""Nick"" Jeralds Stadium",65.8,,38.0,0.0,,,17.5,,False
-401908657,2026,7,Marietta,Baldwin Wallace,Don Drumm Stadium,52.9,,45.0,0.0,,,9.2,,False
-401908666,2026,7,Capital,Mount Union,Bernlohr Stadium,53.4,,39.0,0.0,,,8.1,,False
-401908919,2026,7,Tufts,Trinity (CT),Ellis Oval at Zimman Field,50.3,,44.0,0.0,,,14.9,,False
-401908220,2026,7,Mount St Joseph,Bluffton,Schueler Field,54.2,,41.0,0.0,,,7.2,,False
-401908211,2026,7,Anderson (IN),Hanover,Macholtz Stadium,49.9,,37.0,0.0,,,7.8,,False
-401873398,2026,7,Rockford,Concordia (WI),Sam Greeley Field,52.4,,46.0,0.0,,,10.8,,False
-401908915,2026,7,Middlebury,Williams,Alumni Stadium (VT),41.3,,45.0,0.0,,,15.0,,False
-401908889,2026,7,Norwich,SUNY Maritime,Sabine Field at Haynes Family Stadium,37.3,,59.0,0.0,,,14.7,,False
-401908878,2026,7,Benedictine (IL),St. Norbert,Village of Lisle-Benedictine University Sports Complex,53.8,,54.0,0.0,,,7.3,,False
-401908862,2026,7,St. Scholastica,Gustavus Adolphus,Public Schools Stadium,53.8,,30.0,0.0,,,15.7,,False
-401908849,2026,7,Aurora,Wisconsin Lutheran,Vago Field,53.1,,58.0,0.0,,,7.9,,False
-401907507,2026,7,Bentley,Saint Anselm,Bentley University Football Stadium,50.4,,37.0,0.0,,,15.5,,False
-401907567,2026,7,IU Pennsylvania,Slippery Rock,George P. Miller Stadium,47.7,,40.0,0.0,,,10.3,,False
-401907573,2026,7,Millersville,Kutztown,Chryst Field at Biemesderfer Stadium,51.5,,38.0,0.0,,,20.0,,False
-401907591,2026,7,Concord,Glenville State,Callaghan Stadium,49.2,,51.0,0.0,,,12.4,,False
-401907671,2026,7,Chicago,Illinois College,Amos Alonzo Stagg Field,56.6,,41.0,0.0,,,4.0,,False
-401907763,2026,7,Buena Vista,Coe,J. Leslie Rollins Stadium,53.2,,40.0,0.0,,,18.2,,False
-401907815,2026,7,Wheaton (IL),Carroll (WI),McCully Stadium,53.7,,53.0,0.0,,,7.8,,False
-401907822,2026,7,Carthage,North Park,Art Keller Field,53.7,,49.0,0.0,,,8.2,,False
-401908821,2026,7,Saint John's (MN),Concordia (MN),Clemens Stadium,55.9,,29.0,0.0,,,20.5,,False
-401908800,2026,7,St. Olaf,Bethel (MN),Klein Field at Manitou,54.4,,38.0,0.0,,,19.7,,False
-401908785,2026,7,Lake Forest,Luther,Farwell Field,55.1,,43.0,0.0,,,5.6,,False
-401908762,2026,7,Lawrence,Grinnell,Ron Roberts Field at the Banta Bowl,50.9,,36.0,0.0,,,14.8,,False
-401908755,2026,7,Beloit,Monmouth (IL),Strong Stadium,52.1,,42.0,0.0,,,11.6,,False
-401909103,2026,7,Concordia Chicago,Lakeland,Concordia Stadium,56.7,,40.0,0.0,,,6.1,,False
-401908728,2026,7,Cornell (IA),Knox,Van Metre Field at Ash Park,51.4,,54.0,0.0,,,10.6,,False
-401908654,2026,7,Hope,Adrian,Ray and Sue Smith Stadium,51.5,,49.0,0.0,,,10.6,,False
-401908595,2026,7,Westfield State,Framingham State,"Alumni Field (Westfield, MA)",48.5,,36.0,0.0,,,15.1,,False
-401908545,2026,7,Texas Lutheran,Hendrix,Bulldog Stadium (TX),64.6,,34.0,0.0,,,13.7,,False
-401908511,2026,7,Minnesota Morris,Martin Luther,Big Cat Stadium,59.5,,23.0,0.0,,,20.4,,False
-401908390,2026,7,Sewanee,Millsaps,Hardee-McGee Field,49.9,,62.0,0.0,,,8.5,,False
-401908363,2026,7,Muhlenberg,McDaniel,Scotty Wood Stadium,51.1,,33.0,0.0,,,16.2,,False
-401868277,2026,7,Stetson,Presbyterian,Spec Martin Municipal Stadium,77.8,,53.0,0.0,,,15.4,,False
-401868066,2026,7,West Georgia,Austin Peay,University Stadium (GA),64.4,,38.0,0.0,,,10.3,,False
-401867830,2026,7,Cornell,Lehigh,Schoellkopf Field,42.0,,40.0,0.0,,,14.6,,False
-401907350,2026,7,Emporia State,Central Oklahoma,Francis G. Welch Stadium,54.9,,50.0,0.0,,,7.3,,False
-401907341,2026,7,Central Missouri,Washburn,Audrey J. Walton Stadium at Vernon Kennedy Field,55.5,,54.0,0.0,,,4.7,,False
-401907241,2026,7,Southwest Baptist,Upper Iowa,Plaster Sports Complex,57.2,,49.0,0.0,,,4.3,,False
-401908281,2026,7,Hardin Simmons,East Texas Baptist,Shelton Stadium,56.6,,40.0,0.0,,,8.6,,False
-401907216,2026,7,Missouri S&T,McKendree,Allgood-Bailey Stadium,56.8,,50.0,0.0,,,2.9,,False
-401906940,2026,7,Benedict,Edward Waters,Charlie W. Johnson Stadium,69.3,,30.0,0.0,,,13.6,,False
-401908995,2026,7,Bridgewater,Washington and Lee,Jopson Athletic Complex,54.2,,40.0,0.0,,,17.7,,False
-401906680,2026,7,Lake Erie,Northwood,Jack Britt Memorial Stadium,48.1,,52.0,0.0,,,9.9,,False
-401906203,2026,7,North Greenville,Shorter,Younts Stadium,63.1,,39.0,0.0,,,10.2,,False
-401906136,2026,7,Johnson C. Smith,Lincoln (PA),Irwin Belk Complex,64.2,,31.0,0.0,,,14.2,,False
-401908245,2026,7,Loras,Wartburg,Rock Bowl,51.4,,51.0,0.0,,,11.3,,False
-401908146,2026,7,Nebraska Wesleyan,Central College,Abel Stadium,56.4,,38.0,0.0,,,15.3,,False
-401908114,2026,7,Brevard,LaGrange,Brevard Memorial Stadium,57.6,,44.0,0.0,,,10.3,,False
-401908107,2026,7,Trinity (TX),Maryville (TN),Trinity University Stadium,64.7,,32.0,0.0,,,11.7,,False
-401908022,2026,7,Wisconsin Eau Claire,Wisconsin Oshkosh,Carson Park,52.9,,33.0,0.0,,,16.0,,False
-401907999,2026,7,Wisconsin Platteville,Wisconsin River Falls,Ralph E. Davis Pioneer Stadium,49.7,,50.0,0.0,,,12.7,,False
-401907981,2026,7,Wisconsin La Crosse,Wisconsin Stevens Point,Veterans Memorial Stadium (WI),54.0,,35.0,0.0,,,14.8,,False
-401907890,2026,7,Wisconsin Stout,Wisconsin Whitewater,Don and Nona Williams Stadium,53.0,,36.0,0.0,,,16.2,,False
-401907827,2026,7,Elmhurst,North Central College,Langhorst Field,56.1,,41.0,0.0,,,6.9,,False
-401907372,2026,7,Nebraska Kearney,Missouri Southern State,Ron & Carol Cope Stadium at Foster Field,56.7,,31.0,0.0,,,18.0,,False
-401907462,2026,7,Tusculum,UVA Wise,Pioneer Field (TN),56.7,,45.0,0.0,,,12.6,,False
-401907430,2026,7,Lenoir Rhyne,Wingate,Helen and Leonard Moretz Stadium,60.5,,39.0,0.0,,,11.9,,False
-401908607,2026,7,Worcester State,UMass Dartmouth,John Coughlin Memorial Field,47.3,,42.0,0.0,,,15.5,,False
-401866666,2026,7,Stony Brook,UAlbany,Kenneth P. LaValle Stadium,52.3,,41.0,0.0,,,20.9,,False
-401868145,2026,7,Tennessee Tech,Eastern Kentucky,Tucker Stadium,59.9,,37.0,0.0,,,11.3,,False
-401868181,2026,7,Eastern Illinois,Lindenwood,O'Brien Stadium,57.1,,34.0,0.0,,,6.1,,False
-401868189,2026,7,UT Martin,Gardner-Webb,Graham Stadium,63.9,,32.0,0.0,,,12.4,,False
-401868096,2026,7,Montana,Idaho,Washington-Grizzly Stadium,67.6,,18.0,0.0,,,2.2,,False
-401868949,2026,7,Jackson State,Florida A&M,Mississippi Veterans Memorial Stadium,68.8,,30.0,0.0,,,11.1,,False
-401868207,2026,7,Southeast Missouri State,Western Illinois,Houck Field,63.0,,39.0,0.0,,,7.8,,False
-401867993,2026,7,Bucknell,Lafayette,Christy Mathewson-Memorial Stadium,49.4,,36.0,0.0,,,15.0,,False
-401868943,2026,7,Mississippi Valley State,Bethune-Cookman,Rice-Totten Field,70.2,,30.0,0.0,,,12.5,,False
-401906562,2026,7,Northwestern (OK),Southeastern Oklahoma State,Ranger Field,58.6,,38.0,0.0,,,8.3,,False
-401906915,2026,7,Tuskegee,Albany State,Abbott Memorial Alumni Stadium,69.7,,31.0,0.0,,,10.5,,False
-401906550,2026,7,Harding,Henderson State,First Security Stadium,62.6,,41.0,0.0,,,5.7,,False
-401868105,2026,7,Weber State,Idaho State,Stewart Stadium,66.0,,23.0,0.0,,,6.2,,False
-401868301,2026,7,Alabama A&M,Grambling,Louis Crews Stadium,59.6,,49.0,0.0,,,12.6,,False
-401868330,2026,7,Arkansas-Pine Bluff,Alabama State,Golden Lion Stadium,68.1,,32.0,0.0,,,10.2,,False
-401868361,2026,7,Prairie View A&M,Alcorn State,Panther Stadium,68.0,,30.0,0.0,,,9.8,,False
-401909142,2026,7,Wooster,Oberlin,John P. Papp Stadium,51.7,,43.0,0.0,,,10.3,,False
-401908988,2026,7,Averett,Randolph Macon,Daly Field at Frank R. Campbell Stadium,62.0,,28.0,0.0,,,13.2,,False
-401908238,2026,7,Simpson (IA),Dubuque,Bill Buxton Stadium,54.9,,48.0,0.0,,,11.7,,False
-401907378,2026,7,Pittsburg State,Missouri Western,Carnie Smith Stadium,57.6,,47.0,0.0,,,4.1,,False
-401907236,2026,7,Quincy,Truman State,QU Stadium,57.0,,45.0,0.0,,,4.6,,False
-401907134,2026,7,Colorado Mesa,Colorado School of Mines,Ralph Stocker Stadium,63.6,,34.0,0.0,,,2.3,,False
-401907104,2026,7,Chadron State,Adams State,Elliott Field at Don Beebe Stadium,73.2,,20.0,0.0,,,11.4,,False
-401907005,2026,7,Grand Valley State,Ferris State,Lubbers Stadium,52.9,,46.0,0.0,,,11.9,,False
-401906975,2026,7,Savannah State,Fort Valley State,Ted Wright Stadium,71.0,,33.0,0.0,,,11.3,,False
-401866667,2026,7,Campbell,Towson,Barker-Lane Stadium,64.1,,31.0,0.0,,,17.7,,False
-401868012,2026,7,Fordham,Villanova,Jack Coffey Field,53.4,,26.0,0.0,,,16.8,,False
-401867961,2026,7,Howard,Morehouse,William H. Greene Stadium,56.1,,31.0,0.0,,,13.5,,False
-401908842,2026,7,Wilmington (OH),Muskingum,Wiliams Stadium (OH),53.6,,40.0,0.0,,,7.1,,False
-401873233,2026,7,Willamette,Puget Sound,McCulloch Stadium,59.6,,74.0,0.0,,,4.5,,False
-401868310,2026,7,Nicholls,Stephen F. Austin,Manning Field at John L. Guidry Stadium,71.4,,27.0,0.0,,,11.8,,False
-401868289,2026,7,San Diego,Valparaiso,Torero Stadium,85.4,,24.0,0.0,,,6.7,,False
-401908451,2026,7,Claremont Mudd Scripps,Whittier,Fritz B. Burns Stadium,88.0,,16.0,0.0,,,0.5,,False
-401908424,2026,7,Pacific (OR),Pacific Lutheran,Hanson Stadium,66.5,,47.0,0.0,,,4.7,,False
-401908419,2026,7,Whitworth,Linfield,The Pine Bowl,65.2,,31.0,0.0,,,12.0,,False
-401908397,2026,7,Lewis & Clark,George Fox,Griswold Stadium,59.8,,76.0,0.0,,,1.6,,False
-401907146,2026,7,CSU Pueblo,New Mexico Highlands,Neta and Eddie DeRose ThunderBowl,69.6,,16.0,0.0,,,6.7,,False
-401906173,2026,7,Barton,UNC Pembroke,Electric Supply Company Field,62.9,,31.0,0.0,,,17.4,,False
-401874037,2026,7,West Florida,West Alabama,Pen-Air Field,70.8,,31.0,0.0,,,13.0,,False
-401907289,2026,7,Eastern New Mexico,West Texas,Al Whitehead Field at Greyhound Stadium,62.9,,19.0,0.0,,,7.5,,False
-401867870,2026,7,Murray State,South Dakota,Roy Stewart Stadium,62.7,,32.0,0.0,,,10.3,,False
-401907626,2026,7,West Chester,Lackawanna,John A. Farrell Stadium,46.6,,42.0,0.0,,,11.0,,False
-401906885,2026,7,Wayne State (MI),Saginaw Valley State,Tom Adams Field,53.9,,24.0,0.0,,,7.5,,False
-401867897,2026,7,Youngstown State,Northern Iowa,Stambaugh Stadium,48.6,,34.0,0.0,,,6.0,,False
-401867968,2026,7,Tennessee State,Morgan State,Nissan Stadium,62.5,,31.0,0.0,,,8.8,,False
-401868250,2026,7,Incarnate Word,UT Rio Grande Valley,Gayle and Tom Benson Stadium,67.7,,27.0,0.0,,,9.7,,False
-401869152,2026,7,Houston Christian,East Texas A&M,Husky Stadium,58.1,,65.0,0.008,,,11.5,,False
-401868088,2026,7,Eastern Washington,Montana State,Roos Field,63.8,,40.0,0.0,,,18.0,,False
-401868134,2026,7,Tarleton State,Central Arkansas,"Memorial Stadium (Stephenville, TX)",60.5,,36.0,0.0,,,8.5,,False
-401868319,2026,7,SE Louisiana,Lamar,Strawberry Stadium,67.1,,33.0,0.0,,,6.2,,False
-401868055,2026,7,North Alabama,Abilene Christian,Braly Municipal Stadium,58.6,,42.0,0.0,,,8.4,,False
-401907741,2026,7,Case Western Reserve,Waynesburg,Case Field,47.9,,56.0,0.0,,,3.4,,False
-401907835,2026,7,Millikin,Illinois Wesleyan,Frank M. Lindsay Field,54.2,,46.0,0.0,,,2.5,,False
-401868383,2026,7,Samford,Mercer,Seibert Stadium,59.5,,53.0,0.0,,,8.8,,False
-401906521,2026,7,Arkansas Tech,Southern Arkansas,Thone Stadium at Buerkle Field,62.6,,44.0,0.0,,,4.1,,False
-401907318,2026,7,UT Permian Basin,Western Oregon,Ratliff Stadium,58.9,,30.0,0.0,,,5.8,,False
-401909036,2026,7,Geneva,Westminster (PA),Reeves Field (PA),42.0,,53.0,0.0,,,3.4,,False
-401858261,2026,7,Clemson,Charleston Southern,"Memorial Stadium (Clemson, SC)",62.5,,60.0,0.0,,,12.2,,False
-401856725,2026,7,Texas A&M,The Citadel,Kyle Field,60.6,,43.0,0.0,,,12.8,,False
-401858262,2026,7,Stanford,Elon,Stanford Stadium,85.7,,17.0,0.0,,,6.8,,False
-401858493,2026,7,Purdue,Washington,Ross-Ade Stadium,48.3,,84.0,0.047,,,13.6,,False
-401869844,2026,7,Coastal Carolina,App State,Brooks Stadium (SC),74.2,,67.0,0.0,,,9.0,,False
-401869957,2026,7,James Madison,Georgia State,Bridgeforth Stadium,54.0,,71.0,0.0,,,10.0,,False
-401866478,2026,7,Miami (OH),Akron,Yager Stadium,49.4,,86.0,0.012,,,15.4,,False
-401856719,2026,7,Georgia,Auburn,Sanford Stadium,59.2,,59.0,0.0,,,15.1,,False
-401858269,2026,7,California,Wake Forest,California Memorial Stadium,73.3,,31.0,0.0,,,2.8,,False
-401856809,2026,7,BYU,Notre Dame,LaVell Edwards Stadium,57.6,,32.0,0.0,,,3.8,,False
-401856828,2026,7,Texas Tech,Arizona State,Jones AT&T Stadium,49.7,,36.0,0.0,,,8.7,,False
-401856724,2026,7,Texas,Florida,DKR-Texas Memorial Stadium,61.6,,36.0,0.0,,,15.2,,False
-401856723,2026,7,Tennessee,Alabama,Neyland Stadium,48.7,,83.0,0.004,,,8.4,,False
-401856720,2026,7,LSU,Mississippi State,Tiger Stadium (LA),68.3,,26.0,0.0,,,14.9,,False
-401869966,2026,7,Louisiana,Troy,Cajun Field,67.0,,27.0,0.0,,,20.9,,False
-401858494,2026,7,UCLA,Wisconsin,Rose Bowl,81.4,,21.0,0.0,,,7.2,,False
-401858492,2026,7,Oregon,Nebraska,Autzen Stadium,58.0,,51.0,0.0,,,1.6,,False
-401858491,2026,7,Michigan State,Northwestern,Spartan Stadium,42.8,,74.0,0.0,,,14.2,,False
-401856722,2026,7,Oklahoma,Kentucky,"Memorial Stadium (Norman, OK)",48.4,,58.0,0.0,,,10.5,,False
-401856829,2026,7,West Virginia,Cincinnati,Milan Puskar Stadium,50.2,,95.0,0.035,,,10.6,,False
-401856831,2026,7,Houston,Oklahoma State,TDECU Stadium,68.2,,27.0,0.0,,,16.0,,False
-401858488,2026,7,Indiana,Ohio State,"Memorial Stadium (Bloomington, IN)",49.7,,78.0,0.0,,,12.0,,False
-401858268,2026,7,SMU,Virginia,Gerald J. Ford Stadium,57.5,,45.0,0.0,,,12.5,,False
-401858267,2026,7,Boston College,Pittsburgh,"Alumni Stadium (Chestnut Hill, MA)",61.6,,94.0,0.024,,,6.4,,False
-401858266,2026,7,Duke,North Carolina,Wallace Wade Stadium,65.4,,72.0,0.0,,,13.3,,False
-401862803,2026,7,Temple,Charlotte,Lincoln Financial Field,64.5,,84.0,0.016,,,11.6,,False
-401856830,2026,7,Kansas State,Kansas,Bill Snyder Family Stadium,43.5,,61.0,0.0,,,6.5,,False
-401856726,2026,7,Vanderbilt,Arkansas,FirstBank Stadium,50.9,,61.0,0.0,,,10.0,,False
-401856721,2026,7,Ole Miss,Missouri,Vaught-Hemingway Stadium,52.0,,51.0,0.0,,,11.2,,False
-401856833,2026,7,Colorado,Utah,Folsom Field,44.9,,38.0,0.0,,,4.9,,False
-401858264,2026,7,Virginia Tech,Georgia Tech,Lane Stadium,49.5,,82.0,0.0,,,15.9,,False
-401869934,2026,7,Southern Miss,Arkansas State,M. M. Roberts Stadium,64.3,,30.0,0.0,,,13.0,,False
-401866443,2026,7,Central Michigan,Western Michigan,Kelly/Shorts Stadium,40.8,,71.0,0.0,,,16.0,,False
-401866444,2026,7,Eastern Michigan,Toledo,Rynearson Stadium,43.7,,71.0,0.0,,,15.1,,False
-401866442,2026,7,Buffalo,Massachusetts,UB Stadium,42.9,,80.0,0.0,,,14.3,,False
-401862806,2026,7,South Florida,Kent State,Raymond James Stadium,80.5,,72.0,0.0,,,4.0,,False
-401871091,2026,7,UL Monroe,Louisiana Tech,Malone Stadium,58.2,,40.0,0.0,,,14.5,,False
-401858263,2026,7,Miami,Florida State,Hard Rock Stadium,83.8,,67.0,0.012,,,4.1,,False
-401862805,2026,7,Rice,Tulsa,Rice Stadium,68.1,,27.0,0.0,,,16.0,,False
-401858490,2026,7,Michigan,Penn State,Michigan Stadium,44.1,,68.0,0.0,,,15.6,,False
-401858489,2026,7,Maryland,Rutgers,SECU Stadium,61.4,,69.0,0.004,,,11.2,,False
-401866445,2026,7,Sacramento State,Ohio,Hornet Stadium,61.4,,50.0,0.0,,,12.4,,False
-401866441,2026,7,Bowling Green,Ball State,Doyt L. Perry Stadium,48.1,,61.0,0.0,,,15.1,,False
-401864521,2026,7,Hawai'i,New Mexico,Clarence T.C. Ching Athletics Complex,77.6,,78.0,0.004,,,12.3,,False
-401856832,2026,7,Baylor,TCU,McLane Stadium,56.8,,47.0,0.0,,,18.2,,False
-401862802,2026,7,Army,Florida Atlantic,Michie Stadium,48.0,,45.0,0.0,,,14.6,,False
-401864522,2026,7,Wyoming,Northern Illinois,War Memorial Stadium,59.3,,26.0,0.0,,,17.8,,False
-401864524,2026,7,Air Force,UNLV,Falcon Stadium,73.0,,13.0,0.0,,,5.1,,False
-401860903,2026,7,Oregon State,Washington State,Reser Stadium,66.3,,45.0,0.0,,,6.5,,False
-401907115,2026,7,South Dakota Mines,Black Hills State,O'Harra Stadium,62.3,,21.0,0.0,,,4.3,,False
-401907327,2026,7,Sul Ross State,Western New Mexico,Jackson Field,55.4,,34.0,0.0,,,8.6,,False
-401907154,2026,7,Western Colorado,Fort Lewis,Mountaineer Bowl,47.0,,39.0,0.0,,,2.8,,False
-401908812,2026,7,Hamline,Carleton,Klas Field,53.9,,40.0,0.0,,,12.9,,False
-401907312,2026,7,Texas A&M-Kingsville,Central Washington,Javelina Stadium,67.0,,34.0,0.0,,,7.1,,False
-401907367,2026,7,Fort Hays,Northwest Missouri State,Lewis Field Stadium,55.0,,37.0,0.0,,,13.7,,False
-401868161,2026,7,Southern Utah,UC Davis,Eccles Coliseum,61.9,,32.0,0.0,,,3.8,,False
-401868079,2026,7,Northern Colorado,Cal Poly,Nottingham Field,64.5,,24.0,0.0,,,6.3,,False
-401908445,2026,7,Azusa Pacific,Chapman,Citrus Stadium,88.3,,16.0,0.0,,,5.2,,False
-401907280,2026,7,Midwestern State,Angelo State,"Memorial Stadium (Wichita Falls, TX)",53.4,,52.0,0.0,,,4.7,,False
-401908438,2026,7,Cal Lutheran,Pomona Pitzer,William Rolland Stadium,79.3,,24.0,0.0,,,7.9,,False
-401908457,2026,7,Redlands,La Verne,Ted Runner Stadium,74.0,,29.0,0.0,,,6.3,,False
-401864523,2026,7,UTEP,San José State,Sun Bowl,64.5,,20.0,0.0,,,11.3,,False
-401860904,2026,7,San Diego State,Fresno State,Snapdragon Stadium,86.2,,20.0,0.0,,,2.1,,False
-401867955,2026,8,Delaware State,North Carolina Central,Alumni Stadium,60.9,,79.0,0.0,,,4.7,,False
-401908352,2026,8,Johns Hopkins,Gettysburg,Homewood Field,59.4,,89.0,0.0,,,2.2,,False
-401870841,2026,8,Pennsylvania,Yale,Franklin Field,59.6,,85.0,0.0,,,2.5,,False
-401858271,2026,8,Virginia,Duke,Scott Stadium,60.1,,95.0,0.0,,,1.6,,False
-401861965,2026,8,UConn,Massachusetts,Pratt & Whitney Stadium,56.6,,97.0,0.0,,,2.2,,False
-401866674,2026,8,Merrimack,New Hampshire,Duane Stadium,51.7,,98.0,0.0,,,3.4,,False
-401867913,2026,8,Long Island University,Stonehill,Shark Stadium,59.1,,95.0,0.004,,,3.6,,False
-401908561,2026,8,Maine Maritime,New England College,Ritchie Field,55.2,,69.0,0.0,,,3.6,,False
-401908635,2026,8,Moravian,Catholic,Rocco Calvo Field,64.5,,80.0,0.0,,,5.9,,False
-401868266,2026,8,Marist,St. Thomas (MN),Leonidoff Field,62.1,,90.0,0.004,,,4.6,,False
-401868230,2026,8,Dayton,San Diego,Welcome Stadium,73.0,,56.0,0.0,,,10.2,,False
-401867931,2026,8,Duquesne,Wagner,Arthur J. Rooney Athletic Field,66.5,,72.0,0.0,,,6.0,,False
-401867902,2026,8,Central Connecticut,New Haven,Arute Field,65.7,,70.0,0.0,,,4.7,,False
-401867808,2026,8,Brown,Cornell,Brown Stadium,66.6,,64.0,0.0,,,4.1,,False
-401866670,2026,8,Rhode Island,UAlbany,Centreville Bank Stadium,66.9,,64.0,0.0,,,4.1,,False
-401908705,2026,8,Wilkes,Susquehanna,Schmidt Stadium,61.7,,83.0,0.0,,,6.0,,False
-401909044,2026,8,Waynesburg,Grove City,John F. Wiley Stadium,68.1,,71.0,0.0,,,5.9,,False
-401908957,2026,8,Salve Regina,MIT,Toppa Field,65.6,,62.0,0.0,,,5.5,,False
-401908955,2026,8,Merchant Marine,Springfield,Brooks Stadium (NY),66.9,,70.0,0.0,,,7.8,,False
-401908929,2026,8,Christopher Newport,Vermont State Castleton,TowneBank Stadium,68.0,,63.0,0.0,,,8.2,,False
-401908901,2026,8,Hamilton,Colby,Steuben Field,60.2,,73.0,0.0,,,4.3,,False
-401907508,2026,8,Bentley,Southern Connecticut State,Bentley University Football Stadium,65.8,,65.0,0.0,,,3.2,,False
-401907549,2026,8,Edinboro,Gannon,Sox Harrison Stadium,65.2,,75.0,0.0,,,15.2,,False
-401907574,2026,8,Kutztown,West Chester,Andre Reed Stadium,61.8,,83.0,0.0,,,6.0,,False
-401907621,2026,8,West Virginia State,Monroe,Dickerson Stadium,74.5,,53.0,0.0,,,3.6,,False
-401907661,2026,8,Carnegie Mellon,Muhlenberg,Gesling Stadium,66.7,,72.0,0.0,,,6.0,,False
-401907751,2026,8,Rochester (NY),Rensselaer,Edwin Fauver Stadium,69.4,,58.0,0.0,,,10.9,,False
-401907868,2026,8,Utica,Alfred,Charles A. Gaetano Stadium,65.7,,72.0,0.0,,,12.0,,False
-401907876,2026,8,Brockport,SUNY Morrisville,Bob Boozer Field,69.0,,64.0,0.0,,,12.2,,False
-401908199,2026,8,FDU Florham,King's,Robert T. Shields Field,64.6,,78.0,0.0,,,6.7,,False
-401908481,2026,8,Western New England,Curry,Golden Bear Stadium,63.2,,78.0,0.0,,,3.8,,False
-401908488,2026,8,Endicott,Nichols,Hempstead Stadium,62.8,,76.0,0.0,,,3.5,,False
-401908596,2026,8,Framingham State,Mass Maritime,Bowditch Field,63.7,,75.0,0.0,,,2.6,,False
-401908604,2026,8,Plymouth State,Westfield State,Charles L. Currier Memorial Field,56.6,,81.0,0.0,,,3.5,,False
-401906627,2026,8,Findlay,Walsh,Donnell Stadium,71.1,,67.0,0.0,,,13.4,,False
-401906654,2026,8,Northwood,Ohio Dominican,Hantz Stadium,68.3,,68.0,0.0,,,15.7,,False
-401906842,2026,8,Ashland,Kentucky Wesleyan,Jack Miller Stadium,65.7,,76.0,0.0,,,13.0,,False
-401906886,2026,8,Davenport,Wayne State (MI),Farmers Insurance Athletic Complex,72.0,,63.0,0.0,,,18.1,,False
-401908829,2026,8,Amherst,Wesleyan (CT),Pratt Field at Lehrman Stadium,63.5,,79.0,0.0,,,4.3,,False
-401907513,2026,8,Franklin Pierce,Pace,Sodexo Field,58.5,,86.0,0.004,,,5.5,,False
-401907489,2026,8,Saint Anselm,Assumption,Grappone Stadium,63.0,,71.0,0.0,,,4.0,,False
-401909143,2026,8,Oberlin,Ohio Wesleyan,Austin E. Knowlton Athletics Complex,67.2,,72.0,0.0,,,15.0,,False
-401909121,2026,8,Lakeland,Eureka,Taylor Field,67.0,,80.0,0.012,,,21.7,,False
-401909071,2026,8,Thiel,Washington & Jefferson,Alumni Stadium (PA),69.5,,66.0,0.0,,,14.5,,False
-401909068,2026,8,Westminster (PA),Saint Francis,Memorial Field (PA),69.2,,66.0,0.0,,,13.3,,False
-401909037,2026,8,Saint Vincent,Geneva,Chuck Noll Field,68.8,,67.0,0.0,,,9.9,,False
-401909024,2026,8,Bethany (WV),Allegheny,Bison Stadium,71.4,,62.0,0.0,,,8.3,,False
-401909008,2026,8,Washington and Lee,Hampden Sydney,Wilson Field,63.0,,82.0,0.0,,,2.6,,False
-401909002,2026,8,Randolph Macon,Guilford,Day Field,70.2,,64.0,0.0,,,3.8,,False
-401908974,2026,8,Salisbury,Montclair State,Sea Gull Stadium,73.7,,48.0,0.0,,,9.6,,False
-401908883,2026,8,Norwich,Coast Guard,Sabine Field at Haynes Family Stadium,60.1,,80.0,0.0,,,6.9,,False
-401908857,2026,8,Bates,Middlebury,Garcelon Field,57.4,,78.0,0.0,,,6.0,,False
-401908735,2026,8,Alma,Hope,Bahlke Field,73.5,,60.0,0.0,,,17.8,,False
-401908695,2026,8,Adrian,Trine,Docking Stadium,73.1,,62.0,0.0,,,15.7,,False
-401908693,2026,8,St. Lawrence,Hobart,Leckonby Stadium,66.4,,67.0,0.0,,,7.5,,False
-401908688,2026,8,Union,Ithaca,Frank Bailey Field,63.1,,81.0,0.0,,,7.3,,False
-401908680,2026,8,John Carroll,Wooster,Don Shula Stadium at Wasmer Field,70.8,,62.0,0.0,,,11.7,,False
-401908613,2026,8,Lycoming,Western Connecticut State,David Person Field,60.6,,88.0,0.0,,,3.6,,False
-401908590,2026,8,Dean,Worcester State,Dale Lippert Field,67.2,,61.0,0.0,,,4.1,,False
-401908534,2026,8,Husson,New England,Dr. John W. Winkin Sports Complex,58.8,,63.0,0.0,,,5.2,,False
-401908516,2026,8,Westminster (MO),Minnesota Morris,Blue Jay Stadium,66.8,,92.0,0.0,,,14.7,,False
-401908504,2026,8,Northwestern (MN),Greenville,Reynolds Field,48.2,,75.0,0.0,,,16.4,,False
-401908402,2026,8,Southwestern U,Rhodes,Birkelbach Field,82.2,,63.0,0.0,,,6.7,,False
-401908343,2026,8,Franklin & Marshall,Ursinus,Shadek Stadium,65.6,,73.0,0.0,,,7.8,,False
-401908265,2026,8,Lebanon Valley,Widener,Arnold Field (PA),65.5,,72.0,0.0,,,8.5,,False
-401907480,2026,8,Post,American International,Municipal Stadium,79.9,,71.0,0.039,,,13.0,,False
-401907471,2026,8,Wabash,Washington St. Louis,Little Giant Stadium,78.5,,43.0,0.0,,,18.4,,False
-401907307,2026,8,Kentucky State,Savannah State,Alumni Stadium (KY),80.9,,42.0,0.0,,,10.2,,False
-401907209,2026,8,Lincoln (MO),McKendree,Dwight T. Reed Stadium,67.3,,91.0,0.0,,,14.3,,False
-401906998,2026,8,Ferris State,Michigan Tech,Top Taggart Field,73.0,,62.0,0.0,,,16.0,,False
-401906976,2026,8,Fort Valley State,Lane College,Wildcat Stadium (GA),80.0,,49.0,0.0,,,9.7,,False
-401906934,2026,8,Northern Michigan,Roosevelt,Superior Dome,65.1,,85.0,0.008,,,23.4,,False
-401906916,2026,8,Albany State,Benedict,Albany State University Coliseum,82.7,,51.0,0.0,,,10.3,,False
-401906149,2026,8,Virginia Union,Shaw,Hovey Field,70.8,,60.0,0.0,,,4.2,,False
-401906137,2026,8,Lincoln (PA),Winston-Salem State,Lincoln University Stadium,66.7,,68.0,0.0,,,6.5,,False
-401908186,2026,8,Delaware Valley,Misericordia,Robert A. Lipinski Field at James Work Memorial Stadium,69.7,,62.0,0.0,,,8.6,,False
-401907592,2026,8,West Virginia Wesleyan,Concord,Cebe Ross Field,71.2,,56.0,0.0,,,3.5,,False
-401908176,2026,8,Alvernia,Eastern,Turf Field,66.0,,74.0,0.0,,,7.0,,False
-401908168,2026,8,Stevenson,Albright,Mustang Stadium,66.6,,66.0,0.0,,,6.2,,False
-401908115,2026,8,LaGrange,Greensboro,Callaway Stadium,80.0,,45.0,0.0,,,5.3,,False
-401908108,2026,8,Maryville (TN),Berry,Lloyd L. Thornton Stadium,77.8,,44.0,0.0,,,3.2,,False
-401908054,2026,8,Belhaven,Southern Virginia,Belhaven Bowl Stadium,83.5,,45.0,0.0,,,3.7,,False
-401907884,2026,8,SUNY Cortland,St. John Fisher,Stadium Red Field,66.2,,77.0,0.0,,,7.7,,False
-401907584,2026,8,Charleston (WV),Fairmont State,University of Charleston Stadium,77.3,,48.0,0.0,,,2.7,,False
-401907742,2026,8,Hiram,Case Western Reserve,Charles A. Henry Field,69.8,,64.0,0.0,,,13.6,,False
-401907713,2026,8,Concordia St. Paul,Winona State,Sea Foam Stadium,48.9,,76.0,0.0,,,16.2,,False
-401907682,2026,8,Minnesota St Moorhead,Northern State,Scheels Field at Nemzek Stadium,48.3,,56.0,0.0,,,19.0,,False
-401907632,2026,8,Slippery Rock,Lock Haven,Mihalik-Thompson Stadium,67.2,,70.0,0.0,,,11.0,,False
-401908383,2026,8,Centre,Sewanee,Farris Stadium,78.8,,44.0,0.0,,,8.3,,False
-401868278,2026,8,Valparaiso,Presbyterian,Brown Field,75.1,,54.0,0.0,,,18.5,,False
-401866671,2026,8,Maine,Campbell,Alfond Stadium,57.2,,61.0,0.0,,,3.6,,False
-401867994,2026,8,Holy Cross,Bucknell,Fitton Field,63.7,,74.0,0.0,,,4.3,,False
-401868013,2026,8,Fordham,Lafayette,Jack Coffey Field,67.4,,67.0,0.0,,,8.3,,False
-401868214,2026,8,Drake,Butler,Drake Stadium,54.2,,75.0,0.0,,,19.3,,False
-401868944,2026,8,Bethune-Cookman,Jackson State,Municipal Stadium,79.9,,71.0,0.039,,,13.0,,False
-401873409,2026,8,Kean,William Paterson,Kean Alumni Stadium,66.8,,71.0,0.0,,,8.6,,False
-401906123,2026,8,Bowie State,Johnson C. Smith,Bulldogs Stadium,67.7,,65.0,0.0,,,4.7,,False
-401907542,2026,8,East Stroudsburg,Shepherd,Eiler-Martin Stadium,62.9,,83.0,0.0,,,6.5,,False
-401908221,2026,8,Bluffton,Franklin,Alumni Field (OH),75.6,,55.0,0.0,,,16.2,,False
-401908870,2026,8,Trinity (CT),Bowdoin,Jessee/Miller Field,69.0,,60.0,0.0,,,5.9,,False
-401908261,2026,8,Mount St Joseph,Manchester,Schueler Field,79.2,,45.0,0.0,,,8.3,,False
-401908658,2026,8,Baldwin Wallace,Otterbein,George Finnie Stadium,71.9,,64.0,0.0,,,12.7,,False
-401908923,2026,8,Williams,Tufts,Farley-Lamb Field,61.6,,84.0,0.0,,,6.0,,False
-401908673,2026,8,Heidelberg,Ohio Northern,Hoernemann Stadium,68.9,,70.0,0.0,,,15.9,,False
-401908793,2026,8,Muskingum,Marietta,Sherman Field at McConagha Stadium,68.2,,70.0,0.0,,,7.9,,False
-401908838,2026,8,Mount Union,Wilmington (OH),Mount Union Stadium,70.4,,64.0,0.0,,,13.6,,False
-401908212,2026,8,Capital,Anderson (IN),Bernlohr Stadium,67.4,,67.0,0.0,,,8.5,,False
-401907611,2026,8,Glenville State,West Liberty,I.L. & Sue Morris Stadium,73.3,,55.0,0.0,,,4.0,,False
-401867822,2026,8,Columbia,Dartmouth,Lawrence A. Wien Stadium,68.9,,63.0,0.004,,,8.8,,False
-401868348,2026,8,VMI,East Tennessee State,Alumni Memorial Field,63.3,,82.0,0.0,,,2.6,,False
-401873234,2026,8,Puget Sound,George Fox,Baker Stadium,50.0,,62.0,0.0,,,4.4,,False
-401867975,2026,8,South Carolina State,Norfolk State,Oliver C. Dawson Stadium,79.9,,44.0,0.0,,,10.1,,False
-401908978,2026,8,Rowan,The College of New Jersey,Richard Wackar Stadium,72.3,,50.0,0.0,,,9.1,,False
-401873399,2026,8,Wisconsin Lutheran,Rockford,Warrior Field at Raabe Stadium,67.1,,78.0,0.012,,,17.9,,False
-401866672,2026,8,Bryant,Stony Brook,Bulldog Stadium,67.4,,55.0,0.0,,,5.4,,False
-401866673,2026,8,Hampton,Monmouth,Armstrong Stadium,69.7,,60.0,0.0,,,7.0,,False
-401867892,2026,8,Southern Illinois,Northern Iowa,Saluki Stadium,84.6,,34.0,0.0,,,14.0,,False
-401867921,2026,8,Robert Morris,Mercyhurst,Joe Walton Stadium,71.0,,61.0,0.0,,,8.3,,False
-401907735,2026,8,Monmouth (IL),Chicago,April Zorn Memorial Stadium,67.8,,84.0,0.004,,,18.9,,False
-401907764,2026,8,Central College,Buena Vista,Ron and Joyce Schipper Stadium,54.6,,74.0,0.0,,,18.7,,False
-401907785,2026,8,North Park,Augustana (IL),Holmgren Athletic Complex,75.3,,50.0,0.0,,,16.5,,False
-401907816,2026,8,Carroll (WI),North Central College,Schneider Stadium,64.9,,86.0,0.024,,,22.2,,False
-401907823,2026,8,Carthage,Millikin,Art Keller Field,71.4,,62.0,0.0,,,17.5,,False
-401907828,2026,8,Illinois Wesleyan,Elmhurst,Tucci Stadium,78.4,,46.0,0.0,,,19.8,,False
-401907891,2026,8,Wisconsin Whitewater,Wisconsin Stevens Point,Perkins Stadium,65.1,,86.0,0.031,,,22.5,,False
-401907959,2026,8,Wisconsin Stout,Wisconsin La Crosse,Don and Nona Williams Stadium,46.9,,84.0,0.012,,,15.8,,False
-401908000,2026,8,Wisconsin River Falls,Wisconsin Eau Claire,David Smith Stadium at Ramer Field,47.0,,84.0,0.004,,,18.1,,False
-401908012,2026,8,Wisconsin Oshkosh,Wisconsin Platteville,J.J. Keller Field at Titan Stadium,65.3,,89.0,0.012,,,23.8,,False
-401908239,2026,8,Dubuque,Wartburg,Chalmers Field,59.5,,86.0,0.02,,,22.5,,False
-401908246,2026,8,Nebraska Wesleyan,Loras,Abel Stadium,55.3,,53.0,0.0,,,19.2,,False
-401908255,2026,8,Hanover,Rose Hulman,Alumni Stadium (IN),82.2,,38.0,0.0,,,12.5,,False
-401908288,2026,8,Nelson (TX),Hardin Simmons,Lumpkins Stadium,79.1,,69.0,0.016,,,6.3,,False
-401908302,2026,8,Huntingdon,Brevard,Charles Lee Field at Samford Stadium,82.7,,44.0,0.0,,,5.7,,False
-401908322,2026,8,McMurry,Mary Hardin Baylor,Wilford Moore Stadium,55.4,,84.0,0.024,,,16.7,,False
-401908336,2026,8,Dickinson,McDaniel,Biddle Field,63.0,,80.0,0.0,,,6.5,,False
-401908391,2026,8,Millsaps,Trinity (TX),Harper Davis Field,86.0,,41.0,0.0,,,3.8,,False
-401908495,2026,8,Martin Luther,Crown,MLC Bowl,51.1,,64.0,0.004,,,19.9,,False
-401908552,2026,8,Hendrix,Austin,Young-Wise Memorial Stadium,86.5,,38.0,0.0,,,8.6,,False
-401908628,2026,8,SUNY Maritime,WPI,Reinhart Field,67.9,,65.0,0.0,,,8.7,,False
-401908729,2026,8,Grinnell,Cornell (IA),Rosenbloom Field,54.2,,73.0,0.004,,,19.5,,False
-401908753,2026,8,Concordia (MN),Augsburg,Jake Christiansen Stadium,49.7,,50.0,0.0,,,18.9,,False
-401908763,2026,8,Knox,Lawrence,Harley Knosher Bowl,67.0,,86.0,0.051,,,19.1,,False
-401908770,2026,8,Luther,Ripon,Legacy Field in Carlson Stadium,49.6,,82.0,0.012,,,16.5,,False
-401908807,2026,8,Kalamazoo,Olivet,Angell Field,76.9,,55.0,0.0,,,17.8,,False
-401908813,2026,8,Carleton,Saint John's (MN),Laird Stadium,49.0,,75.0,0.004,,,20.1,,False
-401908850,2026,8,St. Norbert,Aurora,Donald J. Schneider Stadium,64.8,,88.0,0.012,,,23.4,,False
-401908863,2026,8,Gustavus Adolphus,Hamline,Hollingsworth Field,50.5,,70.0,0.008,,,19.3,,False
-401908879,2026,8,Concordia Chicago,Benedictine (IL),Concordia Stadium,75.8,,50.0,0.0,,,15.4,,False
-401908913,2026,8,St. Scholastica,St. Olaf,Public Schools Stadium,45.2,,81.0,0.016,,,17.8,,False
-401908969,2026,8,Wittenberg,DePauw,Edwards-Maurer Field,74.8,,55.0,0.0,,,13.1,,False
-401908996,2026,8,Bridgewater,Shenandoah,Jopson Athletic Complex,62.2,,83.0,0.0,,,4.0,,False
-401907368,2026,8,Fort Hays,Washburn,Lewis Field Stadium,56.3,,41.0,0.0,,,18.9,,False
-401907384,2026,8,Nebraska Kearney,Northwest Missouri State,Ron & Carol Cope Stadium at Foster Field,53.6,,39.0,0.0,,,17.9,,False
-401907500,2026,8,Bloomsburg,Millersville,Robert B. Redman Stadium,67.9,,67.0,0.0,,,9.2,,False
-401907649,2026,8,University of Mary,Minnesota Duluth,MDU Resources Community Bowl,49.2,,41.0,0.0,,,16.6,,False
-401907688,2026,8,Sioux Falls,Minot State,Bob Young Field,51.9,,51.0,0.0,,,20.1,,False
-401907710,2026,8,Augustana (SD),Southwest Minnesota State,Kirkeby-Over Stadium,51.9,,51.0,0.0,,,20.1,,False
-401907719,2026,8,Minnesota State,Wayne State (NE),Blakeslee Stadium,50.1,,70.0,0.004,,,20.1,,False
-401906926,2026,8,Allen,Tuskegee,W.C. Hawkins Stadium,80.6,,40.0,0.0,,,6.4,,False
-401906961,2026,8,Edward Waters,Clark Atlanta,Earl Kitchings Stadium,84.2,,48.0,0.004,,,12.9,,False
-401907105,2026,8,Adams State,Colorado Mesa,Rex Stadium,47.4,,47.0,0.0,,,2.4,,False
-401906131,2026,8,Livingstone,Elizabeth City State,Alumni Memorial Stadium (NC),75.8,,42.0,0.0,,,4.5,,False
-401907126,2026,8,New Mexico Highlands,Chadron State,Sanchez Family Stadium,48.8,,50.0,0.0,,,7.5,,False
-401906174,2026,8,Barton,North Greenville,Electric Supply Company Field,76.2,,47.0,0.0,,,7.8,,False
-401906522,2026,8,Henderson State,Arkansas Tech,Ruggles Field at Carpenter-Haygood Stadium,87.3,,40.0,0.0,,,7.4,,False
-401906645,2026,8,Lake Erie,Thomas More,Jack Britt Memorial Stadium,71.7,,64.0,0.0,,,12.2,,False
-401906907,2026,8,Saginaw Valley State,Grand Valley State,Harvey Randall Wickes Memorial Stadium,75.7,,57.0,0.0,,,19.2,,False
-401907147,2026,8,Fort Lewis,CSU Pueblo,Ray Dennison Memorial Field,49.8,,48.0,0.0,,,3.0,,False
-401907224,2026,8,Missouri S&T,Quincy,Allgood-Bailey Stadium,66.7,,85.0,0.02,,,12.5,,False
-401907248,2026,8,Upper Iowa,William Jewell,Harms-Eischeid Stadium,50.6,,81.0,0.012,,,16.9,,False
-401868003,2026,8,Richmond,Colgate,E. Claiborne Robins Stadium,72.3,,57.0,0.0,,,5.0,,False
-401868238,2026,8,West Georgia,Tarleton State,University Stadium (GA),79.7,,44.0,0.0,,,5.0,,False
-401868377,2026,8,Furman,Samford,Paladin Stadium,77.8,,42.0,0.0,,,3.9,,False
-401868392,2026,8,The Citadel,Tennessee Tech,Johnson Hagood Stadium,76.2,,60.0,0.0,,,14.5,,False
-401868271,2026,8,Morehead State,Stetson,Jayne Stadium,71.0,,63.0,0.0,,,4.7,,False
-401906055,2026,8,Bluefield State,Fayetteville State,Mitchell Stadium,72.1,,49.0,0.0,,,2.6,,False
-401907141,2026,8,Colorado School of Mines,South Dakota Mines,Marv Kay Stadium at Campbell Field,47.3,,59.0,0.0,,,5.1,,False
-401906637,2026,8,Hillsdale,Tiffin,"Frank ""Muddy"" Waters Stadium",75.1,,55.0,0.0,,,17.7,,False
-401868341,2026,8,Western Carolina,Chattanooga,E. J. Whitmire Stadium,76.9,,48.0,0.0,,,3.6,,False
-401907242,2026,8,Truman State,Southwest Baptist,Stokes Stadium,59.9,,80.0,0.004,,,16.4,,False
-401868972,2026,8,Texas Southern,Southern,BBVA Compass Stadium,87.6,,48.0,0.0,,,5.2,,False
-401908152,2026,8,Simpson (IA),Coe,Bill Buxton Stadium,52.7,,70.0,0.0,,,17.9,,False
-401908073,2026,8,Buffalo State,Hilbert,Coyer Field,69.2,,61.0,0.0,,,12.9,,False
-401907858,2026,8,Hartwick,Alfred State,Wright Stadium,63.2,,77.0,0.0,,,10.6,,False
-401907608,2026,8,Frostburg State,Wheeling,Bobcat Stadium (MD),59.8,,89.0,0.004,,,7.3,,False
-401907373,2026,8,Missouri Western,Missouri Southern State,Craig Field at Spratt Memorial Stadium,55.7,,63.0,0.0,,,19.4,,False
-401907351,2026,8,Pittsburg State,Central Oklahoma,Carnie Smith Stadium,64.2,,57.0,0.0,,,18.1,,False
-401907116,2026,8,Black Hills State,Western Colorado,Lyle Hare Stadium,46.1,,33.0,0.0,,,10.2,,False
-401906954,2026,8,Miles,Central State,Albert J. H. Sloan - Alumni Stadium,82.3,,41.0,0.0,,,4.0,,False
-401906569,2026,8,Southeastern Oklahoma State,Oklahoma Baptist,Paul Laird Field,58.1,,86.0,0.094,,,17.9,,False
-401906532,2026,8,Arkansas Monticello,Harding,Convoy Leslie Cotton Boll Stadium,88.0,,35.0,0.0,,,5.7,,False
-401906209,2026,8,Valdosta State,Shorter,Bazemore-Hyder Stadium,80.2,,61.0,0.0,,,8.8,,False
-401906191,2026,8,Erskine,Ferrum,J.W. Babb Stadium,80.2,,41.0,0.0,,,5.1,,False
-401906182,2026,8,UNC Pembroke,Chowan,Grace P. Johnson Stadium,77.9,,44.0,0.0,,,7.9,,False
-401867842,2026,8,Harvard,Princeton,Harvard Stadium,66.5,,62.0,0.0,,,5.2,,False
-401867962,2026,8,Morgan State,Howard,Hughes Stadium,69.7,,54.0,0.0,,,5.5,,False
-401867689,2026,8,Lindenwood,Chicago State,Hunter Stadium,73.4,,63.0,0.0,,,15.7,,False
-401867850,2026,8,Illinois State,Indiana State,Hancock Stadium,77.4,,53.0,0.0,,,19.9,,False
-401867871,2026,8,South Dakota State,Murray State,Dana J. Dykhouse Stadium,51.2,,44.0,0.0,,,19.8,,False
-401868121,2026,8,Montana State,Weber State,Bobcat Stadium,46.0,,29.0,0.0,,,7.2,,False
-401868146,2026,8,Eastern Kentucky,West Florida,Roy Kidd Stadium,81.6,,41.0,0.0,,,6.9,,False
-401868182,2026,8,Eastern Illinois,Southeast Missouri State,O'Brien Stadium,83.6,,33.0,0.0,,,19.7,,False
-401868937,2026,8,Florida A&M,Arkansas-Pine Bluff,Bragg Memorial Stadium,86.5,,43.0,0.0,,,8.1,,False
-401869133,2026,8,Northwestern State,Nicholls,Harry Turpin Stadium,89.6,,31.0,0.0,,,3.6,,False
-401868174,2026,8,Tennessee State,Charleston Southern,Nissan Stadium,84.4,,31.0,0.0,,,7.6,,False
-401868035,2026,8,Villanova,Lehigh,Villanova Stadium,72.0,,44.0,0.0,,,7.2,,False
-401868019,2026,8,William & Mary,Georgetown,Zable Stadium,73.9,,46.0,0.0,,,7.1,,False
-401906573,2026,8,Southern Arkansas,Ouachita Baptist,Wilkins Stadium,89.2,,34.0,0.0,,,5.6,,False
-401909131,2026,8,Denison,Kenyon,Deeds Field-Piper Stadium,68.3,,74.0,0.0,,,10.1,,False
-401908584,2026,8,UMass Dartmouth,Bridgewater State,Cressy Field,62.6,,72.0,0.0,,,5.4,,False
-401908425,2026,8,Willamette,Pacific (OR),McCulloch Stadium,63.2,,31.0,0.0,,,6.6,,False
-401908420,2026,8,Linfield,Pacific Lutheran,Maxwell Field,63.5,,31.0,0.0,,,6.8,,False
-401908408,2026,8,Whitworth,Lewis & Clark,The Pine Bowl,53.5,,29.0,0.0,,,2.3,,False
-401907532,2026,8,Seton Hill,Clarion,Offutt Field,70.6,,66.0,0.0,,,7.6,,False
-401906563,2026,8,Southern Nazarene,Northwestern (OK),Southern Nazarene University Football Stadium,62.1,,48.0,0.0,,,16.8,,False
-401906541,2026,8,East Central,Southwestern Oklahoma State,Koi Ishto Stadium,63.9,,57.0,0.0,,,13.7,,False
-401868201,2026,8,Western Illinois,UT Martin,Hanson Field,64.7,,81.0,0.008,,,16.4,,False
-401869145,2026,8,Lamar,Houston Christian,Provost Umphrey Stadium,85.2,,54.0,0.0,,,7.1,,False
-401907290,2026,8,Western Oregon,Eastern New Mexico,McArthur Field,63.2,,32.0,0.0,,,6.4,,False
-401906599,2026,8,Delta State,West Alabama,Parker Field at McCool Stadium,88.4,,33.0,0.0,,,6.1,,False
-401908546,2026,8,Lyon,Texas Lutheran,Pioneer Stadium,58.0,,84.0,0.0,,,12.7,,False
-401907523,2026,8,California (PA),IU Pennsylvania,Adamson Stadium,72.4,,61.0,0.0,,,5.5,,False
-401869138,2026,8,Incarnate Word,McNeese,Gayle and Tom Benson Stadium,86.1,,51.0,0.004,,,6.0,,False
-401868080,2026,8,Cal Poly,Utah Tech,Alex G. Spanos Stadium,86.3,,20.0,0.0,,,3.9,,False
-401868135,2026,8,Central Arkansas,UT Rio Grande Valley,Estes Stadium,74.9,,70.0,0.0,,,13.1,,False
-401907459,2026,8,Newberry,Virginia Lynchburg,Setzler Field,76.0,,50.0,0.0,,,5.4,,False
-401868311,2026,8,Stephen F. Austin,SE Louisiana,Homer Bryce Stadium,88.5,,39.0,0.0,,,1.7,,False
-401868067,2026,8,North Alabama,Austin Peay,Braly Municipal Stadium,75.7,,48.0,0.0,,,6.4,,False
-401868132,2026,8,UC Davis,Northern Colorado,Aggie Stadium,81.7,,8.0,0.0,,,3.4,,False
-401868969,2026,8,East Texas A&M,Prairie View A&M,Memorial Stadium (Commerce TX),59.5,,94.0,0.106,,,18.4,,False
-401907281,2026,8,Angelo State,Texas A&M-Kingsville,LeGrand Stadium at 1st Community Credit Union Field,55.0,,89.0,0.004,,,15.5,,False
-401907302,2026,8,Midwestern State,Sul Ross State,"Memorial Stadium (Wichita Falls, TX)",62.5,,51.0,0.0,,,14.1,,False
-401907320,2026,8,West Texas,Western New Mexico,Buffalo Stadium,53.2,,54.0,0.0,,,10.7,,False
-401908439,2026,8,La Verne,Cal Lutheran,Ortmayer Stadium,84.2,,6.0,0.0,,,3.4,,False
-401862808,2026,8,Tulsa,Army,Chapman Stadium,79.4,,48.0,0.0,,,11.4,,False
-401864525,2026,8,Wyoming,Air Force,War Memorial Stadium,31.1,,95.0,0.012,,,18.0,,False
-401858272,2026,8,Stanford,NC State,Stanford Stadium,67.1,,52.0,0.0,,,4.4,,False
-401856727,2026,8,Alabama,Texas A&M,Bryant-Denny Stadium,68.5,,55.0,0.0,,,4.0,,False
-401856835,2026,8,UCF,BYU,FBC Mortgage Stadium,72.9,,86.0,0.0,,,5.5,,False
-401856834,2026,8,Kansas,Baylor,Memorial Stadium,69.9,,67.0,0.0,,,9.0,,False
-401856836,2026,8,Oklahoma State,Colorado,Boone Pickens Stadium,71.9,,70.0,0.024,,,16.8,,False
-401856837,2026,8,Utah,Houston,Rice-Eccles Stadium,48.3,,52.0,0.0,,,2.3,,False
-401856838,2026,8,Arizona,Iowa State,Arizona Stadium,65.4,,36.0,0.0,,,6.1,,False
-401856839,2026,8,Arizona State,Kansas State,Mountain America Stadium,72.9,,29.0,0.0,,,1.5,,False
-401856840,2026,8,Cincinnati,Texas Tech,Nippert Stadium,62.2,,77.0,0.0,,,3.0,,False
-401856841,2026,8,TCU,West Virginia,Amon G. Carter Stadium,78.6,,61.0,0.0,,,11.0,,False
-401858276,2026,8,Clemson,Virginia Tech,"Memorial Stadium (Clemson, SC)",61.6,,70.0,0.0,,,2.9,,False
-401856732,2026,8,Texas,Ole Miss,DKR-Texas Memorial Stadium,76.6,,78.0,0.0,,,11.1,,False
-401856731,2026,8,South Carolina,Tennessee,Williams-Brice Stadium,65.0,,67.0,0.0,,,5.6,,False
-401856730,2026,8,Mississippi State,Oklahoma,Davis Wade Stadium,66.3,,57.0,0.0,,,6.3,,False
-401856729,2026,8,Kentucky,Vanderbilt,Kroger Field,62.2,,76.0,0.0,,,6.7,,False
-401858273,2026,8,Georgia Tech,Boston College,Bobby Dodd Stadium,69.6,,46.0,0.0,,,3.7,,False
-401858497,2026,8,Minnesota,Iowa,Huntington Bank Stadium,66.1,,85.0,0.008,,,16.6,,False
-401866476,2026,8,Central Michigan,Miami (OH),Kelly/Shorts Stadium,57.2,,90.0,0.0,,,6.6,,False
-401862811,2026,8,Tulane,UTSA,Yulman Stadium,74.8,,75.0,0.0,,,7.9,,False
-401869967,2026,8,Southern Miss,Louisiana,M. M. Roberts Stadium,66.2,,81.0,0.0,,,4.1,,False
-401866446,2026,8,Kent State,Akron,Dix Stadium,59.0,,95.0,0.0,,,4.3,,False
-401866447,2026,8,Ball State,Sacramento State,Scheumann Stadium,60.6,,81.0,0.0,,,6.2,,False
-401866448,2026,8,Buffalo,Bowling Green,UB Stadium,57.2,,95.0,0.0,,,4.7,,False
-401858500,2026,8,Wisconsin,USC,Camp Randall Stadium,59.7,,89.0,0.0,,,11.4,,False
-401858499,2026,8,UCLA,Michigan State,Rose Bowl,65.9,,63.0,0.0,,,2.8,,False
-401858498,2026,8,Northwestern,Rutgers,Ryan Field,61.0,,88.0,0.0,,,7.3,,False
-401858496,2026,8,Michigan,Indiana,Michigan Stadium,57.7,,91.0,0.0,,,6.8,,False
-401858495,2026,8,Illinois,Oregon,"Memorial Stadium (Champaign, IL)",65.2,,71.0,0.0,,,8.4,,False
-401866450,2026,8,Toledo,Western Michigan,Glass Bowl,59.6,,91.0,0.0,,,4.9,,False
-401858274,2026,8,Miami,Pittsburgh,Hard Rock Stadium,80.9,,67.0,0.0,,,12.5,,False
-401871094,2026,8,Troy,UL Monroe,Veterans Memorial Stadium (AL),64.9,,71.0,0.0,,,5.6,,False
-401871093,2026,8,Louisiana Tech,Old Dominion,Joe Aillet Stadium,71.0,,58.0,0.0,,,5.9,,False
-401864526,2026,8,Northern Illinois,Hawai'i,Huskie Stadium,59.3,,91.0,0.0,,,10.0,,False
-401862809,2026,8,Florida Atlantic,Rice,FAU Stadium,80.9,,66.0,0.0,,,10.4,,False
-401858275,2026,8,North Carolina,Syracuse,Kenan Stadium,59.3,,69.0,0.0,,,0.3,,False
-401866449,2026,8,Ohio,Eastern Michigan,Peden Stadium,59.2,,96.0,0.0,,,4.3,,False
-401858270,2026,8,SMU,California,Gerald J. Ford Stadium,79.5,,53.0,0.0,,,11.6,,False
-401856728,2026,8,Auburn,LSU,Jordan-Hare Stadium,77.3,,54.0,0.0,,,5.8,,False
-401862810,2026,8,Navy,North Texas,Navy-Marine Corps Memorial Stadium,67.9,,64.0,0.0,,,2.9,,False
-401864528,2026,8,Nevada,San José State,Mackay Stadium,64.6,,10.0,0.0,,,3.7,,False
-401860907,2026,8,Washington State,Boise State,Gesa Field,56.3,,21.0,0.0,,,2.2,,False
-401860905,2026,8,Colorado State,San Diego State,Canvas Stadium,54.2,,32.0,0.0,,,6.8,,False
-401869935,2026,8,Arkansas State,Georgia State,Centennial Bank Stadium,78.4,,57.0,0.0,,,9.3,,False
-401860906,2026,8,Texas State,Utah State,Bobcat Stadium (TX),75.7,,75.0,0.043,,,14.7,,False
-401907342,2026,8,Emporia State,Central Missouri,Francis G. Welch Stadium,53.2,,62.0,0.0,,,7.2,,False
-401908466,2026,8,Whittier,Redlands,"Memorial Stadium (Whittier, CA)",84.4,,13.0,0.0,,,6.7,,False
-401908801,2026,8,Macalester,Bethel (MN),Macalester Stadium,51.0,,48.0,0.0,,,12.2,,False
-401907319,2026,8,Central Washington,UT Permian Basin,Tomlinson Stadium,55.4,,32.0,0.0,,,3.2,,False
-401908446,2026,8,Chapman,Claremont Mudd Scripps,Ernie Chapman Stadium,79.7,,22.0,0.0,,,1.3,,False
-401908462,2026,8,Pomona Pitzer,Azusa Pacific,Merritt Field,75.6,,10.0,0.0,,,7.9,,False
-401864527,2026,8,New Mexico,North Dakota State,University Stadium (NM),55.9,,35.0,0.0,,,14.0,,False
-401871054,2026,7,Missouri State,Kennesaw State,Plaster Sports Complex,71.0,,94.0,0.0,,,3.2,,False
-401871069,2026,8,Delaware,Missouri State,Delaware Stadium,61.3,,69.0,0.0,,,3.7,,False
-401871055,2026,8,Florida International,Middle Tennessee,Pitbull Stadium,82.4,,69.0,0.016,,,15.4,,False
-401871092,2026,8,Marshall,South Alabama,Joan C. Edwards Stadium,58.5,,68.0,0.0,,,3.8,,False
-401871070,2026,8,Sam Houston,New Mexico State,Elliott T. Bowers Stadium,76.3,,51.0,0.0,,,3.7,,False
-401869845,2026,8,App State,James Madison,Kidd Brewer Stadium,56.2,,79.0,0.0,,,3.2,,False
-401871056,2026,8,Kennesaw State,Liberty,Fifth Third Stadium,71.5,,43.0,0.0,,,4.7,,False
-401862807,2026,8,Memphis,East Carolina,Simmons Bank Liberty Stadium,82.5,,35.0,0.0,,,4.0,,False
-401871071,2026,9,Western Kentucky,Delaware,Houchens Industries-L.T. Smith Stadium,55.6,,34.0,0.0,,,6.7,,False
-401871072,2026,9,Missouri State,Sam Houston,Plaster Sports Complex,51.9,,45.0,0.0,,,3.6,,False
-401871058,2026,9,Middle Tennessee,Kennesaw State,"Johnny ""Red"" Floyd Stadium",59.4,,37.0,0.0,,,3.7,,False
-401871057,2026,9,New Mexico State,Jacksonville State,Aggie Memorial Stadium,63.3,,43.0,0.0,,,3.3,,False
+401908081,2026,7,North Carolina Wesleyan,Huntingdon,Stallings Field,,,,,,,,,False
+401906644,2026,7,Thomas More,Ashland,BB&T Field at Griffin Plaza,,,,,,,,,False
+401908560,2026,7,New England College,Husson,,,,,,,,,,False
+401908741,2026,7,Calvin,Kalamazoo,Grand Rapids Christian High School,,,,,,,,,False
+401908193,2026,7,Eastern,Widener,O'Hara Field,,,,,,,,,False
+401867878,2026,7,North Dakota,South Dakota State,Alerus Center,72.0,,,0.0,0.0,,0.0,Dome,True
+401906933,2026,7,Roosevelt,Davenport,Morris Field,,,,,,,,,False
+401908321,2026,7,Texas Wesleyan,Mary Hardin Baylor,,,,,,,,,,False
+401907399,2026,7,Anderson (SC),Catawba,Spero Financial Field,,,,,,,,,False
+401908316,2026,7,Schreiner,Howard Payne,Antler Stadium,,,,,,,,,False
+401868125,2026,7,Northern Arizona,Portland State,Walkup Skydome,72.0,,,0.0,0.0,,0.0,Dome,True
+401908551,2026,7,Centenary (LA),Austin,Mayo Field,,,,,,,,,False
+401864520,2026,7,North Dakota State,Nevada,Fargodome,72.0,,,0.0,0.0,,0.0,Dome,True
+401858265,2026,7,Syracuse,Louisville,JMA Wireless Dome,72.0,,,0.0,0.0,,0.0,Dome,True
+401862804,2026,7,UTSA,Navy,Alamodome,72.0,,,0.0,0.0,,0.0,Dome,True
+401867955,2026,8,Delaware State,North Carolina Central,Alumni Stadium,61.3,,51.0,0.0,,,10.7,,False
+401908352,2026,8,Johns Hopkins,Gettysburg,Homewood Field,61.9,,45.0,0.0,,,11.0,,False
+401870841,2026,8,Pennsylvania,Yale,Franklin Field,54.8,,43.0,0.0,,,12.4,,False
+401858271,2026,8,Virginia,Duke,Scott Stadium,60.8,,54.0,0.0,,,10.1,,False
+401861965,2026,8,UConn,Massachusetts,Pratt & Whitney Stadium,43.1,,67.0,0.0,,,11.2,,False
+401866674,2026,8,Merrimack,New Hampshire,Duane Stadium,37.5,,79.0,0.0,,,9.4,,False
+401867913,2026,8,Long Island University,Stonehill,Shark Stadium,44.4,,63.0,0.0,,,18.2,,False
+401908561,2026,8,Maine Maritime,New England College,Ritchie Field,42.6,,51.0,0.0,,,9.5,,False
+401908635,2026,8,Moravian,Catholic,Rocco Calvo Field,49.1,,48.0,0.0,,,9.8,,False
+401868266,2026,8,Marist,St. Thomas (MN),Leonidoff Field,48.7,,40.0,0.0,,,8.2,,False
+401868230,2026,8,Dayton,San Diego,Welcome Stadium,61.1,,61.0,0.0,,,9.1,,False
+401867931,2026,8,Duquesne,Wagner,Arthur J. Rooney Athletic Field,52.3,,36.0,0.0,,,10.5,,False
+401867902,2026,8,Central Connecticut,New Haven,Arute Field,47.5,,35.0,0.0,,,11.7,,False
+401867808,2026,8,Brown,Cornell,Brown Stadium,48.1,,51.0,0.0,,,15.2,,False
+401866670,2026,8,Rhode Island,UAlbany,Centreville Bank Stadium,48.5,,51.0,0.0,,,15.2,,False
+401908705,2026,8,Wilkes,Susquehanna,Schmidt Stadium,49.2,,40.0,0.0,,,6.2,,False
+401909044,2026,8,Waynesburg,Grove City,John F. Wiley Stadium,55.6,,38.0,0.0,,,8.1,,False
+401908957,2026,8,Salve Regina,MIT,Toppa Field,50.0,,54.0,0.0,,,16.5,,False
+401908955,2026,8,Merchant Marine,Springfield,Brooks Stadium (NY),49.4,,43.0,0.0,,,14.2,,False
+401908929,2026,8,Christopher Newport,Vermont State Castleton,TowneBank Stadium,56.4,,61.0,0.0,,,17.8,,False
+401908901,2026,8,Hamilton,Colby,Steuben Field,43.9,,38.0,0.0,,,4.5,,False
+401907508,2026,8,Bentley,Southern Connecticut State,Bentley University Football Stadium,46.5,,49.0,0.0,,,12.7,,False
+401907549,2026,8,Edinboro,Gannon,Sox Harrison Stadium,51.6,,34.0,0.0,,,15.5,,False
+401907574,2026,8,Kutztown,West Chester,Andre Reed Stadium,48.2,,49.0,0.0,,,10.1,,False
+401907621,2026,8,West Virginia State,Monroe,Dickerson Stadium,63.8,,49.0,0.0,,,5.1,,False
+401907661,2026,8,Carnegie Mellon,Muhlenberg,Gesling Stadium,52.5,,36.0,0.0,,,10.5,,False
+401907751,2026,8,Rochester (NY),Rensselaer,Edwin Fauver Stadium,49.8,,37.0,0.0,,,8.7,,False
+401907868,2026,8,Utica,Alfred,Charles A. Gaetano Stadium,47.2,,47.0,0.0,,,7.8,,False
+401907876,2026,8,Brockport,SUNY Morrisville,Bob Boozer Field,49.9,,41.0,0.0,,,8.3,,False
+401908199,2026,8,FDU Florham,King's,Robert T. Shields Field,49.6,,39.0,0.0,,,10.5,,False
+401908481,2026,8,Western New England,Curry,Golden Bear Stadium,48.0,,35.0,0.0,,,11.3,,False
+401908488,2026,8,Endicott,Nichols,Hempstead Stadium,45.3,,59.0,0.0,,,14.3,,False
+401908596,2026,8,Framingham State,Mass Maritime,Bowditch Field,44.4,,53.0,0.0,,,11.9,,False
+401908604,2026,8,Plymouth State,Westfield State,Charles L. Currier Memorial Field,48.1,,33.0,0.0,,,4.5,,False
+401906627,2026,8,Findlay,Walsh,Donnell Stadium,57.1,,56.0,0.0,,,12.5,,False
+401906654,2026,8,Northwood,Ohio Dominican,Hantz Stadium,54.8,,63.0,0.0,,,13.5,,False
+401906842,2026,8,Ashland,Kentucky Wesleyan,Jack Miller Stadium,55.7,,44.0,0.0,,,12.2,,False
+401906886,2026,8,Davenport,Wayne State (MI),Farmers Insurance Athletic Complex,59.2,,52.0,0.0,,,15.4,,False
+401908829,2026,8,Amherst,Wesleyan (CT),Pratt Field at Lehrman Stadium,49.4,,33.0,0.0,,,10.1,,False
+401907513,2026,8,Franklin Pierce,Pace,Sodexo Field,43.4,,38.0,0.0,,,11.0,,False
+401907489,2026,8,Saint Anselm,Assumption,Grappone Stadium,48.2,,33.0,0.0,,,9.7,,False
+401909143,2026,8,Oberlin,Ohio Wesleyan,Austin E. Knowlton Athletics Complex,59.0,,40.0,0.0,,,13.2,,False
+401909121,2026,8,Lakeland,Eureka,Taylor Field,60.2,,65.0,0.0,,,19.5,,False
+401909071,2026,8,Thiel,Washington & Jefferson,Alumni Stadium (PA),54.8,,33.0,0.0,,,13.9,,False
+401909068,2026,8,Westminster (PA),Saint Francis,Memorial Field (PA),53.9,,35.0,0.0,,,13.3,,False
+401909037,2026,8,Saint Vincent,Geneva,Chuck Noll Field,53.6,,38.0,0.0,,,10.7,,False
+401909024,2026,8,Bethany (WV),Allegheny,Bison Stadium,56.7,,38.0,0.0,,,9.4,,False
+401909008,2026,8,Washington and Lee,Hampden Sydney,Wilson Field,56.5,,44.0,0.0,,,3.5,,False
+401909002,2026,8,Randolph Macon,Guilford,Day Field,56.0,,45.0,0.0,,,8.9,,False
+401908974,2026,8,Salisbury,Montclair State,Sea Gull Stadium,52.9,,58.0,0.0,,,15.8,,False
+401908883,2026,8,Norwich,Coast Guard,Sabine Field at Haynes Family Stadium,49.3,,34.0,0.0,,,2.6,,False
+401908857,2026,8,Bates,Middlebury,Garcelon Field,46.7,,40.0,0.0,,,9.4,,False
+401908735,2026,8,Alma,Hope,Bahlke Field,59.0,,54.0,0.0,,,15.0,,False
+401908695,2026,8,Adrian,Trine,Docking Stadium,59.1,,49.0,0.0,,,12.0,,False
+401908693,2026,8,St. Lawrence,Hobart,Leckonby Stadium,51.3,,35.0,0.0,,,4.7,,False
+401908688,2026,8,Union,Ithaca,Frank Bailey Field,48.9,,39.0,0.0,,,4.4,,False
+401908680,2026,8,John Carroll,Wooster,Don Shula Stadium at Wasmer Field,56.5,,29.0,0.0,,,11.1,,False
+401908613,2026,8,Lycoming,Western Connecticut State,David Person Field,50.7,,41.0,0.0,,,5.2,,False
+401908590,2026,8,Dean,Worcester State,Dale Lippert Field,46.7,,52.0,0.0,,,13.8,,False
+401908534,2026,8,Husson,New England,Dr. John W. Winkin Sports Complex,46.0,,43.0,0.0,,,9.4,,False
+401908516,2026,8,Westminster (MO),Minnesota Morris,Blue Jay Stadium,71.3,,59.0,0.0,,,13.7,,False
+401908504,2026,8,Northwestern (MN),Greenville,Reynolds Field,56.4,,85.0,0.075,,,9.9,,False
+401908402,2026,8,Southwestern U,Rhodes,Birkelbach Field,76.1,,77.0,0.039,,,7.2,,False
+401908343,2026,8,Franklin & Marshall,Ursinus,Shadek Stadium,49.7,,53.0,0.0,,,10.2,,False
+401908265,2026,8,Lebanon Valley,Widener,Arnold Field (PA),50.4,,47.0,0.0,,,10.3,,False
+401907480,2026,8,Post,American International,Municipal Stadium,77.6,,64.0,0.008,,,19.6,,False
+401907471,2026,8,Wabash,Washington St. Louis,Little Giant Stadium,67.7,,50.0,0.0,,,12.6,,False
+401907307,2026,8,Kentucky State,Savannah State,Alumni Stadium (KY),74.4,,38.0,0.0,,,9.4,,False
+401907209,2026,8,Lincoln (MO),McKendree,Dwight T. Reed Stadium,71.7,,60.0,0.0,,,14.4,,False
+401906998,2026,8,Ferris State,Michigan Tech,Top Taggart Field,58.5,,57.0,0.0,,,16.0,,False
+401906976,2026,8,Fort Valley State,Lane College,Wildcat Stadium (GA),70.1,,45.0,0.0,,,16.1,,False
+401906934,2026,8,Northern Michigan,Roosevelt,Superior Dome,58.5,,70.0,0.0,,,19.0,,False
+401906916,2026,8,Albany State,Benedict,Albany State University Coliseum,73.2,,47.0,0.0,,,15.7,,False
+401906149,2026,8,Virginia Union,Shaw,Hovey Field,57.2,,42.0,0.0,,,8.6,,False
+401906137,2026,8,Lincoln (PA),Winston-Salem State,Lincoln University Stadium,49.5,,52.0,0.0,,,9.9,,False
+401908186,2026,8,Delaware Valley,Misericordia,Robert A. Lipinski Field at James Work Memorial Stadium,50.7,,46.0,0.0,,,11.0,,False
+401907592,2026,8,West Virginia Wesleyan,Concord,Cebe Ross Field,64.0,,43.0,0.0,,,0.9,,False
+401908176,2026,8,Alvernia,Eastern,Turf Field,51.3,,44.0,0.0,,,7.8,,False
+401908168,2026,8,Stevenson,Albright,Mustang Stadium,51.7,,45.0,0.0,,,7.1,,False
+401908115,2026,8,LaGrange,Greensboro,Callaway Stadium,70.5,,44.0,0.0,,,11.4,,False
+401908108,2026,8,Maryville (TN),Berry,Lloyd L. Thornton Stadium,70.9,,46.0,0.0,,,1.4,,False
+401908054,2026,8,Belhaven,Southern Virginia,Belhaven Bowl Stadium,78.3,,39.0,0.0,,,6.7,,False
+401907884,2026,8,SUNY Cortland,St. John Fisher,Stadium Red Field,50.8,,36.0,0.0,,,9.3,,False
+401907584,2026,8,Charleston (WV),Fairmont State,University of Charleston Stadium,66.9,,44.0,0.0,,,6.7,,False
+401907742,2026,8,Hiram,Case Western Reserve,Charles A. Henry Field,54.9,,30.0,0.0,,,12.7,,False
+401907713,2026,8,Concordia St. Paul,Winona State,Sea Foam Stadium,56.7,,85.0,0.047,,,7.6,,False
+401907682,2026,8,Minnesota St Moorhead,Northern State,Scheels Field at Nemzek Stadium,50.9,,75.0,0.004,,,14.4,,False
+401907632,2026,8,Slippery Rock,Lock Haven,Mihalik-Thompson Stadium,52.4,,38.0,0.0,,,12.5,,False
+401908383,2026,8,Centre,Sewanee,Farris Stadium,73.2,,39.0,0.0,,,9.8,,False
+401868278,2026,8,Valparaiso,Presbyterian,Brown Field,63.7,,50.0,0.0,,,14.5,,False
+401866671,2026,8,Maine,Campbell,Alfond Stadium,46.1,,43.0,0.0,,,8.9,,False
+401867994,2026,8,Holy Cross,Bucknell,Fitton Field,45.8,,43.0,0.0,,,11.9,,False
+401868013,2026,8,Fordham,Lafayette,Jack Coffey Field,50.8,,36.0,0.0,,,13.4,,False
+401868214,2026,8,Drake,Butler,Drake Stadium,59.1,,79.0,0.004,,,10.6,,False
+401868944,2026,8,Bethune-Cookman,Jackson State,Municipal Stadium,77.6,,64.0,0.008,,,19.6,,False
+401873409,2026,8,Kean,William Paterson,Kean Alumni Stadium,52.0,,31.0,0.0,,,10.3,,False
+401906123,2026,8,Bowie State,Johnson C. Smith,Bulldogs Stadium,52.8,,52.0,0.0,,,8.6,,False
+401907542,2026,8,East Stroudsburg,Shepherd,Eiler-Martin Stadium,49.8,,42.0,0.0,,,9.2,,False
+401908221,2026,8,Bluffton,Franklin,Alumni Field (OH),60.5,,56.0,0.0,,,12.5,,False
+401908870,2026,8,Trinity (CT),Bowdoin,Jessee/Miller Field,49.9,,30.0,0.0,,,11.1,,False
+401908261,2026,8,Mount St Joseph,Manchester,Schueler Field,68.9,,48.0,0.0,,,4.7,,False
+401908658,2026,8,Baldwin Wallace,Otterbein,George Finnie Stadium,57.7,,34.0,0.0,,,11.1,,False
+401908923,2026,8,Williams,Tufts,Farley-Lamb Field,47.7,,36.0,0.0,,,7.4,,False
+401908673,2026,8,Heidelberg,Ohio Northern,Hoernemann Stadium,59.7,,51.0,0.0,,,12.1,,False
+401908793,2026,8,Muskingum,Marietta,Sherman Field at McConagha Stadium,60.1,,47.0,0.0,,,6.3,,False
+401908838,2026,8,Mount Union,Wilmington (OH),Mount Union Stadium,55.1,,35.0,0.0,,,12.7,,False
+401908212,2026,8,Capital,Anderson (IN),Bernlohr Stadium,60.6,,54.0,0.0,,,8.8,,False
+401907611,2026,8,Glenville State,West Liberty,I.L. & Sue Morris Stadium,65.5,,48.0,0.0,,,2.6,,False
+401867822,2026,8,Columbia,Dartmouth,Lawrence A. Wien Stadium,51.9,,32.0,0.0,,,11.9,,False
+401868348,2026,8,VMI,East Tennessee State,Alumni Memorial Field,56.8,,44.0,0.0,,,3.5,,False
+401873234,2026,8,Puget Sound,George Fox,Baker Stadium,47.6,,83.0,0.0,,,2.4,,False
+401867975,2026,8,South Carolina State,Norfolk State,Oliver C. Dawson Stadium,66.0,,35.0,0.0,,,17.4,,False
+401908978,2026,8,Rowan,The College of New Jersey,Richard Wackar Stadium,54.2,,44.0,0.0,,,11.2,,False
+401873399,2026,8,Wisconsin Lutheran,Rockford,Warrior Field at Raabe Stadium,64.4,,53.0,0.0,,,11.6,,False
+401866672,2026,8,Bryant,Stony Brook,Bulldog Stadium,47.8,,47.0,0.0,,,14.4,,False
+401866673,2026,8,Hampton,Monmouth,Armstrong Stadium,57.4,,62.0,0.0,,,22.4,,False
+401867892,2026,8,Southern Illinois,Northern Iowa,Saluki Stadium,75.8,,33.0,0.0,,,13.4,,False
+401867921,2026,8,Robert Morris,Mercyhurst,Joe Walton Stadium,56.6,,34.0,0.0,,,9.7,,False
+401907735,2026,8,Monmouth (IL),Chicago,April Zorn Memorial Stadium,61.0,,68.0,0.0,,,13.6,,False
+401907764,2026,8,Central College,Buena Vista,Ron and Joyce Schipper Stadium,64.9,,73.0,0.004,,,13.7,,False
+401907785,2026,8,North Park,Augustana (IL),Holmgren Athletic Complex,67.0,,46.0,0.0,,,11.2,,False
+401907816,2026,8,Carroll (WI),North Central College,Schneider Stadium,64.4,,58.0,0.0,,,14.2,,False
+401907823,2026,8,Carthage,Millikin,Art Keller Field,61.5,,62.0,0.0,,,14.9,,False
+401907828,2026,8,Illinois Wesleyan,Elmhurst,Tucci Stadium,71.2,,41.0,0.0,,,16.8,,False
+401907891,2026,8,Wisconsin Whitewater,Wisconsin Stevens Point,Perkins Stadium,65.8,,55.0,0.0,,,18.2,,False
+401907959,2026,8,Wisconsin Stout,Wisconsin La Crosse,Don and Nona Williams Stadium,58.9,,82.0,0.004,,,15.0,,False
+401908000,2026,8,Wisconsin River Falls,Wisconsin Eau Claire,David Smith Stadium at Ramer Field,59.2,,86.0,0.012,,,14.9,,False
+401908012,2026,8,Wisconsin Oshkosh,Wisconsin Platteville,J.J. Keller Field at Titan Stadium,66.8,,51.0,0.0,,,18.1,,False
+401908239,2026,8,Dubuque,Wartburg,Chalmers Field,60.4,,71.0,0.004,,,14.8,,False
+401908246,2026,8,Nebraska Wesleyan,Loras,Abel Stadium,61.8,,54.0,0.0,,,17.1,,False
+401908255,2026,8,Hanover,Rose Hulman,Alumni Stadium (IN),74.2,,38.0,0.0,,,9.2,,False
+401908288,2026,8,Nelson (TX),Hardin Simmons,Lumpkins Stadium,79.8,,52.0,0.0,,,2.9,,False
+401908302,2026,8,Huntingdon,Brevard,Charles Lee Field at Samford Stadium,76.2,,42.0,0.0,,,9.7,,False
+401908322,2026,8,McMurry,Mary Hardin Baylor,Wilford Moore Stadium,71.8,,43.0,0.0,,,11.5,,False
+401908336,2026,8,Dickinson,McDaniel,Biddle Field,51.7,,46.0,0.0,,,7.8,,False
+401908391,2026,8,Millsaps,Trinity (TX),Harper Davis Field,80.8,,36.0,0.0,,,6.5,,False
+401908495,2026,8,Martin Luther,Crown,MLC Bowl,56.6,,68.0,0.035,,,18.5,,False
+401908552,2026,8,Hendrix,Austin,Young-Wise Memorial Stadium,66.0,,69.0,0.004,,,4.2,,False
+401908628,2026,8,SUNY Maritime,WPI,Reinhart Field,52.2,,30.0,0.0,,,12.8,,False
+401908729,2026,8,Grinnell,Cornell (IA),Rosenbloom Field,62.8,,82.0,0.004,,,13.5,,False
+401908753,2026,8,Concordia (MN),Augsburg,Jake Christiansen Stadium,51.5,,70.0,0.004,,,14.9,,False
+401908763,2026,8,Knox,Lawrence,Harley Knosher Bowl,61.7,,63.0,0.004,,,10.6,,False
+401908770,2026,8,Luther,Ripon,Legacy Field in Carlson Stadium,58.7,,84.0,0.0,,,15.9,,False
+401908807,2026,8,Kalamazoo,Olivet,Angell Field,63.5,,49.0,0.0,,,15.3,,False
+401908813,2026,8,Carleton,Saint John's (MN),Laird Stadium,53.7,,89.0,0.031,,,14.0,,False
+401908850,2026,8,St. Norbert,Aurora,Donald J. Schneider Stadium,63.0,,59.0,0.0,,,20.7,,False
+401908863,2026,8,Gustavus Adolphus,Hamline,Hollingsworth Field,56.4,,73.0,0.087,,,15.9,,False
+401908879,2026,8,Concordia Chicago,Benedictine (IL),Concordia Stadium,68.0,,43.0,0.0,,,11.2,,False
+401908913,2026,8,St. Scholastica,St. Olaf,Public Schools Stadium,60.7,,71.0,0.0,,,14.6,,False
+401908969,2026,8,Wittenberg,DePauw,Edwards-Maurer Field,65.3,,54.0,0.0,,,11.1,,False
+401908996,2026,8,Bridgewater,Shenandoah,Jopson Athletic Complex,53.3,,44.0,0.0,,,5.7,,False
+401907368,2026,8,Fort Hays,Washburn,Lewis Field Stadium,64.8,,39.0,0.0,,,10.9,,False
+401907384,2026,8,Nebraska Kearney,Northwest Missouri State,Ron & Carol Cope Stadium at Foster Field,60.7,,44.0,0.0,,,13.8,,False
+401907500,2026,8,Bloomsburg,Millersville,Robert B. Redman Stadium,52.9,,38.0,0.0,,,5.6,,False
+401907649,2026,8,University of Mary,Minnesota Duluth,MDU Resources Community Bowl,52.4,,45.0,0.0,,,17.7,,False
+401907688,2026,8,Sioux Falls,Minot State,Bob Young Field,57.7,,55.0,0.0,,,17.7,,False
+401907710,2026,8,Augustana (SD),Southwest Minnesota State,Kirkeby-Over Stadium,57.7,,55.0,0.0,,,17.7,,False
+401907719,2026,8,Minnesota State,Wayne State (NE),Blakeslee Stadium,57.0,,71.0,0.102,,,13.8,,False
+401906926,2026,8,Allen,Tuskegee,W.C. Hawkins Stadium,66.9,,32.0,0.0,,,11.9,,False
+401906961,2026,8,Edward Waters,Clark Atlanta,Earl Kitchings Stadium,76.4,,57.0,0.0,,,17.3,,False
+401907105,2026,8,Adams State,Colorado Mesa,Rex Stadium,45.9,,45.0,0.0,,,2.7,,False
+401906131,2026,8,Livingstone,Elizabeth City State,Alumni Memorial Stadium (NC),61.4,,33.0,0.0,,,10.4,,False
+401907126,2026,8,New Mexico Highlands,Chadron State,Sanchez Family Stadium,51.7,,54.0,0.0,,,10.6,,False
+401906174,2026,8,Barton,North Greenville,Electric Supply Company Field,62.6,,41.0,0.0,,,17.1,,False
+401906522,2026,8,Henderson State,Arkansas Tech,Ruggles Field at Carpenter-Haygood Stadium,66.6,,70.0,0.0,,,2.6,,False
+401906645,2026,8,Lake Erie,Thomas More,Jack Britt Memorial Stadium,58.6,,30.0,0.0,,,11.9,,False
+401906907,2026,8,Saginaw Valley State,Grand Valley State,Harvey Randall Wickes Memorial Stadium,59.8,,47.0,0.0,,,14.5,,False
+401907147,2026,8,Fort Lewis,CSU Pueblo,Ray Dennison Memorial Field,48.9,,48.0,0.0,,,3.6,,False
+401907224,2026,8,Missouri S&T,Quincy,Allgood-Bailey Stadium,74.9,,46.0,0.0,,,15.1,,False
+401907248,2026,8,Upper Iowa,William Jewell,Harms-Eischeid Stadium,59.8,,84.0,0.0,,,15.7,,False
+401868003,2026,8,Richmond,Colgate,E. Claiborne Robins Stadium,57.9,,40.0,0.0,,,8.8,,False
+401868238,2026,8,West Georgia,Tarleton State,University Stadium (GA),70.0,,45.0,0.0,,,10.7,,False
+401868377,2026,8,Furman,Samford,Paladin Stadium,62.5,,47.0,0.0,,,10.9,,False
+401868392,2026,8,The Citadel,Tennessee Tech,Johnson Hagood Stadium,67.3,,41.0,0.0,,,15.6,,False
+401868271,2026,8,Morehead State,Stetson,Jayne Stadium,71.0,,47.0,0.0,,,3.4,,False
+401906055,2026,8,Bluefield State,Fayetteville State,Mitchell Stadium,56.6,,46.0,0.0,,,8.6,,False
+401907141,2026,8,Colorado School of Mines,South Dakota Mines,Marv Kay Stadium at Campbell Field,53.0,,35.0,0.0,,,3.4,,False
+401906637,2026,8,Hillsdale,Tiffin,"Frank ""Muddy"" Waters Stadium",60.4,,53.0,0.0,,,14.4,,False
+401868341,2026,8,Western Carolina,Chattanooga,E. J. Whitmire Stadium,66.5,,52.0,0.0,,,3.1,,False
+401907242,2026,8,Truman State,Southwest Baptist,Stokes Stadium,65.4,,77.0,0.0,,,16.5,,False
+401868972,2026,8,Texas Southern,Southern,BBVA Compass Stadium,86.5,,51.0,0.0,,,9.1,,False
+401908152,2026,8,Simpson (IA),Coe,Bill Buxton Stadium,63.5,,65.0,0.0,,,19.9,,False
+401908073,2026,8,Buffalo State,Hilbert,Coyer Field,60.0,,21.0,0.0,,,6.4,,False
+401907858,2026,8,Hartwick,Alfred State,Wright Stadium,50.7,,35.0,0.0,,,6.3,,False
+401907608,2026,8,Frostburg State,Wheeling,Bobcat Stadium (MD),48.9,,43.0,0.0,,,9.2,,False
+401907373,2026,8,Missouri Western,Missouri Southern State,Craig Field at Spratt Memorial Stadium,62.9,,59.0,0.0,,,16.5,,False
+401907351,2026,8,Pittsburg State,Central Oklahoma,Carnie Smith Stadium,69.5,,49.0,0.0,,,11.5,,False
+401907116,2026,8,Black Hills State,Western Colorado,Lyle Hare Stadium,51.3,,26.0,0.0,,,14.8,,False
+401906954,2026,8,Miles,Central State,Albert J. H. Sloan - Alumni Stadium,75.6,,36.0,0.0,,,7.8,,False
+401906569,2026,8,Southeastern Oklahoma State,Oklahoma Baptist,Paul Laird Field,78.5,,56.0,0.0,,,7.8,,False
+401906532,2026,8,Arkansas Monticello,Harding,Convoy Leslie Cotton Boll Stadium,82.6,,47.0,0.0,,,3.5,,False
+401906209,2026,8,Valdosta State,Shorter,Bazemore-Hyder Stadium,75.7,,54.0,0.0,,,12.2,,False
+401906191,2026,8,Erskine,Ferrum,J.W. Babb Stadium,66.7,,38.0,0.0,,,10.7,,False
+401906182,2026,8,UNC Pembroke,Chowan,Grace P. Johnson Stadium,64.8,,38.0,0.0,,,14.9,,False
+401867842,2026,8,Harvard,Princeton,Harvard Stadium,46.8,,53.0,0.0,,,11.3,,False
+401867962,2026,8,Morgan State,Howard,Hughes Stadium,54.6,,39.0,0.0,,,6.9,,False
+401867689,2026,8,Lindenwood,Chicago State,Hunter Stadium,71.2,,47.0,0.0,,,12.2,,False
+401867850,2026,8,Illinois State,Indiana State,Hancock Stadium,73.1,,39.0,0.0,,,16.6,,False
+401867871,2026,8,South Dakota State,Murray State,Dana J. Dykhouse Stadium,57.7,,46.0,0.0,,,18.8,,False
+401868121,2026,8,Montana State,Weber State,Bobcat Stadium,43.5,,40.0,0.0,,,6.5,,False
+401868146,2026,8,Eastern Kentucky,West Florida,Roy Kidd Stadium,76.2,,34.0,0.0,,,8.0,,False
+401868182,2026,8,Eastern Illinois,Southeast Missouri State,O'Brien Stadium,73.4,,38.0,0.0,,,14.5,,False
+401868937,2026,8,Florida A&M,Arkansas-Pine Bluff,Bragg Memorial Stadium,74.0,,60.0,0.0,,,8.9,,False
+401869133,2026,8,Northwestern State,Nicholls,Harry Turpin Stadium,88.2,,35.0,0.0,,,5.1,,False
+401868174,2026,8,Tennessee State,Charleston Southern,Nissan Stadium,76.4,,36.0,0.0,,,9.0,,False
+401868035,2026,8,Villanova,Lehigh,Villanova Stadium,52.7,,35.0,0.0,,,8.6,,False
+401868019,2026,8,William & Mary,Georgetown,Zable Stadium,56.3,,53.0,0.0,,,11.4,,False
+401906573,2026,8,Southern Arkansas,Ouachita Baptist,Wilkins Stadium,76.9,,66.0,0.0,,,1.8,,False
+401909131,2026,8,Denison,Kenyon,Deeds Field-Piper Stadium,62.0,,61.0,0.0,,,8.6,,False
+401908584,2026,8,UMass Dartmouth,Bridgewater State,Cressy Field,45.4,,69.0,0.0,,,12.5,,False
+401908425,2026,8,Willamette,Pacific (OR),McCulloch Stadium,56.7,,56.0,0.016,,,1.4,,False
+401908420,2026,8,Linfield,Pacific Lutheran,Maxwell Field,55.9,,53.0,0.012,,,3.0,,False
+401908408,2026,8,Whitworth,Lewis & Clark,The Pine Bowl,41.4,,94.0,0.008,,,4.8,,False
+401907532,2026,8,Seton Hill,Clarion,Offutt Field,54.7,,45.0,0.0,,,10.6,,False
+401906563,2026,8,Southern Nazarene,Northwestern (OK),Southern Nazarene University Football Stadium,70.2,,41.0,0.0,,,11.8,,False
+401906541,2026,8,East Central,Southwestern Oklahoma State,Koi Ishto Stadium,73.1,,45.0,0.0,,,10.9,,False
+401868201,2026,8,Western Illinois,UT Martin,Hanson Field,68.9,,62.0,0.0,,,12.2,,False
+401869145,2026,8,Lamar,Houston Christian,Provost Umphrey Stadium,83.6,,57.0,0.012,,,8.4,,False
+401907290,2026,8,Western Oregon,Eastern New Mexico,McArthur Field,55.4,,59.0,0.028,,,1.6,,False
+401906599,2026,8,Delta State,West Alabama,Parker Field at McCool Stadium,84.6,,31.0,0.0,,,4.6,,False
+401908546,2026,8,Lyon,Texas Lutheran,Pioneer Stadium,49.2,,45.0,0.0,,,6.4,,False
+401907523,2026,8,California (PA),IU Pennsylvania,Adamson Stadium,56.7,,44.0,0.0,,,6.2,,False
+401869138,2026,8,Incarnate Word,McNeese,Gayle and Tom Benson Stadium,81.0,,62.0,0.0,,,5.0,,False
+401868080,2026,8,Cal Poly,Utah Tech,Alex G. Spanos Stadium,80.2,,27.0,0.0,,,7.3,,False
+401868135,2026,8,Central Arkansas,UT Rio Grande Valley,Estes Stadium,80.6,,47.0,0.0,,,1.9,,False
+401907459,2026,8,Newberry,Virginia Lynchburg,Setzler Field,61.6,,36.0,0.0,,,9.6,,False
+401868311,2026,8,Stephen F. Austin,SE Louisiana,Homer Bryce Stadium,76.2,,73.0,0.012,,,6.8,,False
+401868067,2026,8,North Alabama,Austin Peay,Braly Municipal Stadium,67.4,,52.0,0.0,,,7.5,,False
+401868132,2026,8,UC Davis,Northern Colorado,Aggie Stadium,74.6,,21.0,0.0,,,13.1,,False
+401868969,2026,8,East Texas A&M,Prairie View A&M,Memorial Stadium (Commerce TX),78.8,,57.0,0.0,,,7.1,,False
+401907281,2026,8,Angelo State,Texas A&M-Kingsville,LeGrand Stadium at 1st Community Credit Union Field,73.3,,39.0,0.0,,,10.1,,False
+401907302,2026,8,Midwestern State,Sul Ross State,"Memorial Stadium (Wichita Falls, TX)",68.9,,54.0,0.0,,,9.3,,False
+401907320,2026,8,West Texas,Western New Mexico,Buffalo Stadium,61.3,,42.0,0.0,,,9.1,,False
+401908439,2026,8,La Verne,Cal Lutheran,Ortmayer Stadium,81.7,,17.0,0.0,,,7.6,,False
+401862808,2026,8,Tulsa,Army,Chapman Stadium,77.8,,37.0,0.0,,,12.4,,False
+401864525,2026,8,Wyoming,Air Force,War Memorial Stadium,34.2,,93.0,0.0,,,8.2,,False
+401858272,2026,8,Stanford,NC State,Stanford Stadium,63.8,,52.0,0.0,,,4.5,,False
+401856727,2026,8,Alabama,Texas A&M,Bryant-Denny Stadium,63.6,,49.0,0.0,,,5.2,,False
+401856835,2026,8,UCF,BYU,FBC Mortgage Stadium,75.1,,66.0,0.0,,,12.8,,False
+401856834,2026,8,Kansas,Baylor,Memorial Stadium,65.2,,53.0,0.0,,,12.3,,False
+401856836,2026,8,Oklahoma State,Colorado,Boone Pickens Stadium,66.1,,91.0,0.004,,,14.0,,False
+401856837,2026,8,Utah,Houston,Rice-Eccles Stadium,50.1,,53.0,0.0,,,1.3,,False
+401856838,2026,8,Arizona,Iowa State,Arizona Stadium,68.2,,34.0,0.0,,,3.1,,False
+401856839,2026,8,Arizona State,Kansas State,Mountain America Stadium,75.3,,27.0,0.0,,,0.5,,False
+401856840,2026,8,Cincinnati,Texas Tech,Nippert Stadium,55.3,,61.0,0.0,,,5.8,,False
+401856841,2026,8,TCU,West Virginia,Amon G. Carter Stadium,74.8,,73.0,0.02,,,12.1,,False
+401858276,2026,8,Clemson,Virginia Tech,"Memorial Stadium (Clemson, SC)",56.2,,74.0,0.0,,,5.4,,False
+401856732,2026,8,Texas,Ole Miss,DKR-Texas Memorial Stadium,77.2,,67.0,0.0,,,7.8,,False
+401856731,2026,8,South Carolina,Tennessee,Williams-Brice Stadium,60.8,,63.0,0.0,,,7.6,,False
+401856730,2026,8,Mississippi State,Oklahoma,Davis Wade Stadium,60.2,,53.0,0.0,,,6.2,,False
+401856729,2026,8,Kentucky,Vanderbilt,Kroger Field,52.4,,79.0,0.0,,,10.3,,False
+401858273,2026,8,Georgia Tech,Boston College,Bobby Dodd Stadium,64.4,,46.0,0.0,,,6.9,,False
+401858497,2026,8,Minnesota,Iowa,Huntington Bank Stadium,66.5,,48.0,0.0,,,13.7,,False
+401866476,2026,8,Central Michigan,Miami (OH),Kelly/Shorts Stadium,52.3,,71.0,0.0,,,12.0,,False
+401862811,2026,8,Tulane,UTSA,Yulman Stadium,73.6,,71.0,0.0,,,8.7,,False
+401869967,2026,8,Southern Miss,Louisiana,M. M. Roberts Stadium,66.0,,71.0,0.0,,,5.7,,False
+401866446,2026,8,Kent State,Akron,Dix Stadium,45.7,,83.0,0.0,,,8.3,,False
+401866447,2026,8,Ball State,Sacramento State,Scheumann Stadium,56.3,,57.0,0.0,,,11.9,,False
+401866448,2026,8,Buffalo,Bowling Green,UB Stadium,37.4,,74.0,0.0,,,6.1,,False
+401858500,2026,8,Wisconsin,USC,Camp Randall Stadium,61.3,,56.0,0.0,,,14.7,,False
+401858499,2026,8,UCLA,Michigan State,Rose Bowl,71.2,,40.0,0.0,,,1.0,,False
+401858498,2026,8,Northwestern,Rutgers,Ryan Field,62.3,,55.0,0.0,,,14.4,,False
+401858496,2026,8,Michigan,Indiana,Michigan Stadium,49.9,,85.0,0.0,,,10.1,,False
+401858495,2026,8,Illinois,Oregon,"Memorial Stadium (Champaign, IL)",61.7,,52.0,0.0,,,12.7,,False
+401866450,2026,8,Toledo,Western Michigan,Glass Bowl,56.5,,72.0,0.0,,,8.9,,False
+401858274,2026,8,Miami,Pittsburgh,Hard Rock Stadium,80.4,,67.0,0.004,,,18.7,,False
+401871094,2026,8,Troy,UL Monroe,Veterans Memorial Stadium (AL),58.5,,59.0,0.0,,,7.2,,False
+401871093,2026,8,Louisiana Tech,Old Dominion,Joe Aillet Stadium,66.7,,48.0,0.0,,,4.6,,False
+401864526,2026,8,Northern Illinois,Hawai'i,Huskie Stadium,60.1,,59.0,0.0,,,14.7,,False
+401862809,2026,8,Florida Atlantic,Rice,FAU Stadium,78.7,,71.0,0.02,,,17.6,,False
+401858275,2026,8,North Carolina,Syracuse,Kenan Stadium,56.2,,75.0,0.0,,,7.1,,False
+401866449,2026,8,Ohio,Eastern Michigan,Peden Stadium,50.7,,77.0,0.0,,,6.6,,False
+401858270,2026,8,SMU,California,Gerald J. Ford Stadium,77.7,,61.0,0.012,,,10.2,,False
+401856728,2026,8,Auburn,LSU,Jordan-Hare Stadium,69.3,,48.0,0.0,,,11.9,,False
+401862810,2026,8,Navy,North Texas,Navy-Marine Corps Memorial Stadium,53.7,,50.0,0.0,,,9.4,,False
+401864528,2026,8,Nevada,San José State,Mackay Stadium,65.8,,13.0,0.0,,,17.5,,False
+401860907,2026,8,Washington State,Boise State,Gesa Field,43.5,,69.0,0.0,,,9.4,,False
+401860905,2026,8,Colorado State,San Diego State,Canvas Stadium,57.4,,34.0,0.0,,,7.9,,False
+401869935,2026,8,Arkansas State,Georgia State,Centennial Bank Stadium,70.0,,69.0,0.0,,,0.4,,False
+401860906,2026,8,Texas State,Utah State,Bobcat Stadium (TX),76.7,,76.0,0.083,,,4.7,,False
+401907342,2026,8,Emporia State,Central Missouri,Francis G. Welch Stadium,59.0,,63.0,0.0,,,6.3,,False
+401908466,2026,8,Whittier,Redlands,"Memorial Stadium (Whittier, CA)",81.9,,22.0,0.0,,,8.6,,False
+401908801,2026,8,Macalester,Bethel (MN),Macalester Stadium,56.0,,55.0,0.0,,,8.6,,False
+401907319,2026,8,Central Washington,UT Permian Basin,Tomlinson Stadium,46.6,,61.0,0.0,,,4.7,,False
+401908446,2026,8,Chapman,Claremont Mudd Scripps,Ernie Chapman Stadium,75.5,,37.0,0.0,,,5.2,,False
+401908462,2026,8,Pomona Pitzer,Azusa Pacific,Merritt Field,75.7,,26.0,0.0,,,4.3,,False
+401864527,2026,8,New Mexico,North Dakota State,University Stadium (NM),63.3,,25.0,0.0,,,4.3,,False
+401867969,2026,9,Morgan State,South Carolina State,Hughes Stadium,58.7,,64.0,0.0,,,4.2,,False
+401906977,2026,9,Miles,Fort Valley State,Albert J. H. Sloan - Alumni Stadium,72.3,,50.0,0.0,,,4.3,,False
+401871057,2026,9,New Mexico State,Jacksonville State,Aggie Memorial Stadium,69.3,,40.0,0.0,,,6.3,,False
+401869963,2026,9,James Madison,Troy,Bridgeforth Stadium,58.3,,81.0,0.0,,,3.6,,False
+401862812,2026,9,North Texas,Florida Atlantic,DATCU Stadium,82.5,,51.0,0.0,,,13.7,,False
+401871069,2026,8,Delaware,Missouri State,Delaware Stadium,60.4,,65.0,0.0,,,4.0,,False
+401871055,2026,8,Florida International,Middle Tennessee,Pitbull Stadium,78.8,,73.0,0.039,,,19.7,,False
+401871092,2026,8,Marshall,South Alabama,Joan C. Edwards Stadium,58.9,,62.0,0.0,,,4.3,,False
+401871070,2026,8,Sam Houston,New Mexico State,Elliott T. Bowers Stadium,73.5,,51.0,0.0,,,3.8,,False
+401869845,2026,8,App State,James Madison,Kidd Brewer Stadium,51.8,,80.0,0.0,,,2.2,,False
+401871056,2026,8,Kennesaw State,Liberty,Fifth Third Stadium,68.6,,36.0,0.0,,,5.4,,False
+401862807,2026,8,Memphis,East Carolina,Simmons Bank Liberty Stadium,78.2,,25.0,0.0,,,4.6,,False
+401871071,2026,9,Western Kentucky,Delaware,Houchens Industries-L.T. Smith Stadium,69.3,,48.0,0.0,,,6.6,,False
+401871072,2026,9,Missouri State,Sam Houston,Plaster Sports Complex,68.4,,52.0,0.0,,,7.6,,False
+401871058,2026,9,Middle Tennessee,Kennesaw State,"Johnny ""Red"" Floyd Stadium",64.1,,42.0,0.0,,,6.7,,False
+401908708,2026,7,Trine,Albion,Fred Zollner Athletic Stadium,58.7,,89.0,0.0,,,7.6,,False
+401862800,2026,7,UAB,East Carolina,Protective Stadium,81.5,,45.0,0.0,,,3.9,,False
+401869950,2026,7,Old Dominion,Georgia Southern,S.B. Ballard Stadium,67.3,,82.0,0.0,,,8.1,,False
+401906581,2026,7,Southwestern Oklahoma State,Southern Nazarene,Milam Stadium,58.0,,84.0,0.0,,,15.7,,False
+401860923,2026,7,Texas State,Colorado State,Bobcat Stadium (TX),84.8,,45.0,0.0,,,5.5,,False
+401906540,2026,7,Oklahoma Baptist,East Central,Crain Family Stadium,61.6,,90.0,0.0,,,16.2,,False
+401867821,2026,7,Pennsylvania,Columbia,Franklin Field,69.0,,95.0,2.169,,,17.5,,False
+401862801,2026,7,Tulane,Memphis,Yulman Stadium,81.0,,55.0,0.0,,,13.2,,False
+401869844,2026,7,Coastal Carolina,App State,Brooks Stadium (SC),73.8,,76.0,0.0,,,7.9,,False
+401858493,2026,7,Purdue,Washington,Ross-Ade Stadium,48.9,,90.0,0.197,,,13.0,,False
+401908894,2026,7,Merchant Marine,Salve Regina,Brooks Stadium (NY),53.1,,35.0,0.0,,,14.3,,False
+401908526,2026,7,Westminster (MO),Northwestern (MN),Blue Jay Stadium,50.9,,50.0,0.0,,,3.4,,False
+401869957,2026,7,James Madison,Georgia State,Bridgeforth Stadium,49.2,,48.0,0.0,,,17.4,,False
+401907620,2026,7,Wheeling,West Virginia State,Bishop Schmitt Field,49.5,,46.0,0.0,,,10.1,,False
+401856720,2026,7,LSU,Mississippi State,Tiger Stadium (LA),63.6,,35.0,0.0,,,12.2,,False
+401908480,2026,7,Nichols,Curry,Vendetti Field,46.6,,52.0,0.0,,,12.5,,False
+401907857,2026,7,Alfred State,Brockport,Pioneer Stadium,37.1,,45.0,0.0,,,13.4,,False
+401908198,2026,7,Misericordia,FDU Florham,Mangelsdorf Field,42.4,,46.0,0.0,,,14.6,,False
+401906947,2026,7,Michigan Tech,Northern Michigan,Sherman Field,46.0,,41.0,0.0,,,13.3,,False
+401907512,2026,7,Franklin Pierce,Post,Sodexo Field,43.4,,47.0,0.0,,,14.6,,False
+401908313,2026,7,Berry,Southwestern U,Valhalla Stadium,60.9,,43.0,0.0,,,11.7,,False
+401856724,2026,7,Texas,Florida,DKR-Texas Memorial Stadium,59.8,,40.0,0.0,,,11.0,,False
+401867920,2026,7,Robert Morris,New Haven,Joe Walton Stadium,45.8,,44.0,0.0,,,11.2,,False
+401866669,2026,7,Yale,Rhode Island,Yale Bowl,50.8,,44.0,0.0,,,15.9,,False
+401866441,2026,7,Bowling Green,Ball State,Doyt L. Perry Stadium,47.0,,33.0,0.0,,,7.2,,False
+401858488,2026,7,Indiana,Ohio State,"Memorial Stadium (Bloomington, IN)",50.3,,37.0,0.0,,,8.1,,False
+401907499,2026,7,Shepherd,Bloomsburg,Ram Stadium (WV),51.3,,41.0,0.0,,,19.5,,False
+401856830,2026,7,Kansas State,Kansas,Bill Snyder Family Stadium,51.3,,51.0,0.0,,,10.3,,False
+401907556,2026,7,Gannon,Seton Hill,McConnell Family Stadium,44.1,,50.0,0.0,,,13.9,,False
+401907522,2026,7,Clarion,California (PA),"Memorial Stadium (Clarion, PA)",43.1,,47.0,0.0,,,11.1,,False
+401908533,2026,7,New England,Maine Maritime,Blue Storm Stadium,47.8,,50.0,0.004,,,7.9,,False
+401908167,2026,7,Albright,Alvernia,Gene L. Shirk Stadium,49.0,,50.0,0.0,,,16.7,,False
+401908882,2026,7,MIT,Coast Guard,Henry G. Steinbrenner '27 Stadium,48.4,,49.0,0.0,,,13.3,,False
+401908627,2026,7,Springfield,WPI,Stagg Field,48.3,,47.0,0.0,,,13.4,,False
+401908701,2026,7,Susquehanna,Moravian,Amos Alonzo Stagg Field (PA),47.1,,42.0,0.0,,,16.5,,False
+401906626,2026,7,Walsh,Tiffin,Tom Benson Hall of Fame Stadium,48.7,,42.0,0.0,,,11.2,,False
+401906653,2026,7,Ohio Dominican,Kentucky Wesleyan,Panther Stadium (OH),49.2,,45.0,0.0,,,9.2,,False
+401907867,2026,7,Alfred,SUNY Cortland,Merrill Field at Yunevich Stadium,37.1,,45.0,0.0,,,13.4,,False
+401858491,2026,7,Michigan State,Northwestern,Spartan Stadium,45.5,,40.0,0.0,,,3.6,,False
+401866663,2026,7,Sacred Heart,Hampton,Campus Field,49.7,,42.0,0.0,,,15.7,,False
+401866668,2026,7,North Carolina A&T,Chicago State,Aggie Stadium,65.7,,35.0,0.0,,,7.4,,False
+401909016,2026,7,Shenandoah,Roanoke College,Shentel Stadium,50.7,,38.0,0.0,,,16.5,,False
+401908845,2026,7,Ohio Northern,Otterbein,Dial-Roberson Stadium,51.2,,44.0,0.0,,,8.9,,False
+401856829,2026,7,West Virginia,Cincinnati,Milan Puskar Stadium,47.7,,44.0,0.0,,,10.1,,False
+401858261,2026,7,Clemson,Charleston Southern,"Memorial Stadium (Clemson, SC)",61.9,,39.0,0.0,,,11.2,,False
+401867901,2026,7,Mercyhurst,Central Connecticut,Saxon Stadium,44.1,,50.0,0.0,,,13.9,,False
+401908935,2026,7,Montclair State,Christopher Newport,Sprague Field,50.8,,34.0,0.0,,,17.6,,False
+401908928,2026,7,Vermont State Castleton,Salisbury,Dave Wolk Stadium,39.6,,54.0,0.0,,,13.2,,False
+401867925,2026,7,Stonehill,Duquesne,W.B. Mason Stadium,46.7,,66.0,0.0,,,11.7,,False
+401908583,2026,7,Dean,Bridgewater State,Dale Lippert Field,46.8,,60.0,0.0,,,10.8,,False
+401867807,2026,7,Princeton,Brown,Princeton University Stadium,51.0,,47.0,0.0,,,18.0,,False
+401908572,2026,7,Fitchburg State,Mass Maritime,Elliot Field Athletic Complex,46.5,,46.0,0.0,,,13.9,,False
+401858268,2026,7,SMU,Virginia,Gerald J. Ford Stadium,56.2,,45.0,0.0,,,7.7,,False
+401862802,2026,7,Army,Florida Atlantic,Michie Stadium,48.5,,44.0,0.0,,,14.1,,False
+401858267,2026,7,Boston College,Pittsburgh,"Alumni Stadium (Chestnut Hill, MA)",47.9,,49.0,0.0,,,13.3,,False
+401858489,2026,7,Maryland,Rutgers,SECU Stadium,53.6,,37.0,0.0,,,15.1,,False
+401907660,2026,7,Gettysburg,Carnegie Mellon,Shirk Field at Musselman Stadium,49.9,,39.0,0.0,,,17.8,,False
+401907488,2026,7,Southern Connecticut State,Assumption,Jess Dow Field,51.7,,42.0,0.0,,,18.9,,False
+401907541,2026,7,Shippensburg,East Stroudsburg,Seth Grove Stadium,48.7,,38.0,0.0,,,18.6,,False
+401908752,2026,7,Augsburg,Macalester,Edor Nelson Field,53.1,,33.0,0.0,,,14.3,,False
+401908612,2026,7,Catholic,Western Connecticut State,Cardinal Stadium (DC),55.2,,33.0,0.0,,,14.2,,False
+401908370,2026,7,McMurry,Westgate Christian University,Wilford Moore Stadium,53.8,,49.0,0.0,,,9.4,,False
+401907548,2026,7,Lock Haven,Edinboro,Hubert Jack Stadium,47.1,,37.0,0.0,,,11.2,,False
+401907479,2026,7,Pace,American International,Pace Stadium,50.1,,41.0,0.0,,,14.6,,False
+401908474,2026,7,Greenville,Crown,Francis Field (IL),54.0,,45.0,0.0,,,5.5,,False
+401909043,2026,7,Grove City,Hiram,Robert E. Thorn Field,46.2,,39.0,0.0,,,11.9,,False
+401908714,2026,7,Alma,Olivet,Bahlke Field,48.5,,41.0,0.0,,,7.4,,False
+401908642,2026,7,Lycoming,Juniata,David Person Field,46.3,,36.0,0.0,,,12.8,,False
+401856725,2026,7,Texas A&M,The Citadel,Kyle Field,59.9,,48.0,0.0,,,12.4,,False
+401866664,2026,7,Maine,Bryant,Alfond Stadium,46.2,,45.0,0.0,,,14.9,,False
+401862803,2026,7,Temple,Charlotte,Lincoln Financial Field,54.1,,34.0,0.0,,,15.6,,False
+401909130,2026,7,DePauw,Denison,Blackstock Stadium,51.0,,34.0,0.0,,,9.2,,False
+401908968,2026,7,Ohio Wesleyan,Wittenberg,Selby Stadium,49.3,,47.0,0.0,,,8.8,,False
+401906054,2026,7,Winston-Salem State,Bluefield State,Bowman Gray Stadium,60.5,,37.0,0.0,,,13.6,,False
+401906846,2026,7,Hillsdale,Findlay,"Frank ""Muddy"" Waters Stadium",47.8,,32.0,0.0,,,4.0,,False
+401908307,2026,7,Greensboro,Belhaven,Jamieson Stadium,60.4,,40.0,0.0,,,12.6,,False
+401908053,2026,7,Methodist,Southern Virginia,Monarch Stadium,63.7,,38.0,0.0,,,18.7,,False
+401868222,2026,7,Davidson,Morehead State,Richardson Stadium,61.2,,36.0,0.0,,,14.0,,False
+401907417,2026,7,Carson Newman,Emory & Henry,Burke-Tarr Stadium,55.9,,43.0,0.0,,,12.4,,False
+401867841,2026,7,Harvard,Holy Cross,Harvard Stadium,50.7,,39.0,0.0,,,13.4,,False
+401908295,2026,7,Rose Hulman,Heidelberg,Cook Stadium,53.7,,33.0,0.0,,,9.5,,False
+401907306,2026,7,Kentucky State,Lane College,Alumni Stadium (KY),55.1,,38.0,0.0,,,8.7,,False
+401909023,2026,7,Allegheny,Washington & Jefferson,Frank B. Fuhrer Field,45.5,,42.0,0.0,,,11.1,,False
+401906142,2026,7,Shaw,Virginia State,George Williams Athletic Complex,61.9,,34.0,0.0,,,15.3,,False
+401909054,2026,7,Saint Francis,Saint Vincent,DeGol Field,43.3,,44.0,0.0,,,14.2,,False
+401906122,2026,7,Bowie State,Virginia Union,Bulldogs Stadium,53.9,,37.0,0.0,,,17.2,,False
+401866665,2026,7,New Hampshire,Monmouth,Wildcat Stadium,49.1,,39.0,0.0,,,14.3,,False
+401906925,2026,7,Clark Atlanta,Allen,CAU Panther Stadium,64.2,,32.0,0.0,,,6.6,,False
+401869132,2026,7,Northwestern State,McNeese,Harry Turpin Stadium,64.5,,36.0,0.0,,,13.0,,False
+401908856,2026,7,Wesleyan (CT),Bates,Corwin Stadium,51.1,,41.0,0.0,,,15.3,,False
+401908828,2026,7,Colby,Amherst,Seaverns Field At Harold Alfond Stadium,45.8,,43.0,0.0,,,13.0,,False
+401907617,2026,7,West Liberty,West Virginia Wesleyan,West Family Stadium,51.1,,41.0,0.0,,,10.1,,False
+401868257,2026,7,Drake,Marist,Drake Stadium,51.1,,49.0,0.0,,,12.3,,False
+401907583,2026,7,Frostburg State,Charleston (WV),Bobcat Stadium (MD),43.2,,54.0,0.0,,,16.1,,False
+401908204,2026,7,King's,Lebanon Valley,McCarthy Stadium (Wilkes Barre),44.9,,42.0,0.0,,,16.0,,False
+401867837,2026,7,Dartmouth,Merrimack,Memorial Field,40.6,,52.0,0.0,,,15.6,,False
+401908335,2026,7,Franklin & Marshall,Dickinson,Shadek Stadium,49.1,,45.0,0.0,,,18.7,,False
+401908356,2026,7,Ursinus,Johns Hopkins,Patterson Field,50.2,,45.0,0.0,,,19.7,,False
+401873408,2026,7,Rowan,Kean,Richard Wackar Stadium,53.1,,40.0,0.0,,,17.4,,False
+401908679,2026,7,John Carroll,Wabash,Don Shula Stadium at Wasmer Field,47.7,,46.0,0.0,,,9.9,,False
+401908487,2026,7,Western New England,Endicott,Golden Bear Stadium,49.4,,41.0,0.0,,,13.9,,False
+401868002,2026,7,Colgate,Georgetown,Andy Kerr Stadium,38.5,,50.0,0.0,,,15.9,,False
+401909001,2026,7,Hampden Sydney,Guilford,Lewis C. Everett Stadium,57.7,,39.0,0.0,,,13.7,,False
+401908185,2026,7,Stevenson,Delaware Valley,Mustang Stadium,52.1,,36.0,0.0,,,15.7,,False
+401908382,2026,7,Centre,Rhodes,Farris Stadium,53.9,,40.0,0.0,,,11.4,,False
+401908869,2026,7,Bowdoin,Hamilton,Whittier Field,48.7,,42.0,0.0,,,16.5,,False
+401915932,2026,7,Keystone,Apprentice School,Athletic Field Complex,43.5,,42.0,0.0,,,15.4,,False
+401907200,2026,7,Lincoln (MO),Indianapolis,Dwight T. Reed Stadium,54.9,,45.0,0.0,,,3.4,,False
+401906592,2026,7,Northeastern State,William Jewell,Gable Field at Doc Wadley Stadium,56.3,,45.0,0.0,,,4.3,,False
+401906607,2026,7,Ferrum,Delta State,W.B. Adams Stadium,55.7,,38.0,0.0,,,13.6,,False
+401907470,2026,7,Kenyon,Washington St. Louis,McBride Field,51.1,,41.0,0.0,,,10.9,,False
+401866442,2026,7,Buffalo,Massachusetts,UB Stadium,43.1,,35.0,0.0,,,10.9,,False
+401908983,2026,7,William Paterson,The College of New Jersey,Wightman Stadium,51.2,,32.0,0.0,,,17.2,,False
+401868213,2026,7,Butler,Dayton,Butler Bowl,50.9,,29.0,0.0,,,7.0,,False
+401907433,2026,7,Mars Hill,Newberry,Meares Stadium,51.4,,49.0,0.0,,,8.5,,False
+401906181,2026,7,Chowan,Erskine,Garrison Stadium,58.6,,43.0,0.0,,,18.9,,False
+401908657,2026,7,Marietta,Baldwin Wallace,Don Drumm Stadium,51.1,,49.0,0.0,,,9.6,,False
+401908919,2026,7,Tufts,Trinity (CT),Ellis Oval at Zimman Field,50.3,,42.0,0.0,,,13.5,,False
+401868398,2026,7,Wofford,VMI,Gibbs Stadium,62.9,,33.0,0.0,,,13.0,,False
+401908666,2026,7,Capital,Mount Union,Bernlohr Stadium,51.4,,40.0,0.0,,,7.7,,False
+401908220,2026,7,Mount St Joseph,Bluffton,Schueler Field,52.4,,38.0,0.0,,,7.1,,False
+401866443,2026,7,Central Michigan,Western Michigan,Kelly/Shorts Stadium,48.9,,42.0,0.0,,,7.6,,False
+401906130,2026,7,Fayetteville State,Elizabeth City State,"Luther ""Nick"" Jeralds Stadium",63.7,,38.0,0.0,,,18.7,,False
+401908211,2026,7,Anderson (IN),Hanover,Macholtz Stadium,48.8,,35.0,0.0,,,8.6,,False
+401908228,2026,7,Manchester,Franklin,Carl W. Burt Memorial Stadium,48.6,,38.0,0.0,,,6.1,,False
+401907241,2026,7,Southwest Baptist,Upper Iowa,Plaster Sports Complex,57.9,,35.0,0.0,,,4.0,,False
+401906940,2026,7,Benedict,Edward Waters,Charlie W. Johnson Stadium,68.0,,28.0,0.0,,,13.9,,False
+401908785,2026,7,Lake Forest,Luther,Farwell Field,53.8,,43.0,0.0,,,5.8,,False
+401906680,2026,7,Lake Erie,Northwood,Jack Britt Memorial Stadium,47.6,,50.0,0.0,,,9.7,,False
+401868066,2026,7,West Georgia,Austin Peay,University Stadium (GA),64.8,,35.0,0.0,,,10.0,,False
+401907815,2026,7,Wheaton (IL),Carroll (WI),McCully Stadium,52.6,,53.0,0.0,,,7.2,,False
+401908889,2026,7,Norwich,SUNY Maritime,Sabine Field at Haynes Family Stadium,37.5,,48.0,0.0,,,14.9,,False
+401906203,2026,7,North Greenville,Shorter,Younts Stadium,63.1,,34.0,0.0,,,9.7,,False
+401867830,2026,7,Cornell,Lehigh,Schoellkopf Field,41.7,,41.0,0.0,,,14.2,,False
+401906136,2026,7,Johnson C. Smith,Lincoln (PA),Irwin Belk Complex,63.5,,32.0,0.0,,,13.6,,False
+401907216,2026,7,Missouri S&T,McKendree,Allgood-Bailey Stadium,55.3,,41.0,0.0,,,4.2,,False
+401907573,2026,7,Millersville,Kutztown,Chryst Field at Biemesderfer Stadium,50.5,,40.0,0.0,,,19.2,,False
+401907567,2026,7,IU Pennsylvania,Slippery Rock,George P. Miller Stadium,47.0,,41.0,0.0,,,11.1,,False
+401909103,2026,7,Concordia Chicago,Lakeland,Concordia Stadium,55.6,,40.0,0.0,,,5.3,,False
+401908146,2026,7,Nebraska Wesleyan,Central College,Abel Stadium,56.0,,41.0,0.0,,,15.7,,False
+401907763,2026,7,Buena Vista,Coe,J. Leslie Rollins Stadium,52.3,,44.0,0.0,,,18.8,,False
+401908238,2026,7,Simpson (IA),Dubuque,Bill Buxton Stadium,52.4,,46.0,0.0,,,11.9,,False
+401908245,2026,7,Loras,Wartburg,Rock Bowl,51.2,,41.0,0.0,,,11.3,,False
+401908281,2026,7,Hardin Simmons,East Texas Baptist,Shelton Stadium,55.7,,45.0,0.0,,,8.1,,False
+401907827,2026,7,Elmhurst,North Central College,Langhorst Field,54.9,,42.0,0.0,,,6.0,,False
+401907822,2026,7,Carthage,North Park,Art Keller Field,52.6,,43.0,0.0,,,7.8,,False
+401908878,2026,7,Benedictine (IL),St. Norbert,Village of Lisle-Benedictine University Sports Complex,52.9,,53.0,0.0,,,6.6,,False
+401908762,2026,7,Lawrence,Grinnell,Ron Roberts Field at the Banta Bowl,50.9,,39.0,0.0,,,15.1,,False
+401907671,2026,7,Chicago,Illinois College,Amos Alonzo Stagg Field,54.6,,43.0,0.0,,,4.0,,False
+401908728,2026,7,Cornell (IA),Knox,Van Metre Field at Ash Park,50.3,,41.0,0.0,,,9.6,,False
+401908755,2026,7,Beloit,Monmouth (IL),Strong Stadium,51.4,,37.0,0.0,,,9.9,,False
+401908595,2026,7,Westfield State,Framingham State,"Alumni Field (Westfield, MA)",48.6,,36.0,0.0,,,14.8,,False
+401908654,2026,7,Hope,Adrian,Ray and Sue Smith Stadium,50.9,,53.0,0.0,,,11.3,,False
+401907462,2026,7,Tusculum,UVA Wise,Pioneer Field (TN),55.1,,41.0,0.0,,,12.4,,False
+401907430,2026,7,Lenoir Rhyne,Wingate,Helen and Leonard Moretz Stadium,59.4,,37.0,0.0,,,12.2,,False
+401908545,2026,7,Texas Lutheran,Hendrix,Bulldog Stadium (TX),65.5,,33.0,0.0,,,13.7,,False
+401908390,2026,7,Sewanee,Millsaps,Hardee-McGee Field,55.9,,45.0,0.0,,,10.7,,False
+401908114,2026,7,Brevard,LaGrange,Brevard Memorial Stadium,56.7,,39.0,0.0,,,9.5,,False
+401908107,2026,7,Trinity (TX),Maryville (TN),Trinity University Stadium,65.8,,31.0,0.0,,,11.0,,False
+401908511,2026,7,Minnesota Morris,Martin Luther,Big Cat Stadium,60.0,,25.0,0.0,,,20.2,,False
+401908022,2026,7,Wisconsin Eau Claire,Wisconsin Oshkosh,Carson Park,53.8,,35.0,0.0,,,17.4,,False
+401907999,2026,7,Wisconsin Platteville,Wisconsin River Falls,Ralph E. Davis Pioneer Stadium,49.4,,44.0,0.0,,,11.9,,False
+401907981,2026,7,Wisconsin La Crosse,Wisconsin Stevens Point,Veterans Memorial Stadium (WI),52.9,,40.0,0.0,,,15.8,,False
+401907890,2026,7,Wisconsin Stout,Wisconsin Whitewater,Don and Nona Williams Stadium,53.9,,35.0,0.0,,,17.6,,False
+401908995,2026,7,Bridgewater,Washington and Lee,Jopson Athletic Complex,52.8,,37.0,0.0,,,17.9,,False
+401908363,2026,7,Muhlenberg,McDaniel,Scotty Wood Stadium,50.2,,32.0,0.0,,,16.3,,False
+401906531,2026,7,Ouachita Baptist,Arkansas Monticello,Cliff Harris Stadium,64.7,,34.0,0.0,,,7.3,,False
+401874037,2026,7,West Florida,West Alabama,Pen-Air Field,69.2,,33.0,0.0,,,15.3,,False
+401907350,2026,7,Emporia State,Central Oklahoma,Francis G. Welch Stadium,54.5,,47.0,0.0,,,8.7,,False
+401907372,2026,7,Nebraska Kearney,Missouri Southern State,Ron & Carol Cope Stadium at Foster Field,57.1,,33.0,0.0,,,19.1,,False
+401907341,2026,7,Central Missouri,Washburn,Audrey J. Walton Stadium at Vernon Kennedy Field,55.3,,44.0,0.0,,,3.8,,False
+401908800,2026,7,St. Olaf,Bethel (MN),Klein Field at Manitou,54.6,,36.0,0.0,,,20.4,,False
+401908821,2026,7,Saint John's (MN),Concordia (MN),Clemens Stadium,57.3,,27.0,0.0,,,21.0,,False
+401908862,2026,7,St. Scholastica,Gustavus Adolphus,Public Schools Stadium,54.7,,28.0,0.0,,,15.8,,False
+401907591,2026,7,Concord,Glenville State,Callaghan Stadium,47.0,,58.0,0.0,,,13.1,,False
+401908915,2026,7,Middlebury,Williams,Alumni Stadium (VT),40.8,,43.0,0.0,,,14.6,,False
+401907507,2026,7,Bentley,Saint Anselm,Bentley University Football Stadium,50.7,,36.0,0.0,,,15.5,,False
+401873398,2026,7,Rockford,Concordia (WI),Sam Greeley Field,51.5,,38.0,0.0,,,9.2,,False
+401908849,2026,7,Aurora,Wisconsin Lutheran,Vago Field,52.4,,55.0,0.0,,,8.0,,False
+401868277,2026,7,Stetson,Presbyterian,Spec Martin Municipal Stadium,76.6,,56.0,0.0,,,15.3,,False
+401908607,2026,7,Worcester State,UMass Dartmouth,John Coughlin Memorial Field,47.6,,41.0,0.0,,,15.5,,False
+401866666,2026,7,Stony Brook,UAlbany,Kenneth P. LaValle Stadium,51.5,,39.0,0.0,,,20.4,,False
+401868145,2026,7,Tennessee Tech,Eastern Kentucky,Tucker Stadium,57.3,,41.0,0.0,,,10.3,,False
+401906975,2026,7,Savannah State,Fort Valley State,Ted Wright Stadium,69.9,,32.0,0.0,,,11.5,,False
+401906562,2026,7,Northwestern (OK),Southeastern Oklahoma State,Ranger Field,58.4,,40.0,0.0,,,8.7,,False
+401906915,2026,7,Tuskegee,Albany State,Abbott Memorial Alumni Stadium,68.6,,34.0,0.0,,,10.4,,False
+401907378,2026,7,Pittsburg State,Missouri Western,Carnie Smith Stadium,57.1,,38.0,0.0,,,2.7,,False
+401907236,2026,7,Quincy,Truman State,QU Stadium,55.5,,34.0,0.0,,,5.1,,False
+401868181,2026,7,Eastern Illinois,Lindenwood,O'Brien Stadium,55.8,,34.0,0.0,,,6.4,,False
+401868105,2026,7,Weber State,Idaho State,Stewart Stadium,66.2,,25.0,0.0,,,5.9,,False
+401907134,2026,7,Colorado Mesa,Colorado School of Mines,Ralph Stocker Stadium,64.4,,32.0,0.0,,,1.6,,False
+401868189,2026,7,UT Martin,Gardner-Webb,Graham Stadium,62.2,,32.0,0.0,,,11.1,,False
+401907104,2026,7,Chadron State,Adams State,Elliott Field at Don Beebe Stadium,73.8,,19.0,0.0,,,10.8,,False
+401868949,2026,7,Jackson State,Florida A&M,Mississippi Veterans Memorial Stadium,69.0,,28.0,0.0,,,10.0,,False
+401868330,2026,7,Arkansas-Pine Bluff,Alabama State,Golden Lion Stadium,66.7,,27.0,0.0,,,9.5,,False
+401868301,2026,7,Alabama A&M,Grambling,Louis Crews Stadium,61.8,,42.0,0.0,,,13.0,,False
+401907005,2026,7,Grand Valley State,Ferris State,Lubbers Stadium,52.2,,50.0,0.0,,,12.1,,False
+401909142,2026,7,Wooster,Oberlin,John P. Papp Stadium,51.4,,44.0,0.0,,,10.2,,False
+401867993,2026,7,Bucknell,Lafayette,Christy Mathewson-Memorial Stadium,48.5,,32.0,0.0,,,15.0,,False
+401868361,2026,7,Prairie View A&M,Alcorn State,Panther Stadium,68.5,,29.0,0.0,,,9.8,,False
+401868943,2026,7,Mississippi Valley State,Bethune-Cookman,Rice-Totten Field,70.0,,26.0,0.0,,,12.4,,False
+401868207,2026,7,Southeast Missouri State,Western Illinois,Houck Field,60.8,,36.0,0.0,,,7.5,,False
+401868096,2026,7,Montana,Idaho,Washington-Grizzly Stadium,68.3,,20.0,0.0,,,2.2,,False
+401906550,2026,7,Harding,Henderson State,First Security Stadium,61.7,,35.0,0.0,,,5.4,,False
+401908988,2026,7,Averett,Randolph Macon,Daly Field at Frank R. Campbell Stadium,61.5,,28.0,0.0,,,13.9,,False
+401856719,2026,7,Georgia,Auburn,Sanford Stadium,67.9,,29.0,0.0,,,10.3,,False
+401866667,2026,7,Campbell,Towson,Barker-Lane Stadium,63.6,,33.0,0.0,,,17.4,,False
+401867961,2026,7,Howard,Morehouse,William H. Greene Stadium,55.0,,30.0,0.0,,,14.0,,False
+401856828,2026,7,Texas Tech,Arizona State,Jones AT&T Stadium,57.3,,28.0,0.0,,,4.2,,False
+401858490,2026,7,Michigan,Penn State,Michigan Stadium,51.1,,25.0,0.0,,,5.7,,False
+401866478,2026,7,Miami (OH),Akron,Yager Stadium,52.5,,36.0,0.0,,,8.0,,False
+401866444,2026,7,Eastern Michigan,Toledo,Rynearson Stadium,51.6,,24.0,0.0,,,5.3,,False
+401856721,2026,7,Ole Miss,Missouri,Vaught-Hemingway Stadium,66.7,,29.0,0.0,,,9.8,,False
+401856723,2026,7,Tennessee,Alabama,Neyland Stadium,59.6,,37.0,0.0,,,10.1,,False
+401858264,2026,7,Virginia Tech,Georgia Tech,Lane Stadium,51.9,,38.0,0.0,,,12.8,,False
+401858266,2026,7,Duke,North Carolina,Wallace Wade Stadium,62.1,,35.0,0.0,,,11.4,,False
+401864524,2026,7,Air Force,UNLV,Falcon Stadium,72.6,,13.0,0.0,,,5.5,,False
+401868012,2026,7,Fordham,Villanova,Jack Coffey Field,53.2,,26.0,0.0,,,17.3,,False
+401864522,2026,7,Wyoming,Northern Illinois,War Memorial Stadium,60.9,,22.0,0.0,,,15.4,,False
+401908419,2026,7,Whitworth,Linfield,The Pine Bowl,65.4,,35.0,0.0,,,13.8,,False
+401906173,2026,7,Barton,UNC Pembroke,Electric Supply Company Field,62.4,,32.0,0.0,,,18.2,,False
+401907146,2026,7,CSU Pueblo,New Mexico Highlands,Neta and Eddie DeRose ThunderBowl,70.1,,15.0,0.0,,,7.4,,False
+401867849,2026,7,Southern Illinois,Illinois State,Saluki Stadium,61.2,,34.0,0.0,,,6.2,,False
+401908397,2026,7,Lewis & Clark,George Fox,Griswold Stadium,61.7,,67.0,0.0,,,1.1,,False
+401908424,2026,7,Pacific (OR),Pacific Lutheran,Hanson Stadium,63.1,,65.0,0.008,,,2.8,,False
+401908842,2026,7,Wilmington (OH),Muskingum,Wiliams Stadium (OH),52.5,,36.0,0.0,,,7.5,,False
+401908451,2026,7,Claremont Mudd Scripps,Whittier,Fritz B. Burns Stadium,87.5,,16.0,0.0,,,1.8,,False
+401873233,2026,7,Willamette,Puget Sound,McCulloch Stadium,67.3,,54.0,0.004,,,2.5,,False
+401868310,2026,7,Nicholls,Stephen F. Austin,Manning Field at John L. Guidry Stadium,72.1,,27.0,0.0,,,12.8,,False
+401868289,2026,7,San Diego,Valparaiso,Torero Stadium,84.6,,24.0,0.0,,,5.6,,False
+401862805,2026,7,Rice,Tulsa,Rice Stadium,71.9,,23.0,0.0,,,8.3,,False
+401869966,2026,7,Louisiana,Troy,Cajun Field,72.6,,26.0,0.0,,,12.8,,False
+401867870,2026,7,Murray State,South Dakota,Roy Stewart Stadium,61.6,,30.0,0.0,,,10.1,,False
+401907289,2026,7,Eastern New Mexico,West Texas,Al Whitehead Field at Greyhound Stadium,62.2,,21.0,0.0,,,8.4,,False
+401867912,2026,7,Wagner,Long Island University,Wagner College Stadium,51.0,,29.0,0.0,,,16.9,,False
+401907626,2026,7,West Chester,Lackawanna,John A. Farrell Stadium,46.1,,45.0,0.0,,,11.8,,False
+401906885,2026,7,Wayne State (MI),Saginaw Valley State,Tom Adams Field,53.6,,21.0,0.0,,,6.4,,False
+401860903,2026,7,Oregon State,Washington State,Reser Stadium,67.5,,49.0,0.0,,,4.9,,False
+401867897,2026,7,Youngstown State,Northern Iowa,Stambaugh Stadium,47.7,,36.0,0.0,,,6.4,,False
+401867968,2026,7,Tennessee State,Morgan State,Nissan Stadium,60.9,,31.0,0.0,,,8.9,,False
+401907318,2026,7,UT Permian Basin,Western Oregon,Ratliff Stadium,57.5,,37.0,0.0,,,6.7,,False
+401868319,2026,7,SE Louisiana,Lamar,Strawberry Stadium,67.6,,35.0,0.0,,,7.3,,False
+401862806,2026,7,South Florida,Kent State,Raymond James Stadium,72.3,,68.0,0.0,,,18.4,,False
+401869152,2026,7,Houston Christian,East Texas A&M,Husky Stadium,61.2,,54.0,0.0,,,7.0,,False
+401856726,2026,7,Vanderbilt,Arkansas,FirstBank Stadium,57.9,,36.0,0.0,,,7.4,,False
+401868250,2026,7,Incarnate Word,UT Rio Grande Valley,Gayle and Tom Benson Stadium,68.2,,26.0,0.0,,,10.6,,False
+401869934,2026,7,Southern Miss,Arkansas State,M. M. Roberts Stadium,66.1,,35.0,0.0,,,8.8,,False
+401868383,2026,7,Samford,Mercer,Seibert Stadium,60.4,,47.0,0.0,,,7.6,,False
+401907741,2026,7,Case Western Reserve,Waynesburg,Case Field,47.7,,52.0,0.0,,,3.6,,False
+401858263,2026,7,Miami,Florida State,Hard Rock Stadium,78.0,,80.0,0.031,,,12.7,,False
+401868134,2026,7,Tarleton State,Central Arkansas,"Memorial Stadium (Stephenville, TX)",60.5,,37.0,0.0,,,7.1,,False
+401868055,2026,7,North Alabama,Abilene Christian,Braly Municipal Stadium,56.9,,43.0,0.0,,,8.1,,False
+401856832,2026,7,Baylor,TCU,McLane Stadium,65.1,,35.0,0.0,,,8.9,,False
+401868088,2026,7,Eastern Washington,Montana State,Roos Field,62.9,,33.0,0.0,,,17.4,,False
+401907835,2026,7,Millikin,Illinois Wesleyan,Frank M. Lindsay Field,53.3,,43.0,0.0,,,3.8,,False
+401906521,2026,7,Arkansas Tech,Southern Arkansas,Thone Stadium at Buerkle Field,61.1,,40.0,0.0,,,3.6,,False
+401858262,2026,7,Stanford,Elon,Stanford Stadium,85.7,,15.0,0.0,,,6.5,,False
+401856831,2026,7,Houston,Oklahoma State,TDECU Stadium,71.4,,25.0,0.0,,,9.1,,False
+401856809,2026,7,BYU,Notre Dame,LaVell Edwards Stadium,68.2,,17.0,0.0,,,2.2,,False
+401856722,2026,7,Oklahoma,Kentucky,"Memorial Stadium (Norman, OK)",58.6,,49.0,0.0,,,3.8,,False
+401858494,2026,7,UCLA,Wisconsin,Rose Bowl,88.6,,15.0,0.0,,,6.1,,False
+401909036,2026,7,Geneva,Westminster (PA),Reeves Field (PA),41.3,,55.0,0.0,,,3.8,,False
+401871091,2026,7,UL Monroe,Louisiana Tech,Malone Stadium,59.8,,35.0,0.0,,,6.9,,False
+401907327,2026,7,Sul Ross State,Western New Mexico,Jackson Field,54.0,,41.0,0.0,,,9.1,,False
+401868161,2026,7,Southern Utah,UC Davis,Eccles Coliseum,62.4,,32.0,0.0,,,2.5,,False
+401907312,2026,7,Texas A&M-Kingsville,Central Washington,Javelina Stadium,66.7,,36.0,0.0,,,7.2,,False
+401907115,2026,7,South Dakota Mines,Black Hills State,O'Harra Stadium,62.1,,22.0,0.0,,,1.9,,False
+401868079,2026,7,Northern Colorado,Cal Poly,Nottingham Field,66.5,,18.0,0.0,,,8.1,,False
+401907154,2026,7,Western Colorado,Fort Lewis,Mountaineer Bowl,47.4,,39.0,0.0,,,2.9,,False
+401907367,2026,7,Fort Hays,Northwest Missouri State,Lewis Field Stadium,55.6,,40.0,0.0,,,14.4,,False
+401908812,2026,7,Hamline,Carleton,Klas Field,53.8,,41.0,0.0,,,13.7,,False
+401907280,2026,7,Midwestern State,Angelo State,"Memorial Stadium (Wichita Falls, TX)",53.1,,57.0,0.0,,,5.0,,False
+401864523,2026,7,UTEP,San José State,Sun Bowl,64.5,,19.0,0.0,,,12.2,,False
+401908445,2026,7,Azusa Pacific,Chapman,Citrus Stadium,86.5,,19.0,0.0,,,9.0,,False
+401908438,2026,7,Cal Lutheran,Pomona Pitzer,William Rolland Stadium,76.4,,27.0,0.0,,,5.2,,False
+401866445,2026,7,Sacramento State,Ohio,Hornet Stadium,56.7,,54.0,0.0,,,7.3,,False
+401908457,2026,7,Redlands,La Verne,Ted Runner Stadium,76.7,,26.0,0.0,,,7.8,,False
+401856833,2026,7,Colorado,Utah,Folsom Field,56.1,,22.0,0.0,,,9.8,,False
+401860904,2026,7,San Diego State,Fresno State,Snapdragon Stadium,84.4,,23.0,0.0,,,2.2,,False
+401864521,2026,7,Hawai'i,New Mexico,Clarence T.C. Ching Athletics Complex,79.0,,68.0,0.004,,,14.6,,False
+401858269,2026,7,California,Wake Forest,California Memorial Stadium,72.6,,29.0,0.0,,,3.7,,False
+401858492,2026,7,Oregon,Nebraska,Autzen Stadium,53.0,,85.0,0.0,,,3.2,,False
