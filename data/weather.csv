@@ -2253,7 +2253,6 @@ game_id,season,week,home_team,away_team,venue,temperature,dewpoint,humidity,prec
 401867861,2026,9,Northern Iowa,Indiana State,UNI-Dome,72.0,,,0.0,0.0,,0.0,Dome,True
 401908555,2026,9,Centenary (LA),Lyon,Mayo Field,,,,,,,,,False
 401906935,2026,9,Roosevelt,Grand Valley State,Morris Field,,,,,,,,,False
-401867964,2026,10,Howard,South Carolina State,William H. Greene Stadium,,,,,,,,,False
 401908170,2026,10,Albright,King's,Gene L. Shirk Stadium,,,,,,,,,False
 401867933,2026,10,Mercyhurst,Wagner,Saxon Stadium,,,,,,,,,False
 401868268,2026,10,Marist,Morehead State,Leonidoff Field,,,,,,,,,False
@@ -3665,10 +3664,11 @@ game_id,season,week,home_team,away_team,venue,temperature,dewpoint,humidity,prec
 401908458,2026,9,Azusa Pacific,La Verne,Citrus Stadium,66.7,,72.0,0.004,,,5.7,,False
 401908452,2026,9,Redlands,Claremont Mudd Scripps,Ted Runner Stadium,61.4,,76.0,0.0,,,10.4,,False
 401860908,2026,9,Boise State,Texas State,Albertsons Stadium,59.2,,39.0,0.0,,,5.1,,False
-401871070,2026,8,Sam Houston,New Mexico State,Elliott T. Bowers Stadium,70.0,,40.0,0.0,,,6.3,,False
-401869845,2026,8,App State,James Madison,Kidd Brewer Stadium,51.6,,49.0,0.0,,,6.0,,False
-401871056,2026,8,Kennesaw State,Liberty,Fifth Third Stadium,67.9,,25.0,0.0,,,6.8,,False
-401862807,2026,8,Memphis,East Carolina,Simmons Bank Liberty Stadium,73.3,,25.0,0.0,,,4.7,,False
+401867964,2026,10,Howard,South Carolina State,William H. Greene Stadium,51.0,,90.0,0.047,,,6.7,,False
+401871070,2026,8,Sam Houston,New Mexico State,Elliott T. Bowers Stadium,71.7,,40.0,0.0,,,5.9,,False
+401869845,2026,8,App State,James Madison,Kidd Brewer Stadium,51.6,,48.0,0.0,,,5.9,,False
+401871056,2026,8,Kennesaw State,Liberty,Fifth Third Stadium,68.2,,24.0,0.0,,,6.6,,False
+401862807,2026,8,Memphis,East Carolina,Simmons Bank Liberty Stadium,73.4,,21.0,0.0,,,4.7,,False
 401871071,2026,9,Western Kentucky,Delaware,Houchens Industries-L.T. Smith Stadium,64.2,,50.0,0.0,,,3.0,,False
 401871072,2026,9,Missouri State,Sam Houston,Plaster Sports Complex,64.0,,67.0,0.0,,,4.5,,False
 401871058,2026,9,Middle Tennessee,Kennesaw State,"Johnny ""Red"" Floyd Stadium",69.1,,46.0,0.0,,,8.0,,False
