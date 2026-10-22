@@ -10591,3 +10591,27 @@ snapshot_ts,source,game_id,home_team,away_team,provider,spread,spread_open,over_
 2026-10-17T17:57:24.888527-04:00,odds_api,401858492,Oregon Ducks,Nebraska Cornhuskers,betmgm,-6.5,,51.5,,-250.0,210.0,2026-10-18T03:00:00Z,-115.0,-108.0
 2026-10-17T17:57:24.888527-04:00,odds_api,401858492,Oregon Ducks,Nebraska Cornhuskers,betus,-6.5,,51.0,,-260.0,218.0,2026-10-18T03:00:00Z,-115.0,-110.0
 2026-10-17T17:57:24.888527-04:00,odds_api,401858492,Oregon Ducks,Nebraska Cornhuskers,bovada,-6.5,,51.5,,-250.0,210.0,2026-10-18T03:00:00Z,-115.0,-110.0
+2026-10-22T14:11:59.985825-04:00,cfbd,401869845,App State,James Madison,DraftKings,11.5,10.5,56.5,56.5,360.0,-470.0,,,
+2026-10-22T14:11:59.985825-04:00,cfbd,401869845,App State,James Madison,Bovada,12.5,11.0,56.5,56.5,335.0,-450.0,,,
+2026-10-22T14:11:59.985825-04:00,cfbd,401862807,Memphis,East Carolina,DraftKings,-10.5,-9.5,54.5,53.5,-425.0,330.0,,,
+2026-10-22T14:11:59.985825-04:00,cfbd,401862807,Memphis,East Carolina,Bovada,-10.5,-10.0,54.0,54.0,-410.0,305.0,,,
+2026-10-22T14:11:59.985825-04:00,cfbd,401871056,Kennesaw State,Liberty,Bovada,9.0,10.5,50.5,49.0,330.0,-440.0,,,
+2026-10-22T14:11:59.985825-04:00,cfbd,401871056,Kennesaw State,Liberty,DraftKings,9.5,8.5,50.5,47.5,300.0,-380.0,,,
+2026-10-22T14:12:00.275712-04:00,odds_api,401871056,Kennesaw State Owls,Liberty Flames,fanduel,9.5,,50.5,,285.0,-365.0,2026-10-22T23:00:00Z,-110.0,-105.0
+2026-10-22T14:12:00.275712-04:00,odds_api,401871056,Kennesaw State Owls,Liberty Flames,mybookieag,9.5,,50.0,,302.0,-403.0,2026-10-22T23:00:00Z,-110.0,-110.0
+2026-10-22T14:12:00.275712-04:00,odds_api,401871056,Kennesaw State Owls,Liberty Flames,draftkings,9.5,,50.5,,300.0,-380.0,2026-10-22T23:00:00Z,-110.0,-112.0
+2026-10-22T14:12:00.275712-04:00,odds_api,401871056,Kennesaw State Owls,Liberty Flames,betrivers,9.0,,50.5,,280.0,-375.0,2026-10-22T23:00:00Z,-112.0,-110.0
+2026-10-22T14:12:00.275712-04:00,odds_api,401871056,Kennesaw State Owls,Liberty Flames,betonlineag,9.5,,50.0,,299.0,-375.0,2026-10-22T23:00:00Z,-112.0,-115.0
+2026-10-22T14:12:00.275712-04:00,odds_api,401871056,Kennesaw State Owls,Liberty Flames,lowvig,9.5,,50.0,,299.0,-375.0,2026-10-22T23:00:00Z,-108.0,-114.0
+2026-10-22T14:12:00.275712-04:00,odds_api,401871056,Kennesaw State Owls,Liberty Flames,betmgm,9.5,,50.5,,300.0,-375.0,2026-10-22T23:00:00Z,-108.0,-108.0
+2026-10-22T14:12:00.275712-04:00,odds_api,401871056,Kennesaw State Owls,Liberty Flames,betus,8.5,,50.0,,305.0,-380.0,2026-10-22T23:00:00Z,-110.0,-110.0
+2026-10-22T14:12:00.275712-04:00,odds_api,401871056,Kennesaw State Owls,Liberty Flames,bovada,9.0,,50.5,,300.0,-400.0,2026-10-22T23:00:00Z,-110.0,-110.0
+2026-10-22T14:12:00.275712-04:00,odds_api,401862807,Memphis Tigers,East Carolina Pirates,fanduel,-10.5,,54.5,,-430.0,330.0,2026-10-22T23:30:00Z,-108.0,-110.0
+2026-10-22T14:12:00.275712-04:00,odds_api,401862807,Memphis Tigers,East Carolina Pirates,draftkings,-10.5,,54.5,,-425.0,330.0,2026-10-22T23:30:00Z,-108.0,-110.0
+2026-10-22T14:12:00.275712-04:00,odds_api,401862807,Memphis Tigers,East Carolina Pirates,betrivers,-10.5,,54.5,,-400.0,295.0,2026-10-22T23:30:00Z,-113.0,-109.0
+2026-10-22T14:12:00.275712-04:00,odds_api,401862807,Memphis Tigers,East Carolina Pirates,betonlineag,-11.0,,54.0,,-435.0,340.0,2026-10-22T23:30:00Z,-104.0,-115.0
+2026-10-22T14:12:00.275712-04:00,odds_api,401862807,Memphis Tigers,East Carolina Pirates,lowvig,-11.0,,54.0,,-435.0,340.0,2026-10-22T23:30:00Z,100.0,-114.0
+2026-10-22T14:12:00.275712-04:00,odds_api,401862807,Memphis Tigers,East Carolina Pirates,betmgm,-10.5,,54.5,,-425.0,333.0,2026-10-22T23:30:00Z,-108.0,-110.0
+2026-10-22T14:12:00.275712-04:00,odds_api,401862807,Memphis Tigers,East Carolina Pirates,mybookieag,-10.5,,54.5,,-429.0,320.0,2026-10-22T23:30:00Z,-110.0,-110.0
+2026-10-22T14:12:00.275712-04:00,odds_api,401862807,Memphis Tigers,East Carolina Pirates,betus,-11.0,,54.5,,-430.0,338.0,2026-10-22T23:30:00Z,-110.0,-110.0
+2026-10-22T14:12:00.275712-04:00,odds_api,401862807,Memphis Tigers,East Carolina Pirates,bovada,-10.5,,54.0,,-435.0,325.0,2026-10-22T23:30:00Z,-110.0,-110.0
