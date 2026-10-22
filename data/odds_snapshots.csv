@@ -10615,3 +10615,28 @@ snapshot_ts,source,game_id,home_team,away_team,provider,spread,spread_open,over_
 2026-10-22T14:12:00.275712-04:00,odds_api,401862807,Memphis Tigers,East Carolina Pirates,mybookieag,-10.5,,54.5,,-429.0,320.0,2026-10-22T23:30:00Z,-110.0,-110.0
 2026-10-22T14:12:00.275712-04:00,odds_api,401862807,Memphis Tigers,East Carolina Pirates,betus,-11.0,,54.5,,-430.0,338.0,2026-10-22T23:30:00Z,-110.0,-110.0
 2026-10-22T14:12:00.275712-04:00,odds_api,401862807,Memphis Tigers,East Carolina Pirates,bovada,-10.5,,54.0,,-435.0,325.0,2026-10-22T23:30:00Z,-110.0,-110.0
+2026-10-22T18:57:07.610927-04:00,cfbd,401869845,App State,James Madison,DraftKings,12.5,10.5,56.5,56.5,370.0,-485.0,,,
+2026-10-22T18:57:07.610927-04:00,cfbd,401869845,App State,James Madison,Bovada,13.0,11.0,56.5,56.5,335.0,-450.0,,,
+2026-10-22T18:57:07.610927-04:00,cfbd,401862807,Memphis,East Carolina,DraftKings,-10.5,-9.5,55.5,53.5,-425.0,330.0,,,
+2026-10-22T18:57:07.610927-04:00,cfbd,401862807,Memphis,East Carolina,Bovada,-10.5,-10.0,55.0,54.0,-410.0,305.0,,,
+2026-10-22T18:57:07.610927-04:00,cfbd,401867955,Delaware State,North Carolina Central,DraftKings,-5.5,-5.5,55.5,55.5,-228.0,179.0,,,
+2026-10-22T18:57:07.610927-04:00,cfbd,401871056,Kennesaw State,Liberty,Bovada,8.5,10.5,50.5,49.0,330.0,-440.0,,,
+2026-10-22T18:57:07.610927-04:00,cfbd,401871056,Kennesaw State,Liberty,DraftKings,8.5,8.5,50.5,47.5,300.0,-380.0,,,
+2026-10-22T18:57:07.865065-04:00,odds_api,401871056,Kennesaw State Owls,Liberty Flames,fanduel,9.5,,50.5,,280.0,-360.0,2026-10-22T23:05:00Z,-110.0,-110.0
+2026-10-22T18:57:07.865065-04:00,odds_api,401871056,Kennesaw State Owls,Liberty Flames,mybookieag,8.5,,50.5,,275.0,-360.0,2026-10-22T23:05:00Z,-110.0,-110.0
+2026-10-22T18:57:07.865065-04:00,odds_api,401871056,Kennesaw State Owls,Liberty Flames,draftkings,8.5,,50.5,,300.0,-380.0,2026-10-22T23:05:00Z,-112.0,-108.0
+2026-10-22T18:57:07.865065-04:00,odds_api,401871056,Kennesaw State Owls,Liberty Flames,betrivers,9.0,,50.5,,275.0,-375.0,2026-10-22T23:05:00Z,-110.0,-109.0
+2026-10-22T18:57:07.865065-04:00,odds_api,401871056,Kennesaw State Owls,Liberty Flames,betonlineag,9.5,,50.0,,299.0,-375.0,2026-10-22T23:05:00Z,-116.0,-110.0
+2026-10-22T18:57:07.865065-04:00,odds_api,401871056,Kennesaw State Owls,Liberty Flames,lowvig,9.5,,50.0,,299.0,-375.0,2026-10-22T23:05:00Z,-112.0,-108.0
+2026-10-22T18:57:07.865065-04:00,odds_api,401871056,Kennesaw State Owls,Liberty Flames,betmgm,8.5,,50.5,,290.0,-375.0,2026-10-22T23:05:00Z,-110.0,-108.0
+2026-10-22T18:57:07.865065-04:00,odds_api,401871056,Kennesaw State Owls,Liberty Flames,betus,9.0,,50.5,,275.0,-340.0,2026-10-22T23:05:00Z,-110.0,-110.0
+2026-10-22T18:57:07.865065-04:00,odds_api,401871056,Kennesaw State Owls,Liberty Flames,bovada,8.5,,50.5,,290.0,-380.0,2026-10-22T23:05:00Z,-110.0,-110.0
+2026-10-22T18:57:07.865065-04:00,odds_api,401862807,Memphis Tigers,East Carolina Pirates,fanduel,-10.5,,55.5,,-430.0,330.0,2026-10-22T23:30:00Z,-110.0,-105.0
+2026-10-22T18:57:07.865065-04:00,odds_api,401862807,Memphis Tigers,East Carolina Pirates,draftkings,-10.5,,55.5,,-425.0,330.0,2026-10-22T23:30:00Z,-105.0,-105.0
+2026-10-22T18:57:07.865065-04:00,odds_api,401862807,Memphis Tigers,East Carolina Pirates,betrivers,-11.0,,55.5,,-420.0,310.0,2026-10-22T23:30:00Z,-110.0,-107.0
+2026-10-22T18:57:07.865065-04:00,odds_api,401862807,Memphis Tigers,East Carolina Pirates,betonlineag,-10.5,,55.0,,-420.0,330.0,2026-10-22T23:30:00Z,-105.0,-115.0
+2026-10-22T18:57:07.865065-04:00,odds_api,401862807,Memphis Tigers,East Carolina Pirates,lowvig,-10.5,,55.0,,-420.0,330.0,2026-10-22T23:30:00Z,-101.0,-114.0
+2026-10-22T18:57:07.865065-04:00,odds_api,401862807,Memphis Tigers,East Carolina Pirates,betmgm,-10.5,,55.5,,-450.0,340.0,2026-10-22T23:30:00Z,-110.0,-105.0
+2026-10-22T18:57:07.865065-04:00,odds_api,401862807,Memphis Tigers,East Carolina Pirates,mybookieag,-10.5,,55.0,,-429.0,320.0,2026-10-22T23:30:00Z,-110.0,-110.0
+2026-10-22T18:57:07.865065-04:00,odds_api,401862807,Memphis Tigers,East Carolina Pirates,betus,-10.0,,55.0,,-410.0,325.0,2026-10-22T23:30:00Z,-115.0,-110.0
+2026-10-22T18:57:07.865065-04:00,odds_api,401862807,Memphis Tigers,East Carolina Pirates,bovada,-10.5,,55.0,,-435.0,325.0,2026-10-22T23:30:00Z,-110.0,-110.0
