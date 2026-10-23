@@ -3379,10 +3379,10 @@ game_id,season,week,season_type,start_date,neutral_site,conference_game,home_tea
 401871069,2026,8,regular,2026-10-20T23:00:00.000Z,False,True,Delaware,Conference USA,61.0,Missouri State,Conference USA,38.0,Delaware Stadium,True
 401871092,2026,8,regular,2026-10-20T23:30:00.000Z,False,True,Marshall,Sun Belt,20.0,South Alabama,Sun Belt,13.0,Joan C. Edwards Stadium,True
 401871070,2026,8,regular,2026-10-22T00:00:00.000Z,False,True,Sam Houston,Conference USA,24.0,New Mexico State,Conference USA,30.0,Elliott T. Bowers Stadium,True
-401907489,2026,8,regular,2026-10-22T22:00:00.000Z,False,True,Saint Anselm,Northeast 10,,Assumption,Northeast 10,,Grappone Stadium,False
-401871056,2026,8,regular,2026-10-22T23:00:00.000Z,False,True,Kennesaw State,Conference USA,,Liberty,Conference USA,,Fifth Third Stadium,False
-401869845,2026,8,regular,2026-10-22T23:00:00.000Z,False,True,App State,Sun Belt,,James Madison,Sun Belt,,Kidd Brewer Stadium,False
-401862807,2026,8,regular,2026-10-22T23:30:00.000Z,False,True,Memphis,American Athletic,,East Carolina,American Athletic,,Simmons Bank Liberty Stadium,False
+401907489,2026,8,regular,2026-10-22T22:00:00.000Z,False,True,Saint Anselm,Northeast 10,7.0,Assumption,Northeast 10,56.0,Grappone Stadium,True
+401871056,2026,8,regular,2026-10-22T23:00:00.000Z,False,True,Kennesaw State,Conference USA,6.0,Liberty,Conference USA,34.0,Fifth Third Stadium,True
+401869845,2026,8,regular,2026-10-22T23:00:00.000Z,False,True,App State,Sun Belt,34.0,James Madison,Sun Belt,31.0,Kidd Brewer Stadium,True
+401862807,2026,8,regular,2026-10-22T23:30:00.000Z,False,True,Memphis,American Athletic,41.0,East Carolina,American Athletic,34.0,Simmons Bank Liberty Stadium,True
 401867955,2026,8,regular,2026-10-23T21:00:00.000Z,False,True,Delaware State,MEAC,,North Carolina Central,MEAC,,Alumni Stadium,False
 401908352,2026,8,regular,2026-10-23T22:00:00.000Z,False,True,Johns Hopkins,Centennial,,Gettysburg,Centennial,,Homewood Field,False
 401870841,2026,8,regular,2026-10-23T23:00:00.000Z,False,True,Pennsylvania,Ivy,,Yale,Ivy,,Franklin Field,False
