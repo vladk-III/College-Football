@@ -11667,3 +11667,147 @@ snapshot_ts,source,game_id,home_team,away_team,provider,spread,spread_open,over_
 2026-10-24T13:04:21.336782-04:00,odds_api,401856837,Utah Utes,Houston Cougars,betmgm,-7.0,,57.5,,-250.0,210.0,2026-10-25T02:15:00Z,-105.0,-110.0
 2026-10-24T13:04:21.336782-04:00,odds_api,401856837,Utah Utes,Houston Cougars,betus,-6.5,,58.0,,-250.0,210.0,2026-10-25T02:15:00Z,-120.0,-110.0
 2026-10-24T13:04:21.336782-04:00,odds_api,401856837,Utah Utes,Houston Cougars,bovada,-6.5,,57.5,,-245.0,205.0,2026-10-25T02:15:00Z,-115.0,-110.0
+2026-10-24T18:13:57.638545-04:00,cfbd,401864527,New Mexico,North Dakota State,DraftKings,-4.5,-3.5,39.5,46.5,-192.0,160.0,,,
+2026-10-24T18:13:57.638545-04:00,cfbd,401864527,New Mexico,North Dakota State,Bovada,-5.0,-4.0,39.5,42.5,-180.0,155.0,,,
+2026-10-24T18:13:57.638545-04:00,cfbd,401858276,Clemson,Virginia Tech,DraftKings,-3.0,1.5,49.5,49.5,-155.0,130.0,,,
+2026-10-24T18:13:57.638545-04:00,cfbd,401858276,Clemson,Virginia Tech,Bovada,-3.0,-3.0,50.0,49.5,-150.0,130.0,,,
+2026-10-24T18:13:57.638545-04:00,cfbd,401856729,Kentucky,Vanderbilt,DraftKings,-10.5,-9.5,51.5,52.5,-440.0,340.0,,,
+2026-10-24T18:13:57.638545-04:00,cfbd,401856729,Kentucky,Vanderbilt,Bovada,-10.5,-10.5,51.5,51.5,-450.0,335.0,,,
+2026-10-24T18:13:57.638545-04:00,cfbd,401856838,Arizona,Iowa State,DraftKings,-12.5,-10.0,51.5,50.5,-375.0,295.0,,,
+2026-10-24T18:13:57.638545-04:00,cfbd,401856838,Arizona,Iowa State,Bovada,-12.5,-9.5,51.5,51.5,-270.0,220.0,,,
+2026-10-24T18:13:57.638545-04:00,cfbd,401858500,Wisconsin,USC,DraftKings,2.5,1.5,50.5,52.5,110.0,-130.0,,,
+2026-10-24T18:13:57.638545-04:00,cfbd,401858500,Wisconsin,USC,Bovada,2.5,2.5,51.0,49.5,115.0,-135.0,,,
+2026-10-24T18:13:57.638545-04:00,cfbd,401856837,Utah,Houston,DraftKings,-6.5,-6.5,57.5,50.5,-250.0,205.0,,,
+2026-10-24T18:13:57.638545-04:00,cfbd,401856837,Utah,Houston,Bovada,-6.5,-6.5,57.5,56.5,-240.0,200.0,,,
+2026-10-24T18:13:57.638545-04:00,cfbd,401856732,Texas,Ole Miss,DraftKings,-3.0,-8.5,54.5,54.5,-148.0,124.0,,,
+2026-10-24T18:13:57.638545-04:00,cfbd,401856732,Texas,Ole Miss,Bovada,-3.0,-3.5,54.5,52.0,-160.0,135.0,,,
+2026-10-24T18:13:57.638545-04:00,cfbd,401860906,Texas State,Utah State,DraftKings,-13.5,-9.5,59.5,58.5,-535.0,400.0,,,
+2026-10-24T18:13:57.638545-04:00,cfbd,401860906,Texas State,Utah State,Bovada,-14.0,-11.5,60.0,59.0,-480.0,350.0,,,
+2026-10-24T18:13:57.638545-04:00,cfbd,401860905,Colorado State,San Diego State,DraftKings,-1.5,3.0,57.5,59.5,-115.0,-105.0,,,
+2026-10-24T18:13:57.638545-04:00,cfbd,401860905,Colorado State,San Diego State,Bovada,-1.0,2.5,57.5,61.5,110.0,-130.0,,,
+2026-10-24T18:13:57.638545-04:00,cfbd,401869935,Arkansas State,Georgia State,DraftKings,2.5,1.5,58.5,55.5,114.0,-135.0,,,
+2026-10-24T18:13:57.638545-04:00,cfbd,401869935,Arkansas State,Georgia State,Bovada,2.5,2.5,58.5,56.5,110.0,-130.0,,,
+2026-10-24T18:13:57.638545-04:00,cfbd,401862811,Tulane,UTSA,DraftKings,3.0,4.0,51.5,50.5,124.0,-148.0,,,
+2026-10-24T18:13:57.638545-04:00,cfbd,401862811,Tulane,UTSA,Bovada,3.0,2.5,52.0,51.5,110.0,-130.0,,,
+2026-10-24T18:13:57.638545-04:00,cfbd,401858275,North Carolina,Syracuse,DraftKings,-9.5,-9.5,49.5,44.5,-360.0,285.0,,,
+2026-10-24T18:13:57.638545-04:00,cfbd,401858275,North Carolina,Syracuse,Bovada,-9.0,-9.0,49.0,46.0,-360.0,280.0,,,
+2026-10-24T18:13:57.638545-04:00,cfbd,401856836,Oklahoma State,Colorado,DraftKings,-13.5,-14.5,55.5,55.5,-550.0,410.0,,,
+2026-10-24T18:13:57.638545-04:00,cfbd,401856836,Oklahoma State,Colorado,Bovada,-13.5,-13.5,55.5,55.5,-575.0,400.0,,,
+2026-10-24T18:13:57.638545-04:00,cfbd,401868132,UC Davis,Northern Colorado,DraftKings,-9.5,-9.5,58.5,58.5,-388.0,288.0,,,
+2026-10-24T18:13:57.638545-04:00,cfbd,401868067,North Alabama,Austin Peay,DraftKings,9.5,11.5,48.5,49.5,331.0,-459.0,,,
+2026-10-24T18:13:57.638545-04:00,cfbd,401868969,East Texas A&M,Prairie View A&M,DraftKings,-3.0,-3.0,49.5,47.5,-167.0,134.0,,,
+2026-10-24T18:13:57.980442-04:00,odds_api,401860905,Colorado State Rams,San Diego State Aztecs,fanduel,1.5,,57.5,,-106.0,-113.0,2026-10-24T22:30:00Z,-115.0,-115.0
+2026-10-24T18:13:57.980442-04:00,odds_api,401860905,Colorado State Rams,San Diego State Aztecs,draftkings,-1.5,,57.5,,-115.0,-105.0,2026-10-24T22:30:00Z,-105.0,-110.0
+2026-10-24T18:13:57.980442-04:00,odds_api,401860905,Colorado State Rams,San Diego State Aztecs,betmgm,-1.0,,57.5,,-110.0,-108.0,2026-10-24T22:30:00Z,-105.0,-108.0
+2026-10-24T18:13:57.980442-04:00,odds_api,401860905,Colorado State Rams,San Diego State Aztecs,lowvig,-1.0,,57.0,,-115.0,-105.0,2026-10-24T22:30:00Z,-106.0,-108.0
+2026-10-24T18:13:57.980442-04:00,odds_api,401860905,Colorado State Rams,San Diego State Aztecs,betonlineag,-1.0,,57.0,,-115.0,-105.0,2026-10-24T22:30:00Z,-110.0,-110.0
+2026-10-24T18:13:57.980442-04:00,odds_api,401860905,Colorado State Rams,San Diego State Aztecs,mybookieag,-1.0,,57.0,,-117.0,-104.0,2026-10-24T22:30:00Z,-110.0,-110.0
+2026-10-24T18:13:57.980442-04:00,odds_api,401860905,Colorado State Rams,San Diego State Aztecs,betus,-1.0,,57.0,,-115.0,-105.0,2026-10-24T22:30:00Z,-110.0,-110.0
+2026-10-24T18:13:57.980442-04:00,odds_api,401860905,Colorado State Rams,San Diego State Aztecs,betrivers,1.0,,58.5,,-107.0,-115.0,2026-10-24T22:30:00Z,-112.0,-108.0
+2026-10-24T18:13:57.980442-04:00,odds_api,401860905,Colorado State Rams,San Diego State Aztecs,bovada,-1.0,,57.5,,-115.0,-105.0,2026-10-24T22:30:00Z,-110.0,-110.0
+2026-10-24T18:13:57.980442-04:00,odds_api,401869935,Arkansas State Red Wolves,Georgia State Panthers,draftkings,2.5,,58.5,,114.0,-135.0,2026-10-24T23:00:00Z,-110.0,-108.0
+2026-10-24T18:13:57.980442-04:00,odds_api,401869935,Arkansas State Red Wolves,Georgia State Panthers,betmgm,2.5,,58.5,,115.0,-135.0,2026-10-24T23:00:00Z,-110.0,-108.0
+2026-10-24T18:13:57.980442-04:00,odds_api,401869935,Arkansas State Red Wolves,Georgia State Panthers,betonlineag,2.5,,58.0,,120.0,-140.0,2026-10-24T23:00:00Z,-116.0,-110.0
+2026-10-24T18:13:57.980442-04:00,odds_api,401869935,Arkansas State Red Wolves,Georgia State Panthers,lowvig,2.5,,58.0,,120.0,-140.0,2026-10-24T23:00:00Z,-112.0,-108.0
+2026-10-24T18:13:57.980442-04:00,odds_api,401869935,Arkansas State Red Wolves,Georgia State Panthers,fanduel,2.5,,58.5,,108.0,-130.0,2026-10-24T23:00:00Z,-110.0,-112.0
+2026-10-24T18:13:57.980442-04:00,odds_api,401869935,Arkansas State Red Wolves,Georgia State Panthers,mybookieag,2.5,,58.5,,113.0,-139.0,2026-10-24T23:00:00Z,-110.0,-110.0
+2026-10-24T18:13:57.980442-04:00,odds_api,401869935,Arkansas State Red Wolves,Georgia State Panthers,betus,2.5,,58.0,,115.0,-135.0,2026-10-24T23:00:00Z,-110.0,-110.0
+2026-10-24T18:13:57.980442-04:00,odds_api,401869935,Arkansas State Red Wolves,Georgia State Panthers,betrivers,2.5,,59.5,,114.0,-141.0,2026-10-24T23:00:00Z,-107.0,-109.0
+2026-10-24T18:13:57.980442-04:00,odds_api,401869935,Arkansas State Red Wolves,Georgia State Panthers,bovada,2.5,,58.5,,110.0,-130.0,2026-10-24T23:00:00Z,-110.0,-110.0
+2026-10-24T18:13:57.980442-04:00,odds_api,401858276,Clemson Tigers,Virginia Tech Hokies,draftkings,-3.0,,49.5,,-155.0,130.0,2026-10-24T23:00:00Z,-105.0,-115.0
+2026-10-24T18:13:57.980442-04:00,odds_api,401858276,Clemson Tigers,Virginia Tech Hokies,mybookieag,-3.0,,50.0,,-158.0,128.0,2026-10-24T23:00:00Z,-110.0,-110.0
+2026-10-24T18:13:57.980442-04:00,odds_api,401858276,Clemson Tigers,Virginia Tech Hokies,fanduel,-2.5,,50.5,,-156.0,130.0,2026-10-24T23:00:00Z,-124.0,-108.0
+2026-10-24T18:13:57.980442-04:00,odds_api,401858276,Clemson Tigers,Virginia Tech Hokies,betrivers,-2.5,,49.5,,-143.0,117.0,2026-10-24T23:00:00Z,-117.0,-114.0
+2026-10-24T18:13:57.980442-04:00,odds_api,401858276,Clemson Tigers,Virginia Tech Hokies,betonlineag,-2.5,,50.0,,-146.0,126.0,2026-10-24T23:00:00Z,-120.0,-110.0
+2026-10-24T18:13:57.980442-04:00,odds_api,401858276,Clemson Tigers,Virginia Tech Hokies,lowvig,-2.5,,50.0,,-146.0,126.0,2026-10-24T23:00:00Z,-116.0,-108.0
+2026-10-24T18:13:57.980442-04:00,odds_api,401858276,Clemson Tigers,Virginia Tech Hokies,betmgm,-3.0,,49.5,,-145.0,125.0,2026-10-24T23:00:00Z,-105.0,-120.0
+2026-10-24T18:13:57.980442-04:00,odds_api,401858276,Clemson Tigers,Virginia Tech Hokies,betus,-3.0,,50.0,,-145.0,125.0,2026-10-24T23:00:00Z,-110.0,-110.0
+2026-10-24T18:13:57.980442-04:00,odds_api,401858276,Clemson Tigers,Virginia Tech Hokies,bovada,-3.0,,50.0,,-150.0,130.0,2026-10-24T23:00:00Z,-105.0,-110.0
+2026-10-24T18:13:57.980442-04:00,odds_api,401856836,Oklahoma State Cowboys,Colorado Buffaloes,fanduel,-13.5,,54.5,,-600.0,430.0,2026-10-24T23:00:00Z,-110.0,-114.0
+2026-10-24T18:13:57.980442-04:00,odds_api,401856836,Oklahoma State Cowboys,Colorado Buffaloes,betrivers,-12.5,,54.5,,-590.0,410.0,2026-10-24T23:00:00Z,-112.0,-110.0
+2026-10-24T18:13:57.980442-04:00,odds_api,401856836,Oklahoma State Cowboys,Colorado Buffaloes,draftkings,-13.5,,55.5,,-550.0,410.0,2026-10-24T23:00:00Z,-105.0,-110.0
+2026-10-24T18:13:57.980442-04:00,odds_api,401856836,Oklahoma State Cowboys,Colorado Buffaloes,betonlineag,-13.0,,55.5,,-525.0,400.0,2026-10-24T23:00:00Z,-110.0,-110.0
+2026-10-24T18:13:57.980442-04:00,odds_api,401856836,Oklahoma State Cowboys,Colorado Buffaloes,lowvig,-13.0,,55.5,,-525.0,400.0,2026-10-24T23:00:00Z,-106.0,-108.0
+2026-10-24T18:13:57.980442-04:00,odds_api,401856836,Oklahoma State Cowboys,Colorado Buffaloes,betmgm,-13.0,,55.5,,-550.0,425.0,2026-10-24T23:00:00Z,-108.0,-108.0
+2026-10-24T18:13:57.980442-04:00,odds_api,401856836,Oklahoma State Cowboys,Colorado Buffaloes,mybookieag,-13.0,,55.5,,-599.0,410.0,2026-10-24T23:00:00Z,-110.0,-110.0
+2026-10-24T18:13:57.980442-04:00,odds_api,401856836,Oklahoma State Cowboys,Colorado Buffaloes,betus,-13.0,,55.5,,-525.0,405.0,2026-10-24T23:00:00Z,-110.0,-110.0
+2026-10-24T18:13:57.980442-04:00,odds_api,401856836,Oklahoma State Cowboys,Colorado Buffaloes,bovada,-13.5,,55.5,,-575.0,400.0,2026-10-24T23:00:00Z,-105.0,-110.0
+2026-10-24T18:13:57.980442-04:00,odds_api,401856838,Arizona Wildcats,Iowa State Cyclones,draftkings,-12.5,,51.5,,-375.0,295.0,2026-10-24T23:30:00Z,-108.0,-105.0
+2026-10-24T18:13:57.980442-04:00,odds_api,401856838,Arizona Wildcats,Iowa State Cyclones,fanduel,-11.5,,51.5,,-420.0,320.0,2026-10-24T23:30:00Z,-108.0,-105.0
+2026-10-24T18:13:57.980442-04:00,odds_api,401856838,Arizona Wildcats,Iowa State Cyclones,mybookieag,-12.5,,51.0,,-420.0,313.0,2026-10-24T23:30:00Z,-110.0,-110.0
+2026-10-24T18:13:57.980442-04:00,odds_api,401856838,Arizona Wildcats,Iowa State Cyclones,betmgm,-11.5,,51.5,,-375.0,300.0,2026-10-24T23:30:00Z,-110.0,-105.0
+2026-10-24T18:13:57.980442-04:00,odds_api,401856838,Arizona Wildcats,Iowa State Cyclones,betonlineag,-12.0,,51.5,,-380.0,303.0,2026-10-24T23:30:00Z,-110.0,-110.0
+2026-10-24T18:13:57.980442-04:00,odds_api,401856838,Arizona Wildcats,Iowa State Cyclones,lowvig,-12.0,,51.5,,-380.0,303.0,2026-10-24T23:30:00Z,-106.0,-108.0
+2026-10-24T18:13:57.980442-04:00,odds_api,401856838,Arizona Wildcats,Iowa State Cyclones,betus,-12.0,,51.5,,-375.0,300.0,2026-10-24T23:30:00Z,-110.0,-110.0
+2026-10-24T18:13:57.980442-04:00,odds_api,401856838,Arizona Wildcats,Iowa State Cyclones,bovada,-12.5,,51.5,,-370.0,285.0,2026-10-24T23:30:00Z,-110.0,-110.0
+2026-10-24T18:13:57.980442-04:00,odds_api,401856838,Arizona Wildcats,Iowa State Cyclones,betrivers,-11.5,,51.0,,-420.0,295.0,2026-10-24T23:30:00Z,-113.0,-114.0
+2026-10-24T18:13:57.980442-04:00,odds_api,401856729,Kentucky Wildcats,Vanderbilt Commodores,draftkings,-10.5,,51.5,,-440.0,340.0,2026-10-24T23:30:00Z,-110.0,-108.0
+2026-10-24T18:13:57.980442-04:00,odds_api,401856729,Kentucky Wildcats,Vanderbilt Commodores,fanduel,-10.5,,51.5,,-450.0,340.0,2026-10-24T23:30:00Z,-115.0,-105.0
+2026-10-24T18:13:57.980442-04:00,odds_api,401856729,Kentucky Wildcats,Vanderbilt Commodores,betrivers,-11.0,,51.5,,-500.0,350.0,2026-10-24T23:30:00Z,-114.0,-110.0
+2026-10-24T18:13:57.980442-04:00,odds_api,401856729,Kentucky Wildcats,Vanderbilt Commodores,betmgm,-10.5,,51.5,,-450.0,350.0,2026-10-24T23:30:00Z,-110.0,-108.0
+2026-10-24T18:13:57.980442-04:00,odds_api,401856729,Kentucky Wildcats,Vanderbilt Commodores,lowvig,-10.5,,51.0,,-440.0,344.0,2026-10-24T23:30:00Z,-109.0,-114.0
+2026-10-24T18:13:57.980442-04:00,odds_api,401856729,Kentucky Wildcats,Vanderbilt Commodores,betonlineag,-10.5,,51.0,,-440.0,344.0,2026-10-24T23:30:00Z,-113.0,-115.0
+2026-10-24T18:13:57.980442-04:00,odds_api,401856729,Kentucky Wildcats,Vanderbilt Commodores,mybookieag,-10.5,,51.5,,-469.0,340.0,2026-10-24T23:30:00Z,-110.0,-110.0
+2026-10-24T18:13:57.980442-04:00,odds_api,401856729,Kentucky Wildcats,Vanderbilt Commodores,betus,-10.5,,51.0,,-440.0,345.0,2026-10-24T23:30:00Z,-110.0,-115.0
+2026-10-24T18:13:57.980442-04:00,odds_api,401856729,Kentucky Wildcats,Vanderbilt Commodores,bovada,-10.5,,51.5,,-460.0,340.0,2026-10-24T23:30:00Z,-110.0,-110.0
+2026-10-24T18:13:57.980442-04:00,odds_api,401858275,North Carolina Tar Heels,Syracuse Orange,fanduel,-8.5,,48.5,,-360.0,280.0,2026-10-24T23:30:00Z,-110.0,-115.0
+2026-10-24T18:13:57.980442-04:00,odds_api,401858275,North Carolina Tar Heels,Syracuse Orange,betrivers,-9.5,,50.0,,-400.0,295.0,2026-10-24T23:30:00Z,-113.0,-110.0
+2026-10-24T18:13:57.980442-04:00,odds_api,401858275,North Carolina Tar Heels,Syracuse Orange,betmgm,-9.5,,49.5,,-350.0,280.0,2026-10-24T23:30:00Z,-110.0,-108.0
+2026-10-24T18:13:57.980442-04:00,odds_api,401858275,North Carolina Tar Heels,Syracuse Orange,draftkings,-9.5,,49.5,,-360.0,285.0,2026-10-24T23:30:00Z,-108.0,-108.0
+2026-10-24T18:13:57.980442-04:00,odds_api,401858275,North Carolina Tar Heels,Syracuse Orange,betonlineag,-9.0,,49.5,,-350.0,280.0,2026-10-24T23:30:00Z,-110.0,-110.0
+2026-10-24T18:13:57.980442-04:00,odds_api,401858275,North Carolina Tar Heels,Syracuse Orange,lowvig,-9.0,,49.5,,-350.0,280.0,2026-10-24T23:30:00Z,-106.0,-108.0
+2026-10-24T18:13:57.980442-04:00,odds_api,401858275,North Carolina Tar Heels,Syracuse Orange,mybookieag,-9.0,,49.5,,-360.0,275.0,2026-10-24T23:30:00Z,-110.0,-110.0
+2026-10-24T18:13:57.980442-04:00,odds_api,401858275,North Carolina Tar Heels,Syracuse Orange,betus,-10.0,,50.0,,-330.0,270.0,2026-10-24T23:30:00Z,-105.0,-110.0
+2026-10-24T18:13:57.980442-04:00,odds_api,401858275,North Carolina Tar Heels,Syracuse Orange,bovada,-9.0,,49.0,,-370.0,285.0,2026-10-24T23:30:00Z,-110.0,-110.0
+2026-10-24T18:13:57.980442-04:00,odds_api,401856732,Texas Longhorns,Ole Miss Rebels,draftkings,-3.0,,54.5,,-148.0,124.0,2026-10-24T23:30:00Z,-112.0,-110.0
+2026-10-24T18:13:57.980442-04:00,odds_api,401856732,Texas Longhorns,Ole Miss Rebels,mybookieag,-3.0,,54.5,,-150.0,121.0,2026-10-24T23:30:00Z,-110.0,-110.0
+2026-10-24T18:13:57.980442-04:00,odds_api,401856732,Texas Longhorns,Ole Miss Rebels,fanduel,-3.5,,53.5,,-154.0,128.0,2026-10-24T23:30:00Z,100.0,-115.0
+2026-10-24T18:13:57.980442-04:00,odds_api,401856732,Texas Longhorns,Ole Miss Rebels,betrivers,-3.0,,54.0,,-167.0,130.0,2026-10-24T23:30:00Z,-121.0,-114.0
+2026-10-24T18:13:57.980442-04:00,odds_api,401856732,Texas Longhorns,Ole Miss Rebels,betonlineag,-3.0,,54.0,,-152.0,132.0,2026-10-24T23:30:00Z,-115.0,-110.0
+2026-10-24T18:13:57.980442-04:00,odds_api,401856732,Texas Longhorns,Ole Miss Rebels,betmgm,-3.0,,54.5,,-150.0,125.0,2026-10-24T23:30:00Z,-110.0,-108.0
+2026-10-24T18:13:57.980442-04:00,odds_api,401856732,Texas Longhorns,Ole Miss Rebels,betus,-3.0,,54.5,,-150.0,129.0,2026-10-24T23:30:00Z,-110.0,-110.0
+2026-10-24T18:13:57.980442-04:00,odds_api,401856732,Texas Longhorns,Ole Miss Rebels,bovada,-3.0,,54.5,,-150.0,130.0,2026-10-24T23:30:00Z,-110.0,-110.0
+2026-10-24T18:13:57.980442-04:00,odds_api,401860906,Texas State Bobcats,Utah State Aggies,fanduel,-13.5,,59.5,,-630.0,450.0,2026-10-24T23:30:00Z,-122.0,-108.0
+2026-10-24T18:13:57.980442-04:00,odds_api,401860906,Texas State Bobcats,Utah State Aggies,betmgm,-13.5,,59.5,,-550.0,425.0,2026-10-24T23:30:00Z,-112.0,-108.0
+2026-10-24T18:13:57.980442-04:00,odds_api,401860906,Texas State Bobcats,Utah State Aggies,draftkings,-13.5,,59.5,,-535.0,400.0,2026-10-24T23:30:00Z,-115.0,-110.0
+2026-10-24T18:13:57.980442-04:00,odds_api,401860906,Texas State Bobcats,Utah State Aggies,lowvig,-13.5,,59.5,,-525.0,400.0,2026-10-24T23:30:00Z,-112.0,-108.0
+2026-10-24T18:13:57.980442-04:00,odds_api,401860906,Texas State Bobcats,Utah State Aggies,betonlineag,-13.5,,59.5,,-525.0,400.0,2026-10-24T23:30:00Z,-116.0,-110.0
+2026-10-24T18:13:57.980442-04:00,odds_api,401860906,Texas State Bobcats,Utah State Aggies,mybookieag,-13.5,,59.5,,-549.0,390.0,2026-10-24T23:30:00Z,-110.0,-110.0
+2026-10-24T18:13:57.980442-04:00,odds_api,401860906,Texas State Bobcats,Utah State Aggies,betus,-14.0,,59.5,,-550.0,425.0,2026-10-24T23:30:00Z,-110.0,-110.0
+2026-10-24T18:13:57.980442-04:00,odds_api,401860906,Texas State Bobcats,Utah State Aggies,betrivers,-14.5,,59.5,,-560.0,390.0,2026-10-24T23:30:00Z,-108.0,-113.0
+2026-10-24T18:13:57.980442-04:00,odds_api,401860906,Texas State Bobcats,Utah State Aggies,bovada,-14.0,,60.0,,-585.0,410.0,2026-10-24T23:30:00Z,-105.0,-105.0
+2026-10-24T18:13:57.980442-04:00,odds_api,401858500,Wisconsin Badgers,USC Trojans,draftkings,2.5,,50.5,,110.0,-130.0,2026-10-24T23:30:00Z,-108.0,-112.0
+2026-10-24T18:13:57.980442-04:00,odds_api,401858500,Wisconsin Badgers,USC Trojans,fanduel,2.5,,50.5,,115.0,-138.0,2026-10-24T23:30:00Z,-108.0,-115.0
+2026-10-24T18:13:57.980442-04:00,odds_api,401858500,Wisconsin Badgers,USC Trojans,betrivers,2.0,,50.0,,110.0,-136.0,2026-10-24T23:30:00Z,-109.0,-113.0
+2026-10-24T18:13:57.980442-04:00,odds_api,401858500,Wisconsin Badgers,USC Trojans,lowvig,2.5,,50.5,,110.0,-130.0,2026-10-24T23:30:00Z,-106.0,-114.0
+2026-10-24T18:13:57.980442-04:00,odds_api,401858500,Wisconsin Badgers,USC Trojans,betonlineag,2.5,,50.5,,110.0,-130.0,2026-10-24T23:30:00Z,-110.0,-115.0
+2026-10-24T18:13:57.980442-04:00,odds_api,401858500,Wisconsin Badgers,USC Trojans,betmgm,2.5,,50.5,,110.0,-130.0,2026-10-24T23:30:00Z,-110.0,-112.0
+2026-10-24T18:13:57.980442-04:00,odds_api,401858500,Wisconsin Badgers,USC Trojans,mybookieag,2.5,,51.0,,109.0,-134.0,2026-10-24T23:30:00Z,-110.0,-110.0
+2026-10-24T18:13:57.980442-04:00,odds_api,401858500,Wisconsin Badgers,USC Trojans,betus,2.5,,50.5,,110.0,-130.0,2026-10-24T23:30:00Z,-110.0,-115.0
+2026-10-24T18:13:57.980442-04:00,odds_api,401858500,Wisconsin Badgers,USC Trojans,bovada,2.5,,51.0,,115.0,-135.0,2026-10-24T23:30:00Z,-110.0,-105.0
+2026-10-24T18:13:57.980442-04:00,odds_api,401862811,Tulane Green Wave,UTSA Roadrunners,draftkings,3.0,,51.5,,124.0,-148.0,2026-10-25T00:00:00Z,-112.0,-115.0
+2026-10-24T18:13:57.980442-04:00,odds_api,401862811,Tulane Green Wave,UTSA Roadrunners,betmgm,3.0,,51.5,,120.0,-145.0,2026-10-25T00:00:00Z,-118.0,-115.0
+2026-10-24T18:13:57.980442-04:00,odds_api,401862811,Tulane Green Wave,UTSA Roadrunners,lowvig,3.0,,52.0,,130.0,-150.0,2026-10-25T00:00:00Z,-106.0,-114.0
+2026-10-24T18:13:57.980442-04:00,odds_api,401862811,Tulane Green Wave,UTSA Roadrunners,betonlineag,3.0,,52.0,,130.0,-150.0,2026-10-25T00:00:00Z,-110.0,-115.0
+2026-10-24T18:13:57.980442-04:00,odds_api,401862811,Tulane Green Wave,UTSA Roadrunners,fanduel,2.5,,51.5,,116.0,-140.0,2026-10-25T00:00:00Z,-104.0,-115.0
+2026-10-24T18:13:57.980442-04:00,odds_api,401862811,Tulane Green Wave,UTSA Roadrunners,mybookieag,3.0,,51.5,,122.0,-150.0,2026-10-25T00:00:00Z,-110.0,-110.0
+2026-10-24T18:13:57.980442-04:00,odds_api,401862811,Tulane Green Wave,UTSA Roadrunners,betus,3.0,,51.5,,125.0,-145.0,2026-10-25T00:00:00Z,-110.0,-110.0
+2026-10-24T18:13:57.980442-04:00,odds_api,401862811,Tulane Green Wave,UTSA Roadrunners,betrivers,2.5,,52.5,,116.0,-143.0,2026-10-25T00:00:00Z,-105.0,-108.0
+2026-10-24T18:13:57.980442-04:00,odds_api,401862811,Tulane Green Wave,UTSA Roadrunners,bovada,3.0,,52.0,,130.0,-150.0,2026-10-25T00:00:00Z,-115.0,-105.0
+2026-10-24T18:13:57.980442-04:00,odds_api,401864527,New Mexico Lobos,North Dakota State Bison,draftkings,-4.5,,39.5,,-192.0,160.0,2026-10-25T02:00:00Z,-112.0,-115.0
+2026-10-24T18:13:57.980442-04:00,odds_api,401864527,New Mexico Lobos,North Dakota State Bison,fanduel,-4.5,,39.5,,-200.0,164.0,2026-10-25T02:00:00Z,-110.0,-114.0
+2026-10-24T18:13:57.980442-04:00,odds_api,401864527,New Mexico Lobos,North Dakota State Bison,betmgm,-4.5,,39.5,,-190.0,160.0,2026-10-25T02:00:00Z,-108.0,-110.0
+2026-10-24T18:13:57.980442-04:00,odds_api,401864527,New Mexico Lobos,North Dakota State Bison,lowvig,-4.5,,39.5,,-185.0,161.0,2026-10-25T02:00:00Z,-106.0,-108.0
+2026-10-24T18:13:57.980442-04:00,odds_api,401864527,New Mexico Lobos,North Dakota State Bison,betonlineag,-4.5,,39.5,,-185.0,161.0,2026-10-25T02:00:00Z,-110.0,-110.0
+2026-10-24T18:13:57.980442-04:00,odds_api,401864527,New Mexico Lobos,North Dakota State Bison,betus,-4.5,,39.5,,-185.0,159.0,2026-10-25T02:00:00Z,-110.0,-110.0
+2026-10-24T18:13:57.980442-04:00,odds_api,401864527,New Mexico Lobos,North Dakota State Bison,mybookieag,-4.5,,39.5,,-200.0,160.0,2026-10-25T02:00:00Z,-110.0,-110.0
+2026-10-24T18:13:57.980442-04:00,odds_api,401864527,New Mexico Lobos,North Dakota State Bison,betrivers,-4.5,,39.5,,-200.0,155.0,2026-10-25T02:00:00Z,-113.0,-114.0
+2026-10-24T18:13:57.980442-04:00,odds_api,401864527,New Mexico Lobos,North Dakota State Bison,bovada,-5.0,,39.5,,-200.0,170.0,2026-10-25T02:00:00Z,-110.0,-110.0
+2026-10-24T18:13:57.980442-04:00,odds_api,401856837,Utah Utes,Houston Cougars,draftkings,-6.5,,57.5,,-250.0,205.0,2026-10-25T02:15:00Z,-115.0,-110.0
+2026-10-24T18:13:57.980442-04:00,odds_api,401856837,Utah Utes,Houston Cougars,mybookieag,-6.5,,57.5,,-255.0,202.0,2026-10-25T02:15:00Z,-110.0,-110.0
+2026-10-24T18:13:57.980442-04:00,odds_api,401856837,Utah Utes,Houston Cougars,fanduel,-6.5,,57.5,,-260.0,215.0,2026-10-25T02:15:00Z,-120.0,-110.0
+2026-10-24T18:13:57.980442-04:00,odds_api,401856837,Utah Utes,Houston Cougars,betrivers,-7.0,,58.0,,-275.0,210.0,2026-10-25T02:15:00Z,-112.0,-114.0
+2026-10-24T18:13:57.980442-04:00,odds_api,401856837,Utah Utes,Houston Cougars,betonlineag,-6.5,,57.5,,-255.0,211.0,2026-10-25T02:15:00Z,-120.0,-105.0
+2026-10-24T18:13:57.980442-04:00,odds_api,401856837,Utah Utes,Houston Cougars,betmgm,-6.5,,57.5,,-250.0,210.0,2026-10-25T02:15:00Z,-115.0,-108.0
+2026-10-24T18:13:57.980442-04:00,odds_api,401856837,Utah Utes,Houston Cougars,betus,-6.5,,57.5,,-250.0,210.0,2026-10-25T02:15:00Z,-115.0,-105.0
+2026-10-24T18:13:57.980442-04:00,odds_api,401856837,Utah Utes,Houston Cougars,bovada,-6.5,,57.5,,-245.0,205.0,2026-10-25T02:15:00Z,-115.0,-110.0
