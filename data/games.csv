@@ -3383,14 +3383,14 @@ game_id,season,week,season_type,start_date,neutral_site,conference_game,home_tea
 401871056,2026,8,regular,2026-10-22T23:00:00.000Z,False,True,Kennesaw State,Conference USA,6.0,Liberty,Conference USA,34.0,Fifth Third Stadium,True
 401869845,2026,8,regular,2026-10-22T23:00:00.000Z,False,True,App State,Sun Belt,34.0,James Madison,Sun Belt,31.0,Kidd Brewer Stadium,True
 401862807,2026,8,regular,2026-10-22T23:30:00.000Z,False,True,Memphis,American Athletic,41.0,East Carolina,American Athletic,34.0,Simmons Bank Liberty Stadium,True
-401867955,2026,8,regular,2026-10-23T21:00:00.000Z,False,True,Delaware State,MEAC,,North Carolina Central,MEAC,,Alumni Stadium,False
-401908352,2026,8,regular,2026-10-23T22:00:00.000Z,False,True,Johns Hopkins,Centennial,,Gettysburg,Centennial,,Homewood Field,False
-401870841,2026,8,regular,2026-10-23T23:00:00.000Z,False,True,Pennsylvania,Ivy,,Yale,Ivy,,Franklin Field,False
-401861965,2026,8,regular,2026-10-23T23:00:00.000Z,False,False,UConn,FBS Independents,,Massachusetts,Mid-American,,Pratt & Whitney Stadium,False
-401858271,2026,8,regular,2026-10-23T23:00:00.000Z,False,True,Virginia,ACC,,Duke,ACC,,Scott Stadium,False
-401862808,2026,8,regular,2026-10-24T00:30:00.000Z,False,True,Tulsa,American Athletic,,Army,American Athletic,,Chapman Stadium,False
-401864525,2026,8,regular,2026-10-24T01:00:00.000Z,False,True,Wyoming,Mountain West,,Air Force,Mountain West,,War Memorial Stadium,False
-401858272,2026,8,regular,2026-10-24T02:30:00.000Z,False,True,Stanford,ACC,,NC State,ACC,,Stanford Stadium,False
+401867955,2026,8,regular,2026-10-23T21:00:00.000Z,False,True,Delaware State,MEAC,12.0,North Carolina Central,MEAC,31.0,Alumni Stadium,True
+401908352,2026,8,regular,2026-10-23T22:00:00.000Z,False,True,Johns Hopkins,Centennial,40.0,Gettysburg,Centennial,14.0,Homewood Field,True
+401870841,2026,8,regular,2026-10-23T23:00:00.000Z,False,True,Pennsylvania,Ivy,24.0,Yale,Ivy,21.0,Franklin Field,True
+401861965,2026,8,regular,2026-10-23T23:00:00.000Z,False,False,UConn,FBS Independents,35.0,Massachusetts,Mid-American,16.0,Pratt & Whitney Stadium,True
+401858271,2026,8,regular,2026-10-23T23:00:00.000Z,False,True,Virginia,ACC,16.0,Duke,ACC,19.0,Scott Stadium,True
+401862808,2026,8,regular,2026-10-24T00:30:00.000Z,False,True,Tulsa,American Athletic,35.0,Army,American Athletic,38.0,Chapman Stadium,True
+401864525,2026,8,regular,2026-10-24T01:00:00.000Z,False,True,Wyoming,Mountain West,28.0,Air Force,Mountain West,14.0,War Memorial Stadium,True
+401858272,2026,8,regular,2026-10-24T02:30:00.000Z,False,True,Stanford,ACC,31.0,NC State,ACC,28.0,Stanford Stadium,True
 401908561,2026,8,regular,2026-10-24T15:00:00.000Z,False,True,Maine Maritime,Commonwealth Coast,,New England College,,,Ritchie Field,False
 401866450,2026,8,regular,2026-10-24T16:00:00.000Z,False,True,Toledo,Mid-American,,Western Michigan,Mid-American,,Glass Bowl,False
 401858498,2026,8,regular,2026-10-24T16:00:00.000Z,False,True,Northwestern,Big Ten,,Rutgers,Big Ten,,Ryan Field,False
