@@ -5946,3 +5946,779 @@ game_id,home_team,away_team,home_points,away_points,total_points,margin,provider
 401858492,Oregon,Nebraska,17,14,31,3,fanduel,-6.5,away_cover,51.5,under,-250.0,home_win
 401858492,Oregon,Nebraska,17,14,31,3,lowvig,-7.0,away_cover,52.0,under,-260.0,home_win
 401858492,Oregon,Nebraska,17,14,31,3,mybookieag,-6.5,away_cover,51.0,under,-265.0,home_win
+401871055,Florida International,Middle Tennessee,23,26,49,-3,none,,,,,,
+401871069,Delaware,Missouri State,61,38,99,23,none,,,,,,
+401871092,Marshall,South Alabama,20,13,33,7,none,,,,,,
+401871070,Sam Houston,New Mexico State,24,30,54,-6,none,,,,,,
+401907489,Saint Anselm,Assumption,7,56,63,-49,none,,,,,,
+401871056,Kennesaw State,Liberty,6,34,40,-28,Bovada,8.5,away_cover,50.5,under,330.0,away_win
+401871056,Kennesaw State,Liberty,6,34,40,-28,DraftKings,8.5,away_cover,50.5,under,300.0,away_win
+401871056,Kennesaw State,Liberty,6,34,40,-28,betmgm,8.5,away_cover,50.5,under,290.0,away_win
+401871056,Kennesaw State,Liberty,6,34,40,-28,betonlineag,9.5,away_cover,50.0,under,299.0,away_win
+401871056,Kennesaw State,Liberty,6,34,40,-28,betrivers,9.0,away_cover,50.5,under,275.0,away_win
+401871056,Kennesaw State,Liberty,6,34,40,-28,betus,9.0,away_cover,50.5,under,275.0,away_win
+401871056,Kennesaw State,Liberty,6,34,40,-28,bovada,8.5,away_cover,50.5,under,290.0,away_win
+401871056,Kennesaw State,Liberty,6,34,40,-28,draftkings,8.5,away_cover,50.5,under,300.0,away_win
+401871056,Kennesaw State,Liberty,6,34,40,-28,fanduel,9.5,away_cover,50.5,under,280.0,away_win
+401871056,Kennesaw State,Liberty,6,34,40,-28,lowvig,9.5,away_cover,50.0,under,299.0,away_win
+401871056,Kennesaw State,Liberty,6,34,40,-28,mybookieag,8.5,away_cover,50.5,under,275.0,away_win
+401869845,App State,James Madison,34,31,65,3,Bovada,13.0,home_cover,56.5,over,335.0,home_win
+401869845,App State,James Madison,34,31,65,3,DraftKings,12.5,home_cover,56.5,over,370.0,home_win
+401862807,Memphis,East Carolina,41,34,75,7,Bovada,-10.5,away_cover,55.0,over,-410.0,home_win
+401862807,Memphis,East Carolina,41,34,75,7,DraftKings,-10.5,away_cover,55.5,over,-425.0,home_win
+401862807,Memphis,East Carolina,41,34,75,7,betmgm,-10.5,away_cover,55.5,over,-450.0,home_win
+401862807,Memphis,East Carolina,41,34,75,7,betonlineag,-10.5,away_cover,55.0,over,-420.0,home_win
+401862807,Memphis,East Carolina,41,34,75,7,betrivers,-11.0,away_cover,55.5,over,-420.0,home_win
+401862807,Memphis,East Carolina,41,34,75,7,betus,-10.0,away_cover,55.0,over,-410.0,home_win
+401862807,Memphis,East Carolina,41,34,75,7,bovada,-10.5,away_cover,55.0,over,-435.0,home_win
+401862807,Memphis,East Carolina,41,34,75,7,draftkings,-10.5,away_cover,55.5,over,-425.0,home_win
+401862807,Memphis,East Carolina,41,34,75,7,fanduel,-10.5,away_cover,55.5,over,-430.0,home_win
+401862807,Memphis,East Carolina,41,34,75,7,lowvig,-10.5,away_cover,55.0,over,-420.0,home_win
+401862807,Memphis,East Carolina,41,34,75,7,mybookieag,-10.5,away_cover,55.0,over,-429.0,home_win
+401867955,Delaware State,North Carolina Central,12,31,43,-19,DraftKings,-5.5,away_cover,53.5,under,-217.0,away_win
+401908352,Johns Hopkins,Gettysburg,40,14,54,26,none,,,,,,
+401870841,Pennsylvania,Yale,24,21,45,3,DraftKings,6.5,home_cover,49.5,under,226.0,home_win
+401861965,UConn,Massachusetts,35,16,51,19,Bovada,-13.0,home_cover,54.0,under,-800.0,home_win
+401861965,UConn,Massachusetts,35,16,51,19,DraftKings,-12.5,home_cover,53.5,under,-520.0,home_win
+401858271,Virginia,Duke,16,19,35,-3,Bovada,-2.5,away_cover,47.0,under,-115.0,away_win
+401858271,Virginia,Duke,16,19,35,-3,DraftKings,-2.5,away_cover,47.5,under,-135.0,away_win
+401858271,Virginia,Duke,16,19,35,-3,betmgm,-2.5,away_cover,47.5,under,-135.0,away_win
+401858271,Virginia,Duke,16,19,35,-3,betonlineag,-2.0,away_cover,47.5,under,-131.0,away_win
+401858271,Virginia,Duke,16,19,35,-3,betrivers,-2.5,away_cover,46.5,under,-137.0,away_win
+401858271,Virginia,Duke,16,19,35,-3,betus,-2.0,away_cover,47.0,under,-130.0,away_win
+401858271,Virginia,Duke,16,19,35,-3,bovada,-2.5,away_cover,47.0,under,-135.0,away_win
+401858271,Virginia,Duke,16,19,35,-3,draftkings,-2.5,away_cover,47.5,under,-135.0,away_win
+401858271,Virginia,Duke,16,19,35,-3,fanduel,-2.5,away_cover,47.5,under,-134.0,away_win
+401858271,Virginia,Duke,16,19,35,-3,lowvig,-2.0,away_cover,47.5,under,-131.0,away_win
+401858271,Virginia,Duke,16,19,35,-3,mybookieag,-2.5,away_cover,47.0,under,-135.0,away_win
+401862808,Tulsa,Army,35,38,73,-3,Bovada,-1.0,away_cover,53.0,over,-110.0,away_win
+401862808,Tulsa,Army,35,38,73,-3,DraftKings,-1.5,away_cover,52.5,over,-115.0,away_win
+401862808,Tulsa,Army,35,38,73,-3,betmgm,-1.0,away_cover,53.5,over,-112.0,away_win
+401862808,Tulsa,Army,35,38,73,-3,betonlineag,0.0,away_cover,53.0,over,-120.0,away_win
+401862808,Tulsa,Army,35,38,73,-3,betrivers,-1.5,away_cover,53.5,over,-120.0,away_win
+401862808,Tulsa,Army,35,38,73,-3,betus,0.0,away_cover,53.0,over,-120.0,away_win
+401862808,Tulsa,Army,35,38,73,-3,bovada,-1.0,away_cover,53.0,over,-110.0,away_win
+401862808,Tulsa,Army,35,38,73,-3,draftkings,-1.5,away_cover,53.5,over,-115.0,away_win
+401862808,Tulsa,Army,35,38,73,-3,fanduel,-1.5,away_cover,53.5,over,-111.0,away_win
+401862808,Tulsa,Army,35,38,73,-3,lowvig,0.0,away_cover,53.0,over,-120.0,away_win
+401862808,Tulsa,Army,35,38,73,-3,mybookieag,-1.0,away_cover,53.0,over,-118.0,away_win
+401864525,Wyoming,Air Force,28,14,42,14,Bovada,6.0,home_cover,46.5,under,175.0,home_win
+401864525,Wyoming,Air Force,28,14,42,14,DraftKings,6.0,home_cover,46.5,under,190.0,home_win
+401864525,Wyoming,Air Force,28,14,42,14,betmgm,6.5,home_cover,46.5,under,190.0,home_win
+401864525,Wyoming,Air Force,28,14,42,14,betonlineag,6.0,home_cover,47.0,under,200.0,home_win
+401864525,Wyoming,Air Force,28,14,42,14,betrivers,6.0,home_cover,46.5,under,188.0,home_win
+401864525,Wyoming,Air Force,28,14,42,14,betus,6.0,home_cover,46.5,under,190.0,home_win
+401864525,Wyoming,Air Force,28,14,42,14,bovada,6.0,home_cover,46.5,under,190.0,home_win
+401864525,Wyoming,Air Force,28,14,42,14,draftkings,6.0,home_cover,46.5,under,190.0,home_win
+401864525,Wyoming,Air Force,28,14,42,14,fanduel,5.5,home_cover,46.5,under,188.0,home_win
+401864525,Wyoming,Air Force,28,14,42,14,lowvig,6.0,home_cover,47.0,under,200.0,home_win
+401864525,Wyoming,Air Force,28,14,42,14,mybookieag,6.0,home_cover,46.5,under,196.0,home_win
+401858272,Stanford,NC State,31,28,59,3,Bovada,7.5,home_cover,55.0,over,225.0,home_win
+401858272,Stanford,NC State,31,28,59,3,DraftKings,7.5,home_cover,55.5,over,245.0,home_win
+401858272,Stanford,NC State,31,28,59,3,betmgm,7.5,home_cover,55.5,over,240.0,home_win
+401858272,Stanford,NC State,31,28,59,3,betonlineag,7.5,home_cover,55.0,over,245.0,home_win
+401858272,Stanford,NC State,31,28,59,3,betrivers,7.5,home_cover,55.5,over,220.0,home_win
+401858272,Stanford,NC State,31,28,59,3,betus,7.5,home_cover,55.0,over,250.0,home_win
+401858272,Stanford,NC State,31,28,59,3,bovada,7.5,home_cover,55.0,over,250.0,home_win
+401858272,Stanford,NC State,31,28,59,3,draftkings,7.5,home_cover,55.5,over,245.0,home_win
+401858272,Stanford,NC State,31,28,59,3,fanduel,7.5,home_cover,55.5,over,240.0,home_win
+401858272,Stanford,NC State,31,28,59,3,lowvig,7.5,home_cover,55.0,over,245.0,home_win
+401858272,Stanford,NC State,31,28,59,3,mybookieag,7.5,home_cover,55.0,over,246.0,home_win
+401908561,Maine Maritime,New England College,14,17,31,-3,none,,,,,,
+401866450,Toledo,Western Michigan,45,38,83,7,Bovada,-2.5,home_cover,47.0,over,-175.0,home_win
+401866450,Toledo,Western Michigan,45,38,83,7,DraftKings,-3.0,home_cover,47.5,over,-148.0,home_win
+401866450,Toledo,Western Michigan,45,38,83,7,betmgm,-3.0,home_cover,47.5,over,-145.0,home_win
+401866450,Toledo,Western Michigan,45,38,83,7,betonlineag,-3.0,home_cover,47.0,over,-143.0,home_win
+401866450,Toledo,Western Michigan,45,38,83,7,betrivers,-3.0,home_cover,47.5,over,-148.0,home_win
+401866450,Toledo,Western Michigan,45,38,83,7,betus,-3.0,home_cover,47.0,over,-145.0,home_win
+401866450,Toledo,Western Michigan,45,38,83,7,bovada,-2.5,home_cover,47.0,over,-145.0,home_win
+401866450,Toledo,Western Michigan,45,38,83,7,draftkings,-3.0,home_cover,47.5,over,-148.0,home_win
+401866450,Toledo,Western Michigan,45,38,83,7,fanduel,-2.5,home_cover,47.5,over,-146.0,home_win
+401866450,Toledo,Western Michigan,45,38,83,7,lowvig,-3.0,home_cover,47.0,over,-143.0,home_win
+401866450,Toledo,Western Michigan,45,38,83,7,mybookieag,-3.0,home_cover,47.5,over,-150.0,home_win
+401858498,Northwestern,Rutgers,42,14,56,28,Bovada,-15.0,home_cover,59.0,under,-850.0,home_win
+401858498,Northwestern,Rutgers,42,14,56,28,DraftKings,-15.5,home_cover,58.5,under,-750.0,home_win
+401858498,Northwestern,Rutgers,42,14,56,28,betmgm,-16.0,home_cover,58.5,under,-750.0,home_win
+401858498,Northwestern,Rutgers,42,14,56,28,betonlineag,-16.0,home_cover,58.5,under,-750.0,home_win
+401858498,Northwestern,Rutgers,42,14,56,28,betrivers,-16.5,home_cover,58.5,under,-770.0,home_win
+401858498,Northwestern,Rutgers,42,14,56,28,betus,-16.0,home_cover,59.0,under,-700.0,home_win
+401858498,Northwestern,Rutgers,42,14,56,28,bovada,-15.0,home_cover,59.0,under,-800.0,home_win
+401858498,Northwestern,Rutgers,42,14,56,28,draftkings,-15.5,home_cover,58.5,under,-750.0,home_win
+401858498,Northwestern,Rutgers,42,14,56,28,fanduel,-16.5,home_cover,58.5,under,-850.0,home_win
+401858498,Northwestern,Rutgers,42,14,56,28,lowvig,-16.0,home_cover,58.5,under,-750.0,home_win
+401858498,Northwestern,Rutgers,42,14,56,28,mybookieag,-16.0,home_cover,58.5,under,-699.0,home_win
+401856841,TCU,West Virginia,20,24,44,-4,Bovada,-10.5,away_cover,58.0,under,-300.0,away_win
+401856841,TCU,West Virginia,20,24,44,-4,DraftKings,-10.5,away_cover,57.5,under,-395.0,away_win
+401856841,TCU,West Virginia,20,24,44,-4,betmgm,-10.5,away_cover,57.5,under,-400.0,away_win
+401856841,TCU,West Virginia,20,24,44,-4,betonlineag,-11.0,away_cover,58.0,under,-390.0,away_win
+401856841,TCU,West Virginia,20,24,44,-4,betrivers,-10.5,away_cover,57.5,under,-400.0,away_win
+401856841,TCU,West Virginia,20,24,44,-4,betus,-11.0,away_cover,58.0,under,-390.0,away_win
+401856841,TCU,West Virginia,20,24,44,-4,bovada,-10.5,away_cover,58.0,under,-400.0,away_win
+401856841,TCU,West Virginia,20,24,44,-4,draftkings,-10.5,away_cover,57.5,under,-395.0,away_win
+401856841,TCU,West Virginia,20,24,44,-4,fanduel,-10.5,away_cover,57.5,under,-400.0,away_win
+401856841,TCU,West Virginia,20,24,44,-4,lowvig,-11.0,away_cover,58.0,under,-390.0,away_win
+401856841,TCU,West Virginia,20,24,44,-4,mybookieag,-11.0,away_cover,57.5,under,-429.0,away_win
+401858496,Michigan,Indiana,6,13,19,-7,Bovada,7.5,home_cover,43.0,under,225.0,away_win
+401858496,Michigan,Indiana,6,13,19,-7,DraftKings,7.5,home_cover,42.5,under,235.0,away_win
+401858496,Michigan,Indiana,6,13,19,-7,betmgm,7.5,home_cover,42.5,under,240.0,away_win
+401858496,Michigan,Indiana,6,13,19,-7,betonlineag,7.0,push,42.5,under,237.0,away_win
+401858496,Michigan,Indiana,6,13,19,-7,betrivers,8.0,home_cover,42.5,under,255.0,away_win
+401858496,Michigan,Indiana,6,13,19,-7,betus,7.0,push,42.5,under,240.0,away_win
+401858496,Michigan,Indiana,6,13,19,-7,bovada,7.5,home_cover,43.0,under,250.0,away_win
+401858496,Michigan,Indiana,6,13,19,-7,draftkings,7.5,home_cover,42.5,under,235.0,away_win
+401858496,Michigan,Indiana,6,13,19,-7,fanduel,7.5,home_cover,42.5,under,235.0,away_win
+401858496,Michigan,Indiana,6,13,19,-7,lowvig,7.0,push,42.5,under,237.0,away_win
+401858496,Michigan,Indiana,6,13,19,-7,mybookieag,7.0,push,42.5,under,240.0,away_win
+401858270,SMU,California,59,20,79,39,Bovada,-19.0,home_cover,55.0,over,-1200.0,home_win
+401858270,SMU,California,59,20,79,39,DraftKings,-18.5,home_cover,55.5,over,-1100.0,home_win
+401858270,SMU,California,59,20,79,39,betmgm,-19.0,home_cover,55.5,over,-1100.0,home_win
+401858270,SMU,California,59,20,79,39,betonlineag,-20.0,home_cover,55.5,over,-1200.0,home_win
+401858270,SMU,California,59,20,79,39,betrivers,-19.0,home_cover,55.5,over,-1250.0,home_win
+401858270,SMU,California,59,20,79,39,betus,-19.5,home_cover,55.0,over,-1200.0,home_win
+401858270,SMU,California,59,20,79,39,bovada,-19.0,home_cover,55.0,over,-1100.0,home_win
+401858270,SMU,California,59,20,79,39,draftkings,-18.5,home_cover,55.5,over,-1100.0,home_win
+401858270,SMU,California,59,20,79,39,fanduel,-19.5,home_cover,55.5,over,-1250.0,home_win
+401858270,SMU,California,59,20,79,39,lowvig,-20.0,home_cover,55.5,over,-1200.0,home_win
+401858270,SMU,California,59,20,79,39,mybookieag,-19.0,home_cover,55.0,over,-1099.0,home_win
+401866674,Merrimack,New Hampshire,24,17,41,7,DraftKings,-1.5,home_cover,46.5,under,-135.0,home_win
+401907508,Bentley,Southern Connecticut State,32,29,61,3,none,,,,,,
+401909143,Oberlin,Ohio Wesleyan,7,70,77,-63,none,,,,,,
+401867913,Long Island University,Stonehill,14,18,32,-4,DraftKings,-3.0,away_cover,38.5,under,-147.0,away_win
+401908199,FDU Florham,King's,30,49,79,-19,none,,,,,,
+401907751,Rochester (NY),Rensselaer,7,41,48,-34,none,,,,,,
+401906886,Davenport,Wayne State (MI),49,0,49,49,none,,,,,,
+401907868,Utica,Alfred,35,0,35,35,none,,,,,,
+401908705,Wilkes,Susquehanna,15,36,51,-21,none,,,,,,
+401908488,Endicott,Nichols,86,0,86,86,none,,,,,,
+401908481,Western New England,Curry,48,13,61,35,none,,,,,,
+401909044,Waynesburg,Grove City,7,47,54,-40,none,,,,,,
+401862809,Florida Atlantic,Rice,51,49,100,2,Bovada,-8.5,away_cover,54.0,over,-400.0,home_win
+401862809,Florida Atlantic,Rice,51,49,100,2,DraftKings,-8.5,away_cover,53.5,over,-340.0,home_win
+401862809,Florida Atlantic,Rice,51,49,100,2,betmgm,-8.0,away_cover,53.5,over,-350.0,home_win
+401862809,Florida Atlantic,Rice,51,49,100,2,betonlineag,-8.0,away_cover,51.0,over,-345.0,home_win
+401862809,Florida Atlantic,Rice,51,49,100,2,betrivers,-9.0,away_cover,53.5,over,-400.0,home_win
+401862809,Florida Atlantic,Rice,51,49,100,2,betus,-8.0,away_cover,53.5,over,-345.0,home_win
+401862809,Florida Atlantic,Rice,51,49,100,2,bovada,-8.5,away_cover,54.0,over,-350.0,home_win
+401862809,Florida Atlantic,Rice,51,49,100,2,draftkings,-8.5,away_cover,53.5,over,-340.0,home_win
+401862809,Florida Atlantic,Rice,51,49,100,2,fanduel,-7.5,away_cover,53.5,over,-345.0,home_win
+401862809,Florida Atlantic,Rice,51,49,100,2,lowvig,-8.0,away_cover,51.0,over,-345.0,home_win
+401862809,Florida Atlantic,Rice,51,49,100,2,mybookieag,-8.0,away_cover,54.0,over,-360.0,home_win
+401908604,Plymouth State,Westfield State,28,17,45,11,none,,,,,,
+401908635,Moravian,Catholic,27,3,30,24,none,,,,,,
+401867808,Brown,Cornell,38,31,69,7,DraftKings,1.5,home_cover,46.5,over,-110.0,home_win
+401866670,Rhode Island,UAlbany,21,38,59,-17,DraftKings,-6.5,away_cover,45.5,over,-195.0,away_win
+401867902,Central Connecticut,New Haven,42,20,62,22,DraftKings,-14.5,home_cover,54.5,over,-640.0,home_win
+401867931,Duquesne,Wagner,52,21,73,31,DraftKings,-13.5,home_cover,46.5,over,-620.0,home_win
+401907876,Brockport,SUNY Morrisville,56,0,56,56,none,,,,,,
+401907621,West Virginia State,Monroe,48,14,62,34,none,,,,,,
+401907549,Edinboro,Gannon,14,31,45,-17,none,,,,,,
+401907574,Kutztown,West Chester,41,14,55,27,none,,,,,,
+401906654,Northwood,Ohio Dominican,37,35,72,2,none,,,,,,
+401858274,Miami,Pittsburgh,52,23,75,29,Bovada,-20.0,home_cover,49.0,over,-2000.0,home_win
+401858274,Miami,Pittsburgh,52,23,75,29,DraftKings,-19.5,home_cover,48.5,over,-1650.0,home_win
+401858274,Miami,Pittsburgh,52,23,75,29,betmgm,-20.0,home_cover,48.5,over,-1600.0,home_win
+401858274,Miami,Pittsburgh,52,23,75,29,betonlineag,-20.0,home_cover,48.5,over,-1700.0,home_win
+401858274,Miami,Pittsburgh,52,23,75,29,betrivers,-20.0,home_cover,48.5,over,-2500.0,home_win
+401858274,Miami,Pittsburgh,52,23,75,29,betus,-20.0,home_cover,48.5,over,-1700.0,home_win
+401858274,Miami,Pittsburgh,52,23,75,29,bovada,-20.0,home_cover,49.0,over,-1800.0,home_win
+401858274,Miami,Pittsburgh,52,23,75,29,draftkings,-19.5,home_cover,48.5,over,-1650.0,home_win
+401858274,Miami,Pittsburgh,52,23,75,29,fanduel,-20.5,home_cover,48.5,over,-2000.0,home_win
+401858274,Miami,Pittsburgh,52,23,75,29,lowvig,-20.0,home_cover,48.5,over,-1700.0,home_win
+401858274,Miami,Pittsburgh,52,23,75,29,mybookieag,-20.0,home_cover,48.5,over,-2039.0,home_win
+401868266,Marist,St. Thomas (MN),13,35,48,-22,DraftKings,4.0,away_cover,51.5,under,145.0,away_win
+401856840,Cincinnati,Texas Tech,37,24,61,13,Bovada,11.5,home_cover,57.0,over,315.0,home_win
+401856840,Cincinnati,Texas Tech,37,24,61,13,DraftKings,11.5,home_cover,56.5,over,350.0,home_win
+401856840,Cincinnati,Texas Tech,37,24,61,13,betmgm,11.5,home_cover,57.5,over,360.0,home_win
+401856840,Cincinnati,Texas Tech,37,24,61,13,betonlineag,12.0,home_cover,56.5,over,364.0,home_win
+401856840,Cincinnati,Texas Tech,37,24,61,13,betrivers,11.5,home_cover,56.5,over,360.0,home_win
+401856840,Cincinnati,Texas Tech,37,24,61,13,betus,11.5,home_cover,56.5,over,370.0,home_win
+401856840,Cincinnati,Texas Tech,37,24,61,13,bovada,11.5,home_cover,57.0,over,355.0,home_win
+401856840,Cincinnati,Texas Tech,37,24,61,13,draftkings,11.5,home_cover,56.5,over,350.0,home_win
+401856840,Cincinnati,Texas Tech,37,24,61,13,fanduel,11.5,home_cover,56.5,over,340.0,home_win
+401856840,Cincinnati,Texas Tech,37,24,61,13,lowvig,12.0,home_cover,56.5,over,364.0,home_win
+401856840,Cincinnati,Texas Tech,37,24,61,13,mybookieag,11.5,home_cover,56.5,over,350.0,home_win
+401868230,Dayton,San Diego,37,32,69,5,DraftKings,-6.0,away_cover,55.5,over,-230.0,home_win
+401856728,Auburn,LSU,17,38,55,-21,Bovada,7.0,away_cover,51.0,over,235.0,away_win
+401856728,Auburn,LSU,17,38,55,-21,DraftKings,7.0,away_cover,51.5,over,230.0,away_win
+401856728,Auburn,LSU,17,38,55,-21,betmgm,7.5,away_cover,51.5,over,230.0,away_win
+401856728,Auburn,LSU,17,38,55,-21,betonlineag,7.0,away_cover,51.5,over,237.0,away_win
+401856728,Auburn,LSU,17,38,55,-21,betrivers,7.0,away_cover,51.5,over,225.0,away_win
+401856728,Auburn,LSU,17,38,55,-21,betus,7.0,away_cover,51.5,over,240.0,away_win
+401856728,Auburn,LSU,17,38,55,-21,bovada,7.0,away_cover,51.0,over,240.0,away_win
+401856728,Auburn,LSU,17,38,55,-21,draftkings,7.0,away_cover,51.5,over,230.0,away_win
+401856728,Auburn,LSU,17,38,55,-21,fanduel,7.5,away_cover,51.5,over,225.0,away_win
+401856728,Auburn,LSU,17,38,55,-21,lowvig,7.0,away_cover,51.5,over,237.0,away_win
+401856728,Auburn,LSU,17,38,55,-21,mybookieag,7.0,away_cover,51.5,over,223.0,away_win
+401907682,Minnesota St Moorhead,Northern State,13,14,27,-1,none,,,,,,
+401907713,Concordia St. Paul,Winona State,27,34,61,-7,none,,,,,,
+401906976,Fort Valley State,Lane College,6,16,22,-10,none,,,,,,
+401907307,Kentucky State,Savannah State,27,24,51,3,none,,,,,,
+401856834,Kansas,Baylor,25,24,49,1,Bovada,1.0,home_cover,53.5,under,100.0,home_win
+401856834,Kansas,Baylor,25,24,49,1,DraftKings,1.5,home_cover,53.5,under,-102.0,home_win
+401856834,Kansas,Baylor,25,24,49,1,betmgm,1.5,home_cover,53.5,under,-102.0,home_win
+401856834,Kansas,Baylor,25,24,49,1,betonlineag,1.0,home_cover,53.0,under,-105.0,home_win
+401856834,Kansas,Baylor,25,24,49,1,betrivers,1.0,home_cover,53.0,under,-103.0,home_win
+401856834,Kansas,Baylor,25,24,49,1,betus,1.0,home_cover,53.5,under,-105.0,home_win
+401856834,Kansas,Baylor,25,24,49,1,bovada,1.0,home_cover,53.5,under,100.0,home_win
+401856834,Kansas,Baylor,25,24,49,1,draftkings,1.5,home_cover,53.5,under,-102.0,home_win
+401856834,Kansas,Baylor,25,24,49,1,fanduel,1.5,home_cover,53.5,under,-105.0,home_win
+401856834,Kansas,Baylor,25,24,49,1,lowvig,1.0,home_cover,53.0,under,-105.0,home_win
+401856834,Kansas,Baylor,25,24,49,1,mybookieag,1.0,home_cover,53.5,under,-103.0,home_win
+401908613,Lycoming,Western Connecticut State,48,7,55,41,none,,,,,,
+401909068,Westminster (PA),Saint Francis,54,23,77,31,none,,,,,,
+401907471,Wabash,Washington St. Louis,17,27,44,-10,none,,,,,,
+401868944,Bethune-Cookman,Jackson State,24,21,45,3,DraftKings,7.0,home_cover,48.5,under,229.0,home_win
+401908176,Alvernia,Eastern,22,21,43,1,none,,,,,,
+401909024,Bethany (WV),Allegheny,29,46,75,-17,none,,,,,,
+401867994,Holy Cross,Bucknell,34,3,37,31,DraftKings,-10.0,home_cover,47.5,under,-448.0,home_win
+401868013,Fordham,Lafayette,17,31,48,-14,DraftKings,2.5,away_cover,50.5,under,107.0,away_win
+401906123,Bowie State,Johnson C. Smith,16,13,29,3,none,,,,,,
+401906137,Lincoln (PA),Winston-Salem State,14,21,35,-7,none,,,,,,
+401907209,Lincoln (MO),McKendree,20,30,50,-10,none,,,,,,
+401868214,Drake,Butler,21,33,54,-12,DraftKings,3.0,away_cover,53.5,over,125.0,away_win
+401907632,Slippery Rock,Lock Haven,66,7,73,59,none,,,,,,
+401907627,Lackawanna,Shippensburg,7,59,66,-52,none,,,,,,
+401908534,Husson,New England,35,46,81,-11,none,,,,,,
+401908883,Norwich,Coast Guard,14,44,58,-30,none,,,,,,
+401906627,Findlay,Walsh,49,3,52,46,none,,,,,,
+401908688,Union,Ithaca,14,35,49,-21,none,,,,,,
+401906842,Ashland,Kentucky Wesleyan,56,0,56,56,none,,,,,,
+401909121,Lakeland,Eureka,58,20,78,38,none,,,,,,
+401908709,Calvin,Albion,52,20,72,32,none,,,,,,
+401908735,Alma,Hope,3,38,41,-35,none,,,,,,
+401908695,Adrian,Trine,42,45,87,-3,none,,,,,,
+401908054,Belhaven,Southern Virginia,19,23,42,-4,none,,,,,,
+401908108,Maryville (TN),Berry,7,27,34,-20,none,,,,,,
+401908402,Southwestern U,Rhodes,44,20,64,24,none,,,,,,
+401908383,Centre,Sewanee,69,30,99,39,none,,,,,,
+401908115,LaGrange,Greensboro,22,14,36,8,none,,,,,,
+401908504,Northwestern (MN),Greenville,40,10,50,30,none,,,,,,
+401908516,Westminster (MO),Minnesota Morris,55,34,89,21,none,,,,,,
+401907742,Hiram,Case Western Reserve,0,38,38,-38,none,,,,,,
+401909071,Thiel,Washington & Jefferson,7,65,72,-58,none,,,,,,
+401908343,Franklin & Marshall,Ursinus,35,17,52,18,none,,,,,,
+401907884,SUNY Cortland,St. John Fisher,28,20,48,8,none,,,,,,
+401906998,Ferris State,Michigan Tech,27,20,47,7,none,,,,,,
+401908693,St. Lawrence,Hobart,0,41,41,-41,none,,,,,,
+401908168,Stevenson,Albright,34,7,41,27,none,,,,,,
+401908186,Delaware Valley,Misericordia,48,21,69,27,none,,,,,,
+401908265,Lebanon Valley,Widener,45,2,47,43,none,,,,,,
+401907592,West Virginia Wesleyan,Concord,9,17,26,-8,none,,,,,,
+401907584,Charleston (WV),Fairmont State,52,49,101,3,none,,,,,,
+401908857,Bates,Middlebury,13,31,44,-18,none,,,,,,
+401908829,Amherst,Wesleyan (CT),15,9,24,6,none,,,,,,
+401908974,Salisbury,Montclair State,14,24,38,-10,none,,,,,,
+401873409,Kean,William Paterson,30,15,45,15,none,,,,,,
+401908680,John Carroll,Wooster,69,23,92,46,none,,,,,,
+401907480,Post,American International,20,27,47,-7,none,,,,,,
+401907513,Franklin Pierce,Pace,19,20,39,-1,none,,,,,,
+401909002,Randolph Macon,Guilford,62,3,65,59,none,,,,,,
+401909008,Washington and Lee,Hampden Sydney,28,31,59,-3,none,,,,,,
+401866476,Central Michigan,Miami (OH),27,28,55,-1,Bovada,3.5,home_cover,40.5,over,100.0,away_win
+401866476,Central Michigan,Miami (OH),27,28,55,-1,DraftKings,3.5,home_cover,40.5,over,136.0,away_win
+401866476,Central Michigan,Miami (OH),27,28,55,-1,betmgm,3.5,home_cover,40.5,over,140.0,away_win
+401866476,Central Michigan,Miami (OH),27,28,55,-1,betonlineag,3.5,home_cover,40.0,over,143.0,away_win
+401866476,Central Michigan,Miami (OH),27,28,55,-1,betrivers,3.5,home_cover,39.5,over,130.0,away_win
+401866476,Central Michigan,Miami (OH),27,28,55,-1,betus,3.5,home_cover,40.0,over,142.0,away_win
+401866476,Central Michigan,Miami (OH),27,28,55,-1,bovada,3.5,home_cover,40.5,over,140.0,away_win
+401866476,Central Michigan,Miami (OH),27,28,55,-1,draftkings,3.5,home_cover,40.5,over,140.0,away_win
+401866476,Central Michigan,Miami (OH),27,28,55,-1,fanduel,3.5,home_cover,40.5,over,146.0,away_win
+401866476,Central Michigan,Miami (OH),27,28,55,-1,lowvig,3.5,home_cover,40.0,over,143.0,away_win
+401866476,Central Michigan,Miami (OH),27,28,55,-1,mybookieag,3.5,home_cover,40.0,over,132.0,away_win
+401866446,Kent State,Akron,35,20,55,15,Bovada,-3.0,home_cover,47.5,over,-150.0,home_win
+401866446,Kent State,Akron,35,20,55,15,DraftKings,-3.0,home_cover,47.5,over,-148.0,home_win
+401866446,Kent State,Akron,35,20,55,15,betmgm,-3.0,home_cover,47.5,over,-150.0,home_win
+401866446,Kent State,Akron,35,20,55,15,betonlineag,-3.0,home_cover,48.0,over,-147.0,home_win
+401866446,Kent State,Akron,35,20,55,15,betrivers,-3.0,home_cover,47.5,over,-155.0,home_win
+401866446,Kent State,Akron,35,20,55,15,betus,-3.0,home_cover,48.0,over,-145.0,home_win
+401866446,Kent State,Akron,35,20,55,15,bovada,-3.0,home_cover,47.5,over,-150.0,home_win
+401866446,Kent State,Akron,35,20,55,15,draftkings,-3.0,home_cover,47.5,over,-148.0,home_win
+401866446,Kent State,Akron,35,20,55,15,fanduel,-2.5,home_cover,47.5,over,-154.0,home_win
+401866446,Kent State,Akron,35,20,55,15,lowvig,-3.0,home_cover,48.0,over,-147.0,home_win
+401866446,Kent State,Akron,35,20,55,15,mybookieag,-3.0,home_cover,48.0,over,-153.0,home_win
+401866671,Maine,Campbell,6,35,41,-29,DraftKings,10.0,away_cover,54.5,under,281.0,away_win
+401868278,Valparaiso,Presbyterian,24,7,31,17,DraftKings,-4.0,home_cover,58.5,under,-151.0,home_win
+401907542,East Stroudsburg,Shepherd,31,7,38,24,none,,,,,,
+401908870,Trinity (CT),Bowdoin,10,3,13,7,none,,,,,,
+401907611,Glenville State,West Liberty,22,44,66,-22,none,,,,,,
+401908838,Mount Union,Wilmington (OH),70,27,97,43,none,,,,,,
+401908212,Capital,Anderson (IN),37,12,49,25,none,,,,,,
+401908261,Mount St Joseph,Manchester,49,16,65,33,none,,,,,,
+401908221,Bluffton,Franklin,14,41,55,-27,none,,,,,,
+401908793,Muskingum,Marietta,28,49,77,-21,none,,,,,,
+401867822,Columbia,Dartmouth,18,38,56,-20,DraftKings,1.5,away_cover,47.5,over,121.0,away_win
+401908658,Baldwin Wallace,Otterbein,63,16,79,47,none,,,,,,
+401867975,South Carolina State,Norfolk State,22,7,29,15,DraftKings,-14.5,home_cover,54.5,under,-780.0,home_win
+401868348,VMI,East Tennessee State,0,38,38,-38,DraftKings,36.5,away_cover,55.5,under,,away_win
+401908673,Heidelberg,Ohio Northern,34,3,37,31,none,,,,,,
+401908923,Williams,Tufts,21,24,45,-3,none,,,,,,
+401907828,Illinois Wesleyan,Elmhurst,44,0,44,44,none,,,,,,
+401906926,Allen,Tuskegee,23,26,49,-3,none,,,,,,
+401907785,North Park,Augustana (IL),12,35,47,-23,none,,,,,,
+401908495,Martin Luther,Crown,37,29,66,8,none,,,,,,
+401908000,Wisconsin River Falls,Wisconsin Eau Claire,59,22,81,37,none,,,,,,
+401907959,Wisconsin Stout,Wisconsin La Crosse,42,39,81,3,none,,,,,,
+401908012,Wisconsin Oshkosh,Wisconsin Platteville,6,38,44,-32,none,,,,,,
+401907891,Wisconsin Whitewater,Wisconsin Stevens Point,63,0,63,63,none,,,,,,
+401908322,McMurry,Mary Hardin Baylor,14,26,40,-12,none,,,,,,
+401907141,Colorado School of Mines,South Dakota Mines,17,10,27,7,none,,,,,,
+401907500,Bloomsburg,Millersville,20,14,34,6,none,,,,,,
+401906055,Bluefield State,Fayetteville State,13,51,64,-38,none,,,,,,
+401907639,Jamestown,Bemidji State,0,33,33,-33,none,,,,,,
+401906131,Livingstone,Elizabeth City State,26,34,60,-8,none,,,,,,
+401867892,Southern Illinois,Northern Iowa,20,17,37,3,DraftKings,-2.5,home_cover,50.5,under,-151.0,home_win
+401906961,Edward Waters,Clark Atlanta,62,14,76,48,none,,,,,,
+401908391,Millsaps,Trinity (TX),21,28,49,-7,none,,,,,,
+401908770,Luther,Ripon,35,20,55,15,none,,,,,,
+401868377,Furman,Samford,6,13,19,-7,DraftKings,-8.5,away_cover,42.5,under,-349.0,away_win
+401907816,Carroll (WI),North Central College,7,62,69,-55,none,,,,,,
+401907823,Carthage,Millikin,25,18,43,7,none,,,,,,
+401908152,Simpson (IA),Coe,24,28,52,-4,none,,,,,,
+401908336,Dickinson,McDaniel,52,0,52,52,none,,,,,,
+401907764,Central College,Buena Vista,56,21,77,35,none,,,,,,
+401908552,Hendrix,Austin,42,32,74,10,none,,,,,,
+401868238,West Georgia,Tarleton State,6,49,55,-43,DraftKings,22.5,away_cover,61.5,under,1040.0,away_win
+401906907,Saginaw Valley State,Grand Valley State,27,20,47,7,none,,,,,,
+401867921,Robert Morris,Mercyhurst,28,14,42,14,DraftKings,-4.5,home_cover,49.5,under,-222.0,home_win
+401906522,Henderson State,Arkansas Tech,28,27,55,1,none,,,,,,
+401908729,Grinnell,Cornell (IA),7,3,10,4,none,,,,,,
+401908763,Knox,Lawrence,7,14,21,-7,none,,,,,,
+401907224,Missouri S&T,Quincy,31,34,65,-3,none,,,,,,
+401907248,Upper Iowa,William Jewell,18,19,37,-1,none,,,,,,
+401908255,Hanover,Rose Hulman,20,27,47,-7,none,,,,,,
+401866673,Hampton,Monmouth,13,49,62,-36,DraftKings,24.5,away_cover,57.5,over,950.0,away_win
+401908628,SUNY Maritime,WPI,12,36,48,-24,none,,,,,,
+401907384,Nebraska Kearney,Northwest Missouri State,10,27,37,-17,none,,,,,,
+401907368,Fort Hays,Washburn,22,31,53,-9,none,,,,,,
+401907719,Minnesota State,Wayne State (NE),35,0,35,35,none,,,,,,
+401908989,Roanoke College,Averett,45,3,48,42,none,,,,,,
+401906174,Barton,North Greenville,7,33,40,-26,none,,,,,,
+401908753,Concordia (MN),Augsburg,35,12,47,23,none,,,,,,
+401908863,Gustavus Adolphus,Hamline,55,7,62,48,none,,,,,,
+401908813,Carleton,Saint John's (MN),10,49,59,-39,none,,,,,,
+401908913,St. Scholastica,St. Olaf,31,35,66,-4,none,,,,,,
+401907735,Monmouth (IL),Chicago,23,16,39,7,none,,,,,,
+401906645,Lake Erie,Thomas More,14,15,29,-1,none,,,,,,
+401907710,Augustana (SD),Southwest Minnesota State,45,0,45,45,none,,,,,,
+401908978,Rowan,The College of New Jersey,30,7,37,23,none,,,,,,
+401907688,Sioux Falls,Minot State,49,29,78,20,none,,,,,,
+401908969,Wittenberg,DePauw,0,31,31,-31,none,,,,,,
+401867879,South Dakota,North Dakota,26,23,49,3,DraftKings,-3.0,push,57.5,under,-140.0,home_win
+401868271,Morehead State,Stetson,38,31,69,7,DraftKings,-1.5,home_cover,61.5,over,-123.0,home_win
+401866672,Bryant,Stony Brook,17,27,44,-10,DraftKings,4.0,away_cover,52.5,under,147.0,away_win
+401868003,Richmond,Colgate,13,6,19,7,DraftKings,-2.5,home_cover,41.5,under,-127.0,home_win
+401907649,University of Mary,Minnesota Duluth,12,27,39,-15,none,,,,,,
+401868392,The Citadel,Tennessee Tech,13,28,41,-15,DraftKings,18.5,home_cover,51.5,under,630.0,away_win
+401908850,St. Norbert,Aurora,10,3,13,7,none,,,,,,
+401908879,Concordia Chicago,Benedictine (IL),20,40,60,-20,none,,,,,,
+401873399,Wisconsin Lutheran,Rockford,13,7,20,6,none,,,,,,
+401908807,Kalamazoo,Olivet,35,34,69,1,none,,,,,,
+401908996,Bridgewater,Shenandoah,0,17,17,-17,none,,,,,,
+401907126,New Mexico Highlands,Chadron State,17,59,76,-42,none,,,,,,
+401907105,Adams State,Colorado Mesa,12,59,71,-47,none,,,,,,
+401907147,Fort Lewis,CSU Pueblo,21,27,48,-6,none,,,,,,
+401908239,Dubuque,Wartburg,14,33,47,-19,none,,,,,,
+401908246,Nebraska Wesleyan,Loras,69,48,117,21,none,,,,,,
+401868341,Western Carolina,Chattanooga,18,41,59,-23,DraftKings,-2.5,away_cover,49.5,over,-128.0,away_win
+401907242,Truman State,Southwest Baptist,41,17,58,24,none,,,,,,
+401907373,Missouri Western,Missouri Southern State,14,38,52,-24,none,,,,,,
+401907351,Pittsburg State,Central Oklahoma,52,14,66,38,none,,,,,,
+401906954,Miles,Central State,20,48,68,-28,none,,,,,,
+401858495,Illinois,Oregon,21,10,31,11,Bovada,9.5,home_cover,49.0,under,315.0,home_win
+401858495,Illinois,Oregon,21,10,31,11,DraftKings,10.0,home_cover,48.5,under,310.0,home_win
+401858495,Illinois,Oregon,21,10,31,11,betmgm,10.0,home_cover,48.5,under,310.0,home_win
+401858495,Illinois,Oregon,21,10,31,11,betonlineag,10.0,home_cover,48.5,under,313.0,home_win
+401858495,Illinois,Oregon,21,10,31,11,betrivers,10.0,home_cover,50.0,under,285.0,home_win
+401858495,Illinois,Oregon,21,10,31,11,betus,10.0,home_cover,48.5,under,305.0,home_win
+401858495,Illinois,Oregon,21,10,31,11,bovada,9.5,home_cover,49.0,under,300.0,home_win
+401858495,Illinois,Oregon,21,10,31,11,draftkings,10.0,home_cover,48.5,under,310.0,home_win
+401858495,Illinois,Oregon,21,10,31,11,fanduel,9.5,home_cover,49.5,under,310.0,home_win
+401858495,Illinois,Oregon,21,10,31,11,lowvig,10.0,home_cover,48.5,under,313.0,home_win
+401858495,Illinois,Oregon,21,10,31,11,mybookieag,10.0,home_cover,49.0,under,294.0,home_win
+401906209,Valdosta State,Shorter,41,31,72,10,none,,,,,,
+401908073,Buffalo State,Hilbert,39,27,66,12,none,,,,,,
+401867850,Illinois State,Indiana State,17,10,27,7,DraftKings,-22.5,away_cover,57.5,under,-2300.0,home_win
+401867962,Morgan State,Howard,20,26,46,-6,DraftKings,-7.0,away_cover,48.5,under,-292.0,away_win
+401906191,Erskine,Ferrum,13,34,47,-21,none,,,,,,
+401868121,Montana State,Weber State,38,33,71,5,DraftKings,-25.5,away_cover,64.5,over,-4000.0,home_win
+401906532,Arkansas Monticello,Harding,17,56,73,-39,none,,,,,,
+401906182,UNC Pembroke,Chowan,38,21,59,17,none,,,,,,
+401906569,Southeastern Oklahoma State,Oklahoma Baptist,40,16,56,24,none,,,,,,
+401867842,Harvard,Princeton,35,7,42,28,DraftKings,-10.5,home_cover,39.5,over,-335.0,home_win
+401868972,Texas Southern,Southern,24,21,45,3,DraftKings,-1.5,home_cover,56.5,under,-125.0,home_win
+401907608,Frostburg State,Wheeling,24,27,51,-3,none,,,,,,
+401907858,Hartwick,Alfred State,17,24,41,-7,none,,,,,,
+401867871,South Dakota State,Murray State,42,9,51,33,DraftKings,-42.5,away_cover,56.5,under,,home_win
+401868182,Eastern Illinois,Southeast Missouri State,10,20,30,-10,DraftKings,7.0,away_cover,50.5,under,224.0,away_win
+401867689,Lindenwood,Chicago State,44,9,53,35,DraftKings,-24.5,home_cover,53.5,under,-3600.0,home_win
+401907116,Black Hills State,Western Colorado,10,42,52,-32,none,,,,,,
+401868146,Eastern Kentucky,West Florida,16,13,29,3,DraftKings,1.5,home_cover,47.5,under,-105.0,home_win
+401869133,Northwestern State,Nicholls,27,31,58,-4,DraftKings,12.5,home_cover,54.5,over,362.0,away_win
+401868937,Florida A&M,Arkansas-Pine Bluff,28,31,59,-3,DraftKings,-3.0,away_cover,55.5,over,-141.0,away_win
+401856731,South Carolina,Tennessee,27,24,51,3,Bovada,-2.0,home_cover,50.5,over,-105.0,home_win
+401856731,South Carolina,Tennessee,27,24,51,3,DraftKings,-2.5,home_cover,50.5,over,-135.0,home_win
+401856731,South Carolina,Tennessee,27,24,51,3,betmgm,-2.0,home_cover,50.5,over,-135.0,home_win
+401856731,South Carolina,Tennessee,27,24,51,3,betonlineag,-2.5,home_cover,50.5,over,-136.0,home_win
+401856731,South Carolina,Tennessee,27,24,51,3,betrivers,-2.5,home_cover,50.5,over,-137.0,home_win
+401856731,South Carolina,Tennessee,27,24,51,3,betus,-2.5,home_cover,50.5,over,-135.0,home_win
+401856731,South Carolina,Tennessee,27,24,51,3,bovada,-2.0,home_cover,50.5,over,-125.0,home_win
+401856731,South Carolina,Tennessee,27,24,51,3,draftkings,-2.5,home_cover,50.5,over,-135.0,home_win
+401856731,South Carolina,Tennessee,27,24,51,3,fanduel,-2.5,home_cover,50.5,over,-132.0,home_win
+401856731,South Carolina,Tennessee,27,24,51,3,lowvig,-2.5,home_cover,50.5,over,-136.0,home_win
+401856731,South Carolina,Tennessee,27,24,51,3,mybookieag,-2.5,home_cover,50.5,over,-135.0,home_win
+401864526,Northern Illinois,Hawai'i,21,56,77,-35,Bovada,3.5,away_cover,48.0,over,175.0,away_win
+401864526,Northern Illinois,Hawai'i,21,56,77,-35,DraftKings,3.5,away_cover,48.5,over,145.0,away_win
+401868035,Villanova,Lehigh,24,18,42,6,DraftKings,6.5,home_cover,49.5,under,185.0,home_win
+401868174,Tennessee State,Charleston Southern,7,20,27,-13,DraftKings,3.0,away_cover,38.5,under,136.0,away_win
+401856835,UCF,BYU,39,31,70,8,Bovada,7.0,home_cover,43.5,over,205.0,home_win
+401856835,UCF,BYU,39,31,70,8,DraftKings,7.0,home_cover,43.5,over,235.0,home_win
+401856835,UCF,BYU,39,31,70,8,betmgm,7.0,home_cover,43.5,over,240.0,home_win
+401856835,UCF,BYU,39,31,70,8,betonlineag,7.5,home_cover,44.0,over,237.0,home_win
+401856835,UCF,BYU,39,31,70,8,betrivers,7.0,home_cover,43.5,over,235.0,home_win
+401856835,UCF,BYU,39,31,70,8,betus,7.0,home_cover,44.0,over,238.0,home_win
+401856835,UCF,BYU,39,31,70,8,bovada,7.0,home_cover,43.5,over,235.0,home_win
+401856835,UCF,BYU,39,31,70,8,draftkings,7.5,home_cover,43.5,over,235.0,home_win
+401856835,UCF,BYU,39,31,70,8,fanduel,7.5,home_cover,43.5,over,240.0,home_win
+401856835,UCF,BYU,39,31,70,8,lowvig,7.0,home_cover,44.0,over,237.0,home_win
+401856835,UCF,BYU,39,31,70,8,mybookieag,7.0,home_cover,43.5,over,247.0,home_win
+401866448,Buffalo,Bowling Green,31,24,55,7,Bovada,-3.0,home_cover,44.5,over,-200.0,home_win
+401866448,Buffalo,Bowling Green,31,24,55,7,DraftKings,-3.0,home_cover,44.5,over,-155.0,home_win
+401866448,Buffalo,Bowling Green,31,24,55,7,betmgm,-3.0,home_cover,44.5,over,-150.0,home_win
+401866448,Buffalo,Bowling Green,31,24,55,7,betonlineag,-3.0,home_cover,44.0,over,-155.0,home_win
+401866448,Buffalo,Bowling Green,31,24,55,7,betrivers,-3.0,home_cover,44.5,over,-165.0,home_win
+401866448,Buffalo,Bowling Green,31,24,55,7,betus,-3.0,home_cover,44.5,over,-155.0,home_win
+401866448,Buffalo,Bowling Green,31,24,55,7,bovada,-3.0,home_cover,44.5,over,-150.0,home_win
+401866448,Buffalo,Bowling Green,31,24,55,7,draftkings,-3.0,home_cover,44.5,over,-155.0,home_win
+401866448,Buffalo,Bowling Green,31,24,55,7,fanduel,-3.5,home_cover,44.5,over,-140.0,home_win
+401866448,Buffalo,Bowling Green,31,24,55,7,lowvig,-3.0,home_cover,44.0,over,-155.0,home_win
+401866448,Buffalo,Bowling Green,31,24,55,7,mybookieag,-3.0,home_cover,44.5,over,-158.0,home_win
+401856727,Alabama,Texas A&M,31,20,51,11,Bovada,-13.5,away_cover,50.0,over,-675.0,home_win
+401856727,Alabama,Texas A&M,31,20,51,11,DraftKings,-13.5,away_cover,49.5,over,-575.0,home_win
+401856727,Alabama,Texas A&M,31,20,51,11,betmgm,-13.5,away_cover,49.5,over,-550.0,home_win
+401856727,Alabama,Texas A&M,31,20,51,11,betonlineag,-13.5,away_cover,49.5,over,-575.0,home_win
+401856727,Alabama,Texas A&M,31,20,51,11,betrivers,-13.5,away_cover,50.0,over,-670.0,home_win
+401856727,Alabama,Texas A&M,31,20,51,11,betus,-13.5,away_cover,49.5,over,-535.0,home_win
+401856727,Alabama,Texas A&M,31,20,51,11,bovada,-13.5,away_cover,50.0,over,-600.0,home_win
+401856727,Alabama,Texas A&M,31,20,51,11,draftkings,-13.5,away_cover,49.5,over,-575.0,home_win
+401856727,Alabama,Texas A&M,31,20,51,11,fanduel,-13.5,away_cover,49.5,over,-610.0,home_win
+401856727,Alabama,Texas A&M,31,20,51,11,lowvig,-13.5,away_cover,49.5,over,-575.0,home_win
+401856727,Alabama,Texas A&M,31,20,51,11,mybookieag,-13.5,away_cover,50.0,over,-599.0,home_win
+401906573,Southern Arkansas,Ouachita Baptist,21,52,73,-31,none,,,,,,
+401862810,Navy,North Texas,39,49,88,-10,Bovada,3.5,away_cover,61.0,over,105.0,away_win
+401862810,Navy,North Texas,39,49,88,-10,DraftKings,3.0,away_cover,60.5,over,130.0,away_win
+401862810,Navy,North Texas,39,49,88,-10,betmgm,3.5,away_cover,60.5,over,130.0,away_win
+401862810,Navy,North Texas,39,49,88,-10,betonlineag,3.0,away_cover,60.5,over,137.0,away_win
+401862810,Navy,North Texas,39,49,88,-10,betrivers,3.0,away_cover,61.5,over,125.0,away_win
+401862810,Navy,North Texas,39,49,88,-10,betus,3.0,away_cover,60.5,over,136.0,away_win
+401862810,Navy,North Texas,39,49,88,-10,bovada,3.5,away_cover,61.0,over,135.0,away_win
+401862810,Navy,North Texas,39,49,88,-10,draftkings,3.0,away_cover,60.5,over,130.0,away_win
+401862810,Navy,North Texas,39,49,88,-10,fanduel,3.5,away_cover,60.5,over,136.0,away_win
+401862810,Navy,North Texas,39,49,88,-10,lowvig,3.0,away_cover,60.5,over,137.0,away_win
+401862810,Navy,North Texas,39,49,88,-10,mybookieag,3.0,away_cover,60.5,over,130.0,away_win
+401868019,William & Mary,Georgetown,27,28,55,-1,DraftKings,-6.0,away_cover,47.5,over,-236.0,away_win
+401858497,Minnesota,Iowa,13,10,23,3,Bovada,7.5,home_cover,40.5,under,220.0,home_win
+401858497,Minnesota,Iowa,13,10,23,3,DraftKings,7.5,home_cover,40.5,under,235.0,home_win
+401858497,Minnesota,Iowa,13,10,23,3,betmgm,7.5,home_cover,40.5,under,240.0,home_win
+401858497,Minnesota,Iowa,13,10,23,3,betonlineag,7.5,home_cover,40.5,under,230.0,home_win
+401858497,Minnesota,Iowa,13,10,23,3,betrivers,7.5,home_cover,40.5,under,245.0,home_win
+401858497,Minnesota,Iowa,13,10,23,3,betus,7.5,home_cover,40.5,under,230.0,home_win
+401858497,Minnesota,Iowa,13,10,23,3,bovada,7.5,home_cover,40.0,under,235.0,home_win
+401858497,Minnesota,Iowa,13,10,23,3,draftkings,7.5,home_cover,40.5,under,235.0,home_win
+401858497,Minnesota,Iowa,13,10,23,3,fanduel,7.5,home_cover,40.5,under,245.0,home_win
+401858497,Minnesota,Iowa,13,10,23,3,lowvig,7.5,home_cover,40.5,under,230.0,home_win
+401858497,Minnesota,Iowa,13,10,23,3,mybookieag,7.5,home_cover,40.5,under,222.0,home_win
+401856730,Mississippi State,Oklahoma,15,23,38,-8,Bovada,1.5,away_cover,49.0,under,115.0,away_win
+401856730,Mississippi State,Oklahoma,15,23,38,-8,DraftKings,1.5,away_cover,49.5,under,102.0,away_win
+401856730,Mississippi State,Oklahoma,15,23,38,-8,betmgm,2.0,away_cover,49.5,under,100.0,away_win
+401856730,Mississippi State,Oklahoma,15,23,38,-8,betonlineag,2.0,away_cover,49.0,under,109.0,away_win
+401856730,Mississippi State,Oklahoma,15,23,38,-8,betrivers,1.5,away_cover,50.0,under,100.0,away_win
+401856730,Mississippi State,Oklahoma,15,23,38,-8,betus,2.0,away_cover,49.0,under,110.0,away_win
+401856730,Mississippi State,Oklahoma,15,23,38,-8,bovada,1.5,away_cover,49.0,under,100.0,away_win
+401856730,Mississippi State,Oklahoma,15,23,38,-8,draftkings,1.5,away_cover,49.5,under,102.0,away_win
+401856730,Mississippi State,Oklahoma,15,23,38,-8,fanduel,1.5,away_cover,48.5,under,-102.0,away_win
+401856730,Mississippi State,Oklahoma,15,23,38,-8,lowvig,2.0,away_cover,49.0,under,109.0,away_win
+401856730,Mississippi State,Oklahoma,15,23,38,-8,mybookieag,1.5,away_cover,49.0,under,102.0,away_win
+401858499,UCLA,Michigan State,28,10,38,18,Bovada,-16.5,home_cover,43.0,under,-650.0,home_win
+401858499,UCLA,Michigan State,28,10,38,18,DraftKings,-16.5,home_cover,42.5,under,-800.0,home_win
+401858499,UCLA,Michigan State,28,10,38,18,betmgm,-16.5,home_cover,42.5,under,-750.0,home_win
+401858499,UCLA,Michigan State,28,10,38,18,betonlineag,-16.5,home_cover,43.0,under,-800.0,home_win
+401858499,UCLA,Michigan State,28,10,38,18,betrivers,-16.0,home_cover,42.5,under,-1000.0,home_win
+401858499,UCLA,Michigan State,28,10,38,18,betus,-16.5,home_cover,43.0,under,-800.0,home_win
+401858499,UCLA,Michigan State,28,10,38,18,bovada,-16.5,home_cover,43.0,under,-800.0,home_win
+401858499,UCLA,Michigan State,28,10,38,18,draftkings,-16.5,home_cover,42.5,under,-800.0,home_win
+401858499,UCLA,Michigan State,28,10,38,18,fanduel,-16.5,home_cover,43.5,under,-880.0,home_win
+401858499,UCLA,Michigan State,28,10,38,18,lowvig,-16.5,home_cover,43.0,under,-800.0,home_win
+401858499,UCLA,Michigan State,28,10,38,18,mybookieag,-17.0,home_cover,43.0,under,-1035.0,home_win
+401866447,Ball State,Sacramento State,34,17,51,17,Bovada,-14.5,home_cover,51.5,under,-460.0,home_win
+401866447,Ball State,Sacramento State,34,17,51,17,DraftKings,-14.5,home_cover,51.5,under,-600.0,home_win
+401866447,Ball State,Sacramento State,34,17,51,17,betmgm,-14.5,home_cover,51.5,under,-625.0,home_win
+401866447,Ball State,Sacramento State,34,17,51,17,betonlineag,-14.5,home_cover,51.0,push,-595.0,home_win
+401866447,Ball State,Sacramento State,34,17,51,17,betrivers,-14.5,home_cover,50.5,over,-835.0,home_win
+401866447,Ball State,Sacramento State,34,17,51,17,betus,-14.5,home_cover,51.0,push,-600.0,home_win
+401866447,Ball State,Sacramento State,34,17,51,17,bovada,-14.5,home_cover,51.5,under,-650.0,home_win
+401866447,Ball State,Sacramento State,34,17,51,17,draftkings,-14.5,home_cover,51.5,under,-600.0,home_win
+401866447,Ball State,Sacramento State,34,17,51,17,fanduel,-14.5,home_cover,51.5,under,-710.0,home_win
+401866447,Ball State,Sacramento State,34,17,51,17,lowvig,-14.5,home_cover,51.0,push,-595.0,home_win
+401866447,Ball State,Sacramento State,34,17,51,17,mybookieag,-14.5,home_cover,51.0,push,-616.0,home_win
+401858273,Georgia Tech,Boston College,27,49,76,-22,Bovada,-6.0,away_cover,50.5,over,-210.0,away_win
+401858273,Georgia Tech,Boston College,27,49,76,-22,DraftKings,-6.5,away_cover,50.5,over,-238.0,away_win
+401858273,Georgia Tech,Boston College,27,49,76,-22,betmgm,-6.5,away_cover,50.5,over,-235.0,away_win
+401858273,Georgia Tech,Boston College,27,49,76,-22,betonlineag,-6.0,away_cover,50.0,over,-235.0,away_win
+401858273,Georgia Tech,Boston College,27,49,76,-22,betrivers,-7.0,away_cover,50.5,over,-265.0,away_win
+401858273,Georgia Tech,Boston College,27,49,76,-22,betus,-6.5,away_cover,50.0,over,-235.0,away_win
+401858273,Georgia Tech,Boston College,27,49,76,-22,bovada,-6.5,away_cover,50.5,over,-245.0,away_win
+401858273,Georgia Tech,Boston College,27,49,76,-22,draftkings,-6.5,away_cover,50.5,over,-238.0,away_win
+401858273,Georgia Tech,Boston College,27,49,76,-22,fanduel,-6.5,away_cover,50.5,over,-230.0,away_win
+401858273,Georgia Tech,Boston College,27,49,76,-22,lowvig,-6.0,away_cover,50.0,over,-235.0,away_win
+401858273,Georgia Tech,Boston College,27,49,76,-22,mybookieag,-6.0,away_cover,50.5,over,-238.0,away_win
+401856839,Arizona State,Kansas State,28,17,45,11,Bovada,1.0,home_cover,51.5,under,145.0,home_win
+401856839,Arizona State,Kansas State,28,17,45,11,DraftKings,1.5,home_cover,51.5,under,-108.0,home_win
+401856839,Arizona State,Kansas State,28,17,45,11,betmgm,1.0,home_cover,51.5,under,-105.0,home_win
+401856839,Arizona State,Kansas State,28,17,45,11,betonlineag,1.0,home_cover,52.0,under,-105.0,home_win
+401856839,Arizona State,Kansas State,28,17,45,11,betrivers,1.0,home_cover,51.5,under,-107.0,home_win
+401856839,Arizona State,Kansas State,28,17,45,11,betus,1.0,home_cover,51.5,under,-105.0,home_win
+401856839,Arizona State,Kansas State,28,17,45,11,bovada,1.0,home_cover,51.5,under,-105.0,home_win
+401856839,Arizona State,Kansas State,28,17,45,11,draftkings,1.5,home_cover,51.5,under,-108.0,home_win
+401856839,Arizona State,Kansas State,28,17,45,11,fanduel,1.5,home_cover,51.5,under,-108.0,home_win
+401856839,Arizona State,Kansas State,28,17,45,11,lowvig,1.0,home_cover,52.0,under,-105.0,home_win
+401856839,Arizona State,Kansas State,28,17,45,11,mybookieag,0.0,home_cover,51.5,under,-108.0,home_win
+401866449,Ohio,Eastern Michigan,24,20,44,4,Bovada,-10.0,away_cover,48.5,under,-450.0,home_win
+401866449,Ohio,Eastern Michigan,24,20,44,4,DraftKings,-9.5,away_cover,48.5,under,-395.0,home_win
+401866449,Ohio,Eastern Michigan,24,20,44,4,betmgm,-9.5,away_cover,48.5,under,-375.0,home_win
+401866449,Ohio,Eastern Michigan,24,20,44,4,betonlineag,-10.0,away_cover,48.5,under,-390.0,home_win
+401866449,Ohio,Eastern Michigan,24,20,44,4,betrivers,-10.0,away_cover,48.5,under,-385.0,home_win
+401866449,Ohio,Eastern Michigan,24,20,44,4,betus,-10.0,away_cover,48.5,under,-380.0,home_win
+401866449,Ohio,Eastern Michigan,24,20,44,4,bovada,-10.0,away_cover,48.5,under,-415.0,home_win
+401866449,Ohio,Eastern Michigan,24,20,44,4,draftkings,-9.5,away_cover,48.5,under,-395.0,home_win
+401866449,Ohio,Eastern Michigan,24,20,44,4,fanduel,-9.5,away_cover,48.5,under,-360.0,home_win
+401866449,Ohio,Eastern Michigan,24,20,44,4,lowvig,-10.0,away_cover,48.5,under,-390.0,home_win
+401866449,Ohio,Eastern Michigan,24,20,44,4,mybookieag,-10.0,away_cover,48.5,under,-381.0,home_win
+401908584,UMass Dartmouth,Bridgewater State,26,29,55,-3,none,,,,,,
+401871094,Troy,UL Monroe,14,21,35,-7,Bovada,-12.5,away_cover,50.0,under,-950.0,away_win
+401871094,Troy,UL Monroe,14,21,35,-7,DraftKings,-12.5,away_cover,50.5,under,-625.0,away_win
+401871094,Troy,UL Monroe,14,21,35,-7,betmgm,-13.0,away_cover,50.5,under,-625.0,away_win
+401871094,Troy,UL Monroe,14,21,35,-7,betonlineag,-12.5,away_cover,50.5,under,-575.0,away_win
+401871094,Troy,UL Monroe,14,21,35,-7,betrivers,-13.0,away_cover,49.5,under,-530.0,away_win
+401871094,Troy,UL Monroe,14,21,35,-7,betus,-12.5,away_cover,50.5,under,-575.0,away_win
+401871094,Troy,UL Monroe,14,21,35,-7,bovada,-12.5,away_cover,50.0,under,-650.0,away_win
+401871094,Troy,UL Monroe,14,21,35,-7,draftkings,-12.5,away_cover,50.5,under,-625.0,away_win
+401871094,Troy,UL Monroe,14,21,35,-7,fanduel,-12.5,away_cover,50.5,under,-650.0,away_win
+401871094,Troy,UL Monroe,14,21,35,-7,lowvig,-12.5,away_cover,50.5,under,-575.0,away_win
+401871094,Troy,UL Monroe,14,21,35,-7,mybookieag,-13.0,away_cover,50.5,under,-673.0,away_win
+401869145,Lamar,Houston Christian,35,10,45,25,DraftKings,-12.5,home_cover,46.5,under,-476.0,home_win
+401906563,Southern Nazarene,Northwestern (OK),60,37,97,23,none,,,,,,
+401906541,East Central,Southwestern Oklahoma State,21,23,44,-2,none,,,,,,
+401909131,Denison,Kenyon,21,14,35,7,none,,,,,,
+401873234,Puget Sound,George Fox,17,35,52,-18,none,,,,,,
+401908408,Whitworth,Lewis & Clark,41,43,84,-2,none,,,,,,
+401908425,Willamette,Pacific (OR),3,22,25,-19,none,,,,,,
+401908420,Linfield,Pacific Lutheran,41,0,41,41,none,,,,,,
+401868201,Western Illinois,UT Martin,55,24,79,31,DraftKings,-1.5,home_cover,51.5,over,-130.0,home_win
+401907290,Western Oregon,Eastern New Mexico,50,35,85,15,none,,,,,,
+401869138,Incarnate Word,McNeese,38,6,44,32,DraftKings,-14.0,home_cover,55.5,under,-582.0,home_win
+401868097,Idaho,Southern Utah,31,28,59,3,DraftKings,-3.5,away_cover,65.5,under,-149.0,home_win
+401868080,Cal Poly,Utah Tech,26,43,69,-17,DraftKings,-15.5,away_cover,54.5,over,-750.0,away_win
+401864528,Nevada,San José State,28,13,41,15,Bovada,-5.5,home_cover,46.5,under,-210.0,home_win
+401864528,Nevada,San José State,28,13,41,15,DraftKings,-5.5,home_cover,46.5,under,-218.0,home_win
+401864528,Nevada,San José State,28,13,41,15,betmgm,-5.5,home_cover,46.5,under,-220.0,home_win
+401864528,Nevada,San José State,28,13,41,15,betonlineag,-5.0,home_cover,46.5,under,-220.0,home_win
+401864528,Nevada,San José State,28,13,41,15,betrivers,-5.0,home_cover,46.5,under,-210.0,home_win
+401864528,Nevada,San José State,28,13,41,15,betus,-5.0,home_cover,46.5,under,-215.0,home_win
+401864528,Nevada,San José State,28,13,41,15,bovada,-5.5,home_cover,46.5,under,-225.0,home_win
+401864528,Nevada,San José State,28,13,41,15,draftkings,-5.5,home_cover,46.5,under,-218.0,home_win
+401864528,Nevada,San José State,28,13,41,15,fanduel,-5.5,home_cover,46.5,under,-215.0,home_win
+401864528,Nevada,San José State,28,13,41,15,lowvig,-5.0,home_cover,46.5,under,-220.0,home_win
+401864528,Nevada,San José State,28,13,41,15,mybookieag,-5.5,home_cover,46.5,under,-232.0,home_win
+401869967,Southern Miss,Louisiana,35,31,66,4,Bovada,10.0,home_cover,52.5,over,310.0,home_win
+401869967,Southern Miss,Louisiana,35,31,66,4,DraftKings,10.0,home_cover,52.5,over,300.0,home_win
+401869967,Southern Miss,Louisiana,35,31,66,4,betmgm,10.0,home_cover,52.5,over,300.0,home_win
+401869967,Southern Miss,Louisiana,35,31,66,4,betonlineag,10.0,home_cover,52.5,over,303.0,home_win
+401869967,Southern Miss,Louisiana,35,31,66,4,betrivers,10.5,home_cover,51.5,over,310.0,home_win
+401869967,Southern Miss,Louisiana,35,31,66,4,betus,10.0,home_cover,52.5,over,305.0,home_win
+401869967,Southern Miss,Louisiana,35,31,66,4,bovada,10.0,home_cover,52.5,over,310.0,home_win
+401869967,Southern Miss,Louisiana,35,31,66,4,draftkings,10.0,home_cover,52.5,over,300.0,home_win
+401869967,Southern Miss,Louisiana,35,31,66,4,fanduel,9.5,home_cover,53.5,over,300.0,home_win
+401869967,Southern Miss,Louisiana,35,31,66,4,lowvig,10.0,home_cover,52.5,over,303.0,home_win
+401869967,Southern Miss,Louisiana,35,31,66,4,mybookieag,10.0,home_cover,53.0,over,300.0,home_win
+401908546,Lyon,Texas Lutheran,3,48,51,-45,none,,,,,,
+401906599,Delta State,West Alabama,37,33,70,4,none,,,,,,
+401868135,Central Arkansas,UT Rio Grande Valley,27,30,57,-3,DraftKings,-3.5,away_cover,45.5,over,-161.0,away_win
+401871093,Louisiana Tech,Old Dominion,26,0,26,26,Bovada,-14.0,home_cover,43.5,under,-430.0,home_win
+401871093,Louisiana Tech,Old Dominion,26,0,26,26,DraftKings,-13.5,home_cover,43.5,under,-550.0,home_win
+401871093,Louisiana Tech,Old Dominion,26,0,26,26,betmgm,-14.0,home_cover,43.5,under,-600.0,home_win
+401871093,Louisiana Tech,Old Dominion,26,0,26,26,betonlineag,-14.0,home_cover,43.5,under,-550.0,home_win
+401871093,Louisiana Tech,Old Dominion,26,0,26,26,betrivers,-13.5,home_cover,43.5,under,-625.0,home_win
+401871093,Louisiana Tech,Old Dominion,26,0,26,26,betus,-13.5,home_cover,43.5,under,-550.0,home_win
+401871093,Louisiana Tech,Old Dominion,26,0,26,26,bovada,-14.0,home_cover,43.5,under,-585.0,home_win
+401871093,Louisiana Tech,Old Dominion,26,0,26,26,draftkings,-13.5,home_cover,43.5,under,-550.0,home_win
+401871093,Louisiana Tech,Old Dominion,26,0,26,26,fanduel,-13.5,home_cover,43.5,under,-720.0,home_win
+401871093,Louisiana Tech,Old Dominion,26,0,26,26,lowvig,-14.0,home_cover,43.5,under,-550.0,home_win
+401871093,Louisiana Tech,Old Dominion,26,0,26,26,mybookieag,-14.0,home_cover,43.5,under,-732.0,home_win
+401860907,Washington State,Boise State,10,31,41,-21,Bovada,14.5,away_cover,52.5,under,370.0,away_win
+401860907,Washington State,Boise State,10,31,41,-21,DraftKings,14.5,away_cover,52.5,under,455.0,away_win
+401860907,Washington State,Boise State,10,31,41,-21,betmgm,14.5,away_cover,52.5,under,475.0,away_win
+401860907,Washington State,Boise State,10,31,41,-21,betonlineag,14.5,away_cover,52.0,under,476.0,away_win
+401860907,Washington State,Boise State,10,31,41,-21,betrivers,14.5,away_cover,52.5,under,480.0,away_win
+401860907,Washington State,Boise State,10,31,41,-21,betus,14.5,away_cover,52.5,under,475.0,away_win
+401860907,Washington State,Boise State,10,31,41,-21,bovada,14.5,away_cover,52.5,under,460.0,away_win
+401860907,Washington State,Boise State,10,31,41,-21,draftkings,14.5,away_cover,52.5,under,455.0,away_win
+401860907,Washington State,Boise State,10,31,41,-21,fanduel,14.5,away_cover,52.5,under,500.0,away_win
+401860907,Washington State,Boise State,10,31,41,-21,lowvig,14.5,away_cover,52.0,under,476.0,away_win
+401860907,Washington State,Boise State,10,31,41,-21,mybookieag,14.5,away_cover,52.0,under,480.0,away_win
+401868106,Idaho State,Portland State,38,8,46,30,DraftKings,-14.0,home_cover,62.5,under,-489.0,home_win
+401908082,North Carolina Wesleyan,Methodist,45,3,48,42,none,,,,,,
+401868311,Stephen F. Austin,SE Louisiana,45,24,69,21,DraftKings,-20.5,home_cover,53.5,over,-1520.0,home_win
+401860905,Colorado State,San Diego State,56,49,105,7,Bovada,-1.0,home_cover,57.5,over,110.0,home_win
+401860905,Colorado State,San Diego State,56,49,105,7,DraftKings,-1.5,home_cover,57.5,over,-115.0,home_win
+401860905,Colorado State,San Diego State,56,49,105,7,betmgm,-1.0,home_cover,57.5,over,-110.0,home_win
+401860905,Colorado State,San Diego State,56,49,105,7,betonlineag,-1.0,home_cover,57.0,over,-115.0,home_win
+401860905,Colorado State,San Diego State,56,49,105,7,betrivers,1.0,home_cover,58.5,over,-107.0,home_win
+401860905,Colorado State,San Diego State,56,49,105,7,betus,-1.0,home_cover,57.0,over,-115.0,home_win
+401860905,Colorado State,San Diego State,56,49,105,7,bovada,-1.0,home_cover,57.5,over,-115.0,home_win
+401860905,Colorado State,San Diego State,56,49,105,7,draftkings,-1.5,home_cover,57.5,over,-115.0,home_win
+401860905,Colorado State,San Diego State,56,49,105,7,fanduel,1.5,home_cover,57.5,over,-106.0,home_win
+401860905,Colorado State,San Diego State,56,49,105,7,lowvig,-1.0,home_cover,57.0,over,-115.0,home_win
+401860905,Colorado State,San Diego State,56,49,105,7,mybookieag,-1.0,home_cover,57.0,over,-117.0,home_win
+401858276,Clemson,Virginia Tech,16,20,36,-4,Bovada,-3.0,away_cover,50.0,under,-150.0,away_win
+401858276,Clemson,Virginia Tech,16,20,36,-4,DraftKings,-3.0,away_cover,49.5,under,-155.0,away_win
+401858276,Clemson,Virginia Tech,16,20,36,-4,betmgm,-3.0,away_cover,49.5,under,-145.0,away_win
+401858276,Clemson,Virginia Tech,16,20,36,-4,betonlineag,-2.5,away_cover,50.0,under,-146.0,away_win
+401858276,Clemson,Virginia Tech,16,20,36,-4,betrivers,-2.5,away_cover,49.5,under,-143.0,away_win
+401858276,Clemson,Virginia Tech,16,20,36,-4,betus,-3.0,away_cover,50.0,under,-145.0,away_win
+401858276,Clemson,Virginia Tech,16,20,36,-4,bovada,-3.0,away_cover,50.0,under,-150.0,away_win
+401858276,Clemson,Virginia Tech,16,20,36,-4,draftkings,-3.0,away_cover,49.5,under,-155.0,away_win
+401858276,Clemson,Virginia Tech,16,20,36,-4,fanduel,-2.5,away_cover,50.5,under,-156.0,away_win
+401858276,Clemson,Virginia Tech,16,20,36,-4,lowvig,-2.5,away_cover,50.0,under,-146.0,away_win
+401858276,Clemson,Virginia Tech,16,20,36,-4,mybookieag,-3.0,away_cover,50.0,under,-158.0,away_win
+401856836,Oklahoma State,Colorado,57,24,81,33,Bovada,-13.5,home_cover,55.5,over,-575.0,home_win
+401856836,Oklahoma State,Colorado,57,24,81,33,DraftKings,-13.5,home_cover,55.5,over,-550.0,home_win
+401856836,Oklahoma State,Colorado,57,24,81,33,betmgm,-13.0,home_cover,55.5,over,-550.0,home_win
+401856836,Oklahoma State,Colorado,57,24,81,33,betonlineag,-13.0,home_cover,55.5,over,-525.0,home_win
+401856836,Oklahoma State,Colorado,57,24,81,33,betrivers,-12.5,home_cover,54.5,over,-590.0,home_win
+401856836,Oklahoma State,Colorado,57,24,81,33,betus,-13.0,home_cover,55.5,over,-525.0,home_win
+401856836,Oklahoma State,Colorado,57,24,81,33,bovada,-13.5,home_cover,55.5,over,-575.0,home_win
+401856836,Oklahoma State,Colorado,57,24,81,33,draftkings,-13.5,home_cover,55.5,over,-550.0,home_win
+401856836,Oklahoma State,Colorado,57,24,81,33,fanduel,-13.5,home_cover,54.5,over,-600.0,home_win
+401856836,Oklahoma State,Colorado,57,24,81,33,lowvig,-13.0,home_cover,55.5,over,-525.0,home_win
+401856836,Oklahoma State,Colorado,57,24,81,33,mybookieag,-13.0,home_cover,55.5,over,-599.0,home_win
+401868132,UC Davis,Northern Colorado,33,6,39,27,DraftKings,-9.5,home_cover,58.5,under,-388.0,home_win
+401907281,Angelo State,Texas A&M-Kingsville,28,14,42,14,none,,,,,,
+401868067,North Alabama,Austin Peay,21,27,48,-6,DraftKings,9.5,home_cover,48.5,under,331.0,away_win
+401908439,La Verne,Cal Lutheran,14,33,47,-19,none,,,,,,
+401868969,East Texas A&M,Prairie View A&M,19,30,49,-11,DraftKings,-3.0,away_cover,49.5,under,-167.0,away_win
+401907302,Midwestern State,Sul Ross State,71,0,71,71,none,,,,,,
+401907320,West Texas,Western New Mexico,69,14,83,55,none,,,,,,
+401869935,Arkansas State,Georgia State,38,32,70,6,Bovada,2.5,home_cover,58.5,over,110.0,home_win
+401869935,Arkansas State,Georgia State,38,32,70,6,DraftKings,2.5,home_cover,58.5,over,114.0,home_win
+401869935,Arkansas State,Georgia State,38,32,70,6,betmgm,2.5,home_cover,58.5,over,115.0,home_win
+401869935,Arkansas State,Georgia State,38,32,70,6,betonlineag,2.5,home_cover,58.0,over,120.0,home_win
+401869935,Arkansas State,Georgia State,38,32,70,6,betrivers,2.5,home_cover,59.5,over,114.0,home_win
+401869935,Arkansas State,Georgia State,38,32,70,6,betus,2.5,home_cover,58.0,over,115.0,home_win
+401869935,Arkansas State,Georgia State,38,32,70,6,bovada,2.5,home_cover,58.5,over,110.0,home_win
+401869935,Arkansas State,Georgia State,38,32,70,6,draftkings,2.5,home_cover,58.5,over,114.0,home_win
+401869935,Arkansas State,Georgia State,38,32,70,6,fanduel,2.5,home_cover,58.5,over,108.0,home_win
+401869935,Arkansas State,Georgia State,38,32,70,6,lowvig,2.5,home_cover,58.0,over,120.0,home_win
+401869935,Arkansas State,Georgia State,38,32,70,6,mybookieag,2.5,home_cover,58.5,over,113.0,home_win
+401856838,Arizona,Iowa State,39,3,42,36,Bovada,-12.5,home_cover,51.5,under,-270.0,home_win
+401856838,Arizona,Iowa State,39,3,42,36,DraftKings,-12.5,home_cover,51.5,under,-375.0,home_win
+401856838,Arizona,Iowa State,39,3,42,36,betmgm,-11.5,home_cover,51.5,under,-375.0,home_win
+401856838,Arizona,Iowa State,39,3,42,36,betonlineag,-12.0,home_cover,51.5,under,-380.0,home_win
+401856838,Arizona,Iowa State,39,3,42,36,betrivers,-11.5,home_cover,51.0,under,-420.0,home_win
+401856838,Arizona,Iowa State,39,3,42,36,betus,-12.0,home_cover,51.5,under,-375.0,home_win
+401856838,Arizona,Iowa State,39,3,42,36,bovada,-12.5,home_cover,51.5,under,-370.0,home_win
+401856838,Arizona,Iowa State,39,3,42,36,draftkings,-12.5,home_cover,51.5,under,-375.0,home_win
+401856838,Arizona,Iowa State,39,3,42,36,fanduel,-11.5,home_cover,51.5,under,-420.0,home_win
+401856838,Arizona,Iowa State,39,3,42,36,lowvig,-12.0,home_cover,51.5,under,-380.0,home_win
+401856838,Arizona,Iowa State,39,3,42,36,mybookieag,-12.5,home_cover,51.0,under,-420.0,home_win
+401860906,Texas State,Utah State,20,17,37,3,Bovada,-14.0,away_cover,60.0,under,-480.0,home_win
+401860906,Texas State,Utah State,20,17,37,3,DraftKings,-13.5,away_cover,59.5,under,-535.0,home_win
+401860906,Texas State,Utah State,20,17,37,3,betmgm,-13.5,away_cover,59.5,under,-550.0,home_win
+401860906,Texas State,Utah State,20,17,37,3,betonlineag,-13.5,away_cover,59.5,under,-525.0,home_win
+401860906,Texas State,Utah State,20,17,37,3,betrivers,-14.5,away_cover,59.5,under,-560.0,home_win
+401860906,Texas State,Utah State,20,17,37,3,betus,-14.0,away_cover,59.5,under,-550.0,home_win
+401860906,Texas State,Utah State,20,17,37,3,bovada,-14.0,away_cover,60.0,under,-585.0,home_win
+401860906,Texas State,Utah State,20,17,37,3,draftkings,-13.5,away_cover,59.5,under,-535.0,home_win
+401860906,Texas State,Utah State,20,17,37,3,fanduel,-13.5,away_cover,59.5,under,-630.0,home_win
+401860906,Texas State,Utah State,20,17,37,3,lowvig,-13.5,away_cover,59.5,under,-525.0,home_win
+401860906,Texas State,Utah State,20,17,37,3,mybookieag,-13.5,away_cover,59.5,under,-549.0,home_win
+401858500,Wisconsin,USC,24,7,31,17,Bovada,2.5,home_cover,51.0,under,115.0,home_win
+401858500,Wisconsin,USC,24,7,31,17,DraftKings,2.5,home_cover,50.5,under,110.0,home_win
+401858500,Wisconsin,USC,24,7,31,17,betmgm,2.5,home_cover,50.5,under,110.0,home_win
+401858500,Wisconsin,USC,24,7,31,17,betonlineag,2.5,home_cover,50.5,under,110.0,home_win
+401858500,Wisconsin,USC,24,7,31,17,betrivers,2.0,home_cover,50.0,under,110.0,home_win
+401858500,Wisconsin,USC,24,7,31,17,betus,2.5,home_cover,50.5,under,110.0,home_win
+401858500,Wisconsin,USC,24,7,31,17,bovada,2.5,home_cover,51.0,under,115.0,home_win
+401858500,Wisconsin,USC,24,7,31,17,draftkings,2.5,home_cover,50.5,under,110.0,home_win
+401858500,Wisconsin,USC,24,7,31,17,fanduel,2.5,home_cover,50.5,under,115.0,home_win
+401858500,Wisconsin,USC,24,7,31,17,lowvig,2.5,home_cover,50.5,under,110.0,home_win
+401858500,Wisconsin,USC,24,7,31,17,mybookieag,2.5,home_cover,51.0,under,109.0,home_win
+401856732,Texas,Ole Miss,34,27,61,7,Bovada,-3.0,home_cover,54.5,over,-160.0,home_win
+401856732,Texas,Ole Miss,34,27,61,7,DraftKings,-3.0,home_cover,54.5,over,-148.0,home_win
+401856732,Texas,Ole Miss,34,27,61,7,betmgm,-3.0,home_cover,54.5,over,-150.0,home_win
+401856732,Texas,Ole Miss,34,27,61,7,betonlineag,-3.0,home_cover,54.0,over,-152.0,home_win
+401856732,Texas,Ole Miss,34,27,61,7,betrivers,-3.0,home_cover,54.0,over,-167.0,home_win
+401856732,Texas,Ole Miss,34,27,61,7,betus,-3.0,home_cover,54.5,over,-150.0,home_win
+401856732,Texas,Ole Miss,34,27,61,7,bovada,-3.0,home_cover,54.5,over,-150.0,home_win
+401856732,Texas,Ole Miss,34,27,61,7,draftkings,-3.0,home_cover,54.5,over,-148.0,home_win
+401856732,Texas,Ole Miss,34,27,61,7,fanduel,-3.5,home_cover,53.5,over,-154.0,home_win
+401856732,Texas,Ole Miss,34,27,61,7,mybookieag,-3.0,home_cover,54.5,over,-150.0,home_win
+401856729,Kentucky,Vanderbilt,34,17,51,17,Bovada,-10.5,home_cover,51.5,under,-450.0,home_win
+401856729,Kentucky,Vanderbilt,34,17,51,17,DraftKings,-10.5,home_cover,51.5,under,-440.0,home_win
+401856729,Kentucky,Vanderbilt,34,17,51,17,betmgm,-10.5,home_cover,51.5,under,-450.0,home_win
+401856729,Kentucky,Vanderbilt,34,17,51,17,betonlineag,-10.5,home_cover,51.0,push,-440.0,home_win
+401856729,Kentucky,Vanderbilt,34,17,51,17,betrivers,-11.0,home_cover,51.5,under,-500.0,home_win
+401856729,Kentucky,Vanderbilt,34,17,51,17,betus,-10.5,home_cover,51.0,push,-440.0,home_win
+401856729,Kentucky,Vanderbilt,34,17,51,17,bovada,-10.5,home_cover,51.5,under,-460.0,home_win
+401856729,Kentucky,Vanderbilt,34,17,51,17,draftkings,-10.5,home_cover,51.5,under,-440.0,home_win
+401856729,Kentucky,Vanderbilt,34,17,51,17,fanduel,-10.5,home_cover,51.5,under,-450.0,home_win
+401856729,Kentucky,Vanderbilt,34,17,51,17,lowvig,-10.5,home_cover,51.0,push,-440.0,home_win
+401856729,Kentucky,Vanderbilt,34,17,51,17,mybookieag,-10.5,home_cover,51.5,under,-469.0,home_win
+401858275,North Carolina,Syracuse,30,31,61,-1,Bovada,-9.0,away_cover,49.0,over,-360.0,away_win
+401858275,North Carolina,Syracuse,30,31,61,-1,DraftKings,-9.5,away_cover,49.5,over,-360.0,away_win
+401858275,North Carolina,Syracuse,30,31,61,-1,betmgm,-9.5,away_cover,49.5,over,-350.0,away_win
+401858275,North Carolina,Syracuse,30,31,61,-1,betonlineag,-9.0,away_cover,49.5,over,-350.0,away_win
+401858275,North Carolina,Syracuse,30,31,61,-1,betrivers,-9.5,away_cover,50.0,over,-400.0,away_win
+401858275,North Carolina,Syracuse,30,31,61,-1,betus,-10.0,away_cover,50.0,over,-330.0,away_win
+401858275,North Carolina,Syracuse,30,31,61,-1,bovada,-9.0,away_cover,49.0,over,-370.0,away_win
+401858275,North Carolina,Syracuse,30,31,61,-1,draftkings,-9.5,away_cover,49.5,over,-360.0,away_win
+401858275,North Carolina,Syracuse,30,31,61,-1,fanduel,-8.5,away_cover,48.5,over,-360.0,away_win
+401858275,North Carolina,Syracuse,30,31,61,-1,lowvig,-9.0,away_cover,49.5,over,-350.0,away_win
+401858275,North Carolina,Syracuse,30,31,61,-1,mybookieag,-9.0,away_cover,49.5,over,-360.0,away_win
+401908466,Whittier,Redlands,14,69,83,-55,none,,,,,,
+401862811,Tulane,UTSA,19,42,61,-23,Bovada,3.0,away_cover,52.0,over,110.0,away_win
+401862811,Tulane,UTSA,19,42,61,-23,DraftKings,3.0,away_cover,51.5,over,124.0,away_win
+401862811,Tulane,UTSA,19,42,61,-23,betmgm,3.0,away_cover,51.5,over,120.0,away_win
+401862811,Tulane,UTSA,19,42,61,-23,betonlineag,3.0,away_cover,52.0,over,130.0,away_win
+401862811,Tulane,UTSA,19,42,61,-23,betrivers,2.5,away_cover,52.5,over,116.0,away_win
+401862811,Tulane,UTSA,19,42,61,-23,betus,3.0,away_cover,51.5,over,125.0,away_win
+401862811,Tulane,UTSA,19,42,61,-23,bovada,3.0,away_cover,52.0,over,130.0,away_win
+401862811,Tulane,UTSA,19,42,61,-23,draftkings,3.0,away_cover,51.5,over,124.0,away_win
+401862811,Tulane,UTSA,19,42,61,-23,fanduel,2.5,away_cover,51.5,over,116.0,away_win
+401862811,Tulane,UTSA,19,42,61,-23,lowvig,3.0,away_cover,52.0,over,130.0,away_win
+401862811,Tulane,UTSA,19,42,61,-23,mybookieag,3.0,away_cover,51.5,over,122.0,away_win
+401907342,Emporia State,Central Missouri,58,38,96,20,none,,,,,,
+401908801,Macalester,Bethel (MN),3,47,50,-44,none,,,,,,
+401907319,Central Washington,UT Permian Basin,42,13,55,29,none,,,,,,
+401864527,New Mexico,North Dakota State,21,16,37,5,Bovada,-5.0,push,39.5,under,-180.0,home_win
+401864527,New Mexico,North Dakota State,21,16,37,5,DraftKings,-4.5,home_cover,39.5,under,-192.0,home_win
+401864527,New Mexico,North Dakota State,21,16,37,5,betmgm,-4.5,home_cover,39.5,under,-190.0,home_win
+401864527,New Mexico,North Dakota State,21,16,37,5,betonlineag,-4.5,home_cover,39.5,under,-185.0,home_win
+401864527,New Mexico,North Dakota State,21,16,37,5,betrivers,-4.5,home_cover,39.5,under,-200.0,home_win
+401864527,New Mexico,North Dakota State,21,16,37,5,betus,-4.5,home_cover,39.5,under,-185.0,home_win
+401864527,New Mexico,North Dakota State,21,16,37,5,bovada,-5.0,push,39.5,under,-200.0,home_win
+401864527,New Mexico,North Dakota State,21,16,37,5,draftkings,-4.5,home_cover,39.5,under,-192.0,home_win
+401864527,New Mexico,North Dakota State,21,16,37,5,fanduel,-4.5,home_cover,39.5,under,-200.0,home_win
+401864527,New Mexico,North Dakota State,21,16,37,5,lowvig,-4.5,home_cover,39.5,under,-185.0,home_win
+401864527,New Mexico,North Dakota State,21,16,37,5,mybookieag,-4.5,home_cover,39.5,under,-200.0,home_win
+401908446,Chapman,Claremont Mudd Scripps,49,28,77,21,none,,,,,,
+401908462,Pomona Pitzer,Azusa Pacific,14,0,14,14,none,,,,,,
+401856837,Utah,Houston,21,13,34,8,Bovada,-6.5,home_cover,57.5,under,-240.0,home_win
+401856837,Utah,Houston,21,13,34,8,DraftKings,-6.5,home_cover,57.5,under,-250.0,home_win
+401856837,Utah,Houston,21,13,34,8,betmgm,-6.5,home_cover,57.5,under,-250.0,home_win
+401856837,Utah,Houston,21,13,34,8,betonlineag,-6.5,home_cover,57.5,under,-255.0,home_win
+401856837,Utah,Houston,21,13,34,8,betrivers,-7.0,home_cover,58.0,under,-275.0,home_win
+401856837,Utah,Houston,21,13,34,8,betus,-6.5,home_cover,57.5,under,-250.0,home_win
+401856837,Utah,Houston,21,13,34,8,bovada,-6.5,home_cover,57.5,under,-245.0,home_win
+401856837,Utah,Houston,21,13,34,8,draftkings,-6.5,home_cover,57.5,under,-250.0,home_win
+401856837,Utah,Houston,21,13,34,8,fanduel,-6.5,home_cover,57.5,under,-260.0,home_win
+401856837,Utah,Houston,21,13,34,8,mybookieag,-6.5,home_cover,57.5,under,-255.0,home_win
