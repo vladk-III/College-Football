@@ -11811,3 +11811,26 @@ snapshot_ts,source,game_id,home_team,away_team,provider,spread,spread_open,over_
 2026-10-24T18:13:57.980442-04:00,odds_api,401856837,Utah Utes,Houston Cougars,betmgm,-6.5,,57.5,,-250.0,210.0,2026-10-25T02:15:00Z,-115.0,-108.0
 2026-10-24T18:13:57.980442-04:00,odds_api,401856837,Utah Utes,Houston Cougars,betus,-6.5,,57.5,,-250.0,210.0,2026-10-25T02:15:00Z,-115.0,-105.0
 2026-10-24T18:13:57.980442-04:00,odds_api,401856837,Utah Utes,Houston Cougars,bovada,-6.5,,57.5,,-245.0,205.0,2026-10-25T02:15:00Z,-115.0,-110.0
+2026-10-29T15:19:12.866684-04:00,cfbd,401869963,James Madison,Troy,DraftKings,-19.5,-17.5,51.5,52.5,-1350.0,800.0,,,
+2026-10-29T15:19:12.866684-04:00,cfbd,401869963,James Madison,Troy,Bovada,-20.0,-21.0,51.0,52.5,-1500.0,775.0,,,
+2026-10-29T15:19:12.866684-04:00,cfbd,401862812,North Texas,Florida Atlantic,DraftKings,-14.0,-12.5,77.5,69.5,-550.0,410.0,,,
+2026-10-29T15:19:12.866684-04:00,cfbd,401862812,North Texas,Florida Atlantic,Bovada,-14.0,-13.0,78.0,72.5,-525.0,375.0,,,
+2026-10-29T15:19:12.866684-04:00,cfbd,401867969,Morgan State,South Carolina State,DraftKings,7.0,7.0,52.5,51.5,232.0,-302.0,,,
+2026-10-29T15:19:13.033464-04:00,odds_api,401862812,North Texas Mean Green,Florida Atlantic Owls,fanduel,-14.5,,77.5,,-550.0,420.0,2026-10-29T23:30:00Z,-104.0,-110.0
+2026-10-29T15:19:13.033464-04:00,odds_api,401862812,North Texas Mean Green,Florida Atlantic Owls,draftkings,-14.0,,77.5,,-550.0,410.0,2026-10-29T23:30:00Z,-112.0,-112.0
+2026-10-29T15:19:13.033464-04:00,odds_api,401862812,North Texas Mean Green,Florida Atlantic Owls,betrivers,-14.5,,78.5,,-625.0,420.0,2026-10-29T23:30:00Z,-112.0,-113.0
+2026-10-29T15:19:13.033464-04:00,odds_api,401862812,North Texas Mean Green,Florida Atlantic Owls,lowvig,-14.0,,78.0,,-530.0,403.0,2026-10-29T23:30:00Z,-108.0,-110.0
+2026-10-29T15:19:13.033464-04:00,odds_api,401862812,North Texas Mean Green,Florida Atlantic Owls,betonlineag,-14.0,,78.0,,-530.0,403.0,2026-10-29T23:30:00Z,-112.0,-112.0
+2026-10-29T15:19:13.033464-04:00,odds_api,401862812,North Texas Mean Green,Florida Atlantic Owls,betmgm,-14.0,,77.5,,-550.0,425.0,2026-10-29T23:30:00Z,-110.0,-110.0
+2026-10-29T15:19:13.033464-04:00,odds_api,401862812,North Texas Mean Green,Florida Atlantic Owls,mybookieag,-14.0,,77.5,,-561.0,389.0,2026-10-29T23:30:00Z,-110.0,-110.0
+2026-10-29T15:19:13.033464-04:00,odds_api,401862812,North Texas Mean Green,Florida Atlantic Owls,betus,-14.0,,78.0,,-530.0,410.0,2026-10-29T23:30:00Z,-115.0,-110.0
+2026-10-29T15:19:13.033464-04:00,odds_api,401862812,North Texas Mean Green,Florida Atlantic Owls,bovada,-14.0,,78.0,,-585.0,410.0,2026-10-29T23:30:00Z,-115.0,-110.0
+2026-10-29T15:19:13.033464-04:00,odds_api,401869963,James Madison Dukes,Troy Trojans,fanduel,-18.5,,50.5,,-1200.0,760.0,2026-10-29T23:30:00Z,-110.0,-115.0
+2026-10-29T15:19:13.033464-04:00,odds_api,401869963,James Madison Dukes,Troy Trojans,draftkings,-19.5,,51.5,,-1350.0,800.0,2026-10-29T23:30:00Z,-110.0,-105.0
+2026-10-29T15:19:13.033464-04:00,odds_api,401869963,James Madison Dukes,Troy Trojans,betrivers,-20.0,,50.5,,-2000.0,850.0,2026-10-29T23:30:00Z,-112.0,-112.0
+2026-10-29T15:19:13.033464-04:00,odds_api,401869963,James Madison Dukes,Troy Trojans,betmgm,-19.0,,51.5,,,,2026-10-29T23:30:00Z,-110.0,-105.0
+2026-10-29T15:19:13.033464-04:00,odds_api,401869963,James Madison Dukes,Troy Trojans,betonlineag,-19.5,,51.5,,-1250.0,776.0,2026-10-29T23:30:00Z,-110.0,-110.0
+2026-10-29T15:19:13.033464-04:00,odds_api,401869963,James Madison Dukes,Troy Trojans,lowvig,-19.5,,51.5,,-1250.0,776.0,2026-10-29T23:30:00Z,-110.0,-108.0
+2026-10-29T15:19:13.033464-04:00,odds_api,401869963,James Madison Dukes,Troy Trojans,mybookieag,-19.5,,51.0,,-1442.0,752.0,2026-10-29T23:30:00Z,-110.0,-110.0
+2026-10-29T15:19:13.033464-04:00,odds_api,401869963,James Madison Dukes,Troy Trojans,betus,-19.5,,51.5,,-1300.0,780.0,2026-10-29T23:30:00Z,-110.0,-110.0
+2026-10-29T15:19:13.033464-04:00,odds_api,401869963,James Madison Dukes,Troy Trojans,bovada,-20.0,,51.0,,-1300.0,725.0,2026-10-29T23:30:00Z,-105.0,-115.0
