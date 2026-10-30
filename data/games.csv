@@ -3368,10 +3368,10 @@ game_id,season,week,season_type,start_date,neutral_site,conference_game,home_tea
 401871072,2026,9,regular,2026-10-28T00:00:00.000Z,False,True,Missouri State,Conference USA,24.0,Sam Houston,Conference USA,3.0,Plaster Sports Complex,True
 401871058,2026,9,regular,2026-10-28T23:00:00.000Z,False,True,Middle Tennessee,Conference USA,28.0,Kennesaw State,Conference USA,44.0,"Johnny ""Red"" Floyd Stadium",True
 401871057,2026,9,regular,2026-10-29T00:00:00.000Z,False,True,New Mexico State,Conference USA,0.0,Jacksonville State,Conference USA,24.0,Aggie Memorial Stadium,True
-401867969,2026,9,regular,2026-10-29T23:00:00.000Z,False,True,Morgan State,MEAC,,South Carolina State,MEAC,,Hughes Stadium,False
-401906977,2026,9,regular,2026-10-29T23:00:00.000Z,False,True,Miles,SIAC,,Fort Valley State,SIAC,,Albert J. H. Sloan - Alumni Stadium,False
-401862812,2026,9,regular,2026-10-29T23:30:00.000Z,False,True,North Texas,American Athletic,,Florida Atlantic,American Athletic,,DATCU Stadium,False
-401869963,2026,9,regular,2026-10-29T23:30:00.000Z,False,True,James Madison,Sun Belt,,Troy,Sun Belt,,Bridgeforth Stadium,False
+401867969,2026,9,regular,2026-10-29T23:00:00.000Z,False,True,Morgan State,MEAC,10.0,South Carolina State,MEAC,51.0,Hughes Stadium,True
+401906977,2026,9,regular,2026-10-29T23:00:00.000Z,False,True,Miles,SIAC,35.0,Fort Valley State,SIAC,28.0,Albert J. H. Sloan - Alumni Stadium,True
+401862812,2026,9,regular,2026-10-29T23:30:00.000Z,False,True,North Texas,American Athletic,48.0,Florida Atlantic,American Athletic,41.0,DATCU Stadium,True
+401869963,2026,9,regular,2026-10-29T23:30:00.000Z,False,True,James Madison,Sun Belt,21.0,Troy,Sun Belt,24.0,Bridgeforth Stadium,True
 401862813,2026,9,regular,2026-10-30T23:00:00.000Z,False,True,Charlotte,American Athletic,,Tulane,American Athletic,,Jerry Richardson Stadium,False
 401867838,2026,9,regular,2026-10-30T23:00:00.000Z,False,True,Dartmouth,Ivy,,Harvard,Ivy,,Memorial Field,False
 401906138,2026,9,regular,2026-10-30T23:00:00.000Z,False,True,Lincoln (PA),CIAA,,Virginia Union,CIAA,,Lincoln University Stadium,False
