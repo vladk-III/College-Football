@@ -3381,11 +3381,11 @@ game_id,season,week,season_type,start_date,neutral_site,conference_game,home_tea
 401866676,2026,9,regular,2026-10-31T16:00:00.000Z,False,True,Rhode Island,Coastal Athletic,14.0,Maine,Coastal Athletic,13.0,Centreville Bank Stadium,True
 401908535,2026,9,regular,2026-10-31T16:00:00.000Z,False,True,Nichols,Commonwealth Coast,14.0,New England,Commonwealth Coast,62.0,Vendetti Field,True
 401908884,2026,9,regular,2026-10-31T16:00:00.000Z,False,True,Coast Guard,NEWMAC,20.0,Springfield,NEWMAC,38.0,Cadet Memorial Field,True
-401908629,2026,9,regular,2026-10-31T16:00:00.000Z,False,True,WPI,NEWMAC,26.0,Merchant Marine,NEWMAC,40.0,"Alumni Stadium (Worcester, MA)",False
-401908964,2026,9,regular,2026-10-31T16:00:00.000Z,False,True,Salve Regina,NEWMAC,34.0,Norwich,NEWMAC,6.0,Toppa Field,False
-401908482,2026,9,regular,2026-10-31T16:00:00.000Z,False,True,Curry,Commonwealth Coast,7.0,Husson,Commonwealth Coast,17.0,Walter M. Katz Field,False
+401908629,2026,9,regular,2026-10-31T16:00:00.000Z,False,True,WPI,NEWMAC,26.0,Merchant Marine,NEWMAC,40.0,"Alumni Stadium (Worcester, MA)",True
+401908964,2026,9,regular,2026-10-31T16:00:00.000Z,False,True,Salve Regina,NEWMAC,34.0,Norwich,NEWMAC,6.0,Toppa Field,True
+401908482,2026,9,regular,2026-10-31T16:00:00.000Z,False,True,Curry,Commonwealth Coast,7.0,Husson,Commonwealth Coast,17.0,Walter M. Katz Field,True
 401906646,2026,9,regular,2026-10-31T16:00:00.000Z,False,True,Thomas More,Great Midwest Athletic,0.0,Findlay,Great Midwest Athletic,49.0,BB&T Field at Griffin Plaza,True
-401906638,2026,9,regular,2026-10-31T16:00:00.000Z,False,True,Tiffin,Great Midwest Athletic,14.0,Lake Erie,Great Midwest Athletic,21.0,Frost-Kalnow Stadium,False
+401906638,2026,9,regular,2026-10-31T16:00:00.000Z,False,True,Tiffin,Great Midwest Athletic,14.0,Lake Erie,Great Midwest Athletic,21.0,Frost-Kalnow Stadium,True
 401906628,2026,9,regular,2026-10-31T16:00:00.000Z,False,True,Ohio Dominican,Great Midwest Athletic,25.0,Walsh,Great Midwest Athletic,29.0,Panther Stadium (OH),True
 401866452,2026,9,regular,2026-10-31T16:00:00.000Z,False,True,Western Michigan,Mid-American,23.0,Bowling Green,Mid-American,10.0,Waldo Stadium,True
 401907509,2026,9,regular,2026-10-31T16:00:00.000Z,False,True,Pace,Northeast 10,14.0,Bentley,Northeast 10,42.0,Pace Stadium,True
@@ -3400,22 +3400,22 @@ game_id,season,week,season_type,start_date,neutral_site,conference_game,home_tea
 401867880,2026,9,regular,2026-10-31T16:00:00.000Z,False,True,Youngstown State,MVFC,31.0,North Dakota,MVFC,28.0,Stambaugh Stadium,True
 401862816,2026,9,regular,2026-10-31T16:00:00.000Z,False,True,South Florida,American Athletic,30.0,UAB,American Athletic,10.0,Raymond James Stadium,True
 401908975,2026,9,regular,2026-10-31T16:00:00.000Z,False,True,The College of New Jersey,New Jersey,21.0,Montclair State,New Jersey,25.0,Lions Stadium,True
-401908696,2026,9,regular,2026-10-31T16:00:00.000Z,False,True,Olivet,Michigan,6.0,Adrian,Michigan,76.0,Cutler Field,False
+401908696,2026,9,regular,2026-10-31T16:00:00.000Z,False,True,Olivet,Michigan,6.0,Adrian,Michigan,76.0,Cutler Field,True
 401908074,2026,9,regular,2026-10-31T16:00:00.000Z,False,True,Hilbert,Empire 8,7.0,Union,Liberty League,56.0,St. Francis High School,True
 401908694,2026,9,regular,2026-10-31T16:00:00.000Z,False,True,Rensselaer,Liberty League,54.0,St. Lawrence,Liberty League,7.0,ECAV Stadium,True
 401908667,2026,9,regular,2026-10-31T16:00:00.000Z,False,True,Otterbein,Ohio,30.0,Capital,Ohio,35.0,"Memorial Stadium (Westerville, OH)",True
 401906609,2026,9,regular,2026-10-31T16:00:00.000Z,False,False,Frostburg State,Mountain East,21.0,Delta State,Gulf South,22.0,Bobcat Stadium (MD),True
 401866677,2026,9,regular,2026-10-31T16:00:00.000Z,False,True,Stony Brook,Coastal Athletic,31.0,Sacred Heart,Coastal Athletic,32.0,Kenneth P. LaValle Stadium,True
-401908601,2026,9,regular,2026-10-31T16:00:00.000Z,False,True,Mass Maritime,MSCAC,21.0,Westfield State,MSCAC,7.0,Clean Harbors Stadium,False
+401908601,2026,9,regular,2026-10-31T16:00:00.000Z,False,True,Mass Maritime,MSCAC,21.0,Westfield State,MSCAC,7.0,Clean Harbors Stadium,True
 401907533,2026,9,regular,2026-10-31T16:00:00.000Z,False,True,Clarion,Pennsylvania State Athletic,14.0,Slippery Rock,Pennsylvania State Athletic,48.0,"Memorial Stadium (Clarion, PA)",True
 401907550,2026,9,regular,2026-10-31T16:00:00.000Z,False,True,Edinboro,Pennsylvania State Athletic,31.0,Seton Hill,Pennsylvania State Athletic,21.0,Sox Harrison Stadium,True
 401907557,2026,9,regular,2026-10-31T16:00:00.000Z,False,True,Gannon,Pennsylvania State Athletic,14.0,IU Pennsylvania,Pennsylvania State Athletic,17.0,McConnell Family Stadium,True
-401908597,2026,9,regular,2026-10-31T16:00:00.000Z,False,True,Framingham State,MSCAC,14.0,Plymouth State,MSCAC,0.0,Bowditch Field,False
+401908597,2026,9,regular,2026-10-31T16:00:00.000Z,False,True,Framingham State,MSCAC,14.0,Plymouth State,MSCAC,0.0,Bowditch Field,True
 401907490,2026,9,regular,2026-10-31T16:00:00.000Z,False,True,Assumption,Northeast 10,38.0,Post,Northeast 10,10.0,Multi-Sport Stadium,True
 401908489,2026,9,regular,2026-10-31T16:00:00.000Z,False,True,Maine Maritime,Commonwealth Coast,7.0,Endicott,Commonwealth Coast,83.0,Ritchie Field,True
 401867995,2026,9,regular,2026-10-31T16:00:00.000Z,False,True,Lehigh,Patriot,31.0,Bucknell,Patriot,30.0,Goodman Stadium,True
 401908522,2026,9,regular,2026-10-31T16:00:00.000Z,False,True,New England College,,0.0,Western New England,Commonwealth Coast,49.0,,True
-401907869,2026,9,regular,2026-10-31T16:00:00.000Z,False,True,Alfred,Empire 8,3.0,Brockport,Empire 8,28.0,Merrill Field at Yunevich Stadium,False
+401907869,2026,9,regular,2026-10-31T16:00:00.000Z,False,True,Alfred,Empire 8,3.0,Brockport,Empire 8,28.0,Merrill Field at Yunevich Stadium,True
 401859185,2026,9,regular,2026-10-31T16:00:00.000Z,True,False,Navy,American Athletic,13.0,Notre Dame,FBS Independents,35.0,Gillette Stadium,True
 401867823,2026,9,regular,2026-10-31T16:00:00.000Z,False,True,Columbia,Ivy,8.0,Yale,Ivy,26.0,Lawrence A. Wien Stadium,True
 401856842,2026,9,regular,2026-10-31T16:00:00.000Z,False,True,Texas Tech,Big 12,34.0,Arizona,Big 12,26.0,Jones AT&T Stadium,True
@@ -3423,7 +3423,7 @@ game_id,season,week,season_type,start_date,neutral_site,conference_game,home_tea
 401908636,2026,9,regular,2026-10-31T16:00:00.000Z,False,True,Catholic,Landmark Conference,28.0,Wilkes,Landmark Conference,41.0,Cardinal Stadium (DC),True
 401908169,2026,9,regular,2026-10-31T16:00:00.000Z,False,True,Albright,Mid Atlantic,14.0,Eastern,Mid Atlantic,35.0,Gene L. Shirk Stadium,True
 401869154,2026,9,regular,2026-10-31T16:00:00.000Z,False,True,New Haven,NEC,14.0,Duquesne,NEC,41.0,Ralph F. DellaCamera Stadium,True
-401908573,2026,9,regular,2026-10-31T16:00:00.000Z,False,True,Bridgewater State,MSCAC,45.0,Fitchburg State,MSCAC,22.0,Edward C. Swenson Athletic Complex,False
+401908573,2026,9,regular,2026-10-31T16:00:00.000Z,False,True,Bridgewater State,MSCAC,45.0,Fitchburg State,MSCAC,22.0,Edward C. Swenson Athletic Complex,True
 401908958,2026,9,regular,2026-10-31T16:00:00.000Z,False,True,MIT,NEWMAC,21.0,SUNY Maritime,NEWMAC,14.0,Henry G. Steinbrenner '27 Stadium,True
 401867926,2026,9,regular,2026-10-31T16:00:00.000Z,False,True,Stonehill,NEC,34.0,Mercyhurst,NEC,28.0,W.B. Mason Stadium,True
 401858277,2026,9,regular,2026-10-31T16:00:00.000Z,False,True,NC State,ACC,31.0,California,ACC,10.0,Carter-Finley Stadium,True
@@ -3434,7 +3434,7 @@ game_id,season,week,season_type,start_date,neutral_site,conference_game,home_tea
 401868030,2026,9,regular,2026-10-31T16:30:00.000Z,False,True,Lafayette,Patriot,21.0,Villanova,Patriot,44.0,Fisher Field,True
 401908041,2026,9,regular,2026-10-31T16:30:00.000Z,False,True,Wisconsin Eau Claire,Wisconsin,27.0,Wisconsin La Crosse,Wisconsin,10.0,Carson Park,True
 401856735,2026,9,regular,2026-10-31T16:45:00.000Z,False,True,Ole Miss,SEC,45.0,Auburn,SEC,15.0,Vaught-Hemingway Stadium,True
-401908871,2026,9,regular,2026-10-31T17:00:00.000Z,False,True,Bowdoin,NESCAC,0.0,Wesleyan (CT),NESCAC,28.0,Whittier Field,False
+401908871,2026,9,regular,2026-10-31T17:00:00.000Z,False,True,Bowdoin,NESCAC,0.0,Wesleyan (CT),NESCAC,28.0,Whittier Field,True
 401908392,2026,9,regular,2026-10-31T17:00:00.000Z,False,True,Southwestern U,Southern Athletic,21.0,Millsaps,Southern Athletic,59.0,Birkelbach Field,True
 401906056,2026,9,regular,2026-10-31T17:00:00.000Z,False,True,Shaw,CIAA,42.0,Bluefield State,CIAA,45.0,George Williams Athletic Complex,True
 401908990,2026,9,regular,2026-10-31T17:00:00.000Z,False,True,Hampden Sydney,Old Dominion,73.0,Averett,Old Dominion,21.0,Lewis C. Everett Stadium,True
@@ -3448,7 +3448,7 @@ game_id,season,week,season_type,start_date,neutral_site,conference_game,home_tea
 401907600,2026,9,regular,2026-10-31T17:00:00.000Z,False,True,Fairmont State,Mountain East,34.0,West Liberty,Mountain East,17.0,Duvall-Rosier Field,True
 401907743,2026,9,regular,2026-10-31T17:00:00.000Z,False,True,Case Western Reserve,Presidents',51.0,Thiel,Presidents',7.0,Case Field,True
 401907585,2026,9,regular,2026-10-31T17:00:00.000Z,False,True,West Virginia Wesleyan,Mountain East,42.0,Charleston (WV),Mountain East,13.0,Cebe Ross Field,True
-401909055,2026,9,regular,2026-10-31T17:00:00.000Z,False,True,Saint Vincent,Presidents',18.0,Westminster (PA),Presidents',40.0,Chuck Noll Field,False
+401909055,2026,9,regular,2026-10-31T17:00:00.000Z,False,True,Saint Vincent,Presidents',18.0,Westminster (PA),Presidents',40.0,Chuck Noll Field,True
 401908754,2026,9,regular,2026-10-31T17:00:00.000Z,False,True,Augsburg,Minnesota,19.0,Carleton,Minnesota,24.0,Edor Nelson Field,True
 401906615,2026,9,regular,2026-10-31T17:00:00.000Z,False,False,Keystone,Independent DIII,20.0,Monroe,,54.0,Athletic Field Complex,True
 401908310,2026,9,regular,2026-10-31T17:00:00.000Z,False,True,Widener,Mid Atlantic,15.0,Stevenson,Mid Atlantic,22.0,Leslie C. Quick Jr. Stadium,True
@@ -3497,7 +3497,7 @@ game_id,season,week,season_type,start_date,neutral_site,conference_game,home_tea
 401908746,2026,9,regular,2026-10-31T17:00:00.000Z,False,True,Hope,Michigan,48.0,Kalamazoo,Michigan,13.0,Ray and Sue Smith Stadium,True
 401907947,2026,9,regular,2026-10-31T17:00:00.000Z,False,True,Methodist,USA South,15.0,Belhaven,USA South,20.0,Monarch Stadium,True
 401868342,2026,9,regular,2026-10-31T17:00:00.000Z,False,True,Chattanooga,Southern,24.0,VMI,Southern,10.0,Finley Stadium,True
-401908936,2026,9,regular,2026-10-31T17:00:00.000Z,False,True,Christopher Newport,New Jersey,13.0,Rowan,New Jersey,12.0,TowneBank Stadium,False
+401908936,2026,9,regular,2026-10-31T17:00:00.000Z,False,True,Christopher Newport,New Jersey,13.0,Rowan,New Jersey,12.0,TowneBank Stadium,True
 401907424,2026,9,regular,2026-10-31T17:00:00.000Z,False,True,Emory & Henry,South Atlantic,20.0,Lenoir Rhyne,South Atlantic,21.0,Fred Selfe Stadium at Nicewonder Field,True
 401866678,2026,9,regular,2026-10-31T17:00:00.000Z,False,True,Monmouth,Coastal Athletic,34.0,Bryant,Coastal Athletic,21.0,Kessler Stadium,True
 401908314,2026,9,regular,2026-10-31T17:00:00.000Z,False,True,Berry,Southern Athletic,14.0,Centre,Southern Athletic,28.0,Valhalla Stadium,True
@@ -3516,13 +3516,13 @@ game_id,season,week,season_type,start_date,neutral_site,conference_game,home_tea
 401907714,2026,9,regular,2026-10-31T18:00:00.000Z,False,True,Wayne State (NE),Northern Sun,54.0,Concordia St. Paul,Northern Sun,14.0,"Memorial Stadium (Wayne, NE)",True
 401906927,2026,9,regular,2026-10-31T18:00:00.000Z,False,True,Allen,SIAC,26.0,Morehouse,SIAC,23.0,W.C. Hawkins Stadium,True
 401906917,2026,9,regular,2026-10-31T18:00:00.000Z,False,True,Clark Atlanta,SIAC,17.0,Albany State,SIAC,21.0,CAU Panther Stadium,True
-401906941,2026,9,regular,2026-10-31T18:00:00.000Z,False,True,Benedict,SIAC,23.0,Savannah State,SIAC,0.0,Charlie W. Johnson Stadium,False
+401906941,2026,9,regular,2026-10-31T18:00:00.000Z,False,True,Benedict,SIAC,23.0,Savannah State,SIAC,0.0,Charlie W. Johnson Stadium,True
 401856846,2026,9,regular,2026-10-31T18:00:00.000Z,False,True,Colorado,Big 12,27.0,Kansas State,Big 12,24.0,Folsom Field,True
 401908282,2026,9,regular,2026-10-31T18:00:00.000Z,False,True,East Texas Baptist,American Southwest,38.0,McMurry,American Southwest,59.0,Ornelas Stadium,True
 401907328,2026,9,regular,2026-10-31T18:00:00.000Z,False,True,Western New Mexico,Lone Star,28.0,Western Oregon,Lone Star,56.0,Ben Altamirano Field,True
 401867851,2026,9,regular,2026-10-31T18:00:00.000Z,False,True,Illinois State,MVFC,35.0,Murray State,MVFC,14.0,Hancock Stadium,True
 401907817,2026,9,regular,2026-10-31T18:00:00.000Z,False,True,North Park,CCIW,55.0,Carroll (WI),CCIW,34.0,Holmgren Athletic Complex,True
-401908547,2026,9,regular,2026-10-31T18:00:00.000Z,False,True,Austin,Southern Collegiate Athletic,0.0,Texas Lutheran,Southern Collegiate Athletic,23.0,Jerry E. Apple Stadium,False
+401908547,2026,9,regular,2026-10-31T18:00:00.000Z,False,True,Austin,Southern Collegiate Athletic,0.0,Texas Lutheran,Southern Collegiate Athletic,23.0,Jerry E. Apple Stadium,True
 401869944,2026,9,regular,2026-10-31T18:00:00.000Z,False,True,Georgia State,Sun Belt,20.0,Coastal Carolina,Sun Belt,31.0,Center Parc Stadium,True
 401906183,2026,9,regular,2026-10-31T18:00:00.000Z,False,True,Ferrum,Carolinas,21.0,Chowan,Carolinas,28.0,W.B. Adams Stadium,True
 401907514,2026,9,regular,2026-10-31T18:00:00.000Z,False,True,Southern Connecticut State,Northeast 10,14.0,Franklin Pierce,Northeast 10,48.0,Jess Dow Field,True
@@ -3545,12 +3545,12 @@ game_id,season,week,season_type,start_date,neutral_site,conference_game,home_tea
 401907672,2026,9,regular,2026-10-31T18:00:00.000Z,False,True,Chicago,Midwest,54.0,Ripon,Midwest,10.0,Amos Alonzo Stagg Field,True
 401907434,2026,9,regular,2026-10-31T18:00:00.000Z,False,True,UVA Wise,South Atlantic,21.0,Mars Hill,South Atlantic,16.0,Carl Smith Stadium,True
 401908414,2026,9,regular,2026-10-31T18:00:00.000Z,False,True,Trinity (TX),Southern Athletic,76.0,Sewanee,Southern Athletic,17.0,Trinity University Stadium,True
-401908116,2026,9,regular,2026-10-31T18:00:00.000Z,False,True,Huntingdon,USA South,15.0,LaGrange,USA South,11.0,Charles Lee Field at Samford Stadium,False
+401908116,2026,9,regular,2026-10-31T18:00:00.000Z,False,True,Huntingdon,USA South,15.0,LaGrange,USA South,11.0,Charles Lee Field at Samford Stadium,True
 401908496,2026,9,regular,2026-10-31T18:00:00.000Z,False,True,Crown,Upper Midwest,0.0,Northwestern (MN),Upper Midwest,42.0,Old National Bank Stadium,True
 401907982,2026,9,regular,2026-10-31T18:00:00.000Z,False,True,Wisconsin Stevens Point,Wisconsin,7.0,Wisconsin Platteville,Wisconsin,35.0,Community Stadium at Goerke Park,True
 401907960,2026,9,regular,2026-10-31T18:00:00.000Z,False,True,Wisconsin River Falls,Wisconsin,35.0,Wisconsin Stout,Wisconsin,30.0,David Smith Stadium at Ramer Field,True
 401907106,2026,9,regular,2026-10-31T18:00:00.000Z,False,True,Adams State,Rocky Mountain,12.0,Colorado School of Mines,Rocky Mountain,69.0,Rex Stadium,True
-401908090,2026,9,regular,2026-10-31T18:00:00.000Z,False,True,St. John Fisher,Empire 8,14.0,Utica,Empire 8,35.0,Growney Stadium,False
+401908090,2026,9,regular,2026-10-31T18:00:00.000Z,False,True,St. John Fisher,Empire 8,14.0,Utica,Empire 8,35.0,Growney Stadium,True
 401906908,2026,9,regular,2026-10-31T18:00:00.000Z,False,True,Saginaw Valley State,GLIAC,20.0,Michigan Tech,GLIAC,27.0,Harvey Randall Wickes Memorial Stadium,True
 401906564,2026,9,regular,2026-10-31T18:00:00.000Z,False,True,Northwestern (OK),Great American,24.0,Ouachita Baptist,Great American,31.0,Ranger Field,True
 401906558,2026,9,regular,2026-10-31T18:00:00.000Z,False,True,Henderson State,Great American,27.0,Southeastern Oklahoma State,Great American,35.0,Ruggles Field at Carpenter-Haygood Stadium,True
@@ -3617,7 +3617,7 @@ game_id,season,week,season_type,start_date,neutral_site,conference_game,home_tea
 401858505,2026,9,regular,2026-10-31T19:30:00.000Z,False,True,Oregon,Big Ten,34.0,Northwestern,Big Ten,26.0,Autzen Stadium,True
 401856734,2026,9,regular,2026-10-31T19:30:00.000Z,True,True,Georgia,SEC,27.0,Florida,SEC,8.0,Mercedes-Benz Stadium,True
 401864531,2026,9,regular,2026-10-31T19:30:00.000Z,False,True,North Dakota State,Mountain West,31.0,UTEP,Mountain West,7.0,Fargodome,True
-401907662,2026,9,regular,2026-10-31T19:30:00.000Z,False,True,Carnegie Mellon,Presidents',51.0,Dickinson,Centennial,54.0,Gesling Stadium,False
+401907662,2026,9,regular,2026-10-31T19:30:00.000Z,False,True,Carnegie Mellon,Presidents',51.0,Dickinson,Centennial,54.0,Gesling Stadium,True
 401871095,2026,9,regular,2026-10-31T19:30:00.000Z,False,True,UL Monroe,Sun Belt,21.0,Southern Miss,Sun Belt,35.0,Malone Stadium,True
 401856845,2026,9,regular,2026-10-31T19:30:00.000Z,False,True,TCU,Big 12,22.0,Kansas,Big 12,16.0,Amon G. Carter Stadium,True
 401858501,2026,9,regular,2026-10-31T19:30:00.000Z,False,True,Indiana,Big Ten,23.0,Minnesota,Big Ten,16.0,"Memorial Stadium (Bloomington, IN)",True
@@ -3657,7 +3657,7 @@ game_id,season,week,season_type,start_date,neutral_site,conference_game,home_tea
 401908308,2026,9,regular,2026-10-31T23:00:00.000Z,False,True,Brevard,USA South,30.0,Greensboro,USA South,28.0,Brevard Memorial Stadium,True
 401908403,2026,9,regular,2026-10-31T23:00:00.000Z,False,False,Rhodes,Southern Athletic,24.0,Hendrix,Southern Athletic,17.0,Crain Field,True
 401868388,2026,9,regular,2026-10-31T23:00:00.000Z,False,True,Samford,Southern,10.0,Wofford,Southern,9.0,Seibert Stadium,True
-401906935,2026,9,regular,2026-10-31T23:00:00.000Z,False,True,Roosevelt,GLIAC,22.0,Grand Valley State,GLIAC,45.0,Morris Field,False
+401906935,2026,9,regular,2026-10-31T23:00:00.000Z,False,True,Roosevelt,GLIAC,22.0,Grand Valley State,GLIAC,45.0,Morris Field,True
 401907701,2026,9,regular,2026-10-31T23:00:00.000Z,False,True,Northern State,Northern Sun,24.0,Augustana (SD),Northern Sun,31.0,Swisher Field,True
 401907282,2026,9,regular,2026-10-31T23:00:00.000Z,False,True,UT Permian Basin,Lone Star,20.0,Angelo State,Lone Star,10.0,Ratliff Stadium,True
 401858282,2026,9,regular,2026-10-31T23:30:00.000Z,False,True,North Carolina,ACC,35.0,Miami,ACC,38.0,Kenan Stadium,True
@@ -3667,14 +3667,14 @@ game_id,season,week,season_type,start_date,neutral_site,conference_game,home_tea
 401856733,2026,9,regular,2026-10-31T23:45:00.000Z,False,True,Arkansas,SEC,10.0,Missouri,SEC,34.0,Razorback Stadium,True
 401858504,2026,9,regular,2026-11-01T00:00:00.000Z,False,True,Nebraska,Big Ten,10.0,Washington,Big Ten,17.0,"Memorial Stadium (Lincoln, NE)",True
 401907303,2026,9,regular,2026-11-01T00:00:00.000Z,False,True,Texas A&M-Kingsville,Lone Star,14.0,Midwestern State,Lone Star,37.0,Javelina Stadium,True
-401907321,2026,9,regular,2026-11-01T00:00:00.000Z,False,True,Sul Ross State,Lone Star,33.0,West Texas,Lone Star,62.0,Jackson Field,False
+401907321,2026,9,regular,2026-11-01T00:00:00.000Z,False,True,Sul Ross State,Lone Star,33.0,West Texas,Lone Star,62.0,Jackson Field,True
 401868251,2026,9,regular,2026-11-01T00:00:00.000Z,False,True,UT Rio Grande Valley,Southland,23.0,Lamar,Southland,52.0,Robert and Janet Vackar Stadium,True
 401862814,2026,9,regular,2026-11-01T00:00:00.000Z,False,True,Memphis,American Athletic,49.0,Army,American Athletic,22.0,Simmons Bank Liberty Stadium,True
 401907892,2026,9,regular,2026-11-01T00:00:00.000Z,False,True,Wisconsin Whitewater,Wisconsin,48.0,Wisconsin Oshkosh,Wisconsin,19.0,Perkins Stadium,True
 401868956,2026,9,regular,2026-11-01T00:30:00.000Z,False,True,Texas Southern,SWAC,23.0,Grambling,SWAC,20.0,BBVA Compass Stadium,True
 401908458,2026,9,regular,2026-11-01T01:00:00.000Z,False,True,Azusa Pacific,So. Cal.,23.0,La Verne,So. Cal.,20.0,Citrus Stadium,True
 401860908,2026,9,regular,2026-11-01T02:00:00.000Z,False,True,Boise State,Pac-12,46.0,Texas State,Pac-12,45.0,Albertsons Stadium,True
-401908452,2026,9,regular,2026-11-01T02:05:00.000Z,False,True,Redlands,So. Cal.,14.0,Claremont Mudd Scripps,So. Cal.,35.0,Ted Runner Stadium,False
+401908452,2026,9,regular,2026-11-01T02:05:00.000Z,False,True,Redlands,So. Cal.,14.0,Claremont Mudd Scripps,So. Cal.,35.0,Ted Runner Stadium,True
 401864530,2026,9,regular,2026-11-01T02:30:00.000Z,False,True,UNLV,Mountain West,31.0,Northern Illinois,Mountain West,24.0,Allegiant Stadium,True
 401860924,2026,9,regular,2026-11-01T03:00:00.000Z,False,True,Fresno State,Pac-12,38.0,Oregon State,Pac-12,22.0,Valley Children's Stadium,True
-401908187,2026,9,regular,2026-11-01T18:00:00.000Z,False,True,King's,Mid Atlantic,,Delaware Valley,Mid Atlantic,,McCarthy Stadium (Wilkes Barre),False
+401908187,2026,9,regular,2026-11-01T18:00:00.000Z,False,True,King's,Mid Atlantic,35.0,Delaware Valley,Mid Atlantic,61.0,McCarthy Stadium (Wilkes Barre),True
