@@ -13062,3 +13062,26 @@ snapshot_ts,source,game_id,home_team,away_team,provider,spread,spread_open,over_
 2026-10-31T19:03:38.918374-04:00,odds_api,401860924,Fresno State Bulldogs,Oregon State Beavers,mybookieag,6.0,,57.5,,183.0,-230.0,2026-11-01T03:00:00Z,-105.0,-110.0
 2026-10-31T19:03:38.918374-04:00,odds_api,401860924,Fresno State Bulldogs,Oregon State Beavers,betus,6.0,,57.5,,185.0,-220.0,2026-11-01T03:00:00Z,-110.0,-110.0
 2026-10-31T19:03:38.918374-04:00,odds_api,401860924,Fresno State Bulldogs,Oregon State Beavers,bovada,5.5,,57.5,,185.0,-225.0,2026-11-01T03:00:00Z,-105.0,-108.0
+2026-11-05T15:52:24.121573-05:00,cfbd,401862817,Florida Atlantic,UTSA,DraftKings,6.5,6.5,72.5,70.5,215.0,-265.0,,,
+2026-11-05T15:52:24.121573-05:00,cfbd,401862817,Florida Atlantic,UTSA,Bovada,6.5,7.0,72.0,72.0,215.0,-260.0,,,
+2026-11-05T15:52:24.121573-05:00,cfbd,401869964,Southern Miss,James Madison,DraftKings,13.5,15.5,58.5,56.5,425.0,-575.0,,,
+2026-11-05T15:52:24.121573-05:00,cfbd,401869964,Southern Miss,James Madison,Bovada,13.5,14.5,58.0,57.0,475.0,-650.0,,,
+2026-11-05T15:52:24.121573-05:00,cfbd,401867964,Howard,South Carolina State,DraftKings,20.5,15.5,45.5,50.5,830.0,-1720.0,,,
+2026-11-05T15:52:24.362716-05:00,odds_api,401862817,Florida Atlantic Owls,UTSA Roadrunners,draftkings,6.5,,72.5,,215.0,-265.0,2026-11-06T00:30:00Z,-102.0,-110.0
+2026-11-05T15:52:24.362716-05:00,odds_api,401862817,Florida Atlantic Owls,UTSA Roadrunners,fanduel,6.5,,72.5,,195.0,-240.0,2026-11-06T00:30:00Z,-105.0,-114.0
+2026-11-05T15:52:24.362716-05:00,odds_api,401862817,Florida Atlantic Owls,UTSA Roadrunners,betrivers,6.5,,72.5,,220.0,-286.0,2026-11-06T00:30:00Z,-106.0,-115.0
+2026-11-05T15:52:24.362716-05:00,odds_api,401862817,Florida Atlantic Owls,UTSA Roadrunners,lowvig,6.5,,72.0,,211.0,-255.0,2026-11-06T00:30:00Z,100.0,-108.0
+2026-11-05T15:52:24.362716-05:00,odds_api,401862817,Florida Atlantic Owls,UTSA Roadrunners,betonlineag,6.5,,72.0,,211.0,-255.0,2026-11-06T00:30:00Z,-104.0,-110.0
+2026-11-05T15:52:24.362716-05:00,odds_api,401862817,Florida Atlantic Owls,UTSA Roadrunners,betmgm,6.5,,72.5,,210.0,-250.0,2026-11-06T00:30:00Z,-105.0,-108.0
+2026-11-05T15:52:24.362716-05:00,odds_api,401862817,Florida Atlantic Owls,UTSA Roadrunners,mybookieag,6.5,,72.5,,196.0,-248.0,2026-11-06T00:30:00Z,100.0,-110.0
+2026-11-05T15:52:24.362716-05:00,odds_api,401862817,Florida Atlantic Owls,UTSA Roadrunners,betus,6.5,,72.5,,210.0,-250.0,2026-11-06T00:30:00Z,-105.0,-110.0
+2026-11-05T15:52:24.362716-05:00,odds_api,401862817,Florida Atlantic Owls,UTSA Roadrunners,bovada,7.0,,72.0,,215.0,-260.0,2026-11-06T00:30:00Z,-120.0,-110.0
+2026-11-05T15:52:24.362716-05:00,odds_api,401869964,Southern Mississippi Golden Eagles,James Madison Dukes,draftkings,13.5,,58.5,,425.0,-575.0,2026-11-06T01:00:00Z,-108.0,-110.0
+2026-11-05T15:52:24.362716-05:00,odds_api,401869964,Southern Mississippi Golden Eagles,James Madison Dukes,fanduel,13.5,,58.5,,440.0,-580.0,2026-11-06T01:00:00Z,-105.0,-110.0
+2026-11-05T15:52:24.362716-05:00,odds_api,401869964,Southern Mississippi Golden Eagles,James Madison Dukes,betrivers,13.5,,58.5,,475.0,-715.0,2026-11-06T01:00:00Z,-110.0,-110.0
+2026-11-05T15:52:24.362716-05:00,odds_api,401869964,Southern Mississippi Golden Eagles,James Madison Dukes,lowvig,13.5,,59.0,,434.0,-580.0,2026-11-06T01:00:00Z,-106.0,-104.0
+2026-11-05T15:52:24.362716-05:00,odds_api,401869964,Southern Mississippi Golden Eagles,James Madison Dukes,betonlineag,13.5,,59.0,,434.0,-580.0,2026-11-06T01:00:00Z,-110.0,-106.0
+2026-11-05T15:52:24.362716-05:00,odds_api,401869964,Southern Mississippi Golden Eagles,James Madison Dukes,betmgm,13.5,,58.5,,450.0,-600.0,2026-11-06T01:00:00Z,-108.0,-110.0
+2026-11-05T15:52:24.362716-05:00,odds_api,401869964,Southern Mississippi Golden Eagles,James Madison Dukes,mybookieag,13.5,,58.5,,422.0,-631.0,2026-11-06T01:00:00Z,-110.0,-110.0
+2026-11-05T15:52:24.362716-05:00,odds_api,401869964,Southern Mississippi Golden Eagles,James Madison Dukes,betus,13.5,,59.0,,440.0,-580.0,2026-11-06T01:00:00Z,-110.0,-110.0
+2026-11-05T15:52:24.362716-05:00,odds_api,401869964,Southern Mississippi Golden Eagles,James Madison Dukes,bovada,13.5,,58.0,,435.0,-585.0,2026-11-06T01:00:00Z,-108.0,-112.0
