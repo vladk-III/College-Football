@@ -13085,3 +13085,36 @@ snapshot_ts,source,game_id,home_team,away_team,provider,spread,spread_open,over_
 2026-11-05T15:52:24.362716-05:00,odds_api,401869964,Southern Mississippi Golden Eagles,James Madison Dukes,mybookieag,13.5,,58.5,,422.0,-631.0,2026-11-06T01:00:00Z,-110.0,-110.0
 2026-11-05T15:52:24.362716-05:00,odds_api,401869964,Southern Mississippi Golden Eagles,James Madison Dukes,betus,13.5,,59.0,,440.0,-580.0,2026-11-06T01:00:00Z,-110.0,-110.0
 2026-11-05T15:52:24.362716-05:00,odds_api,401869964,Southern Mississippi Golden Eagles,James Madison Dukes,bovada,13.5,,58.0,,435.0,-585.0,2026-11-06T01:00:00Z,-108.0,-112.0
+2026-11-05T19:43:36.965308-05:00,cfbd,401858288,SMU,Virginia Tech,DraftKings,-6.5,-7.5,56.5,57.5,-225.0,185.0,,,
+2026-11-05T19:43:36.965308-05:00,cfbd,401858288,SMU,Virginia Tech,Bovada,-6.0,-6.0,56.5,55.0,-230.0,190.0,,,
+2026-11-05T19:43:36.965308-05:00,cfbd,401869964,Southern Miss,James Madison,DraftKings,13.5,15.5,58.5,56.5,425.0,-575.0,,,
+2026-11-05T19:43:36.965308-05:00,cfbd,401869964,Southern Miss,James Madison,Bovada,13.5,14.5,58.0,57.0,475.0,-650.0,,,
+2026-11-05T19:43:36.965308-05:00,cfbd,401862818,East Carolina,South Florida,DraftKings,-2.5,1.5,39.5,45.5,-135.0,114.0,,,
+2026-11-05T19:43:36.965308-05:00,cfbd,401862818,East Carolina,South Florida,Bovada,-2.5,-2.0,39.5,40.0,-125.0,105.0,,,
+2026-11-05T19:43:37.182438-05:00,odds_api,401869964,Southern Mississippi Golden Eagles,James Madison Dukes,draftkings,13.5,,58.5,,425.0,-575.0,2026-11-06T01:00:00Z,-110.0,-108.0
+2026-11-05T19:43:37.182438-05:00,odds_api,401869964,Southern Mississippi Golden Eagles,James Madison Dukes,fanduel,13.5,,58.5,,420.0,-550.0,2026-11-06T01:00:00Z,-110.0,-105.0
+2026-11-05T19:43:37.182438-05:00,odds_api,401869964,Southern Mississippi Golden Eagles,James Madison Dukes,betrivers,13.0,,56.5,,460.0,-715.0,2026-11-06T01:00:00Z,-112.0,-115.0
+2026-11-05T19:43:37.182438-05:00,odds_api,401869964,Southern Mississippi Golden Eagles,James Madison Dukes,lowvig,13.5,,58.5,,431.0,-575.0,2026-11-06T01:00:00Z,-106.0,-102.0
+2026-11-05T19:43:37.182438-05:00,odds_api,401869964,Southern Mississippi Golden Eagles,James Madison Dukes,betonlineag,13.5,,58.5,,431.0,-575.0,2026-11-06T01:00:00Z,-110.0,-104.0
+2026-11-05T19:43:37.182438-05:00,odds_api,401869964,Southern Mississippi Golden Eagles,James Madison Dukes,betmgm,13.5,,58.5,,425.0,-550.0,2026-11-06T01:00:00Z,-110.0,-105.0
+2026-11-05T19:43:37.182438-05:00,odds_api,401869964,Southern Mississippi Golden Eagles,James Madison Dukes,mybookieag,13.5,,58.0,,422.0,-594.0,2026-11-06T01:00:00Z,-110.0,-110.0
+2026-11-05T19:43:37.182438-05:00,odds_api,401869964,Southern Mississippi Golden Eagles,James Madison Dukes,betus,13.5,,58.0,,440.0,-575.0,2026-11-06T01:00:00Z,-110.0,-110.0
+2026-11-05T19:43:37.182438-05:00,odds_api,401869964,Southern Mississippi Golden Eagles,James Madison Dukes,bovada,13.5,,58.0,,425.0,-575.0,2026-11-06T01:00:00Z,-112.0,-110.0
+2026-11-05T19:43:37.182438-05:00,odds_api,401858288,SMU Mustangs,Virginia Tech Hokies,draftkings,-6.5,,56.5,,-225.0,185.0,2026-11-07T00:00:00Z,-110.0,-108.0
+2026-11-05T19:43:37.182438-05:00,odds_api,401858288,SMU Mustangs,Virginia Tech Hokies,fanduel,-6.5,,56.5,,-210.0,172.0,2026-11-07T00:00:00Z,-102.0,-110.0
+2026-11-05T19:43:37.182438-05:00,odds_api,401858288,SMU Mustangs,Virginia Tech Hokies,betrivers,-6.0,,56.5,,-235.0,185.0,2026-11-07T00:00:00Z,-112.0,-114.0
+2026-11-05T19:43:37.182438-05:00,odds_api,401858288,SMU Mustangs,Virginia Tech Hokies,betonlineag,-6.5,,56.5,,-220.0,186.0,2026-11-07T00:00:00Z,-110.0,-110.0
+2026-11-05T19:43:37.182438-05:00,odds_api,401858288,SMU Mustangs,Virginia Tech Hokies,lowvig,-6.5,,56.5,,-220.0,186.0,2026-11-07T00:00:00Z,-106.0,-108.0
+2026-11-05T19:43:37.182438-05:00,odds_api,401858288,SMU Mustangs,Virginia Tech Hokies,betmgm,-6.5,,56.5,,-225.0,185.0,2026-11-07T00:00:00Z,-108.0,-108.0
+2026-11-05T19:43:37.182438-05:00,odds_api,401858288,SMU Mustangs,Virginia Tech Hokies,mybookieag,-6.5,,56.5,,-242.0,193.0,2026-11-07T00:00:00Z,-110.0,-110.0
+2026-11-05T19:43:37.182438-05:00,odds_api,401858288,SMU Mustangs,Virginia Tech Hokies,betus,-6.5,,57.0,,-235.0,200.0,2026-11-07T00:00:00Z,-110.0,-110.0
+2026-11-05T19:43:37.182438-05:00,odds_api,401858288,SMU Mustangs,Virginia Tech Hokies,bovada,-6.0,,56.5,,-230.0,190.0,2026-11-07T00:00:00Z,-112.0,-105.0
+2026-11-05T19:43:37.182438-05:00,odds_api,401862818,East Carolina Pirates,South Florida Bulls,draftkings,-2.5,,39.5,,-135.0,114.0,2026-11-07T00:30:00Z,-110.0,-108.0
+2026-11-05T19:43:37.182438-05:00,odds_api,401862818,East Carolina Pirates,South Florida Bulls,betrivers,-2.0,,38.5,,-132.0,107.0,2026-11-07T00:30:00Z,-114.0,-117.0
+2026-11-05T19:43:37.182438-05:00,odds_api,401862818,East Carolina Pirates,South Florida Bulls,fanduel,-2.5,,39.5,,-128.0,106.0,2026-11-07T00:30:00Z,-110.0,-108.0
+2026-11-05T19:43:37.182438-05:00,odds_api,401862818,East Carolina Pirates,South Florida Bulls,betonlineag,-2.5,,39.0,,-135.0,115.0,2026-11-07T00:30:00Z,-111.0,-115.0
+2026-11-05T19:43:37.182438-05:00,odds_api,401862818,East Carolina Pirates,South Florida Bulls,lowvig,-2.5,,39.0,,-135.0,115.0,2026-11-07T00:30:00Z,-107.0,-114.0
+2026-11-05T19:43:37.182438-05:00,odds_api,401862818,East Carolina Pirates,South Florida Bulls,betmgm,-2.5,,39.5,,-130.0,110.0,2026-11-07T00:30:00Z,-110.0,-108.0
+2026-11-05T19:43:37.182438-05:00,odds_api,401862818,East Carolina Pirates,South Florida Bulls,mybookieag,-2.5,,39.0,,-138.0,112.0,2026-11-07T00:30:00Z,-110.0,-110.0
+2026-11-05T19:43:37.182438-05:00,odds_api,401862818,East Carolina Pirates,South Florida Bulls,betus,-2.5,,39.0,,-140.0,120.0,2026-11-07T00:30:00Z,-115.0,-110.0
+2026-11-05T19:43:37.182438-05:00,odds_api,401862818,East Carolina Pirates,South Florida Bulls,bovada,-2.5,,39.5,,-132.0,112.0,2026-11-07T00:30:00Z,-112.0,-110.0
