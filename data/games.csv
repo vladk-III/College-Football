@@ -3362,9 +3362,9 @@ game_id,season,week,season_type,start_date,neutral_site,conference_game,home_tea
 401866457,2026,10,regular,2026-11-05T00:00:00.000Z,False,True,Sacramento State,Mid-American,17.0,Toledo,Mid-American,20.0,Hornet Stadium,True
 401866455,2026,10,regular,2026-11-05T00:00:00.000Z,False,True,Massachusetts,Mid-American,31.0,Ball State,Mid-American,30.0,Warren McGuirk Alumni Stadium,True
 401866456,2026,10,regular,2026-11-05T00:30:00.000Z,True,True,Eastern Michigan,Mid-American,7.0,Central Michigan,Mid-American,35.0,Ford Field,True
-401862817,2026,10,regular,2026-11-06T00:30:00.000Z,False,True,Florida Atlantic,American Athletic,,UTSA,American Athletic,,FAU Stadium,False
-401867964,2026,10,regular,2026-11-06T00:30:00.000Z,False,True,Howard,MEAC,,South Carolina State,MEAC,,William H. Greene Stadium,False
-401869964,2026,10,regular,2026-11-06T01:00:00.000Z,False,True,Southern Miss,Sun Belt,,James Madison,Sun Belt,,M. M. Roberts Stadium,False
+401862817,2026,10,regular,2026-11-06T00:30:00.000Z,False,True,Florida Atlantic,American Athletic,60.0,UTSA,American Athletic,29.0,FAU Stadium,True
+401867964,2026,10,regular,2026-11-06T00:30:00.000Z,False,True,Howard,MEAC,28.0,South Carolina State,MEAC,35.0,William H. Greene Stadium,True
+401869964,2026,10,regular,2026-11-06T01:00:00.000Z,False,True,Southern Miss,Sun Belt,23.0,James Madison,Sun Belt,54.0,M. M. Roberts Stadium,True
 401858288,2026,10,regular,2026-11-07T00:00:00.000Z,False,True,SMU,ACC,,Virginia Tech,ACC,,Gerald J. Ford Stadium,False
 401862818,2026,10,regular,2026-11-07T00:30:00.000Z,False,True,East Carolina,American Athletic,,South Florida,American Athletic,,Dowdy-Ficklen Stadium,False
 401858510,2026,10,regular,2026-11-07T01:00:00.000Z,False,True,Illinois,Big Ten,,Nebraska,Big Ten,,"Memorial Stadium (Champaign, IL)",False
