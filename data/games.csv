@@ -3369,19 +3369,20 @@ game_id,season,week,season_type,start_date,neutral_site,conference_game,home_tea
 401908441,2026,10,regular,2026-11-08T03:03:00.000Z,False,True,Cal Lutheran,So. Cal.,9.0,Chapman,So. Cal.,20.0,William Rolland Stadium,True
 401860912,2026,10,regular,2026-11-08T03:30:00.000Z,False,True,Oregon State,Pac-12,21.0,Texas State,Pac-12,42.0,Reser Stadium,True
 401864535,2026,10,regular,2026-11-08T03:30:00.000Z,False,True,UNLV,Mountain West,35.0,Wyoming,Mountain West,41.0,Allegiant Stadium,True
-401866458,2026,11,regular,2026-11-11T00:00:00.000Z,False,True,Akron,Mid-American,14.0,Western Michigan,Mid-American,42.0,InfoCision Stadium,True
 401866459,2026,11,regular,2026-11-11T00:00:00.000Z,False,True,Bowling Green,Mid-American,33.0,Kent State,Mid-American,28.0,Doyt L. Perry Stadium,True
+401866458,2026,11,regular,2026-11-11T00:00:00.000Z,False,True,Akron,Mid-American,14.0,Western Michigan,Mid-American,42.0,InfoCision Stadium,True
 401866460,2026,11,regular,2026-11-11T01:00:00.000Z,False,True,Miami (OH),Mid-American,34.0,Ohio,Mid-American,17.0,Yager Stadium,True
-401866461,2026,11,regular,2026-11-12T00:30:00.000Z,False,True,Ball State,Mid-American,7.0,Buffalo,Mid-American,28.0,Scheumann Stadium,True
 401866462,2026,11,regular,2026-11-12T00:30:00.000Z,False,True,Central Michigan,Mid-American,28.0,Sacramento State,Mid-American,7.0,Kelly/Shorts Stadium,True
 401866463,2026,11,regular,2026-11-12T00:30:00.000Z,False,True,Toledo,Mid-American,24.0,Massachusetts,Mid-American,0.0,Glass Bowl,True
-401906974,2026,11,regular,2026-11-12T23:00:00.000Z,False,True,Fort Valley State,SIAC,,Clark Atlanta,SIAC,,Wildcat Stadium (GA),False
-401862824,2026,11,regular,2026-11-13T01:00:00.000Z,False,True,South Florida,American Athletic,,Memphis,American Athletic,,Raymond James Stadium,False
-401869969,2026,11,regular,2026-11-13T02:00:00.000Z,False,True,UL Monroe,Sun Belt,,Louisiana,Sun Belt,,Malone Stadium,False
+401866461,2026,11,regular,2026-11-12T00:30:00.000Z,False,True,Ball State,Mid-American,7.0,Buffalo,Mid-American,28.0,Scheumann Stadium,True
+401906974,2026,11,regular,2026-11-12T23:00:00.000Z,False,True,Fort Valley State,SIAC,13.0,Clark Atlanta,SIAC,24.0,Wildcat Stadium (GA),True
+401862824,2026,11,regular,2026-11-13T01:00:00.000Z,False,True,South Florida,American Athletic,41.0,Memphis,American Athletic,52.0,Raymond James Stadium,True
+401869969,2026,11,regular,2026-11-13T02:00:00.000Z,False,True,UL Monroe,Sun Belt,21.0,Louisiana,Sun Belt,42.0,Malone Stadium,True
+401934184,2026,11,regular,2026-11-13T23:00:00.000Z,True,True,Fayetteville State,CIAA,,Virginia State,CIAA,,Durham County Memorial Stadium,False
 401908976,2026,11,regular,2026-11-13T23:00:00.000Z,False,True,Rowan,New Jersey,,Montclair State,New Jersey,,Richard Wackar Stadium,False
 401858293,2026,11,regular,2026-11-14T00:00:00.000Z,False,True,Pittsburgh,ACC,,Florida State,ACC,,Acrisure Stadium,False
-401908984,2026,11,regular,2026-11-14T00:00:00.000Z,False,True,The College of New Jersey,New Jersey,,Kean,New Jersey,,Lions Stadium,False
 401908345,2026,11,regular,2026-11-14T00:00:00.000Z,False,True,Johns Hopkins,Centennial,,Franklin & Marshall,Centennial,,Homewood Field,False
+401908984,2026,11,regular,2026-11-14T00:00:00.000Z,False,True,The College of New Jersey,New Jersey,,Kean,New Jersey,,Lions Stadium,False
 401858526,2026,11,regular,2026-11-14T02:00:00.000Z,False,True,UCLA,Big Ten,,Illinois,Big Ten,,Rose Bowl,False
 401868157,2026,11,regular,2026-11-14T03:00:00.000Z,False,True,Portland State,Big Sky,,Southern Utah,Big Sky,,Hillsboro Stadium,False
 401856860,2026,11,regular,2026-11-14T03:15:00.000Z,False,True,Colorado,Big 12,,Houston,Big 12,,Folsom Field,False
@@ -3391,127 +3392,84 @@ game_id,season,week,season_type,start_date,neutral_site,conference_game,home_tea
 401908605,2026,11,regular,2026-11-14T17:00:00.000Z,False,True,Plymouth State,MSCAC,,UMass Dartmouth,MSCAC,,Charles L. Currier Memorial Field,False
 401908598,2026,11,regular,2026-11-14T17:00:00.000Z,False,True,Framingham State,MSCAC,,Worcester State,MSCAC,,Bowditch Field,False
 401908711,2026,11,regular,2026-11-14T17:00:00.000Z,False,True,Olivet,Michigan,,Albion,Michigan,,Cutler Field,False
-401866689,2026,11,regular,2026-11-14T17:00:00.000Z,False,True,Rhode Island,Coastal Athletic,,Towson,Coastal Athletic,,Centreville Bank Stadium,False
-401866693,2026,11,regular,2026-11-14T17:00:00.000Z,False,False,Monmouth,Coastal Athletic,,Merrimack,FCS Independents,,Kessler Stadium,False
-401856886,2026,11,regular,2026-11-14T17:00:00.000Z,False,True,Mississippi State,SEC,,Auburn,SEC,,Davis Wade Stadium,False
-401908643,2026,11,regular,2026-11-14T17:00:00.000Z,False,True,Susquehanna,Landmark Conference,,Juniata,Landmark Conference,,Amos Alonzo Stagg Field (PA),False
-401870842,2026,11,regular,2026-11-14T17:00:00.000Z,False,True,Yale,Ivy,,Princeton,Ivy,,Yale Bowl,False
-401858520,2026,11,regular,2026-11-14T17:00:00.000Z,False,True,Maryland,Big Ten,,Wisconsin,Big Ten,,SECU Stadium,False
-401861967,2026,11,regular,2026-11-14T17:00:00.000Z,False,False,UConn,FBS Independents,,James Madison,Sun Belt,,Pratt & Whitney Stadium,False
-401858522,2026,11,regular,2026-11-14T17:00:00.000Z,False,True,Ohio State,Big Ten,,Northwestern,Big Ten,,Ohio Stadium,False
-401907492,2026,11,regular,2026-11-14T17:00:00.000Z,False,True,Pace,Northeast 10,,Assumption,Northeast 10,,Pace Stadium,False
-401908931,2026,11,regular,2026-11-14T17:00:00.000Z,False,True,Vermont State Castleton,New Jersey,,William Paterson,New Jersey,,Dave Wolk Stadium,False
+401907754,2026,11,regular,2026-11-14T17:00:00.000Z,False,True,Rochester (NY),Liberty League,,St. Lawrence,Liberty League,,Edwin Fauver Stadium,False
 401908616,2026,11,regular,2026-11-14T17:00:00.000Z,False,True,Western Connecticut State,Landmark Conference,,Wilkes,Landmark Conference,,Westside Athletic Complex,False
+401858520,2026,11,regular,2026-11-14T17:00:00.000Z,False,True,Maryland,Big Ten,,Wisconsin,Big Ten,,SECU Stadium,False
+401868272,2026,11,regular,2026-11-14T17:00:00.000Z,False,True,Morehead State,Pioneer,,Presbyterian,Pioneer,,Jayne Stadium,False
 401908649,2026,11,regular,2026-11-14T17:00:00.000Z,False,True,Moravian,Landmark Conference,,Lycoming,Landmark Conference,,Rocco Calvo Field,False
 401908195,2026,11,regular,2026-11-14T17:00:00.000Z,False,True,FDU Florham,Mid Atlantic,,Eastern,Mid Atlantic,,Robert T. Shields Field,False
-401908689,2026,11,regular,2026-11-14T17:00:00.000Z,False,True,Rensselaer,Liberty League,,Union,Liberty League,,ECAV Stadium,False
-401906889,2026,11,regular,2026-11-14T17:00:00.000Z,False,True,Michigan Tech,GLIAC,,Wayne State (MI),GLIAC,,Sherman Field,False
-401907006,2026,11,regular,2026-11-14T17:00:00.000Z,False,True,Davenport,GLIAC,,Grand Valley State,GLIAC,,Farmers Insurance Athletic Complex,False
-401907971,2026,11,regular,2026-11-14T17:00:00.000Z,False,False,Hilbert,Empire 8,,Hartwick,Empire 8,,St. Francis High School,False
+401858522,2026,11,regular,2026-11-14T17:00:00.000Z,False,True,Ohio State,Big Ten,,Northwestern,Big Ten,,Ohio Stadium,False
 401907878,2026,11,regular,2026-11-14T17:00:00.000Z,False,True,Utica,Empire 8,,Brockport,Empire 8,,Charles A. Gaetano Stadium,False
-401868027,2026,11,regular,2026-11-14T17:00:00.000Z,False,True,Holy Cross,Patriot,,Villanova,Patriot,,Fitton Field,False
-401858296,2026,11,regular,2026-11-14T17:00:00.000Z,False,True,Miami,ACC,,Duke,ACC,,Hard Rock Stadium,False
+401867934,2026,11,regular,2026-11-14T17:00:00.000Z,False,True,Wagner,NEC,,New Haven,NEC,,Wagner College Stadium,False
+401908689,2026,11,regular,2026-11-14T17:00:00.000Z,False,True,Rensselaer,Liberty League,,Union,Liberty League,,ECAV Stadium,False
+401908110,2026,11,regular,2026-11-14T17:00:00.000Z,False,True,Maryville (TN),USA South,,Millsaps,Southern Athletic,,Lloyd L. Thornton Stadium,False
+401866688,2026,11,regular,2026-11-14T17:00:00.000Z,False,True,Sacred Heart,Coastal Athletic,,Bryant,Coastal Athletic,,Campus Field,False
+401908524,2026,11,regular,2026-11-14T17:00:00.000Z,False,True,Nichols,Commonwealth Coast,,Western New England,Commonwealth Coast,,Vendetti Field,False
+401907618,2026,11,regular,2026-11-14T17:00:00.000Z,False,True,Wheeling,Mountain East,,West Liberty,Mountain East,,Bishop Schmitt Field,False
+401907587,2026,11,regular,2026-11-14T17:00:00.000Z,False,True,Charleston (WV),Mountain East,,West Virginia State,Mountain East,,University of Charleston Stadium,False
+401866687,2026,11,regular,2026-11-14T17:00:00.000Z,False,True,UAlbany,Coastal Athletic,,Maine,Coastal Athletic,,Bob Ford Field,False
+401868014,2026,11,regular,2026-11-14T17:00:00.000Z,False,True,Fordham,Patriot,,Georgetown,Patriot,,Jack Coffey Field,False
+401867923,2026,11,regular,2026-11-14T17:00:00.000Z,False,True,Robert Morris,NEC,,Stonehill,NEC,,Joe Walton Stadium,False
+401908484,2026,11,regular,2026-11-14T17:00:00.000Z,False,True,Curry,Commonwealth Coast,,Endicott,Commonwealth Coast,,Walter M. Katz Field,False
+401869155,2026,11,regular,2026-11-14T17:00:00.000Z,False,True,Duquesne,NEC,,Mercyhurst,NEC,,Arthur J. Rooney Athletic Field,False
+401866693,2026,11,regular,2026-11-14T17:00:00.000Z,False,False,Monmouth,Coastal Athletic,,Merrimack,FCS Independents,,Kessler Stadium,False
+401906630,2026,11,regular,2026-11-14T17:00:00.000Z,False,True,Northwood,Great Midwest Athletic,,Walsh,Great Midwest Athletic,,Hantz Stadium,False
+401907492,2026,11,regular,2026-11-14T17:00:00.000Z,False,True,Pace,Northeast 10,,Assumption,Northeast 10,,Pace Stadium,False
+401867811,2026,11,regular,2026-11-14T17:00:00.000Z,False,True,Brown,Ivy,,Columbia,Ivy,,Brown Stadium,False
+401906889,2026,11,regular,2026-11-14T17:00:00.000Z,False,True,Michigan Tech,GLIAC,,Wayne State (MI),GLIAC,,Sherman Field,False
+401866689,2026,11,regular,2026-11-14T17:00:00.000Z,False,True,Rhode Island,Coastal Athletic,,Towson,Coastal Athletic,,Centreville Bank Stadium,False
+401907006,2026,11,regular,2026-11-14T17:00:00.000Z,False,True,Davenport,GLIAC,,Grand Valley State,GLIAC,,Farmers Insurance Athletic Complex,False
+401867905,2026,11,regular,2026-11-14T17:00:00.000Z,False,True,Long Island University,NEC,,Central Connecticut,NEC,,Shark Stadium,False
+401858300,2026,11,regular,2026-11-14T17:00:00.000Z,False,True,NC State,ACC,,Syracuse,ACC,,Carter-Finley Stadium,False
+401861967,2026,11,regular,2026-11-14T17:00:00.000Z,False,False,UConn,FBS Independents,,James Madison,Sun Belt,,Pratt & Whitney Stadium,False
 401856859,2026,11,regular,2026-11-14T17:00:00.000Z,False,True,Iowa State,Big 12,,Cincinnati,Big 12,,Jack Trice Stadium,False
 401867853,2026,11,regular,2026-11-14T17:00:00.000Z,False,True,Youngstown State,MVFC,,Illinois State,MVFC,,Stambaugh Stadium,False
-401908524,2026,11,regular,2026-11-14T17:00:00.000Z,False,True,Nichols,Commonwealth Coast,,Western New England,Commonwealth Coast,,Vendetti Field,False
+401858301,2026,11,regular,2026-11-14T17:00:00.000Z,False,True,SMU,ACC,,Wake Forest,ACC,,Gerald J. Ford Stadium,False
+401858296,2026,11,regular,2026-11-14T17:00:00.000Z,False,True,Miami,ACC,,Duke,ACC,,Hard Rock Stadium,False
 401867970,2026,11,regular,2026-11-14T17:00:00.000Z,False,True,Morgan State,MEAC,,Norfolk State,MEAC,,Hughes Stadium,False
-401908484,2026,11,regular,2026-11-14T17:00:00.000Z,False,True,Curry,Commonwealth Coast,,Endicott,Commonwealth Coast,,Walter M. Katz Field,False
-401907664,2026,11,regular,2026-11-14T17:00:00.000Z,False,True,Carnegie Mellon,Presidents',,Ursinus,Centennial,,Gesling Stadium,False
-401866688,2026,11,regular,2026-11-14T17:00:00.000Z,False,True,Sacred Heart,Coastal Athletic,,Bryant,Coastal Athletic,,Campus Field,False
-401908110,2026,11,regular,2026-11-14T17:00:00.000Z,False,True,Maryville (TN),USA South,,Millsaps,Southern Athletic,,Lloyd L. Thornton Stadium,False
-401867923,2026,11,regular,2026-11-14T17:00:00.000Z,False,True,Robert Morris,NEC,,Stonehill,NEC,,Joe Walton Stadium,False
-401869155,2026,11,regular,2026-11-14T17:00:00.000Z,False,True,Duquesne,NEC,,Mercyhurst,NEC,,Arthur J. Rooney Athletic Field,False
+401907971,2026,11,regular,2026-11-14T17:00:00.000Z,False,False,Hilbert,Empire 8,,Hartwick,Empire 8,,St. Francis High School,False
+401870842,2026,11,regular,2026-11-14T17:00:00.000Z,False,True,Yale,Ivy,,Princeton,Ivy,,Yale Bowl,False
+401868225,2026,11,regular,2026-11-14T17:00:00.000Z,False,True,Dayton,Pioneer,,Davidson,Pioneer,,Welcome Stadium,False
+401868027,2026,11,regular,2026-11-14T17:00:00.000Z,False,True,Holy Cross,Patriot,,Villanova,Patriot,,Fitton Field,False
 401908585,2026,11,regular,2026-11-14T17:00:00.000Z,False,True,Mass Maritime,MSCAC,,Bridgewater State,MSCAC,,Clean Harbors Stadium,False
 401908575,2026,11,regular,2026-11-14T17:00:00.000Z,False,True,Westfield State,MSCAC,,Fitchburg State,MSCAC,,"Alumni Field (Westfield, MA)",False
+401908959,2026,11,regular,2026-11-14T17:00:00.000Z,False,True,Norwich,NEWMAC,,MIT,NEWMAC,,Sabine Field at Haynes Family Stadium,False
+401908631,2026,11,regular,2026-11-14T17:00:00.000Z,False,True,Salve Regina,NEWMAC,,WPI,NEWMAC,,Toppa Field,False
+401908920,2026,11,regular,2026-11-14T17:00:00.000Z,False,True,Trinity (CT),NESCAC,,Wesleyan (CT),NESCAC,,Jessee/Miller Field,False
 401908566,2026,11,regular,2026-11-14T17:00:00.000Z,False,True,Maine Maritime,Commonwealth Coast,,Husson,Commonwealth Coast,,Ritchie Field,False
 401906640,2026,11,regular,2026-11-14T17:00:00.000Z,False,True,Tiffin,Great Midwest Athletic,,Findlay,Great Midwest Athletic,,Frost-Kalnow Stadium,False
 401906675,2026,11,regular,2026-11-14T17:00:00.000Z,False,True,Ohio Dominican,Great Midwest Athletic,,Hillsdale,Great Midwest Athletic,,Panther Stadium (OH),False
-401906630,2026,11,regular,2026-11-14T17:00:00.000Z,False,True,Northwood,Great Midwest Athletic,,Walsh,Great Midwest Athletic,,Hantz Stadium,False
-401858301,2026,11,regular,2026-11-14T17:00:00.000Z,False,True,SMU,ACC,,Wake Forest,ACC,,Gerald J. Ford Stadium,False
-401907754,2026,11,regular,2026-11-14T17:00:00.000Z,False,True,Rochester (NY),Liberty League,,St. Lawrence,Liberty League,,Edwin Fauver Stadium,False
-401867934,2026,11,regular,2026-11-14T17:00:00.000Z,False,True,Wagner,NEC,,New Haven,NEC,,Wagner College Stadium,False
-401868272,2026,11,regular,2026-11-14T17:00:00.000Z,False,True,Morehead State,Pioneer,,Presbyterian,Pioneer,,Jayne Stadium,False
-401866687,2026,11,regular,2026-11-14T17:00:00.000Z,False,True,UAlbany,Coastal Athletic,,Maine,Coastal Athletic,,Bob Ford Field,False
-401868014,2026,11,regular,2026-11-14T17:00:00.000Z,False,True,Fordham,Patriot,,Georgetown,Patriot,,Jack Coffey Field,False
-401908920,2026,11,regular,2026-11-14T17:00:00.000Z,False,True,Trinity (CT),NESCAC,,Wesleyan (CT),NESCAC,,Jessee/Miller Field,False
-401908860,2026,11,regular,2026-11-14T17:00:00.000Z,False,True,Hamilton,NESCAC,,Bates,NESCAC,,Steuben Field,False
+401856886,2026,11,regular,2026-11-14T17:00:00.000Z,False,True,Mississippi State,SEC,,Auburn,SEC,,Davis Wade Stadium,False
 401868217,2026,11,regular,2026-11-14T17:00:00.000Z,False,True,Marist,Pioneer,,Butler,Pioneer,,Leonidoff Field,False
 401907535,2026,11,regular,2026-11-14T17:00:00.000Z,False,False,Clarion,Pennsylvania State Athletic,,Millersville,Pennsylvania State Athletic,,"Memorial Stadium (Clarion, PA)",False
+401907664,2026,11,regular,2026-11-14T17:00:00.000Z,False,True,Carnegie Mellon,Presidents',,Ursinus,Centennial,,Gesling Stadium,False
 401907558,2026,11,regular,2026-11-14T17:00:00.000Z,False,False,Gannon,Pennsylvania State Athletic,,West Chester,Pennsylvania State Athletic,,McConnell Family Stadium,False
 401907503,2026,11,regular,2026-11-14T17:00:00.000Z,False,False,California (PA),Pennsylvania State Athletic,,Bloomsburg,Pennsylvania State Athletic,,Adamson Stadium,False
 401907545,2026,11,regular,2026-11-14T17:00:00.000Z,False,True,Lock Haven,Pennsylvania State Athletic,,East Stroudsburg,Pennsylvania State Athletic,,Hubert Jack Stadium,False
-401868225,2026,11,regular,2026-11-14T17:00:00.000Z,False,True,Dayton,Pioneer,,Davidson,Pioneer,,Welcome Stadium,False
+401908931,2026,11,regular,2026-11-14T17:00:00.000Z,False,True,Vermont State Castleton,New Jersey,,William Paterson,New Jersey,,Dave Wolk Stadium,False
 401907552,2026,11,regular,2026-11-14T17:00:00.000Z,False,True,Edinboro,Pennsylvania State Athletic,,Shippensburg,Pennsylvania State Athletic,,Sox Harrison Stadium,False
 401908832,2026,11,regular,2026-11-14T17:00:00.000Z,False,True,Williams,NESCAC,,Amherst,NESCAC,,Farley-Lamb Field,False
-401867811,2026,11,regular,2026-11-14T17:00:00.000Z,False,True,Brown,Ivy,,Columbia,Ivy,,Brown Stadium,False
-401907587,2026,11,regular,2026-11-14T17:00:00.000Z,False,True,Charleston (WV),Mountain East,,West Virginia State,Mountain East,,University of Charleston Stadium,False
+401908860,2026,11,regular,2026-11-14T17:00:00.000Z,False,True,Hamilton,NESCAC,,Bates,NESCAC,,Steuben Field,False
 401908536,2026,11,regular,2026-11-14T17:00:00.000Z,False,True,New England College,,,New England,Commonwealth Coast,,,False
-401867905,2026,11,regular,2026-11-14T17:00:00.000Z,False,True,Long Island University,NEC,,Central Connecticut,NEC,,Shark Stadium,False
+401908643,2026,11,regular,2026-11-14T17:00:00.000Z,False,True,Susquehanna,Landmark Conference,,Juniata,Landmark Conference,,Amos Alonzo Stagg Field (PA),False
 401908890,2026,11,regular,2026-11-14T17:00:00.000Z,False,True,SUNY Maritime,NEWMAC,,Springfield,NEWMAC,,Reinhart Field,False
-401908959,2026,11,regular,2026-11-14T17:00:00.000Z,False,True,Norwich,NEWMAC,,MIT,NEWMAC,,Sabine Field at Haynes Family Stadium,False
-401858300,2026,11,regular,2026-11-14T17:00:00.000Z,False,True,NC State,ACC,,Syracuse,ACC,,Carter-Finley Stadium,False
-401908631,2026,11,regular,2026-11-14T17:00:00.000Z,False,True,Salve Regina,NEWMAC,,WPI,NEWMAC,,Toppa Field,False
-401907618,2026,11,regular,2026-11-14T17:00:00.000Z,False,True,Wheeling,Mountain East,,West Liberty,Mountain East,,Bishop Schmitt Field,False
 401908917,2026,11,regular,2026-11-14T17:30:00.000Z,False,True,Tufts,NESCAC,,Middlebury,NESCAC,,Ellis Oval at Zimman Field,False
-401868395,2026,11,regular,2026-11-14T17:30:00.000Z,False,True,VMI,Southern,,The Citadel,Southern,,Alumni Memorial Field,False
 401858525,2026,11,regular,2026-11-14T17:30:00.000Z,False,True,Rutgers,Big Ten,,Nebraska,Big Ten,,SHI Stadium,False
+401868395,2026,11,regular,2026-11-14T17:30:00.000Z,False,True,VMI,Southern,,The Citadel,Southern,,Alumni Memorial Field,False
 401858297,2026,11,regular,2026-11-14T17:30:00.000Z,False,True,Clemson,ACC,,Georgia Tech,ACC,,"Memorial Stadium (Clemson, SC)",False
-401908840,2026,11,regular,2026-11-14T17:45:00.000Z,False,True,Otterbein,Ohio,,Mount Union,Ohio,,"Memorial Stadium (Westerville, OH)",False
 401856889,2026,11,regular,2026-11-14T17:45:00.000Z,False,True,Vanderbilt,SEC,,Alabama,SEC,,FirstBank Stadium,False
-401867843,2026,11,regular,2026-11-14T18:00:00.000Z,False,True,Pennsylvania,Ivy,,Harvard,Ivy,,Franklin Field,False
-401906936,2026,11,regular,2026-11-14T18:00:00.000Z,False,True,Ferris State,GLIAC,,Roosevelt,GLIAC,,Top Taggart Field,False
-401907651,2026,11,regular,2026-11-14T18:00:00.000Z,False,True,Minnesota Duluth,Northern Sun,,Minot State,Northern Sun,,James S. Malosky Stadium,False
-401907684,2026,11,regular,2026-11-14T18:00:00.000Z,False,True,Minnesota St Moorhead,Northern Sun,,Minnesota State,Northern Sun,,Scheels Field at Nemzek Stadium,False
-401907726,2026,11,regular,2026-11-14T18:00:00.000Z,False,True,Southwest Minnesota State,Northern Sun,,Winona State,Northern Sun,,Schwan Regional Event Center,False
-401907402,2026,11,regular,2026-11-14T18:00:00.000Z,False,True,Newberry,South Atlantic,,Anderson (SC),South Atlantic,,Setzler Field,False
-401867863,2026,11,regular,2026-11-14T18:00:00.000Z,False,True,Indiana State,MVFC,,Murray State,MVFC,,Memorial Stadium,False
-401908737,2026,11,regular,2026-11-14T18:00:00.000Z,False,True,Alma,Michigan,,Calvin,Michigan,,Bahlke Field,False
-401868946,2026,11,regular,2026-11-14T18:00:00.000Z,False,True,Bethune-Cookman,SWAC,,Grambling,SWAC,,Municipal Stadium,False
-401869937,2026,11,regular,2026-11-14T18:00:00.000Z,False,True,Coastal Carolina,Sun Belt,,Arkansas State,Sun Belt,,Brooks Stadium (SC),False
-401907595,2026,11,regular,2026-11-14T18:00:00.000Z,False,False,Concord,Mountain East,,Ferrum,Carolinas,,Callaghan Stadium,False
-401933695,2026,11,regular,2026-11-14T18:00:00.000Z,False,True,North Greenville,Carolinas,,UNC Pembroke,Carolinas,,Younts Stadium,False
-401867997,2026,11,regular,2026-11-14T18:00:00.000Z,False,True,William & Mary,Patriot,,Bucknell,Patriot,,Zable Stadium,False
-401868006,2026,11,regular,2026-11-14T18:00:00.000Z,False,True,Colgate,Patriot,,Lafayette,Patriot,,Andy Kerr Stadium,False
-401907575,2026,11,regular,2026-11-14T18:00:00.000Z,False,False,Seton Hill,Pennsylvania State Athletic,,Kutztown,Pennsylvania State Athletic,,Offutt Field,False
-401906617,2026,11,regular,2026-11-14T18:00:00.000Z,False,False,Monroe,,,Keystone,Independent DIII,,,False
-401908179,2026,11,regular,2026-11-14T18:00:00.000Z,False,True,Stevenson,Mid Atlantic,,Alvernia,Mid Atlantic,,Mustang Stadium,False
-401908886,2026,11,regular,2026-11-14T18:00:00.000Z,True,True,Merchant Marine,NEWMAC,,Coast Guard,NEWMAC,,Audi Field,False
-401906648,2026,11,regular,2026-11-14T18:00:00.000Z,False,True,Thomas More,Great Midwest Athletic,,Kentucky Wesleyan,Great Midwest Athletic,,BB&T Field at Griffin Plaza,False
-401907885,2026,11,regular,2026-11-14T18:00:00.000Z,True,False,Ithaca,Liberty League,,SUNY Cortland,Empire 8,,Yankee Stadium,False
-401907788,2026,11,regular,2026-11-14T18:00:00.000Z,False,True,Carroll (WI),CCIW,,Augustana (IL),CCIW,,Schneider Stadium,False
-401907831,2026,11,regular,2026-11-14T18:00:00.000Z,False,True,North Park,CCIW,,Elmhurst,CCIW,,Holmgren Athletic Complex,False
-401907837,2026,11,regular,2026-11-14T18:00:00.000Z,False,True,North Central College,CCIW,,Illinois Wesleyan,CCIW,,Benedetti-Wehrli Stadium,False
-401907825,2026,11,regular,2026-11-14T18:00:00.000Z,False,True,Carthage,CCIW,,Wheaton (IL),CCIW,,Art Keller Field,False
-401867958,2026,11,regular,2026-11-14T18:00:00.000Z,False,True,Howard,MEAC,,Delaware State,MEAC,,William H. Greene Stadium,False
-401908804,2026,11,regular,2026-11-14T18:00:00.000Z,False,True,Bethel (MN),Minnesota,,St. Scholastica,Minnesota,,Royal Stadium,False
-401908758,2026,11,regular,2026-11-14T18:00:00.000Z,False,True,Illinois College,Midwest,,Beloit,Midwest,,England Stadium,False
-401908784,2026,11,regular,2026-11-14T18:00:00.000Z,False,True,Knox,Midwest,,Monmouth (IL),Midwest,,Harley Knosher Bowl,False
-401908938,2026,11,regular,2026-11-14T18:00:00.000Z,False,True,Salisbury,New Jersey,,Christopher Newport,New Jersey,,Sea Gull Stadium,False
-401908698,2026,11,regular,2026-11-14T18:00:00.000Z,False,True,Adrian,Michigan,,Kalamazoo,Michigan,,Docking Stadium,False
-401908747,2026,11,regular,2026-11-14T18:00:00.000Z,False,True,Hope,Michigan,,Trine,Michigan,,Ray and Sue Smith Stadium,False
-401862829,2026,11,regular,2026-11-14T18:00:00.000Z,False,True,Temple,American Athletic,,UAB,American Athletic,,Lincoln Financial Field,False
-401908057,2026,11,regular,2026-11-14T18:00:00.000Z,False,True,LaGrange,USA South,,Southern Virginia,USA South,,Callaway Stadium,False
-401907426,2026,11,regular,2026-11-14T18:00:00.000Z,False,True,Emory & Henry,South Atlantic,,UVA Wise,South Atlantic,,Fred Selfe Stadium at Nicewonder Field,False
-401907455,2026,11,regular,2026-11-14T18:00:00.000Z,False,True,Mars Hill,South Atlantic,,Wingate,South Atlantic,,Meares Stadium,False
-401908498,2026,11,regular,2026-11-14T18:00:00.000Z,False,True,Westminster (MO),Upper Midwest,,Crown,Upper Midwest,,Blue Jay Stadium,False
-401908507,2026,11,regular,2026-11-14T18:00:00.000Z,False,True,Martin Luther,Upper Midwest,,Greenville,Upper Midwest,,MLC Bowl,False
-401909033,2026,11,regular,2026-11-14T18:00:00.000Z,False,True,Waynesburg,Presidents',,Bethany (WV),Presidents',,John F. Wiley Stadium,False
-401907745,2026,11,regular,2026-11-14T18:00:00.000Z,False,True,Allegheny,Presidents',,Case Western Reserve,Presidents',,Frank B. Fuhrer Field,False
-401909039,2026,11,regular,2026-11-14T18:00:00.000Z,False,True,Saint Francis,Presidents',,Geneva,Presidents',,DeGol Field,False
-401909051,2026,11,regular,2026-11-14T18:00:00.000Z,False,True,Hiram,Presidents',,Saint Vincent,Presidents',,Charles A. Henry Field,False
-401909046,2026,11,regular,2026-11-14T18:00:00.000Z,False,True,Grove City,Presidents',,Thiel,Presidents',,Robert E. Thorn Field,False
-401909070,2026,11,regular,2026-11-14T18:00:00.000Z,False,True,Westminster (PA),Presidents',,Washington & Jefferson,Presidents',,Memorial Field (PA),False
-401908351,2026,11,regular,2026-11-14T18:00:00.000Z,False,True,Gettysburg,Centennial,,McDaniel,Centennial,,Shirk Field at Musselman Stadium,False
-401908338,2026,11,regular,2026-11-14T18:00:00.000Z,False,True,Dickinson,Centennial,,Muhlenberg,Centennial,,Biddle Field,False
-401907870,2026,11,regular,2026-11-14T18:00:00.000Z,False,True,SUNY Morrisville,Empire 8,,Alfred,Empire 8,,Drake Field (NY),False
-401907861,2026,11,regular,2026-11-14T18:00:00.000Z,False,True,Alfred State,Empire 8,,St. John Fisher,Empire 8,,Pioneer Stadium,False
-401906910,2026,11,regular,2026-11-14T18:00:00.000Z,False,True,Northern Michigan,GLIAC,,Saginaw Valley State,GLIAC,,Superior Dome,False
-401906570,2026,11,regular,2026-11-14T18:00:00.000Z,False,True,Oklahoma Baptist,Great American,,Southern Nazarene,Great American,,Crain Family Stadium,False
+401908840,2026,11,regular,2026-11-14T17:45:00.000Z,False,True,Otterbein,Ohio,,Mount Union,Ohio,,"Memorial Stadium (Westerville, OH)",False
+401909004,2026,11,regular,2026-11-14T18:00:00.000Z,False,True,Shenandoah,Old Dominion,,Guilford,Old Dominion,,Shentel Stadium,False
 401907203,2026,11,regular,2026-11-14T18:00:00.000Z,False,True,Upper Iowa,Great Lakes,,Indianapolis,Great Lakes,,Harms-Eischeid Stadium,False
 401907212,2026,11,regular,2026-11-14T18:00:00.000Z,False,True,Lincoln (MO),Great Lakes,,William Jewell,Great Lakes,,Dwight T. Reed Stadium,False
+401909140,2026,11,regular,2026-11-14T18:00:00.000Z,False,True,Kenyon,North Coast,,Ohio Wesleyan,North Coast,,McBride Field,False
 401906594,2026,11,regular,2026-11-14T18:00:00.000Z,False,False,Northeastern State,Independent DII,,West Alabama,Gulf South,,Gable Field at Doc Wadley Stadium,False
 401908721,2026,11,regular,2026-11-14T18:00:00.000Z,False,True,Buffalo State,Liberty League,,Hobart,Liberty League,,Coyer Field,False
+401908972,2026,11,regular,2026-11-14T18:00:00.000Z,False,True,Wittenberg,North Coast,,Oberlin,North Coast,,Edwards-Maurer Field,False
+401908683,2026,11,regular,2026-11-14T18:00:00.000Z,False,True,John Carroll,Ohio,,Denison,North Coast,,Don Shula Stadium at Wasmer Field,False
+401867843,2026,11,regular,2026-11-14T18:00:00.000Z,False,True,Pennsylvania,Ivy,,Harvard,Ivy,,Franklin Field,False
 401907375,2026,11,regular,2026-11-14T18:00:00.000Z,False,True,Washburn,Mid America,,Missouri Southern State,Mid America,,Yager Stadium at Moore Bowl,False
+401908737,2026,11,regular,2026-11-14T18:00:00.000Z,False,True,Alma,Michigan,,Calvin,Michigan,,Bahlke Field,False
 401907345,2026,11,regular,2026-11-14T18:00:00.000Z,False,True,Central Missouri,Mid America,,Nebraska Kearney,Mid America,,Audrey J. Walton Stadium at Vernon Kennedy Field,False
 401908171,2026,11,regular,2026-11-14T18:00:00.000Z,False,True,Lebanon Valley,Mid Atlantic,,Albright,Mid Atlantic,,Arnold Field (PA),False
 401908188,2026,11,regular,2026-11-14T18:00:00.000Z,False,True,Widener,Mid Atlantic,,Delaware Valley,Mid Atlantic,,Leslie C. Quick Jr. Stadium,False
@@ -3522,159 +3480,205 @@ game_id,season,week,season_type,start_date,neutral_site,conference_game,home_tea
 401907601,2026,11,regular,2026-11-14T18:00:00.000Z,False,True,Frostburg State,Mountain East,,Fairmont State,Mountain East,,Bobcat Stadium (MD),False
 401907614,2026,11,regular,2026-11-14T18:00:00.000Z,False,True,Glenville State,Mountain East,,West Virginia Wesleyan,Mountain East,,I.L. & Sue Morris Stadium,False
 401908872,2026,11,regular,2026-11-14T18:00:00.000Z,False,True,Bowdoin,NESCAC,,Colby,NESCAC,,Whittier Field,False
-401908683,2026,11,regular,2026-11-14T18:00:00.000Z,False,True,John Carroll,Ohio,,Denison,North Coast,,Don Shula Stadium at Wasmer Field,False
-401908972,2026,11,regular,2026-11-14T18:00:00.000Z,False,True,Wittenberg,North Coast,,Oberlin,North Coast,,Edwards-Maurer Field,False
-401909140,2026,11,regular,2026-11-14T18:00:00.000Z,False,True,Kenyon,North Coast,,Ohio Wesleyan,North Coast,,McBride Field,False
-401907510,2026,11,regular,2026-11-14T18:00:00.000Z,False,True,Post,Northeast 10,,Bentley,Northeast 10,,Municipal Stadium,False
-401907483,2026,11,regular,2026-11-14T18:00:00.000Z,False,True,American International,Northeast 10,,Southern Connecticut State,Northeast 10,,Ronald J. Abdow Field,False
-401907515,2026,11,regular,2026-11-14T18:00:00.000Z,False,True,Franklin Pierce,Northeast 10,,Saint Anselm,Northeast 10,,Sodexo Field,False
-401909106,2026,11,regular,2026-11-14T18:00:00.000Z,False,True,Concordia Chicago,NACC,,Wisconsin Lutheran,NACC,,Concordia Stadium,False
-401909004,2026,11,regular,2026-11-14T18:00:00.000Z,False,True,Shenandoah,Old Dominion,,Guilford,Old Dominion,,Shentel Stadium,False
-401909009,2026,11,regular,2026-11-14T18:00:00.000Z,False,True,Hampden Sydney,Old Dominion,,Randolph Macon,Old Dominion,,Lewis C. Everett Stadium,False
-401862825,2026,11,regular,2026-11-14T18:00:00.000Z,False,True,Charlotte,American Athletic,,East Carolina,American Athletic,,Jerry Richardson Stadium,False
-401868344,2026,11,regular,2026-11-14T18:00:00.000Z,False,True,Furman,Southern,,Chattanooga,Southern,,Paladin Stadium,False
 401867833,2026,11,regular,2026-11-14T18:00:00.000Z,False,True,Cornell,Ivy,,Dartmouth,Ivy,,Schoellkopf Field,False
-401866690,2026,11,regular,2026-11-14T18:00:00.000Z,False,True,Hampton,Coastal Athletic,,North Carolina A&T,Coastal Athletic,,Armstrong Stadium,False
-401866691,2026,11,regular,2026-11-14T18:00:00.000Z,False,True,New Hampshire,Coastal Athletic,,Stony Brook,Coastal Athletic,,Wildcat Stadium,False
-401868286,2026,11,regular,2026-11-14T18:00:00.000Z,False,True,Stetson,Pioneer,,Valparaiso,Pioneer,,Spec Martin Municipal Stadium,False
-401915931,2026,11,regular,2026-11-14T18:00:00.000Z,False,False,Chicago State,FCS Independents,,Virginia Lynchburg,,,SeatGeek Stadium,False
+401868946,2026,11,regular,2026-11-14T18:00:00.000Z,False,True,Bethune-Cookman,SWAC,,Grambling,SWAC,,Municipal Stadium,False
+401868344,2026,11,regular,2026-11-14T18:00:00.000Z,False,True,Furman,Southern,,Chattanooga,Southern,,Paladin Stadium,False
+401869937,2026,11,regular,2026-11-14T18:00:00.000Z,False,True,Coastal Carolina,Sun Belt,,Arkansas State,Sun Belt,,Brooks Stadium (SC),False
+401862825,2026,11,regular,2026-11-14T18:00:00.000Z,False,True,Charlotte,American Athletic,,East Carolina,American Athletic,,Jerry Richardson Stadium,False
+401907595,2026,11,regular,2026-11-14T18:00:00.000Z,False,False,Concord,Mountain East,,Ferrum,Carolinas,,Callaghan Stadium,False
+401933695,2026,11,regular,2026-11-14T18:00:00.000Z,False,False,North Greenville,Carolinas,,UNC Pembroke,Carolinas,,Younts Stadium,False
+401867997,2026,11,regular,2026-11-14T18:00:00.000Z,False,True,William & Mary,Patriot,,Bucknell,Patriot,,Zable Stadium,False
+401868006,2026,11,regular,2026-11-14T18:00:00.000Z,False,True,Colgate,Patriot,,Lafayette,Patriot,,Andy Kerr Stadium,False
+401907575,2026,11,regular,2026-11-14T18:00:00.000Z,False,False,Seton Hill,Pennsylvania State Athletic,,Kutztown,Pennsylvania State Athletic,,Offutt Field,False
+401906617,2026,11,regular,2026-11-14T18:00:00.000Z,False,False,Monroe,,,Keystone,Independent DIII,,,False
+401907402,2026,11,regular,2026-11-14T18:00:00.000Z,False,True,Newberry,South Atlantic,,Anderson (SC),South Atlantic,,Setzler Field,False
+401908179,2026,11,regular,2026-11-14T18:00:00.000Z,False,True,Stevenson,Mid Atlantic,,Alvernia,Mid Atlantic,,Mustang Stadium,False
+401908886,2026,11,regular,2026-11-14T18:00:00.000Z,True,True,Merchant Marine,NEWMAC,,Coast Guard,NEWMAC,,Audi Field,False
+401907684,2026,11,regular,2026-11-14T18:00:00.000Z,False,True,Minnesota St Moorhead,Northern Sun,,Minnesota State,Northern Sun,,Scheels Field at Nemzek Stadium,False
+401906648,2026,11,regular,2026-11-14T18:00:00.000Z,False,True,Thomas More,Great Midwest Athletic,,Kentucky Wesleyan,Great Midwest Athletic,,BB&T Field at Griffin Plaza,False
+401907885,2026,11,regular,2026-11-14T18:00:00.000Z,True,False,Ithaca,Liberty League,,SUNY Cortland,Empire 8,,Yankee Stadium,False
 401907630,2026,11,regular,2026-11-14T18:00:00.000Z,False,True,Slippery Rock,Pennsylvania State Athletic,,Lackawanna,,,Mihalik-Thompson Stadium,False
+401915931,2026,11,regular,2026-11-14T18:00:00.000Z,False,False,Chicago State,FCS Independents,,Virginia Lynchburg,,,SeatGeek Stadium,False
+401868286,2026,11,regular,2026-11-14T18:00:00.000Z,False,True,Stetson,Pioneer,,Valparaiso,Pioneer,,Spec Martin Municipal Stadium,False
+401907788,2026,11,regular,2026-11-14T18:00:00.000Z,False,True,Carroll (WI),CCIW,,Augustana (IL),CCIW,,Schneider Stadium,False
+401907831,2026,11,regular,2026-11-14T18:00:00.000Z,False,True,North Park,CCIW,,Elmhurst,CCIW,,Holmgren Athletic Complex,False
+401907837,2026,11,regular,2026-11-14T18:00:00.000Z,False,True,North Central College,CCIW,,Illinois Wesleyan,CCIW,,Benedetti-Wehrli Stadium,False
+401907825,2026,11,regular,2026-11-14T18:00:00.000Z,False,True,Carthage,CCIW,,Wheaton (IL),CCIW,,Art Keller Field,False
+401866691,2026,11,regular,2026-11-14T18:00:00.000Z,False,True,New Hampshire,Coastal Athletic,,Stony Brook,Coastal Athletic,,Wildcat Stadium,False
+401867958,2026,11,regular,2026-11-14T18:00:00.000Z,False,True,Howard,MEAC,,Delaware State,MEAC,,William H. Greene Stadium,False
+401908804,2026,11,regular,2026-11-14T18:00:00.000Z,False,True,Bethel (MN),Minnesota,,St. Scholastica,Minnesota,,Royal Stadium,False
+401908758,2026,11,regular,2026-11-14T18:00:00.000Z,False,True,Illinois College,Midwest,,Beloit,Midwest,,England Stadium,False
+401908784,2026,11,regular,2026-11-14T18:00:00.000Z,False,True,Knox,Midwest,,Monmouth (IL),Midwest,,Harley Knosher Bowl,False
+401908938,2026,11,regular,2026-11-14T18:00:00.000Z,False,True,Salisbury,New Jersey,,Christopher Newport,New Jersey,,Sea Gull Stadium,False
+401908698,2026,11,regular,2026-11-14T18:00:00.000Z,False,True,Adrian,Michigan,,Kalamazoo,Michigan,,Docking Stadium,False
+401908747,2026,11,regular,2026-11-14T18:00:00.000Z,False,True,Hope,Michigan,,Trine,Michigan,,Ray and Sue Smith Stadium,False
+401862829,2026,11,regular,2026-11-14T18:00:00.000Z,False,True,Temple,American Athletic,,UAB,American Athletic,,Lincoln Financial Field,False
+401908057,2026,11,regular,2026-11-14T18:00:00.000Z,False,True,LaGrange,USA South,,Southern Virginia,USA South,,Callaway Stadium,False
+401907426,2026,11,regular,2026-11-14T18:00:00.000Z,False,True,Emory & Henry,South Atlantic,,UVA Wise,South Atlantic,,Fred Selfe Stadium at Nicewonder Field,False
+401909009,2026,11,regular,2026-11-14T18:00:00.000Z,False,True,Hampden Sydney,Old Dominion,,Randolph Macon,Old Dominion,,Lewis C. Everett Stadium,False
+401906936,2026,11,regular,2026-11-14T18:00:00.000Z,False,True,Ferris State,GLIAC,,Roosevelt,GLIAC,,Top Taggart Field,False
+401906570,2026,11,regular,2026-11-14T18:00:00.000Z,False,True,Oklahoma Baptist,Great American,,Southern Nazarene,Great American,,Crain Family Stadium,False
+401907455,2026,11,regular,2026-11-14T18:00:00.000Z,False,True,Mars Hill,South Atlantic,,Wingate,South Atlantic,,Meares Stadium,False
+401866690,2026,11,regular,2026-11-14T18:00:00.000Z,False,True,Hampton,Coastal Athletic,,North Carolina A&T,Coastal Athletic,,Armstrong Stadium,False
+401908498,2026,11,regular,2026-11-14T18:00:00.000Z,False,True,Westminster (MO),Upper Midwest,,Crown,Upper Midwest,,Blue Jay Stadium,False
+401908507,2026,11,regular,2026-11-14T18:00:00.000Z,False,True,Martin Luther,Upper Midwest,,Greenville,Upper Midwest,,MLC Bowl,False
+401907726,2026,11,regular,2026-11-14T18:00:00.000Z,False,True,Southwest Minnesota State,Northern Sun,,Winona State,Northern Sun,,Schwan Regional Event Center,False
+401867863,2026,11,regular,2026-11-14T18:00:00.000Z,False,True,Indiana State,MVFC,,Murray State,MVFC,,Memorial Stadium,False
+401909033,2026,11,regular,2026-11-14T18:00:00.000Z,False,True,Waynesburg,Presidents',,Bethany (WV),Presidents',,John F. Wiley Stadium,False
+401907745,2026,11,regular,2026-11-14T18:00:00.000Z,False,True,Allegheny,Presidents',,Case Western Reserve,Presidents',,Frank B. Fuhrer Field,False
+401909039,2026,11,regular,2026-11-14T18:00:00.000Z,False,True,Saint Francis,Presidents',,Geneva,Presidents',,DeGol Field,False
+401909051,2026,11,regular,2026-11-14T18:00:00.000Z,False,True,Hiram,Presidents',,Saint Vincent,Presidents',,Charles A. Henry Field,False
+401909046,2026,11,regular,2026-11-14T18:00:00.000Z,False,True,Grove City,Presidents',,Thiel,Presidents',,Robert E. Thorn Field,False
+401909070,2026,11,regular,2026-11-14T18:00:00.000Z,False,True,Westminster (PA),Presidents',,Washington & Jefferson,Presidents',,Memorial Field (PA),False
+401907651,2026,11,regular,2026-11-14T18:00:00.000Z,False,True,Minnesota Duluth,Northern Sun,,Minot State,Northern Sun,,James S. Malosky Stadium,False
+401909106,2026,11,regular,2026-11-14T18:00:00.000Z,False,True,Concordia Chicago,NACC,,Wisconsin Lutheran,NACC,,Concordia Stadium,False
+401907515,2026,11,regular,2026-11-14T18:00:00.000Z,False,True,Franklin Pierce,Northeast 10,,Saint Anselm,Northeast 10,,Sodexo Field,False
+401934219,2026,11,regular,2026-11-14T18:00:00.000Z,False,False,Shorter,Carolinas,,Albany State,SIAC,,Barron Stadium,False
+401908351,2026,11,regular,2026-11-14T18:00:00.000Z,False,True,Gettysburg,Centennial,,McDaniel,Centennial,,Shirk Field at Musselman Stadium,False
+401908338,2026,11,regular,2026-11-14T18:00:00.000Z,False,True,Dickinson,Centennial,,Muhlenberg,Centennial,,Biddle Field,False
+401907870,2026,11,regular,2026-11-14T18:00:00.000Z,False,True,SUNY Morrisville,Empire 8,,Alfred,Empire 8,,Drake Field (NY),False
+401907861,2026,11,regular,2026-11-14T18:00:00.000Z,False,True,Alfred State,Empire 8,,St. John Fisher,Empire 8,,Pioneer Stadium,False
+401906910,2026,11,regular,2026-11-14T18:00:00.000Z,False,True,Northern Michigan,GLIAC,,Saginaw Valley State,GLIAC,,Superior Dome,False
+401907483,2026,11,regular,2026-11-14T18:00:00.000Z,False,True,American International,Northeast 10,,Southern Connecticut State,Northeast 10,,Ronald J. Abdow Field,False
+401907510,2026,11,regular,2026-11-14T18:00:00.000Z,False,True,Post,Northeast 10,,Bentley,Northeast 10,,Municipal Stadium,False
+401934218,2026,11,regular,2026-11-14T18:00:00.000Z,False,False,Chowan,Carolinas,,Edward Waters,SIAC,,Garrison Stadium,False
 401909136,2026,11,regular,2026-11-14T18:07:00.000Z,True,True,DePauw,North Coast,,Wabash,North Coast,,Scheumann Stadium,False
-401868351,2026,11,regular,2026-11-14T18:30:00.000Z,False,True,Wofford,Southern,,East Tennessee State,Southern,,Gibbs Stadium,False
-401908224,2026,11,regular,2026-11-14T18:30:00.000Z,False,True,Bluffton,Heartland,,Rose Hulman,Heartland,,Alumni Field (OH),False
-401908215,2026,11,regular,2026-11-14T18:30:00.000Z,False,True,Anderson (IN),Heartland,,Manchester,Heartland,,Macholtz Stadium,False
-401908230,2026,11,regular,2026-11-14T18:30:00.000Z,False,True,Franklin,Heartland,,Hanover,Heartland,,"Stewart """"Red"""" Faught Stadium",False
-401908669,2026,11,regular,2026-11-14T18:30:00.000Z,False,True,Capital,Ohio,,Ohio Northern,Ohio,,Bernlohr Stadium,False
-401867981,2026,11,regular,2026-11-14T18:30:00.000Z,False,True,South Carolina State,MEAC,,North Carolina Central,MEAC,,Oliver C. Dawson Stadium,False
-401908661,2026,11,regular,2026-11-14T18:30:00.000Z,False,True,Baldwin Wallace,Ohio,,Muskingum,Ohio,,George Finnie Stadium,False
-401908271,2026,11,regular,2026-11-14T18:30:00.000Z,False,False,Mount St Joseph,Heartland,,Marietta,Ohio,,Schueler Field,False
 401908675,2026,11,regular,2026-11-14T18:30:00.000Z,False,True,Wilmington (OH),Ohio,,Heidelberg,Ohio,,Wiliams Stadium (OH),False
-401868192,2026,11,regular,2026-11-14T19:00:00.000Z,False,True,Western Illinois,OVC,,Gardner-Webb,OVC,,Hanson Field,False
-401908240,2026,11,regular,2026-11-14T19:00:00.000Z,False,True,Dubuque,American Rivers,,Loras,American Rivers,,Chalmers Field,False
-401908235,2026,11,regular,2026-11-14T19:00:00.000Z,False,True,Wartburg,American Rivers,,Coe,American Rivers,,Walston-Hoover Stadium,False
-401906559,2026,11,regular,2026-11-14T19:00:00.000Z,False,True,Henderson State,Great American,,Ouachita Baptist,Great American,,Ruggles Field at Carpenter-Haygood Stadium,False
-401907238,2026,11,regular,2026-11-14T19:00:00.000Z,False,True,Southwest Baptist,Great Lakes,,Quincy,Great Lakes,,Plaster Sports Complex,False
-401866692,2026,11,regular,2026-11-14T19:00:00.000Z,False,True,Elon,Coastal Athletic,,Campbell,Coastal Athletic,,Rhodes Stadium,False
-401908149,2026,11,regular,2026-11-14T19:00:00.000Z,False,True,Simpson (IA),American Rivers,,Central College,American Rivers,,Bill Buxton Stadium,False
-401907284,2026,11,regular,2026-11-14T19:00:00.000Z,False,True,Western New Mexico,Lone Star,,Angelo State,Lone Star,,Ben Altamirano Field,False
+401908224,2026,11,regular,2026-11-14T18:30:00.000Z,False,True,Bluffton,Heartland,,Rose Hulman,Heartland,,Alumni Field (OH),False
+401908230,2026,11,regular,2026-11-14T18:30:00.000Z,False,True,Franklin,Heartland,,Hanover,Heartland,,"Stewart """"Red"""" Faught Stadium",False
+401908271,2026,11,regular,2026-11-14T18:30:00.000Z,False,False,Mount St Joseph,Heartland,,Marietta,Ohio,,Schueler Field,False
+401908661,2026,11,regular,2026-11-14T18:30:00.000Z,False,True,Baldwin Wallace,Ohio,,Muskingum,Ohio,,George Finnie Stadium,False
+401908669,2026,11,regular,2026-11-14T18:30:00.000Z,False,True,Capital,Ohio,,Ohio Northern,Ohio,,Bernlohr Stadium,False
+401908215,2026,11,regular,2026-11-14T18:30:00.000Z,False,True,Anderson (IN),Heartland,,Manchester,Heartland,,Macholtz Stadium,False
+401867981,2026,11,regular,2026-11-14T18:30:00.000Z,False,True,South Carolina State,MEAC,,North Carolina Central,MEAC,,Oliver C. Dawson Stadium,False
+401868351,2026,11,regular,2026-11-14T18:30:00.000Z,False,True,Wofford,Southern,,East Tennessee State,Southern,,Gibbs Stadium,False
 401907363,2026,11,regular,2026-11-14T19:00:00.000Z,False,True,Fort Hays,Mid America,,Emporia State,Mid America,,Lewis Field Stadium,False
-401907354,2026,11,regular,2026-11-14T19:00:00.000Z,False,True,Central Oklahoma,Mid America,,Missouri Western,Mid America,,Wantland Stadium,False
-401907732,2026,11,regular,2026-11-14T19:00:00.000Z,False,True,Augustana (SD),Northern Sun,,Wayne State (NE),Northern Sun,,Kirkeby-Over Stadium,False
 401907642,2026,11,regular,2026-11-14T19:00:00.000Z,False,True,University of Mary,Northern Sun,,Bemidji State,Northern Sun,,MDU Resources Community Bowl,False
-401868260,2026,11,regular,2026-11-14T19:00:00.000Z,False,True,St. Thomas (MN),Pioneer,,Drake,Pioneer,,O'Shaughnessy Stadium,False
-401906687,2026,11,regular,2026-11-14T19:00:00.000Z,False,True,Lake Erie,Great Midwest Athletic,,Ashland,Great Midwest Athletic,,Jack Britt Memorial Stadium,False
-401907767,2026,11,regular,2026-11-14T19:00:00.000Z,False,True,Buena Vista,American Rivers,,Nebraska Wesleyan,American Rivers,,J. Leslie Rollins Stadium,False
-401907568,2026,11,regular,2026-11-14T19:00:00.000Z,False,True,IU Pennsylvania,Pennsylvania State Athletic,,Shepherd,Pennsylvania State Athletic,,George P. Miller Stadium,False
-401868036,2026,11,regular,2026-11-14T19:00:00.000Z,False,True,Richmond,Patriot,,Lehigh,Patriot,,E. Claiborne Robins Stadium,False
-401907474,2026,11,regular,2026-11-14T19:00:00.000Z,False,True,Washington St. Louis,North Coast,,Wooster,North Coast,,Francis Field (MO),False
-401868122,2026,11,regular,2026-11-14T19:00:00.000Z,False,True,Northern Colorado,Big Sky,,Montana State,Big Sky,,Nottingham Field,False
-401908880,2026,11,regular,2026-11-14T19:00:00.000Z,False,True,Benedictine (IL),NACC,,Concordia (WI),NACC,,Village of Lisle-Benedictine University Sports Complex,False
-401873402,2026,11,regular,2026-11-14T19:00:00.000Z,False,True,Lakeland,NACC,,Rockford,NACC,,Taylor Field,False
-401856862,2026,11,regular,2026-11-14T19:00:00.000Z,False,True,TCU,Big 12,,Kansas State,Big 12,,Amon G. Carter Stadium,False
+401907732,2026,11,regular,2026-11-14T19:00:00.000Z,False,True,Augustana (SD),Northern Sun,,Wayne State (NE),Northern Sun,,Kirkeby-Over Stadium,False
 401907716,2026,11,regular,2026-11-14T19:00:00.000Z,False,True,Sioux Falls,Northern Sun,,Concordia St. Paul,Northern Sun,,Bob Young Field,False
-401868177,2026,11,regular,2026-11-14T19:00:00.000Z,False,True,Charleston Southern,OVC,,Southeast Missouri State,OVC,,Buccaneer Field,False
-401870769,2026,11,regular,2026-11-14T19:00:00.000Z,False,True,Sam Houston,Conference USA,,Kennesaw State,Conference USA,,Elliott T. Bowers Stadium,False
-401868233,2026,11,regular,2026-11-14T19:00:00.000Z,False,True,West Georgia,UAC,,North Alabama,UAC,,University Stadium (GA),False
+401856862,2026,11,regular,2026-11-14T19:00:00.000Z,False,True,TCU,Big 12,,Kansas State,Big 12,,Amon G. Carter Stadium,False
+401908777,2026,11,regular,2026-11-14T19:00:00.000Z,False,True,Grinnell,Midwest,,Luther,Midwest,,Rosenbloom Field,False
+401908992,2026,11,regular,2026-11-14T19:00:00.000Z,False,True,Bridgewater,Old Dominion,,Averett,Old Dominion,,Jopson Athletic Complex,False
+401868058,2026,11,regular,2026-11-14T19:00:00.000Z,False,True,Austin Peay,UAC,,Abilene Christian,UAC,,Governors Stadium,False
 401868138,2026,11,regular,2026-11-14T19:00:00.000Z,False,True,Eastern Kentucky,UAC,,Central Arkansas,UAC,,Roy Kidd Stadium,False
+401868233,2026,11,regular,2026-11-14T19:00:00.000Z,False,True,West Georgia,UAC,,North Alabama,UAC,,University Stadium (GA),False
+401868036,2026,11,regular,2026-11-14T19:00:00.000Z,False,True,Richmond,Patriot,,Lehigh,Patriot,,E. Claiborne Robins Stadium,False
+401907568,2026,11,regular,2026-11-14T19:00:00.000Z,False,True,IU Pennsylvania,Pennsylvania State Athletic,,Shepherd,Pennsylvania State Athletic,,George P. Miller Stadium,False
+401907767,2026,11,regular,2026-11-14T19:00:00.000Z,False,True,Buena Vista,American Rivers,,Nebraska Wesleyan,American Rivers,,J. Leslie Rollins Stadium,False
+401906687,2026,11,regular,2026-11-14T19:00:00.000Z,False,True,Lake Erie,Great Midwest Athletic,,Ashland,Great Midwest Athletic,,Jack Britt Memorial Stadium,False
+401908149,2026,11,regular,2026-11-14T19:00:00.000Z,False,True,Simpson (IA),American Rivers,,Central College,American Rivers,,Bill Buxton Stadium,False
+401908235,2026,11,regular,2026-11-14T19:00:00.000Z,False,True,Wartburg,American Rivers,,Coe,American Rivers,,Walston-Hoover Stadium,False
+401908240,2026,11,regular,2026-11-14T19:00:00.000Z,False,True,Dubuque,American Rivers,,Loras,American Rivers,,Chalmers Field,False
+401908284,2026,11,regular,2026-11-14T19:00:00.000Z,False,True,Howard Payne,American Southwest,,East Texas Baptist,American Southwest,,Gordon Wood Stadium,False
+401908324,2026,11,regular,2026-11-14T19:00:00.000Z,False,True,Mary Hardin Baylor,American Southwest,,Hardin Simmons,American Southwest,,Crusader Stadium,False
+401867888,2026,11,regular,2026-11-14T19:00:00.000Z,False,True,South Dakota,MVFC,,Northern Iowa,MVFC,,DakotaDome,False
+401908853,2026,11,regular,2026-11-14T19:00:00.000Z,False,True,Aurora,NACC,,Eureka,NACC,,Vago Field,False
+401907674,2026,11,regular,2026-11-14T19:00:00.000Z,False,True,Chicago,Midwest,,Lake Forest,Midwest,,Amos Alonzo Stagg Field,False
+401908764,2026,11,regular,2026-11-14T19:00:00.000Z,False,True,Ripon,Midwest,,Lawrence,Midwest,,Ingalls Field,False
+401867893,2026,11,regular,2026-11-14T19:00:00.000Z,False,True,Southern Illinois,MVFC,,South Dakota State,MVFC,,Saluki Stadium,False
 401908303,2026,11,regular,2026-11-14T19:00:00.000Z,False,True,Huntingdon,USA South,,Belhaven,USA South,,Charles Lee Field at Samford Stadium,False
 401869135,2026,11,regular,2026-11-14T19:00:00.000Z,False,True,Northwestern State,Southland,,Houston Christian,Southland,,Harry Turpin Stadium,False
-401868058,2026,11,regular,2026-11-14T19:00:00.000Z,False,True,Austin Peay,UAC,,Abilene Christian,UAC,,Governors Stadium,False
-401867893,2026,11,regular,2026-11-14T19:00:00.000Z,False,True,Southern Illinois,MVFC,,South Dakota State,MVFC,,Saluki Stadium,False
-401908764,2026,11,regular,2026-11-14T19:00:00.000Z,False,True,Ripon,Midwest,,Lawrence,Midwest,,Ingalls Field,False
 401908376,2026,11,regular,2026-11-14T19:00:00.000Z,False,True,Berry,Southern Athletic,,Sewanee,Southern Athletic,,Valhalla Stadium,False
-401908992,2026,11,regular,2026-11-14T19:00:00.000Z,False,True,Bridgewater,Old Dominion,,Averett,Old Dominion,,Jopson Athletic Complex,False
 401908527,2026,11,regular,2026-11-14T19:00:00.000Z,False,True,Minnesota Morris,Upper Midwest,,Northwestern (MN),Upper Midwest,,Big Cat Stadium,False
 401908013,2026,11,regular,2026-11-14T19:00:00.000Z,False,True,Wisconsin La Crosse,Wisconsin,,Wisconsin Platteville,Wisconsin,,Veterans Memorial Stadium (WI),False
 401907984,2026,11,regular,2026-11-14T19:00:00.000Z,False,True,Wisconsin River Falls,Wisconsin,,Wisconsin Stevens Point,Wisconsin,,David Smith Stadium at Ramer Field,False
 401907894,2026,11,regular,2026-11-14T19:00:00.000Z,False,True,Wisconsin Eau Claire,Wisconsin,,Wisconsin Whitewater,Wisconsin,,Carson Park,False
 401909017,2026,11,regular,2026-11-14T19:00:00.000Z,False,True,Roanoke College,,,Washington and Lee,Old Dominion,,,False
-401862828,2026,11,regular,2026-11-14T19:00:00.000Z,False,True,Rice,American Athletic,,Tulane,American Athletic,,Rice Stadium,False
-401908777,2026,11,regular,2026-11-14T19:00:00.000Z,False,True,Grinnell,Midwest,,Luther,Midwest,,Rosenbloom Field,False
 401907143,2026,11,regular,2026-11-14T19:00:00.000Z,False,True,Colorado School of Mines,Rocky Mountain,,New Mexico Highlands,Rocky Mountain,,Marv Kay Stadium at Campbell Field,False
 401907419,2026,11,regular,2026-11-14T19:00:00.000Z,False,True,Tusculum,South Atlantic,,Carson Newman,South Atlantic,,Pioneer Field (TN),False
-401907674,2026,11,regular,2026-11-14T19:00:00.000Z,False,True,Chicago,Midwest,,Lake Forest,Midwest,,Amos Alonzo Stagg Field,False
-401908853,2026,11,regular,2026-11-14T19:00:00.000Z,False,True,Aurora,NACC,,Eureka,NACC,,Vago Field,False
-401867888,2026,11,regular,2026-11-14T19:00:00.000Z,False,True,South Dakota,MVFC,,Northern Iowa,MVFC,,DakotaDome,False
-401908324,2026,11,regular,2026-11-14T19:00:00.000Z,False,True,Mary Hardin Baylor,American Southwest,,Hardin Simmons,American Southwest,,Crusader Stadium,False
-401908284,2026,11,regular,2026-11-14T19:00:00.000Z,False,True,Howard Payne,American Southwest,,East Texas Baptist,American Southwest,,Gordon Wood Stadium,False
+401906559,2026,11,regular,2026-11-14T19:00:00.000Z,False,True,Henderson State,Great American,,Ouachita Baptist,Great American,,Ruggles Field at Carpenter-Haygood Stadium,False
+401907238,2026,11,regular,2026-11-14T19:00:00.000Z,False,True,Southwest Baptist,Great Lakes,,Quincy,Great Lakes,,Plaster Sports Complex,False
+401907284,2026,11,regular,2026-11-14T19:00:00.000Z,False,True,Western New Mexico,Lone Star,,Angelo State,Lone Star,,Ben Altamirano Field,False
+401907354,2026,11,regular,2026-11-14T19:00:00.000Z,False,True,Central Oklahoma,Mid America,,Missouri Western,Mid America,,Wantland Stadium,False
+401907474,2026,11,regular,2026-11-14T19:00:00.000Z,False,True,Washington St. Louis,North Coast,,Wooster,North Coast,,Francis Field (MO),False
+401908880,2026,11,regular,2026-11-14T19:00:00.000Z,False,True,Benedictine (IL),NACC,,Concordia (WI),NACC,,Village of Lisle-Benedictine University Sports Complex,False
+401873402,2026,11,regular,2026-11-14T19:00:00.000Z,False,True,Lakeland,NACC,,Rockford,NACC,,Taylor Field,False
+401870769,2026,11,regular,2026-11-14T19:00:00.000Z,False,True,Sam Houston,Conference USA,,Kennesaw State,Conference USA,,Elliott T. Bowers Stadium,False
+401862828,2026,11,regular,2026-11-14T19:00:00.000Z,False,True,Rice,American Athletic,,Tulane,American Athletic,,Rice Stadium,False
+401866692,2026,11,regular,2026-11-14T19:00:00.000Z,False,True,Elon,Coastal Athletic,,Campbell,Coastal Athletic,,Rhodes Stadium,False
+401868260,2026,11,regular,2026-11-14T19:00:00.000Z,False,True,St. Thomas (MN),Pioneer,,Drake,Pioneer,,O'Shaughnessy Stadium,False
+401868192,2026,11,regular,2026-11-14T19:00:00.000Z,False,True,Western Illinois,OVC,,Gardner-Webb,OVC,,Hanson Field,False
+401868122,2026,11,regular,2026-11-14T19:00:00.000Z,False,True,Northern Colorado,Big Sky,,Montana State,Big Sky,,Nottingham Field,False
+401868177,2026,11,regular,2026-11-14T19:00:00.000Z,False,True,Charleston Southern,OVC,,Southeast Missouri State,OVC,,Buccaneer Field,False
 401868385,2026,11,regular,2026-11-14T19:30:00.000Z,False,True,Tennessee Tech,Southern,,Mercer,Southern,,Tucker Stadium,False
 401907386,2026,11,regular,2026-11-14T19:30:00.000Z,True,True,Northwest Missouri State,Mid America,,Pittsburg State,Mid America,,Children's Mercy Park,False
-401907323,2026,11,regular,2026-11-14T20:00:00.000Z,False,True,West Texas,Lone Star,,Central Washington,Lone Star,,Buffalo Stadium,False
+401906525,2026,11,regular,2026-11-14T20:00:00.000Z,False,True,Harding,Great American,,Arkansas Tech,Great American,,First Security Stadium,False
 401873237,2026,11,regular,2026-11-14T20:00:00.000Z,False,True,Puget Sound,Northwest,,Whitworth,Northwest,,Baker Stadium,False
-401906535,2026,11,regular,2026-11-14T20:00:00.000Z,True,True,Arkansas Monticello,Great American,,Southern Arkansas,Great American,,"Memorial Stadium (El Dorado, AR)",False
-401906544,2026,11,regular,2026-11-14T20:00:00.000Z,False,True,East Central,Great American,,Southeastern Oklahoma State,Great American,,Koi Ishto Stadium,False
+401907149,2026,11,regular,2026-11-14T20:00:00.000Z,False,True,CSU Pueblo,Rocky Mountain,,Western Colorado,Rocky Mountain,,Neta and Eddie DeRose ThunderBowl,False
+401907119,2026,11,regular,2026-11-14T20:00:00.000Z,False,True,Colorado Mesa,Rocky Mountain,,Black Hills State,Rocky Mountain,,Ralph Stocker Stadium,False
 401907962,2026,11,regular,2026-11-14T20:00:00.000Z,False,True,Wisconsin Oshkosh,Wisconsin,,Wisconsin Stout,Wisconsin,,J.J. Keller Field at Titan Stadium,False
-401869148,2026,11,regular,2026-11-14T20:00:00.000Z,False,True,Incarnate Word,Southland,,Nicholls,Southland,,Gayle and Tom Benson Stadium,False
+401908405,2026,11,regular,2026-11-14T20:00:00.000Z,False,True,Rhodes,Southern Athletic,,Trinity (TX),Southern Athletic,,Crain Field,False
+401870796,2026,11,regular,2026-11-14T20:00:00.000Z,False,True,Missouri State,Conference USA,,New Mexico State,Conference USA,,Plaster Sports Complex,False
+401868364,2026,11,regular,2026-11-14T20:00:00.000Z,False,True,Southern,SWAC,,Alcorn State,SWAC,,Ace W. Mumford Stadium,False
+401856888,2026,11,regular,2026-11-14T20:00:00.000Z,False,True,Texas A&M,SEC,,Tennessee,SEC,,Kyle Field,False
+401934185,2026,11,regular,2026-11-14T20:00:00.000Z,True,False,Virginia Union,CIAA,,Johnson C. Smith,CIAA,,Durham County Memorial Stadium,False
+401907128,2026,11,regular,2026-11-14T20:00:00.000Z,False,True,Chadron State,Rocky Mountain,,South Dakota Mines,Rocky Mountain,,Elliott Field at Don Beebe Stadium,False
+401907695,2026,11,regular,2026-11-14T20:00:00.000Z,False,True,Northern State,Northern Sun,,Jamestown,Northern Sun,,Swisher Field,False
 401868303,2026,11,regular,2026-11-14T20:00:00.000Z,False,True,Alabama A&M,SWAC,,Texas Southern,SWAC,,Louis Crews Stadium,False
 401868940,2026,11,regular,2026-11-14T20:00:00.000Z,False,True,Arkansas-Pine Bluff,SWAC,,Prairie View A&M,SWAC,,Golden Lion Stadium,False
 401868951,2026,11,regular,2026-11-14T20:00:00.000Z,False,True,Florida A&M,SWAC,,Mississippi Valley State,SWAC,,Bragg Memorial Stadium,False
-401868202,2026,11,regular,2026-11-14T20:00:00.000Z,False,True,UT Martin,OVC,,Lindenwood,OVC,,Graham Stadium,False
 401868332,2026,11,regular,2026-11-14T20:00:00.000Z,False,True,Alabama State,SWAC,,Jackson State,SWAC,,Hornet Stadium,False
 401871060,2026,11,regular,2026-11-14T20:00:00.000Z,False,True,Delaware,Conference USA,,Florida International,Conference USA,,Delaware Stadium,False
 401868239,2026,11,regular,2026-11-14T20:00:00.000Z,False,True,West Florida,UAC,,Tarleton State,UAC,,Pen-Air Field,False
-401907695,2026,11,regular,2026-11-14T20:00:00.000Z,False,True,Northern State,Northern Sun,,Jamestown,Northern Sun,,Swisher Field,False
-401907119,2026,11,regular,2026-11-14T20:00:00.000Z,False,True,Colorado Mesa,Rocky Mountain,,Black Hills State,Rocky Mountain,,Ralph Stocker Stadium,False
-401907128,2026,11,regular,2026-11-14T20:00:00.000Z,False,True,Chadron State,Rocky Mountain,,South Dakota Mines,Rocky Mountain,,Elliott Field at Don Beebe Stadium,False
-401870796,2026,11,regular,2026-11-14T20:00:00.000Z,False,True,Missouri State,Conference USA,,New Mexico State,Conference USA,,Plaster Sports Complex,False
-401906604,2026,11,regular,2026-11-14T20:00:00.000Z,False,True,Delta State,Gulf South,,Valdosta State,Gulf South,,Parker Field at McCool Stadium,False
-401868364,2026,11,regular,2026-11-14T20:00:00.000Z,False,True,Southern,SWAC,,Alcorn State,SWAC,,Ace W. Mumford Stadium,False
-401856888,2026,11,regular,2026-11-14T20:00:00.000Z,False,True,Texas A&M,SEC,,Tennessee,SEC,,Kyle Field,False
-401908405,2026,11,regular,2026-11-14T20:00:00.000Z,False,True,Rhodes,Southern Athletic,,Trinity (TX),Southern Athletic,,Crain Field,False
-401907314,2026,11,regular,2026-11-14T20:00:00.000Z,False,True,UT Permian Basin,Lone Star,,Texas A&M-Kingsville,Lone Star,,Ratliff Stadium,False
-401907149,2026,11,regular,2026-11-14T20:00:00.000Z,False,True,CSU Pueblo,Rocky Mountain,,Western Colorado,Rocky Mountain,,Neta and Eddie DeRose ThunderBowl,False
-401906525,2026,11,regular,2026-11-14T20:00:00.000Z,False,True,Harding,Great American,,Arkansas Tech,Great American,,First Security Stadium,False
+401868202,2026,11,regular,2026-11-14T20:00:00.000Z,False,True,UT Martin,OVC,,Lindenwood,OVC,,Graham Stadium,False
+401907323,2026,11,regular,2026-11-14T20:00:00.000Z,False,True,West Texas,Lone Star,,Central Washington,Lone Star,,Buffalo Stadium,False
+401869148,2026,11,regular,2026-11-14T20:00:00.000Z,False,True,Incarnate Word,Southland,,Nicholls,Southland,,Gayle and Tom Benson Stadium,False
 401908330,2026,11,regular,2026-11-14T20:00:00.000Z,False,True,Schreiner,,,McMurry,American Southwest,,Antler Stadium,False
-401856858,2026,11,regular,2026-11-14T20:30:00.000Z,False,True,BYU,Big 12,,Baylor,Big 12,,LaVell Edwards Stadium,False
-401869952,2026,11,regular,2026-11-14T20:30:00.000Z,False,True,Georgia State,Sun Belt,,Georgia Southern,Sun Belt,,Center Parc Stadium,False
+401907314,2026,11,regular,2026-11-14T20:00:00.000Z,False,True,UT Permian Basin,Lone Star,,Texas A&M-Kingsville,Lone Star,,Ratliff Stadium,False
+401906604,2026,11,regular,2026-11-14T20:00:00.000Z,False,True,Delta State,Gulf South,,Valdosta State,Gulf South,,Parker Field at McCool Stadium,False
+401906535,2026,11,regular,2026-11-14T20:00:00.000Z,True,True,Arkansas Monticello,Great American,,Southern Arkansas,Great American,,"Memorial Stadium (El Dorado, AR)",False
+401906544,2026,11,regular,2026-11-14T20:00:00.000Z,False,True,East Central,Great American,,Southeastern Oklahoma State,Great American,,Koi Ishto Stadium,False
 401862826,2026,11,regular,2026-11-14T20:30:00.000Z,False,True,Tulsa,American Athletic,,Florida Atlantic,American Athletic,,Chapman Stadium,False
-401856883,2026,11,regular,2026-11-14T20:30:00.000Z,False,True,Georgia,SEC,,Missouri,SEC,,Sanford Stadium,False
+401864536,2026,11,regular,2026-11-14T20:30:00.000Z,False,True,Northern Illinois,Mountain West,,Nevada,Mountain West,,Huskie Stadium,False
+401858294,2026,11,regular,2026-11-14T20:30:00.000Z,False,False,Notre Dame,FBS Independents,,Boston College,ACC,,Notre Dame Stadium,False
+401869952,2026,11,regular,2026-11-14T20:30:00.000Z,False,True,Georgia State,Sun Belt,,Georgia Southern,Sun Belt,,Center Parc Stadium,False
+401870752,2026,11,regular,2026-11-14T20:30:00.000Z,False,True,Western Kentucky,Conference USA,,Jacksonville State,Conference USA,,Houchens Industries-L.T. Smith Stadium,False
 401858523,2026,11,regular,2026-11-14T20:30:00.000Z,False,True,Oregon,Big Ten,,Michigan,Big Ten,,Autzen Stadium,False
 401858518,2026,11,regular,2026-11-14T20:30:00.000Z,False,True,Indiana,Big Ten,,USC,Big Ten,,"Memorial Stadium (Bloomington, IN)",False
-401870752,2026,11,regular,2026-11-14T20:30:00.000Z,False,True,Western Kentucky,Conference USA,,Jacksonville State,Conference USA,,Houchens Industries-L.T. Smith Stadium,False
-401858295,2026,11,regular,2026-11-14T20:30:00.000Z,False,True,Virginia,ACC,,California,ACC,,Scott Stadium,False
+401856883,2026,11,regular,2026-11-14T20:30:00.000Z,False,True,Georgia,SEC,,Missouri,SEC,,Sanford Stadium,False
 401856857,2026,11,regular,2026-11-14T20:30:00.000Z,False,True,UCF,Big 12,,Arizona State,Big 12,,FBC Mortgage Stadium,False
-401871061,2026,11,regular,2026-11-14T20:30:00.000Z,False,True,Liberty,Conference USA,,Middle Tennessee,Conference USA,,Williams Stadium (VA),False
-401864536,2026,11,regular,2026-11-14T20:30:00.000Z,False,True,Northern Illinois,Mountain West,,Nevada,Mountain West,,Huskie Stadium,False
-401868185,2026,11,regular,2026-11-14T20:30:00.000Z,False,True,Tennessee State,OVC,,Eastern Illinois,OVC,,Nissan Stadium,False
-401858294,2026,11,regular,2026-11-14T20:30:00.000Z,False,False,Notre Dame,FBS Independents,,Boston College,ACC,,Notre Dame Stadium,False
+401858295,2026,11,regular,2026-11-14T20:30:00.000Z,False,True,Virginia,ACC,,California,ACC,,Scott Stadium,False
 401868389,2026,11,regular,2026-11-14T20:30:00.000Z,False,True,Samford,Southern,,Western Carolina,Southern,,Seibert Stadium,False
-401907218,2026,11,regular,2026-11-14T21:00:00.000Z,False,True,Truman State,Great Lakes,,McKendree,Great Lakes,,Stokes Stadium,False
-401908421,2026,11,regular,2026-11-14T21:00:00.000Z,False,True,Willamette,Northwest,,Linfield,Northwest,,McCulloch Stadium,False
-401868091,2026,11,regular,2026-11-14T21:00:00.000Z,False,True,Utah Tech,Big Sky,,Eastern Washington,Big Sky,,Greater Zion Stadium,False
-401908411,2026,11,regular,2026-11-14T21:00:00.000Z,False,True,Lewis & Clark,Northwest,,Pacific (OR),Northwest,,Griswold Stadium,False
-401908400,2026,11,regular,2026-11-14T21:00:00.000Z,False,True,George Fox,Northwest,,Pacific Lutheran,Northwest,,Stoffer Family Stadium,False
-401860916,2026,11,regular,2026-11-14T21:00:00.000Z,False,True,Texas State,Pac-12,,Fresno State,Pac-12,,Bobcat Stadium (TX),False
+401868185,2026,11,regular,2026-11-14T20:30:00.000Z,False,True,Tennessee State,OVC,,Eastern Illinois,OVC,,Nissan Stadium,False
+401856858,2026,11,regular,2026-11-14T20:30:00.000Z,False,True,BYU,Big 12,,Baylor,Big 12,,LaVell Edwards Stadium,False
+401871061,2026,11,regular,2026-11-14T20:30:00.000Z,False,True,Liberty,Conference USA,,Middle Tennessee,Conference USA,,Williams Stadium (VA),False
+401907292,2026,11,regular,2026-11-14T21:00:00.000Z,False,True,Eastern New Mexico,Lone Star,,Midwestern State,Lone Star,,Al Whitehead Field at Greyhound Stadium,False
 401868099,2026,11,regular,2026-11-14T21:00:00.000Z,False,True,Idaho,Big Sky,,UC Davis,Big Sky,,Kibbie Dome,False
+401907218,2026,11,regular,2026-11-14T21:00:00.000Z,False,True,Truman State,Great Lakes,,McKendree,Great Lakes,,Stokes Stadium,False
+401860916,2026,11,regular,2026-11-14T21:00:00.000Z,False,True,Texas State,Pac-12,,Fresno State,Pac-12,,Bobcat Stadium (TX),False
+401933696,2026,11,regular,2026-11-14T21:00:00.000Z,False,True,Chapman,So. Cal.,,Claremont Mudd Scripps,So. Cal.,,Ernie Chapman Stadium,False
 401906565,2026,11,regular,2026-11-14T21:00:00.000Z,False,True,Southwestern Oklahoma State,Great American,,Northwestern (OK),Great American,,Milam Stadium,False
 401933697,2026,11,regular,2026-11-14T21:00:00.000Z,False,True,Pomona Pitzer,So. Cal.,,Cal Lutheran,So. Cal.,,Merritt Field,False
+401908421,2026,11,regular,2026-11-14T21:00:00.000Z,False,True,Willamette,Northwest,,Linfield,Northwest,,McCulloch Stadium,False
+401908411,2026,11,regular,2026-11-14T21:00:00.000Z,False,True,Lewis & Clark,Northwest,,Pacific (OR),Northwest,,Griswold Stadium,False
+401908400,2026,11,regular,2026-11-14T21:00:00.000Z,False,True,George Fox,Northwest,,Pacific Lutheran,Northwest,,Stoffer Family Stadium,False
 401907108,2026,11,regular,2026-11-14T21:00:00.000Z,False,True,Adams State,Rocky Mountain,,Fort Lewis,Rocky Mountain,,Rex Stadium,False
-401907292,2026,11,regular,2026-11-14T21:00:00.000Z,False,True,Eastern New Mexico,Lone Star,,Midwestern State,Lone Star,,Al Whitehead Field at Greyhound Stadium,False
-401869146,2026,11,regular,2026-11-14T21:00:00.000Z,False,True,Lamar,Southland,,East Texas A&M,Southland,,Provost Umphrey Stadium,False
 401868127,2026,11,regular,2026-11-14T21:00:00.000Z,False,True,Northern Arizona,Big Sky,,Weber State,Big Sky,,Walkup Skydome,False
-401933696,2026,11,regular,2026-11-14T21:00:00.000Z,False,True,Chapman,So. Cal.,,Claremont Mudd Scripps,So. Cal.,,Ernie Chapman Stadium,False
+401868091,2026,11,regular,2026-11-14T21:00:00.000Z,False,True,Utah Tech,Big Sky,,Eastern Washington,Big Sky,,Greater Zion Stadium,False
+401869146,2026,11,regular,2026-11-14T21:00:00.000Z,False,True,Lamar,Southland,,East Texas A&M,Southland,,Provost Umphrey Stadium,False
 401933698,2026,11,regular,2026-11-14T21:05:00.000Z,False,True,Redlands,So. Cal.,,Azusa Pacific,So. Cal.,,Ted Runner Stadium,False
 401858521,2026,11,regular,2026-11-14T21:15:00.000Z,False,True,Michigan State,Big Ten,,Washington,Big Ten,,Spartan Stadium,False
 401856887,2026,11,regular,2026-11-14T21:15:00.000Z,False,True,Oklahoma,SEC,,Ole Miss,SEC,,"Memorial Stadium (Norman, OK)",False
 401871099,2026,11,regular,2026-11-14T22:00:00.000Z,False,True,Louisiana Tech,Sun Belt,,Southern Miss,Sun Belt,,Joe Aillet Stadium,False
 401856861,2026,11,regular,2026-11-14T22:30:00.000Z,False,True,West Virginia,Big 12,,Kansas,Big 12,,Milan Puskar Stadium,False
-401908084,2026,11,regular,2026-11-14T23:00:00.000Z,False,True,North Carolina Wesleyan,USA South,,Brevard,USA South,,Stallings Field,False
-401860914,2026,11,regular,2026-11-14T23:00:00.000Z,False,True,Boise State,Pac-12,,Oregon State,Pac-12,,Albertsons Stadium,False
 401868293,2026,11,regular,2026-11-14T23:00:00.000Z,False,True,UT Rio Grande Valley,Southland,,Stephen F. Austin,Southland,,Robert and Janet Vackar Stadium,False
 401907411,2026,11,regular,2026-11-14T23:00:00.000Z,False,True,Catawba,South Atlantic,,Lenoir Rhyne,South Atlantic,,Shuford Stadium,False
 401908100,2026,11,regular,2026-11-14T23:00:00.000Z,False,True,Methodist,USA South,,Greensboro,USA South,,Monarch Stadium,False
+401860914,2026,11,regular,2026-11-14T23:00:00.000Z,False,True,Boise State,Pac-12,,Oregon State,Pac-12,,Albertsons Stadium,False
 401869928,2026,11,regular,2026-11-14T23:00:00.000Z,False,True,Marshall,Sun Belt,,App State,Sun Belt,,Joan C. Edwards Stadium,False
+401908084,2026,11,regular,2026-11-14T23:00:00.000Z,False,True,North Carolina Wesleyan,USA South,,Brevard,USA South,,Stallings Field,False
 401856884,2026,11,regular,2026-11-14T23:15:00.000Z,False,True,Kentucky,SEC,,Florida,SEC,,Kroger Field,False
-401858298,2026,11,regular,2026-11-15T00:00:00.000Z,False,True,North Carolina,ACC,,Louisville,ACC,,Kenan Stadium,False
-401858524,2026,11,regular,2026-11-15T00:00:00.000Z,False,True,Penn State,Big Ten,,Minnesota,Big Ten,,Beaver Stadium,False
-401868322,2026,11,regular,2026-11-15T00:00:00.000Z,False,True,SE Louisiana,Southland,,McNeese,Southland,,Strawberry Stadium,False
-401908907,2026,11,regular,2026-11-15T00:00:00.000Z,False,True,St. Olaf,Minnesota,,Saint John's (MN),Minnesota,,Klein Field at Manitou,False
 401864538,2026,11,regular,2026-11-15T00:00:00.000Z,False,True,Air Force,Mountain West,,San José State,Mountain West,,Falcon Stadium,False
+401858524,2026,11,regular,2026-11-15T00:00:00.000Z,False,True,Penn State,Big Ten,,Minnesota,Big Ten,,Beaver Stadium,False
+401908907,2026,11,regular,2026-11-15T00:00:00.000Z,False,True,St. Olaf,Minnesota,,Saint John's (MN),Minnesota,,Klein Field at Manitou,False
 401871100,2026,11,regular,2026-11-15T00:00:00.000Z,False,True,South Alabama,Sun Belt,,Troy,Sun Belt,,Hancock Whitney Stadium,False
-401864539,2026,11,regular,2026-11-15T00:30:00.000Z,False,True,New Mexico,Mountain West,,UNLV,Mountain West,,University Stadium (NM),False
+401858298,2026,11,regular,2026-11-15T00:00:00.000Z,False,True,North Carolina,ACC,,Louisville,ACC,,Kenan Stadium,False
+401868322,2026,11,regular,2026-11-15T00:00:00.000Z,False,True,SE Louisiana,Southland,,McNeese,Southland,,Strawberry Stadium,False
 401858299,2026,11,regular,2026-11-15T00:30:00.000Z,False,True,Virginia Tech,ACC,,Stanford,ACC,,Lane Stadium,False
-401856864,2026,11,regular,2026-11-15T00:30:00.000Z,False,True,Arizona,Big 12,,Utah,Big 12,,Arizona Stadium,False
-401856885,2026,11,regular,2026-11-15T00:30:00.000Z,False,True,LSU,SEC,,Texas,SEC,,Tiger Stadium (LA),False
 401858519,2026,11,regular,2026-11-15T00:30:00.000Z,False,True,Iowa,Big Ten,,Purdue,Big Ten,,Kinnick Stadium,False
+401856885,2026,11,regular,2026-11-15T00:30:00.000Z,False,True,LSU,SEC,,Texas,SEC,,Tiger Stadium (LA),False
+401864539,2026,11,regular,2026-11-15T00:30:00.000Z,False,True,New Mexico,Mountain West,,UNLV,Mountain West,,University Stadium (NM),False
+401856864,2026,11,regular,2026-11-15T00:30:00.000Z,False,True,Arizona,Big 12,,Utah,Big 12,,Arizona Stadium,False
 401856882,2026,11,regular,2026-11-15T00:45:00.000Z,False,True,Arkansas,SEC,,South Carolina,SEC,,Razorback Stadium,False
 401907333,2026,11,regular,2026-11-15T01:00:00.000Z,False,True,Sul Ross State,Lone Star,,Western Oregon,Lone Star,,Jackson Field,False
 401862827,2026,11,regular,2026-11-15T02:00:00.000Z,False,True,UTSA,American Athletic,,North Texas,American Athletic,,Alamodome,False
