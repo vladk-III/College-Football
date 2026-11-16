@@ -8481,6 +8481,7 @@ game_id,home_team,away_team,home_points,away_points,total_points,margin,provider
 401858293,Pittsburgh,Florida State,10,16,26,-6,lowvig,-3.5,away_cover,52.0,under,-166.0,away_win
 401858293,Pittsburgh,Florida State,10,16,26,-6,mybookieag,-3.5,away_cover,52.0,under,-173.0,away_win
 401908345,Johns Hopkins,Franklin & Marshall,17,3,20,14,none,,,,,,
+401908984,The College of New Jersey,Kean,17,7,24,10,none,,,,,,
 401858526,UCLA,Illinois,22,14,36,8,Bovada,-10.5,away_cover,48.5,under,-400.0,home_win
 401858526,UCLA,Illinois,22,14,36,8,DraftKings,-10.5,away_cover,48.5,under,-425.0,home_win
 401858526,UCLA,Illinois,22,14,36,8,betmgm,-10.0,away_cover,48.5,under,-425.0,home_win
@@ -8504,6 +8505,7 @@ game_id,home_team,away_team,home_points,away_points,total_points,margin,provider
 401856860,Colorado,Houston,42,32,74,10,fanduel,8.5,home_cover,51.5,over,240.0,home_win
 401856860,Colorado,Houston,42,32,74,10,lowvig,7.5,home_cover,52.0,over,249.0,home_win
 401856860,Colorado,Houston,42,32,74,10,mybookieag,7.5,home_cover,52.0,over,255.0,home_win
+401933675,Benedict,Kentucky State,52,45,97,7,none,,,,,,
 401934270,Austin,Gallaudet,41,13,54,28,none,,,,,,
 401908385,Southwestern U,Centre,27,45,72,-18,none,,,,,,
 401858296,Miami,Duke,36,25,61,11,Bovada,-14.0,away_cover,55.0,over,-550.0,home_win
@@ -8518,7 +8520,11 @@ game_id,home_team,away_team,home_points,away_points,total_points,margin,provider
 401858296,Miami,Duke,36,25,61,11,lowvig,-13.5,away_cover,54.5,over,-550.0,home_win
 401858296,Miami,Duke,36,25,61,11,mybookieag,-13.5,away_cover,54.5,over,-599.0,home_win
 401868027,Holy Cross,Villanova,30,27,57,3,DraftKings,7.0,home_cover,50.5,over,245.0,home_win
+401908585,Mass Maritime,Bridgewater State,14,21,35,-7,none,,,,,,
+401908575,Westfield State,Fitchburg State,27,12,39,15,none,,,,,,
 401908605,Plymouth State,UMass Dartmouth,21,35,56,-14,none,,,,,,
+401908598,Framingham State,Worcester State,28,14,42,14,none,,,,,,
+401908711,Olivet,Albion,20,33,53,-13,none,,,,,,
 401861967,UConn,James Madison,46,22,68,24,Bovada,5.0,home_cover,57.0,over,148.0,home_win
 401861967,UConn,James Madison,46,22,68,24,DraftKings,4.5,home_cover,57.5,over,170.0,home_win
 401861967,UConn,James Madison,46,22,68,24,betmgm,4.5,home_cover,57.5,over,165.0,home_win
@@ -8532,6 +8538,8 @@ game_id,home_team,away_team,home_points,away_points,total_points,margin,provider
 401861967,UConn,James Madison,46,22,68,24,mybookieag,5.0,home_cover,57.0,over,169.0,home_win
 401867811,Brown,Columbia,28,20,48,8,DraftKings,-13.5,away_cover,41.5,over,-582.0,home_win
 401866688,Sacred Heart,Bryant,23,31,54,-8,DraftKings,1.5,away_cover,46.5,over,-111.0,away_win
+401908484,Curry,Endicott,0,58,58,-58,none,,,,,,
+401907664,Carnegie Mellon,Ursinus,27,30,57,-3,none,,,,,,
 401869155,Duquesne,Mercyhurst,20,10,30,10,DraftKings,-10.5,away_cover,53.5,under,-489.0,home_win
 401867923,Robert Morris,Stonehill,14,3,17,11,DraftKings,-1.5,home_cover,39.5,under,-135.0,home_win
 401907492,Pace,Assumption,17,20,37,-3,none,,,,,,
@@ -8621,9 +8629,13 @@ game_id,home_team,away_team,home_points,away_points,total_points,margin,provider
 401858520,Maryland,Wisconsin,24,21,45,3,fanduel,9.5,home_cover,42.5,over,280.0,home_win
 401858520,Maryland,Wisconsin,24,21,45,3,lowvig,9.0,home_cover,42.0,over,285.0,home_win
 401858520,Maryland,Wisconsin,24,21,45,3,mybookieag,9.0,home_cover,42.5,over,265.0,home_win
+401908631,Salve Regina,WPI,27,15,42,12,none,,,,,,
+401908860,Hamilton,Bates,47,17,64,30,none,,,,,,
+401906640,Tiffin,Findlay,7,30,37,-23,none,,,,,,
 401868217,Marist,Butler,0,28,28,-28,DraftKings,8.5,away_cover,45.5,under,274.0,away_win
 401907535,Clarion,Millersville,43,42,85,1,none,,,,,,
 401907558,Gannon,West Chester,21,7,28,14,none,,,,,,
+401907503,California (PA),Bloomsburg,7,6,13,1,none,,,,,,
 401907971,Hilbert,Hartwick,12,77,89,-65,none,,,,,,
 401908205,King's,Misericordia,14,23,37,-9,none,,,,,,
 401907552,Edinboro,Shippensburg,21,28,49,-7,none,,,,,,
@@ -8678,6 +8690,7 @@ game_id,home_team,away_team,home_points,away_points,total_points,margin,provider
 401934218,Chowan,Edward Waters,29,35,64,-6,none,,,,,,
 401907375,Washburn,Missouri Southern State,28,20,48,8,none,,,,,,
 401907345,Central Missouri,Nebraska Kearney,52,18,70,34,none,,,,,,
+401908872,Bowdoin,Colby,13,19,32,-6,none,,,,,,
 401908171,Lebanon Valley,Albright,38,30,68,8,none,,,,,,
 401908188,Widener,Delaware Valley,7,35,42,-28,none,,,,,,
 401908796,Hamline,Augsburg,14,37,51,-23,none,,,,,,
@@ -8714,6 +8727,7 @@ game_id,home_team,away_team,home_points,away_points,total_points,margin,provider
 401867997,William & Mary,Bucknell,41,24,65,17,DraftKings,-6.5,home_cover,45.5,over,-250.0,home_win
 401868006,Colgate,Lafayette,19,7,26,12,DraftKings,-10.5,home_cover,46.5,under,-473.0,home_win
 401907630,Slippery Rock,East Stroudsburg,44,14,58,30,none,,,,,,
+401907575,Seton Hill,Kutztown,7,47,54,-40,none,,,,,,
 401867843,Pennsylvania,Harvard,24,38,62,-14,DraftKings,13.5,away_cover,37.5,over,436.0,away_win
 401908179,Stevenson,Alvernia,24,23,47,1,none,,,,,,
 401907402,Newberry,Anderson (SC),28,14,42,14,none,,,,,,
@@ -8751,15 +8765,18 @@ game_id,home_team,away_team,home_points,away_points,total_points,margin,provider
 401909106,Concordia Chicago,Wisconsin Lutheran,13,7,20,6,none,,,,,,
 401907515,Franklin Pierce,Saint Anselm,14,13,27,1,none,,,,,,
 401907455,Mars Hill,Wingate,20,27,47,-7,none,,,,,,
+401906936,Ferris State,Roosevelt,63,20,83,43,none,,,,,,
 401907483,American International,Southern Connecticut State,17,14,31,3,none,,,,,,
 401908498,Westminster (MO),Crown,16,7,23,9,none,,,,,,
 401908507,Martin Luther,Greenville,57,0,57,57,none,,,,,,
+401908013,Wisconsin La Crosse,Wisconsin Platteville,14,48,62,-34,none,,,,,,
 401907510,Post,Bentley,20,49,69,-29,none,,,,,,
 401867833,Cornell,Dartmouth,20,14,34,6,DraftKings,1.5,home_cover,46.5,under,101.0,home_win
 401909033,Waynesburg,Bethany (WV),31,28,59,3,none,,,,,,
 401906910,Northern Michigan,Saginaw Valley State,10,59,69,-49,none,,,,,,
 401909039,Saint Francis,Geneva,0,21,21,-21,none,,,,,,
 401909051,Hiram,Saint Vincent,28,37,65,-9,none,,,,,,
+401909046,Grove City,Thiel,49,0,49,49,none,,,,,,
 401909070,Westminster (PA),Washington & Jefferson,14,44,58,-30,none,,,,,,
 401909140,Kenyon,Ohio Wesleyan,21,27,48,-6,none,,,,,,
 401908972,Wittenberg,Oberlin,52,0,52,52,none,,,,,,
@@ -8813,6 +8830,7 @@ game_id,home_team,away_team,home_points,away_points,total_points,margin,provider
 401907674,Chicago,Lake Forest,34,30,64,4,none,,,,,,
 401908764,Ripon,Lawrence,62,12,74,50,none,,,,,,
 401867893,Southern Illinois,South Dakota State,16,52,68,-36,DraftKings,15.5,away_cover,52.5,over,501.0,away_win
+401908303,Huntingdon,Belhaven,28,7,35,21,none,,,,,,
 401869135,Northwestern State,Houston Christian,21,28,49,-7,DraftKings,16.5,home_cover,51.5,under,610.0,away_win
 401908376,Berry,Sewanee,67,14,81,53,none,,,,,,
 401908527,Minnesota Morris,Northwestern (MN),10,28,38,-18,none,,,,,,
@@ -9037,6 +9055,7 @@ game_id,home_team,away_team,home_points,away_points,total_points,margin,provider
 401908411,Lewis & Clark,Pacific (OR),38,6,44,32,none,,,,,,
 401908400,George Fox,Pacific Lutheran,37,0,37,37,none,,,,,,
 401934268,La Verne,Whittier,35,0,35,35,none,,,,,,
+401933698,Redlands,Azusa Pacific,42,7,49,35,none,,,,,,
 401856886,Mississippi State,Auburn,9,41,50,-32,Bovada,3.0,away_cover,51.0,under,127.0,away_win
 401856886,Mississippi State,Auburn,9,41,50,-32,DraftKings,2.5,away_cover,51.5,under,120.0,away_win
 401856886,Mississippi State,Auburn,9,41,50,-32,betmgm,3.0,away_cover,51.5,under,120.0,away_win
@@ -9248,6 +9267,7 @@ game_id,home_team,away_team,home_points,away_points,total_points,margin,provider
 401856882,Arkansas,South Carolina,34,6,40,28,fanduel,7.5,home_cover,51.5,under,235.0,home_win
 401856882,Arkansas,South Carolina,34,6,40,28,lowvig,7.5,home_cover,52.0,under,267.0,home_win
 401856882,Arkansas,South Carolina,34,6,40,28,mybookieag,7.0,home_cover,52.0,under,240.0,home_win
+401907333,Sul Ross State,Western Oregon,14,66,80,-52,none,,,,,,
 401868099,Idaho,UC Davis,24,28,52,-4,DraftKings,-8.5,away_cover,62.5,under,-350.0,away_win
 401934269,Lyon,Centenary (LA),6,35,41,-29,none,,,,,,
 401868091,Utah Tech,Eastern Washington,28,31,59,-3,DraftKings,4.5,home_cover,62.5,under,158.0,away_win
@@ -9319,3 +9339,13 @@ game_id,home_team,away_team,home_points,away_points,total_points,margin,provider
 401868109,Montana,Idaho State,38,30,68,8,DraftKings,-7.5,home_cover,61.5,over,-326.0,home_win
 401864537,Hawai'i,North Dakota State,13,21,34,-8,Bovada,7.0,away_cover,39.5,under,205.0,away_win
 401864537,Hawai'i,North Dakota State,13,21,34,-8,DraftKings,7.0,away_cover,39.5,under,220.0,away_win
+401856887,Oklahoma,Ole Miss,24,17,41,7,Bovada,-3.0,home_cover,49.0,under,105.0,home_win
+401856887,Oklahoma,Ole Miss,24,17,41,7,DraftKings,-2.5,home_cover,48.5,under,-148.0,home_win
+401856887,Oklahoma,Ole Miss,24,17,41,7,betmgm,-2.5,home_cover,48.5,under,-145.0,home_win
+401856887,Oklahoma,Ole Miss,24,17,41,7,betonlineag,-2.5,home_cover,48.5,under,-145.0,home_win
+401856887,Oklahoma,Ole Miss,24,17,41,7,betrivers,-2.5,home_cover,48.5,under,-132.0,home_win
+401856887,Oklahoma,Ole Miss,24,17,41,7,betus,-2.5,home_cover,48.5,under,-140.0,home_win
+401856887,Oklahoma,Ole Miss,24,17,41,7,bovada,-3.0,home_cover,49.0,under,-150.0,home_win
+401856887,Oklahoma,Ole Miss,24,17,41,7,draftkings,-2.5,home_cover,48.5,under,-148.0,home_win
+401856887,Oklahoma,Ole Miss,24,17,41,7,fanduel,-2.5,home_cover,48.5,under,-132.0,home_win
+401856887,Oklahoma,Ole Miss,24,17,41,7,mybookieag,-2.5,home_cover,48.5,under,-134.0,home_win
