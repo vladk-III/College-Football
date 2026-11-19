@@ -3497,15 +3497,6 @@ game_id,season,week,home_team,away_team,venue,temperature,dewpoint,humidity,prec
 401866466,2026,12,Kent State,Miami (OH),Dix Stadium,40.0,,73.0,0.0,,,2.1,,False
 401866469,2026,12,Buffalo,Central Michigan,UB Stadium,40.8,,88.0,0.0,,,5.2,,False
 401866467,2026,12,Massachusetts,Akron,Warren McGuirk Alumni Stadium,38.8,,69.0,0.0,,,3.3,,False
-401867881,2026,12,North Dakota,Southern Illinois,Alerus Center,72.0,,,0.0,0.0,,0.0,Dome,True
-401868128,2026,12,Northern Arizona,Northern Colorado,Walkup Skydome,72.0,,,0.0,0.0,,0.0,Dome,True
-401868100,2026,12,Idaho State,Idaho,Holt Arena,72.0,,,0.0,0.0,,0.0,Dome,True
-401868957,2026,13,Southern,Grambling,Caesars Superdome,72.0,,,0.0,0.0,,0.0,Dome,True
-401864543,2026,12,North Dakota State,Northern Illinois,Fargodome,72.0,,,0.0,0.0,,0.0,Dome,True
-401862840,2026,13,UTSA,Tulsa,Alamodome,72.0,,,0.0,0.0,,0.0,Dome,True
-401858314,2026,13,Syracuse,Notre Dame,JMA Wireless Dome,72.0,,,0.0,0.0,,0.0,Dome,True
-401864548,2026,13,UNLV,Nevada,Allegiant Stadium,72.0,,,0.0,0.0,,0.0,Dome,True
-401862844,2026,15,Army,Navy,MetLife Stadium,,,,,,,,,False
 401868323,2026,12,Nicholls,SE Louisiana,Manning Field at John L. Guidry Stadium,64.3,,80.0,0.0,,,6.3,,False
 401868314,2026,12,Stephen F. Austin,Northwestern State,Homer Bryce Stadium,64.6,,59.0,0.0,,,5.6,,False
 401862830,2026,12,Temple,Rice,Lincoln Financial Field,50.2,,56.0,0.0,,,4.4,,False
@@ -3691,3 +3682,15 @@ game_id,season,week,home_team,away_team,venue,temperature,dewpoint,humidity,prec
 401871062,2026,13,Delaware,Jacksonville State,Delaware Stadium,45.5,,47.0,0.0,,,8.3,,False
 401864546,2026,13,New Mexico,Air Force,University Stadium (NM),50.9,,38.0,0.0,,,2.1,,False
 401864547,2026,13,Hawai'i,Sacramento State,Clarence T.C. Ching Athletics Complex,74.7,,58.0,0.0,,,11.9,,False
+401868957,2026,13,Southern,Grambling,Caesars Superdome,72.0,,,0.0,0.0,,0.0,Dome,True
+401862840,2026,13,UTSA,Tulsa,Alamodome,72.0,,,0.0,0.0,,0.0,Dome,True
+401858314,2026,13,Syracuse,Notre Dame,JMA Wireless Dome,72.0,,,0.0,0.0,,0.0,Dome,True
+401864548,2026,13,UNLV,Nevada,Allegiant Stadium,72.0,,,0.0,0.0,,0.0,Dome,True
+401862844,2026,15,Army,Navy,MetLife Stadium,,,,,,,,,False
+401935708,2026,12,Coe,Lake Forest,Neenah Rocket Stadium,,,,,,,,,False
+401867881,2026,12,North Dakota,Southern Illinois,Alerus Center,72.0,,,0.0,0.0,,0.0,Dome,True
+401935705,2026,12,Illinois Wesleyan,Wisconsin River Falls,Bank of Sun Prairie Stadium,,,,,,,,,False
+401864543,2026,12,North Dakota State,Northern Illinois,Fargodome,72.0,,,0.0,0.0,,0.0,Dome,True
+401868128,2026,12,Northern Arizona,Northern Colorado,Walkup Skydome,72.0,,,0.0,0.0,,0.0,Dome,True
+401935709,2026,12,Aurora,Dubuque,Neenah Rocket Stadium,,,,,,,,,False
+401868100,2026,12,Idaho State,Idaho,Holt Arena,72.0,,,0.0,0.0,,0.0,Dome,True
