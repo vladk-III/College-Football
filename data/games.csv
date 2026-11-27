@@ -3666,7 +3666,7 @@ game_id,season,week,season_type,start_date,neutral_site,conference_game,home_tea
 401908999,2026,13,regular,2026-11-24T18:00:00.000Z,False,False,Concord,Mountain East,,Ferrum,Carolinas,,Callaghan Stadium,False
 401866471,2026,13,regular,2026-11-25T00:00:00.000Z,False,True,Western Michigan,Mid-American,24.0,Miami (OH),Mid-American,28.0,Waldo Stadium,True
 401866470,2026,13,regular,2026-11-25T00:00:00.000Z,False,True,Eastern Michigan,Mid-American,17.0,Kent State,Mid-American,12.0,Rynearson Stadium,True
-401868354,2026,13,regular,2026-11-26T20:00:00.000Z,False,False,Alabama State,SWAC,,Tuskegee,SIAC,,Hornet Stadium,False
+401868354,2026,13,regular,2026-11-26T20:00:00.000Z,False,False,Alabama State,SWAC,45.0,Tuskegee,SIAC,0.0,Hornet Stadium,True
 401856879,2026,13,regular,2026-11-27T01:00:00.000Z,False,True,Texas Tech,Big 12,,TCU,Big 12,,Jones AT&T Stadium,False
 401858536,2026,13,regular,2026-11-27T17:00:00.000Z,False,True,Iowa,Big Ten,,Nebraska,Big Ten,,Kinnick Stadium,False
 401866473,2026,13,regular,2026-11-27T17:00:00.000Z,False,True,Ohio,Mid-American,,Toledo,Mid-American,,Peden Stadium,False

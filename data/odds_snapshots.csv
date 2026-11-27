@@ -18085,3 +18085,135 @@ snapshot_ts,source,game_id,home_team,away_team,provider,spread,spread_open,over_
 2026-11-26T17:40:24.994601-05:00,odds_api,401864546,New Mexico Lobos,Air Force Falcons,mybookieag,-6.5,,42.0,,-285.0,224.0,2026-11-27T21:30:00Z,-110.0,-110.0
 2026-11-26T17:40:24.994601-05:00,odds_api,401864546,New Mexico Lobos,Air Force Falcons,betus,-7.0,,42.0,,-255.0,215.0,2026-11-27T21:30:00Z,-110.0,-110.0
 2026-11-26T17:40:24.994601-05:00,odds_api,401864546,New Mexico Lobos,Air Force Falcons,bovada,-6.5,,42.5,,-250.0,210.0,2026-11-27T21:30:00Z,-117.0,-108.0
+2026-11-26T21:38:32.354306-05:00,cfbd,401856756,Texas A&M,Texas,DraftKings,10.5,2.5,40.5,53.5,350.0,-455.0,,,
+2026-11-26T21:38:32.354306-05:00,cfbd,401856756,Texas A&M,Texas,Bovada,10.5,11.5,40.5,40.5,360.0,-470.0,,,
+2026-11-26T21:38:32.354306-05:00,cfbd,401856759,Florida State,Florida,DraftKings,6.5,4.5,53.5,52.5,195.0,-238.0,,,
+2026-11-26T21:38:32.354306-05:00,cfbd,401856759,Florida State,Florida,Bovada,6.5,5.5,53.5,52.5,180.0,-220.0,,,
+2026-11-26T21:38:32.354306-05:00,cfbd,401856762,Ole Miss,Mississippi State,DraftKings,-17.5,-14.5,56.5,56.5,-950.0,625.0,,,
+2026-11-26T21:38:32.354306-05:00,cfbd,401856762,Ole Miss,Mississippi State,Bovada,-17.5,-19.0,56.0,56.5,-1100.0,700.0,,,
+2026-11-26T21:38:32.354306-05:00,cfbd,401856880,Utah,West Virginia,Bovada,-26.0,-21.0,66.5,68.5,-1500.0,850.0,,,
+2026-11-26T21:38:32.354306-05:00,cfbd,401856880,Utah,West Virginia,DraftKings,-25.5,-20.5,66.5,68.5,-2800.0,1300.0,,,
+2026-11-26T21:38:32.354306-05:00,cfbd,401866473,Ohio,Toledo,DraftKings,3.0,4.5,44.5,48.5,130.0,-155.0,,,
+2026-11-26T21:38:32.354306-05:00,cfbd,401866473,Ohio,Toledo,Bovada,3.0,3.5,45.0,49.5,153.0,-178.0,,,
+2026-11-26T21:38:32.354306-05:00,cfbd,401864549,San José State,North Dakota State,DraftKings,8.5,11.5,39.5,39.5,275.0,-345.0,,,
+2026-11-26T21:38:32.354306-05:00,cfbd,401864549,San José State,North Dakota State,Bovada,7.5,10.0,40.0,40.0,315.0,-410.0,,,
+2026-11-26T21:38:32.354306-05:00,cfbd,401858536,Iowa,Nebraska,DraftKings,-3.5,-6.5,40.5,38.5,-198.0,164.0,,,
+2026-11-26T21:38:32.354306-05:00,cfbd,401858536,Iowa,Nebraska,Bovada,-4.0,-5.5,40.5,39.5,-215.0,176.0,,,
+2026-11-26T21:38:32.354306-05:00,cfbd,401858544,Wisconsin,Minnesota,DraftKings,-8.5,-6.0,37.5,38.5,-340.0,270.0,,,
+2026-11-26T21:38:32.354306-05:00,cfbd,401858544,Wisconsin,Minnesota,Bovada,-9.0,-7.5,37.5,37.5,-310.0,255.0,,,
+2026-11-26T21:38:32.354306-05:00,cfbd,401866472,Akron,Buffalo,DraftKings,7.5,10.0,48.5,49.5,245.0,-305.0,,,
+2026-11-26T21:38:32.354306-05:00,cfbd,401866472,Akron,Buffalo,Bovada,7.5,9.0,48.5,50.5,275.0,-350.0,,,
+2026-11-26T21:38:32.354306-05:00,cfbd,401869930,South Alabama,App State,DraftKings,-3.5,-2.5,56.5,55.5,-166.0,140.0,,,
+2026-11-26T21:38:32.354306-05:00,cfbd,401869930,South Alabama,App State,Bovada,-3.0,-3.0,57.0,56.5,-155.0,132.0,,,
+2026-11-26T21:38:32.354306-05:00,cfbd,401864546,New Mexico,Air Force,DraftKings,-6.5,-7.0,42.5,41.5,-258.0,210.0,,,
+2026-11-26T21:38:32.354306-05:00,cfbd,401864546,New Mexico,Air Force,Bovada,-6.5,-6.5,42.5,41.5,-250.0,210.0,,,
+2026-11-26T21:38:32.354306-05:00,cfbd,401862838,Memphis,Temple,Bovada,-18.5,-17.0,67.5,64.5,-900.0,600.0,,,
+2026-11-26T21:38:32.354306-05:00,cfbd,401862838,Memphis,Temple,DraftKings,-18.5,-17.5,66.5,64.5,-1050.0,675.0,,,
+2026-11-26T21:38:32.354306-05:00,cfbd,401862840,UTSA,Tulsa,Bovada,1.0,-1.5,57.5,58.5,-120.0,100.0,,,
+2026-11-26T21:38:32.354306-05:00,cfbd,401862840,UTSA,Tulsa,DraftKings,1.5,-2.5,57.5,58.5,102.0,-122.0,,,
+2026-11-26T21:38:32.558833-05:00,odds_api,401866472,Akron Zips,Buffalo Bulls,fanduel,7.5,,48.5,,230.0,-285.0,2026-11-27T17:00:00Z,-116.0,-105.0
+2026-11-26T21:38:32.558833-05:00,odds_api,401866472,Akron Zips,Buffalo Bulls,draftkings,7.5,,48.5,,245.0,-305.0,2026-11-27T17:00:00Z,-115.0,-110.0
+2026-11-26T21:38:32.558833-05:00,odds_api,401866472,Akron Zips,Buffalo Bulls,betrivers,7.5,,48.5,,235.0,-305.0,2026-11-27T17:00:00Z,-114.0,-107.0
+2026-11-26T21:38:32.558833-05:00,odds_api,401866472,Akron Zips,Buffalo Bulls,lowvig,7.5,,48.5,,237.0,-290.0,2026-11-27T17:00:00Z,-114.0,-114.0
+2026-11-26T21:38:32.558833-05:00,odds_api,401866472,Akron Zips,Buffalo Bulls,betonlineag,7.5,,48.5,,237.0,-290.0,2026-11-27T17:00:00Z,-118.0,-115.0
+2026-11-26T21:38:32.558833-05:00,odds_api,401866472,Akron Zips,Buffalo Bulls,betmgm,7.5,,48.5,,240.0,-295.0,2026-11-27T17:00:00Z,-112.0,-110.0
+2026-11-26T21:38:32.558833-05:00,odds_api,401866472,Akron Zips,Buffalo Bulls,mybookieag,7.0,,48.5,,246.0,-319.0,2026-11-27T17:00:00Z,-105.0,-110.0
+2026-11-26T21:38:32.558833-05:00,odds_api,401866472,Akron Zips,Buffalo Bulls,betus,7.5,,49.0,,240.0,-290.0,2026-11-27T17:00:00Z,-120.0,-110.0
+2026-11-26T21:38:32.558833-05:00,odds_api,401866472,Akron Zips,Buffalo Bulls,bovada,7.0,,48.5,,245.0,-295.0,2026-11-27T17:00:00Z,-105.0,-108.0
+2026-11-26T21:38:32.558833-05:00,odds_api,401858536,Iowa Hawkeyes,Nebraska Cornhuskers,fanduel,-3.5,,40.5,,-178.0,150.0,2026-11-27T17:00:00Z,-110.0,-112.0
+2026-11-26T21:38:32.558833-05:00,odds_api,401858536,Iowa Hawkeyes,Nebraska Cornhuskers,draftkings,-3.5,,40.5,,-198.0,164.0,2026-11-27T17:00:00Z,-110.0,-115.0
+2026-11-26T21:38:32.558833-05:00,odds_api,401858536,Iowa Hawkeyes,Nebraska Cornhuskers,betmgm,-3.5,,40.5,,-190.0,155.0,2026-11-27T17:00:00Z,-110.0,-115.0
+2026-11-26T21:38:32.558833-05:00,odds_api,401858536,Iowa Hawkeyes,Nebraska Cornhuskers,betrivers,-3.5,,40.5,,-177.0,140.0,2026-11-27T17:00:00Z,-109.0,-117.0
+2026-11-26T21:38:32.558833-05:00,odds_api,401858536,Iowa Hawkeyes,Nebraska Cornhuskers,betonlineag,-3.5,,40.5,,-185.0,161.0,2026-11-27T17:00:00Z,-105.0,-115.0
+2026-11-26T21:38:32.558833-05:00,odds_api,401858536,Iowa Hawkeyes,Nebraska Cornhuskers,lowvig,-3.5,,40.5,,-185.0,161.0,2026-11-27T17:00:00Z,-105.0,-114.0
+2026-11-26T21:38:32.558833-05:00,odds_api,401858536,Iowa Hawkeyes,Nebraska Cornhuskers,mybookieag,-3.5,,41.0,,-193.0,156.0,2026-11-27T17:00:00Z,-110.0,-110.0
+2026-11-26T21:38:32.558833-05:00,odds_api,401858536,Iowa Hawkeyes,Nebraska Cornhuskers,betus,-3.5,,40.5,,-185.0,159.0,2026-11-27T17:00:00Z,-110.0,-115.0
+2026-11-26T21:38:32.558833-05:00,odds_api,401858536,Iowa Hawkeyes,Nebraska Cornhuskers,bovada,-3.5,,40.5,,-183.0,158.0,2026-11-27T17:00:00Z,-112.0,-112.0
+2026-11-26T21:38:32.558833-05:00,odds_api,401856762,Ole Miss Rebels,Mississippi State Bulldogs,draftkings,-17.5,,56.5,,-950.0,625.0,2026-11-27T17:00:00Z,-108.0,-110.0
+2026-11-26T21:38:32.558833-05:00,odds_api,401856762,Ole Miss Rebels,Mississippi State Bulldogs,fanduel,-17.5,,56.5,,-1050.0,720.0,2026-11-27T17:00:00Z,-116.0,-105.0
+2026-11-26T21:38:32.558833-05:00,odds_api,401856762,Ole Miss Rebels,Mississippi State Bulldogs,betrivers,-18.5,,55.5,,-1000.0,600.0,2026-11-27T17:00:00Z,-110.0,-109.0
+2026-11-26T21:38:32.558833-05:00,odds_api,401856762,Ole Miss Rebels,Mississippi State Bulldogs,betonlineag,-17.0,,56.5,,-925.0,624.0,2026-11-27T17:00:00Z,-118.0,-110.0
+2026-11-26T21:38:32.558833-05:00,odds_api,401856762,Ole Miss Rebels,Mississippi State Bulldogs,betmgm,-17.5,,56.5,,-900.0,650.0,2026-11-27T17:00:00Z,-110.0,-108.0
+2026-11-26T21:38:32.558833-05:00,odds_api,401856762,Ole Miss Rebels,Mississippi State Bulldogs,mybookieag,-18.0,,56.0,,-1009.0,635.0,2026-11-27T17:00:00Z,-110.0,-110.0
+2026-11-26T21:38:32.558833-05:00,odds_api,401856762,Ole Miss Rebels,Mississippi State Bulldogs,betus,-18.0,,56.5,,-925.0,615.0,2026-11-27T17:00:00Z,-105.0,-110.0
+2026-11-26T21:38:32.558833-05:00,odds_api,401856762,Ole Miss Rebels,Mississippi State Bulldogs,bovada,-17.5,,56.0,,-950.0,625.0,2026-11-27T17:00:00Z,-112.0,-110.0
+2026-11-26T21:38:32.558833-05:00,odds_api,401866473,Ohio Bobcats,Toledo Rockets,fanduel,3.5,,45.5,,128.0,-152.0,2026-11-27T17:00:00Z,-120.0,-105.0
+2026-11-26T21:38:32.558833-05:00,odds_api,401866473,Ohio Bobcats,Toledo Rockets,betrivers,3.0,,44.5,,128.0,-159.0,2026-11-27T17:00:00Z,-106.0,-106.0
+2026-11-26T21:38:32.558833-05:00,odds_api,401866473,Ohio Bobcats,Toledo Rockets,draftkings,3.0,,44.5,,130.0,-155.0,2026-11-27T17:00:00Z,-110.0,-115.0
+2026-11-26T21:38:32.558833-05:00,odds_api,401866473,Ohio Bobcats,Toledo Rockets,lowvig,3.0,,44.0,,132.0,-152.0,2026-11-27T17:00:00Z,-106.0,-117.0
+2026-11-26T21:38:32.558833-05:00,odds_api,401866473,Ohio Bobcats,Toledo Rockets,betonlineag,3.0,,44.0,,132.0,-152.0,2026-11-27T17:00:00Z,-110.0,-118.0
+2026-11-26T21:38:32.558833-05:00,odds_api,401866473,Ohio Bobcats,Toledo Rockets,betmgm,3.0,,44.5,,130.0,-155.0,2026-11-27T17:00:00Z,-108.0,-112.0
+2026-11-26T21:38:32.558833-05:00,odds_api,401866473,Ohio Bobcats,Toledo Rockets,mybookieag,3.0,,44.5,,126.0,-155.0,2026-11-27T17:00:00Z,-110.0,-110.0
+2026-11-26T21:38:32.558833-05:00,odds_api,401866473,Ohio Bobcats,Toledo Rockets,betus,3.0,,44.5,,129.0,-150.0,2026-11-27T17:00:00Z,-110.0,-110.0
+2026-11-26T21:38:32.558833-05:00,odds_api,401866473,Ohio Bobcats,Toledo Rockets,bovada,3.0,,45.0,,135.0,-160.0,2026-11-27T17:00:00Z,-108.0,-110.0
+2026-11-26T21:38:32.558833-05:00,odds_api,401862840,UTSA Roadrunners,Tulsa Golden Hurricane,fanduel,-1.5,,58.5,,-110.0,-110.0,2026-11-27T17:00:00Z,-104.0,100.0
+2026-11-26T21:38:32.558833-05:00,odds_api,401862840,UTSA Roadrunners,Tulsa Golden Hurricane,betrivers,-1.0,,57.5,,-114.0,-108.0,2026-11-27T17:00:00Z,-110.0,-108.0
+2026-11-26T21:38:32.558833-05:00,odds_api,401862840,UTSA Roadrunners,Tulsa Golden Hurricane,lowvig,2.0,,57.0,,108.0,-128.0,2026-11-27T17:00:00Z,-106.0,-103.0
+2026-11-26T21:38:32.558833-05:00,odds_api,401862840,UTSA Roadrunners,Tulsa Golden Hurricane,betonlineag,2.0,,57.0,,108.0,-128.0,2026-11-27T17:00:00Z,-110.0,-105.0
+2026-11-26T21:38:32.558833-05:00,odds_api,401862840,UTSA Roadrunners,Tulsa Golden Hurricane,draftkings,1.5,,57.5,,102.0,-122.0,2026-11-27T17:00:00Z,-110.0,-105.0
+2026-11-26T21:38:32.558833-05:00,odds_api,401862840,UTSA Roadrunners,Tulsa Golden Hurricane,betmgm,1.5,,57.5,,100.0,-120.0,2026-11-27T17:00:00Z,-108.0,-108.0
+2026-11-26T21:38:32.558833-05:00,odds_api,401862840,UTSA Roadrunners,Tulsa Golden Hurricane,mybookieag,1.5,,57.5,,100.0,-122.0,2026-11-27T17:00:00Z,-110.0,-110.0
+2026-11-26T21:38:32.558833-05:00,odds_api,401862840,UTSA Roadrunners,Tulsa Golden Hurricane,betus,2.0,,57.0,,105.0,-125.0,2026-11-27T17:00:00Z,-110.0,-105.0
+2026-11-26T21:38:32.558833-05:00,odds_api,401862840,UTSA Roadrunners,Tulsa Golden Hurricane,bovada,1.0,,57.5,,-103.0,-117.0,2026-11-27T17:00:00Z,-108.0,-110.0
+2026-11-26T21:38:32.558833-05:00,odds_api,401856759,Florida State Seminoles,Florida Gators,draftkings,6.5,,53.5,,195.0,-238.0,2026-11-27T20:30:00Z,-112.0,-112.0
+2026-11-26T21:38:32.558833-05:00,odds_api,401856759,Florida State Seminoles,Florida Gators,fanduel,6.5,,53.5,,190.0,-230.0,2026-11-27T20:30:00Z,-110.0,-116.0
+2026-11-26T21:38:32.558833-05:00,odds_api,401856759,Florida State Seminoles,Florida Gators,betrivers,6.5,,53.5,,185.0,-235.0,2026-11-27T20:30:00Z,-113.0,-115.0
+2026-11-26T21:38:32.558833-05:00,odds_api,401856759,Florida State Seminoles,Florida Gators,betonlineag,6.0,,53.5,,200.0,-240.0,2026-11-27T20:30:00Z,-105.0,-112.0
+2026-11-26T21:38:32.558833-05:00,odds_api,401856759,Florida State Seminoles,Florida Gators,lowvig,6.0,,53.5,,200.0,-240.0,2026-11-27T20:30:00Z,-101.0,-110.0
+2026-11-26T21:38:32.558833-05:00,odds_api,401856759,Florida State Seminoles,Florida Gators,betmgm,6.5,,53.5,,195.0,-235.0,2026-11-27T20:30:00Z,-110.0,-110.0
+2026-11-26T21:38:32.558833-05:00,odds_api,401856759,Florida State Seminoles,Florida Gators,mybookieag,6.5,,54.0,,193.0,-244.0,2026-11-27T20:30:00Z,-110.0,-110.0
+2026-11-26T21:38:32.558833-05:00,odds_api,401856759,Florida State Seminoles,Florida Gators,betus,6.0,,53.5,,203.0,-240.0,2026-11-27T20:30:00Z,-105.0,-110.0
+2026-11-26T21:38:32.558833-05:00,odds_api,401856759,Florida State Seminoles,Florida Gators,bovada,6.5,,53.5,,200.0,-240.0,2026-11-27T20:30:00Z,-115.0,-112.0
+2026-11-26T21:38:32.558833-05:00,odds_api,401862838,Memphis Tigers,Temple Owls,fanduel,-17.5,,66.5,,-1050.0,720.0,2026-11-27T20:30:00Z,-116.0,-110.0
+2026-11-26T21:38:32.558833-05:00,odds_api,401862838,Memphis Tigers,Temple Owls,betrivers,-17.5,,66.5,,-1000.0,600.0,2026-11-27T20:30:00Z,-113.0,-108.0
+2026-11-26T21:38:32.558833-05:00,odds_api,401862838,Memphis Tigers,Temple Owls,lowvig,-18.5,,66.5,,-1100.0,709.0,2026-11-27T20:30:00Z,-106.0,-108.0
+2026-11-26T21:38:32.558833-05:00,odds_api,401862838,Memphis Tigers,Temple Owls,betonlineag,-18.5,,66.5,,-1100.0,709.0,2026-11-27T20:30:00Z,-110.0,-110.0
+2026-11-26T21:38:32.558833-05:00,odds_api,401862838,Memphis Tigers,Temple Owls,draftkings,-18.5,,66.5,,-1050.0,675.0,2026-11-27T20:30:00Z,-108.0,-110.0
+2026-11-26T21:38:32.558833-05:00,odds_api,401862838,Memphis Tigers,Temple Owls,betmgm,-18.5,,66.5,,-1000.0,700.0,2026-11-27T20:30:00Z,-108.0,-110.0
+2026-11-26T21:38:32.558833-05:00,odds_api,401862838,Memphis Tigers,Temple Owls,mybookieag,-18.5,,67.0,,-1144.0,687.0,2026-11-27T20:30:00Z,-110.0,-110.0
+2026-11-26T21:38:32.558833-05:00,odds_api,401862838,Memphis Tigers,Temple Owls,betus,-18.5,,67.5,,-1100.0,700.0,2026-11-27T20:30:00Z,-110.0,-110.0
+2026-11-26T21:38:32.558833-05:00,odds_api,401862838,Memphis Tigers,Temple Owls,bovada,-18.5,,67.5,,-950.0,625.0,2026-11-27T20:30:00Z,-110.0,-108.0
+2026-11-26T21:38:32.558833-05:00,odds_api,401864549,San Jose State Spartans,North Dakota State Bison,fanduel,8.5,,39.5,,275.0,-345.0,2026-11-27T20:30:00Z,-110.0,-116.0
+2026-11-26T21:38:32.558833-05:00,odds_api,401864549,San Jose State Spartans,North Dakota State Bison,betrivers,8.0,,40.5,,270.0,-360.0,2026-11-27T20:30:00Z,-112.0,-104.0
+2026-11-26T21:38:32.558833-05:00,odds_api,401864549,San Jose State Spartans,North Dakota State Bison,draftkings,8.5,,39.5,,275.0,-345.0,2026-11-27T20:30:00Z,-115.0,-115.0
+2026-11-26T21:38:32.558833-05:00,odds_api,401864549,San Jose State Spartans,North Dakota State Bison,betonlineag,8.0,,40.0,,274.0,-340.0,2026-11-27T20:30:00Z,-105.0,-116.0
+2026-11-26T21:38:32.558833-05:00,odds_api,401864549,San Jose State Spartans,North Dakota State Bison,lowvig,8.0,,40.0,,274.0,-340.0,2026-11-27T20:30:00Z,-101.0,-115.0
+2026-11-26T21:38:32.558833-05:00,odds_api,401864549,San Jose State Spartans,North Dakota State Bison,betmgm,8.0,,40.5,,275.0,-350.0,2026-11-27T20:30:00Z,-108.0,-105.0
+2026-11-26T21:38:32.558833-05:00,odds_api,401864549,San Jose State Spartans,North Dakota State Bison,mybookieag,8.0,,40.0,,277.0,-365.0,2026-11-27T20:30:00Z,-110.0,-110.0
+2026-11-26T21:38:32.558833-05:00,odds_api,401864549,San Jose State Spartans,North Dakota State Bison,betus,8.0,,40.0,,275.0,-340.0,2026-11-27T20:30:00Z,-105.0,-115.0
+2026-11-26T21:38:32.558833-05:00,odds_api,401864549,San Jose State Spartans,North Dakota State Bison,bovada,7.5,,40.0,,270.0,-340.0,2026-11-27T20:30:00Z,-110.0,-110.0
+2026-11-26T21:38:32.558833-05:00,odds_api,401864546,New Mexico Lobos,Air Force Falcons,fanduel,-6.5,,41.5,,-255.0,210.0,2026-11-27T21:30:00Z,-114.0,-115.0
+2026-11-26T21:38:32.558833-05:00,odds_api,401864546,New Mexico Lobos,Air Force Falcons,betrivers,-6.5,,42.5,,-265.0,205.0,2026-11-27T21:30:00Z,-114.0,-109.0
+2026-11-26T21:38:32.558833-05:00,odds_api,401864546,New Mexico Lobos,Air Force Falcons,draftkings,-6.5,,42.5,,-258.0,210.0,2026-11-27T21:30:00Z,-115.0,-105.0
+2026-11-26T21:38:32.558833-05:00,odds_api,401864546,New Mexico Lobos,Air Force Falcons,lowvig,-6.5,,42.0,,-255.0,211.0,2026-11-27T21:30:00Z,-122.0,-108.0
+2026-11-26T21:38:32.558833-05:00,odds_api,401864546,New Mexico Lobos,Air Force Falcons,betonlineag,-6.5,,42.0,,-255.0,211.0,2026-11-27T21:30:00Z,-125.0,-110.0
+2026-11-26T21:38:32.558833-05:00,odds_api,401864546,New Mexico Lobos,Air Force Falcons,betmgm,-7.0,,41.5,,-250.0,210.0,2026-11-27T21:30:00Z,-105.0,-112.0
+2026-11-26T21:38:32.558833-05:00,odds_api,401864546,New Mexico Lobos,Air Force Falcons,mybookieag,-6.5,,42.0,,-285.0,224.0,2026-11-27T21:30:00Z,-110.0,-110.0
+2026-11-26T21:38:32.558833-05:00,odds_api,401864546,New Mexico Lobos,Air Force Falcons,betus,-7.0,,42.0,,-255.0,215.0,2026-11-27T21:30:00Z,-110.0,-110.0
+2026-11-26T21:38:32.558833-05:00,odds_api,401864546,New Mexico Lobos,Air Force Falcons,bovada,-6.5,,42.5,,-250.0,210.0,2026-11-27T21:30:00Z,-117.0,-108.0
+2026-11-26T21:38:32.558833-05:00,odds_api,401858544,Wisconsin Badgers,Minnesota Golden Gophers,fanduel,-7.5,,37.5,,-335.0,270.0,2026-11-28T00:30:00Z,-116.0,-106.0
+2026-11-26T21:38:32.558833-05:00,odds_api,401858544,Wisconsin Badgers,Minnesota Golden Gophers,betrivers,-8.5,,37.5,,-385.0,285.0,2026-11-28T00:30:00Z,-109.0,-108.0
+2026-11-26T21:38:32.558833-05:00,odds_api,401858544,Wisconsin Badgers,Minnesota Golden Gophers,draftkings,-8.5,,37.5,,-340.0,270.0,2026-11-28T00:30:00Z,-112.0,-110.0
+2026-11-26T21:38:32.558833-05:00,odds_api,401858544,Wisconsin Badgers,Minnesota Golden Gophers,lowvig,-9.0,,37.0,,-330.0,267.0,2026-11-28T00:30:00Z,-113.0,-114.0
+2026-11-26T21:38:32.558833-05:00,odds_api,401858544,Wisconsin Badgers,Minnesota Golden Gophers,betonlineag,-9.0,,37.0,,-330.0,267.0,2026-11-28T00:30:00Z,-117.0,-115.0
+2026-11-26T21:38:32.558833-05:00,odds_api,401858544,Wisconsin Badgers,Minnesota Golden Gophers,betmgm,-9.0,,37.5,,-325.0,270.0,2026-11-28T00:30:00Z,-108.0,-108.0
+2026-11-26T21:38:32.558833-05:00,odds_api,401858544,Wisconsin Badgers,Minnesota Golden Gophers,mybookieag,-8.0,,37.5,,-319.0,248.0,2026-11-28T00:30:00Z,-110.0,-110.0
+2026-11-26T21:38:32.558833-05:00,odds_api,401858544,Wisconsin Badgers,Minnesota Golden Gophers,betus,-8.5,,37.0,,-330.0,270.0,2026-11-28T00:30:00Z,-110.0,-115.0
+2026-11-26T21:38:32.558833-05:00,odds_api,401858544,Wisconsin Badgers,Minnesota Golden Gophers,bovada,-9.0,,37.5,,-340.0,270.0,2026-11-28T00:30:00Z,-112.0,-112.0
+2026-11-26T21:38:32.558833-05:00,odds_api,401856756,Texas A&M Aggies,Texas Longhorns,draftkings,10.5,,40.5,,350.0,-455.0,2026-11-28T00:30:00Z,-105.0,-115.0
+2026-11-26T21:38:32.558833-05:00,odds_api,401856756,Texas A&M Aggies,Texas Longhorns,fanduel,11.5,,40.5,,340.0,-450.0,2026-11-28T00:30:00Z,-114.0,-115.0
+2026-11-26T21:38:32.558833-05:00,odds_api,401856756,Texas A&M Aggies,Texas Longhorns,betrivers,11.0,,40.5,,360.0,-500.0,2026-11-28T00:30:00Z,-112.0,-117.0
+2026-11-26T21:38:32.558833-05:00,odds_api,401856756,Texas A&M Aggies,Texas Longhorns,lowvig,11.5,,41.0,,361.0,-465.0,2026-11-28T00:30:00Z,-111.0,-108.0
+2026-11-26T21:38:32.558833-05:00,odds_api,401856756,Texas A&M Aggies,Texas Longhorns,betonlineag,11.5,,41.0,,361.0,-465.0,2026-11-28T00:30:00Z,-115.0,-110.0
+2026-11-26T21:38:32.558833-05:00,odds_api,401856756,Texas A&M Aggies,Texas Longhorns,betmgm,11.0,,40.5,,360.0,-450.0,2026-11-28T00:30:00Z,-110.0,-112.0
+2026-11-26T21:38:32.558833-05:00,odds_api,401856756,Texas A&M Aggies,Texas Longhorns,mybookieag,11.0,,40.5,,349.0,-485.0,2026-11-28T00:30:00Z,-110.0,-110.0
+2026-11-26T21:38:32.558833-05:00,odds_api,401856756,Texas A&M Aggies,Texas Longhorns,betus,11.0,,41.0,,365.0,-465.0,2026-11-28T00:30:00Z,-110.0,-110.0
+2026-11-26T21:38:32.558833-05:00,odds_api,401856756,Texas A&M Aggies,Texas Longhorns,bovada,10.5,,40.5,,350.0,-450.0,2026-11-28T00:30:00Z,-108.0,-112.0
+2026-11-26T21:38:32.558833-05:00,odds_api,401856880,Utah Utes,West Virginia Mountaineers,fanduel,-24.5,,66.5,,-3000.0,1280.0,2026-11-28T02:00:00Z,-120.0,-114.0
+2026-11-26T21:38:32.558833-05:00,odds_api,401856880,Utah Utes,West Virginia Mountaineers,betrivers,-26.0,,66.5,,-10000.0,1400.0,2026-11-28T02:00:00Z,-112.0,-112.0
+2026-11-26T21:38:32.558833-05:00,odds_api,401856880,Utah Utes,West Virginia Mountaineers,betonlineag,-25.0,,66.5,,-2500.0,1156.0,2026-11-28T02:00:00Z,-115.0,-110.0
+2026-11-26T21:38:32.558833-05:00,odds_api,401856880,Utah Utes,West Virginia Mountaineers,draftkings,-25.5,,66.5,,-2800.0,1300.0,2026-11-28T02:00:00Z,-112.0,-105.0
+2026-11-26T21:38:32.558833-05:00,odds_api,401856880,Utah Utes,West Virginia Mountaineers,betmgm,-25.5,,66.5,,-2500.0,1400.0,2026-11-28T02:00:00Z,-110.0,-108.0
+2026-11-26T21:38:32.558833-05:00,odds_api,401856880,Utah Utes,West Virginia Mountaineers,mybookieag,-26.5,,66.5,,-3399.0,1181.0,2026-11-28T02:00:00Z,-110.0,-110.0
+2026-11-26T21:38:32.558833-05:00,odds_api,401856880,Utah Utes,West Virginia Mountaineers,betus,-26.0,,66.5,,-2500.0,1175.0,2026-11-28T02:00:00Z,-110.0,-110.0
+2026-11-26T21:38:32.558833-05:00,odds_api,401856880,Utah Utes,West Virginia Mountaineers,bovada,-26.0,,66.5,,-2200.0,1100.0,2026-11-28T02:00:00Z,-112.0,-112.0
