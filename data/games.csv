@@ -3673,11 +3673,11 @@ game_id,season,week,season_type,start_date,neutral_site,conference_game,home_tea
 401866472,2026,13,regular,2026-11-27T17:00:00.000Z,False,True,Akron,Mid-American,9.0,Buffalo,Mid-American,17.0,InfoCision Stadium,True
 401866473,2026,13,regular,2026-11-27T17:00:00.000Z,False,True,Ohio,Mid-American,31.0,Toledo,Mid-American,34.0,Peden Stadium,True
 401858536,2026,13,regular,2026-11-27T17:08:00.000Z,False,True,Iowa,Big Ten,31.0,Nebraska,Big Ten,7.0,Kinnick Stadium,True
-401869930,2026,13,regular,2026-11-27T20:00:00.000Z,False,True,South Alabama,Sun Belt,,App State,Sun Belt,,Hancock Whitney Stadium,False
-401856759,2026,13,regular,2026-11-27T20:30:00.000Z,False,False,Florida State,ACC,,Florida,SEC,,Doak Campbell Stadium,False
-401862838,2026,13,regular,2026-11-27T20:30:00.000Z,False,True,Memphis,American Athletic,,Temple,American Athletic,,Simmons Bank Liberty Stadium,False
-401864549,2026,13,regular,2026-11-27T20:30:00.000Z,False,False,San José State,Mountain West,,North Dakota State,Mountain West,,CEFCU Stadium,False
-401864546,2026,13,regular,2026-11-27T21:30:00.000Z,False,True,New Mexico,Mountain West,,Air Force,Mountain West,,University Stadium (NM),False
+401869930,2026,13,regular,2026-11-27T20:00:00.000Z,False,True,South Alabama,Sun Belt,20.0,App State,Sun Belt,13.0,Hancock Whitney Stadium,True
+401856759,2026,13,regular,2026-11-27T20:30:00.000Z,False,False,Florida State,ACC,10.0,Florida,SEC,26.0,Doak Campbell Stadium,True
+401862838,2026,13,regular,2026-11-27T20:30:00.000Z,False,True,Memphis,American Athletic,31.0,Temple,American Athletic,35.0,Simmons Bank Liberty Stadium,True
+401864549,2026,13,regular,2026-11-27T20:30:00.000Z,False,False,San José State,Mountain West,31.0,North Dakota State,Mountain West,38.0,CEFCU Stadium,True
+401864546,2026,13,regular,2026-11-27T21:30:00.000Z,False,True,New Mexico,Mountain West,42.0,Air Force,Mountain West,19.0,University Stadium (NM),True
 401856756,2026,13,regular,2026-11-28T00:30:00.000Z,False,True,Texas A&M,SEC,,Texas,SEC,,Kyle Field,False
 401858544,2026,13,regular,2026-11-28T00:30:00.000Z,False,True,Wisconsin,Big Ten,,Minnesota,Big Ten,,Camp Randall Stadium,False
 401856880,2026,13,regular,2026-11-28T02:00:00.000Z,False,True,Utah,Big 12,,West Virginia,Big 12,,Rice-Eccles Stadium,False
